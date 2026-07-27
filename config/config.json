@@ -1,0 +1,61 @@
+{
+  "ipc": {
+    "url": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipc_divisiones.csv",
+    "type": "csv",
+    "encoding": "latin-1",
+    "separator": ";"
+  },
+  "cba-cbt": {
+    "url": "https://www.indec.gob.ar/ftp/cuadros/sociedad/serie_cba_cbt.xls",
+    "type": "xls",
+    "sheets": [
+      {
+        "name": "CBA-CBT",
+        "skiprows": 7
+      },
+      {
+        "name": "Variaciones",
+        "skiprows": 8
+      },
+      {
+        "name": "Hogares",
+        "skiprows": 7
+      }
+    ]
+  },
+  "emae": {
+    "urls": {
+      "activity": "https://www.indec.gob.ar/ftp/cuadros/economia/sh_emae_actividad_base2004.xls",
+      "monthy": "https://www.indec.gob.ar/ftp/cuadros/economia/sh_emae_mensual_base2004.xls"
+    },
+    "type": "xls",
+    "sheets": {
+      "activity": [
+        {
+          "name": "Tabla Letras",
+          "skiprows": 5
+        },
+        {
+          "name": "Tabla Var Letras",
+          "skiprows": 5
+        }
+      ],
+      "monthy": [
+        {
+          "name": "Tabla",
+          "skiprows": 5
+        }
+      ]
+    }
+  },
+  "ica": {
+    "url": "https://www.indec.gob.ar/ftp/cuadros/economia/balanmensual.xls",
+    "type": "xls",
+    "sheets": [
+      {
+        "name": "FOB-CIF",
+        "skiprows": 6
+      }
+    ]
+  }
+}
