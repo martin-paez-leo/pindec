@@ -3,7 +3,8 @@
     "url": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipc_divisiones.csv",
     "type": "csv",
     "encoding": "latin-1",
-    "separator": ";"
+    "separator": ";",
+    "last-date": null
   },
   "cba-cbt": {
     "url": "https://www.indec.gob.ar/ftp/cuadros/sociedad/serie_cba_cbt.xls",
