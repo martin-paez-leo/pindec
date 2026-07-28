@@ -12,15 +12,18 @@
     "sheets": [
       {
         "name": "CBA-CBT",
-        "skiprows": 7
+        "skiprows": 7,
+        "columns": ["fecha", "cba", "coef_engel", "cbt"]
       },
       {
         "name": "Variaciones",
-        "skiprows": 8
+        "skiprows": 8,
+        "columns": ["fecha", "cba_mensual", "cba_interanual", "_sep", "cbt_mensual", "cbt_interanual"]
       },
       {
         "name": "Hogares",
-        "skiprows": 7
+        "skiprows": 7,
+        "columns": ["fecha", "cba_h1", "cba_h2", "cba_h3", "_sep", "cbt_h1", "cbt_h2", "cbt_h3"]
       }
     ]
   },
