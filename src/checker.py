@@ -21,19 +21,18 @@ def check_update(url: str) -> str | None:
   
   return response.headers.get('Last-Modified') 
 
-def needs_update_simple(local_metadata: dict | None, url: str) -> tuple[bool, str | None]:
-  local_last_modified = local_metadata.get('last_modified')
-  remote_last_modified = check_update(url)
+def needs_update(local_metadata: dict, url: str | dict) -> tuple[bool, str | dict | None]:
+  local_last_modified = local_metadata.get('last-modified', {})
   
-  return local_last_modified != remote_last_modified, remote_last_modified
-
-def needs_update_multiple(local_metadata: dict | None, urls: dict) -> tuple[bool, dict | None]:
-  local_last_modified = (local_metadata).get('last_modified')
-  remote_last_modified = {}
+  if isinstance(url, str):
+    remote_last_modified = check_update(url)
+    
+    return local_last_modified != remote_last_modified, remote_last_modified
   
-  for key, url in urls.items():
-    remote_last_modified[key] = check_update(url)
+  if isinstance(url, dict):
+    remote_last_modified = {key: check_update(url) for key, url in url.items()}
+    all_changed = all(remote_last_modified[key] != local_last_modified.get(key) for key in url)
 
-  all_changed = all(remote_last_modified[key] != local_last_modified.get(key) for key in urls)
-
-  return all_changed, remote_last_modified
+    return all_changed, remote_last_modified
+  
+  raise ValueError("Invalid URL type. Must be a string or a dictionary.")
