@@ -7,8 +7,8 @@ CLASSIFICATION_MAP = {
   "Bienes y servicios": "bienes_servicios"
 }
 
-def extract(file_path: str, config: dict) -> tuple[list[dict], str]:
-  df = pd.read_csv(file_path, sep=config["separator"], encoding=config["encoding"])
+def extract(config: dict) -> tuple[list[dict], str]:
+  df = pd.read_csv(config["url"], sep=config["separator"], encoding=config["encoding"])
   last_date = config.get("last-date")
   
   records = []
