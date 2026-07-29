@@ -18,12 +18,12 @@
       {
         "name": "Variaciones",
         "skiprows": 8,
-        "columns": ["fecha", "cba_mensual", "cba_interanual", "_sep", "cbt_mensual", "cbt_interanual"]
+        "columns": ["fecha", "cba_mensual", "cba_interanual", "cbt_mensual", "cbt_interanual"]
       },
       {
         "name": "Hogares",
         "skiprows": 7,
-        "columns": ["fecha", "cba_h1", "cba_h2", "cba_h3", "_sep", "cbt_h1", "cbt_h2", "cbt_h3"]
+        "columns": ["fecha", "cba_h1", "cba_h2", "cba_h3", "cbt_h1", "cbt_h2", "cbt_h3"]
       }
     ]
   },
