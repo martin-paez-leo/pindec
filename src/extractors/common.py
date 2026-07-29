@@ -3,11 +3,12 @@ import pandas as pd
 _PLACEHOLDERS_NA = {"..", "...", "///", "na", "n/a", "-", ""}
 
 def to_float(value, decimals=6):
-  
-  if pd.isna(value) or value.lower() in _PLACEHOLDERS_NA:
+  if pd.isna(value):
     return None
-  
+
   if isinstance(value, str):
+    if value.lower() in _PLACEHOLDERS_NA:
+      return None
     value = value.replace(",", ".")
     
   try:
