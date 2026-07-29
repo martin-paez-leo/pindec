@@ -18,36 +18,100 @@
       {
         "name": "Variaciones",
         "skiprows": 8,
-        "columns": ["fecha", "cba_mensual", "cba_interanual", "cbt_mensual", "cbt_interanual"]
+        "columns": [
+          "fecha",
+          "cba_mensual",
+          "cba_interanual",
+          "cbt_mensual",
+          "cbt_interanual"
+        ]
       },
       {
         "name": "Hogares",
         "skiprows": 7,
-        "columns": ["fecha", "cba_h1", "cba_h2", "cba_h3", "cbt_h1", "cbt_h2", "cbt_h3"]
+        "columns": [
+          "fecha",
+          "cba_h1",
+          "cba_h2",
+          "cba_h3",
+          "cbt_h1",
+          "cbt_h2",
+          "cbt_h3"
+        ]
       }
     ]
   },
   "emae": {
     "urls": {
       "activity": "https://www.indec.gob.ar/ftp/cuadros/economia/sh_emae_actividad_base2004.xls",
-      "monthy": "https://www.indec.gob.ar/ftp/cuadros/economia/sh_emae_mensual_base2004.xls"
+      "monthly": "https://www.indec.gob.ar/ftp/cuadros/economia/sh_emae_mensual_base2004.xls"
     },
     "type": "xls",
     "sheets": {
       "activity": [
         {
           "name": "Tabla Letras",
-          "skiprows": 5
+          "skiprows": 5,
+          "columns": [
+            "anio",
+            "mes",
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O",
+            "impuestos"
+          ]
         },
         {
           "name": "Tabla Var Letras",
-          "skiprows": 5
+          "skiprows": 5,
+          "columns": [
+            "anio",
+            "mes",
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O",
+            "impuestos"
+          ]
         }
       ],
-      "monthy": [
+      "monthly": [
         {
           "name": "Tabla",
-          "skiprows": 5
+          "skiprows": 5,
+          "columns": [
+            "anio",
+            "mes",
+            "indice_original",
+            "interanual",
+            "indice_desest",
+            "var_mensual_desest",
+            "indice_tendencia",
+            "var_mensual_tendencia"
+          ]
         }
       ]
     }
@@ -58,7 +122,20 @@
     "sheets": [
       {
         "name": "FOB-CIF",
-        "skiprows": 6
+        "skiprows": 6,
+        "columns": [
+          "anio",
+          "mes",
+          "exp_mensual",
+          "exp_acumulado",
+          "var_exp_mensual",
+          "var_exp_acumulada",
+          "imp_mensual",
+          "imp_acumulado",
+          "var_imp_mensual",
+          "var_imp_acumulada",
+          "saldo"
+        ]
       }
     ]
   }
