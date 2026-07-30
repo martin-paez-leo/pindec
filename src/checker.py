@@ -26,13 +26,11 @@ def needs_update(local_metadata: dict, url: str | dict) -> tuple[bool, str | dic
   
   if isinstance(url, str):
     remote_last_modified = check_update(url)
-    
     return local_last_modified != remote_last_modified, remote_last_modified
   
   if isinstance(url, dict):
-    remote_last_modified = {key: check_update(url) for key, url in url.items()}
+    remote_last_modified = {key: check_update(u) for key, u in url.items()}
     all_changed = all(remote_last_modified[key] != local_last_modified.get(key) for key in url)
-
     return all_changed, remote_last_modified
   
   raise ValueError("Invalid URL type. Must be a string or a dictionary.")
