@@ -13,11 +13,14 @@ def extract(config: dict) -> tuple[list[dict], str]:
   
   records = []
   for _, row in df.iterrows():
-    if last_date is None or last_date > row["Periodo"]:
+    if last_date is not None and row["Periodo"] <= last_date:
       continue
     
-    name = row.get("Descripcion", None)
-    classification = CLASSIFICATION_MAP.get(row["Clasificación"])
+    name = row.get("Descripcion")
+    if pd.isna(name):
+      name = None
+      
+    classification = CLASSIFICATION_MAP.get(row["Clasificador"])
     date = date_from_yyyymm(row["Periodo"])
     
     records.append({

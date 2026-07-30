@@ -20,4 +20,3 @@ def to_float(value, decimals=6):
 def date_from_yyyymm(value) -> str:
   date = str(value)
   return f"{date[:4]}-{date[4:]}"
-
