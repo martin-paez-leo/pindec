@@ -45,3 +45,10 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: pages deploy api --project-name=pindec
+
+      - name: Warm edge cache
+        run: |
+          python3 scripts/warm_cache.py | while read -r url; do
+            code=$(curl -s -o /dev/null -w "%{http_code}" "$url")
+            echo "$code  $url"
+          done
