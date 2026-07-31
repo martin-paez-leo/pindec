@@ -4,16 +4,15 @@ import json
 
 TIMEOUT_HEAD = 15
 
-def load_metadata(file_path: Path) -> dict:
-  if not file_path.exists():
+def load_metadata(path: Path) -> dict:
+  if not path.exists():
     return {}
+  with open(path, 'r') as f:
+    return json.load(f)
 
-  with open(file_path, 'r') as file:
-    return json.load(file)
-
-def save_metadata(file_path: Path, metadata: dict):
-  with open(file_path, 'w') as file:
-    json.dump(metadata, file, indent=2)
+def save_metadata(path: Path, metadata: dict):
+  with open(path, 'w') as f:
+    json.dump(metadata, f, indent=2)
     
 def check_update(url: str) -> str | None:
   response = requests.head(url, timeout=TIMEOUT_HEAD, allow_redirects=True)
