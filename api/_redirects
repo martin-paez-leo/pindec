@@ -1,0 +1,3 @@
+# Clean URL rewrites — serve index.json for directory paths
+/v1/ /v1/index.json 200
+/v1/*/ /v1/:splat/index.json 200

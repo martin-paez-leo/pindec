@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PINDEC API — Indicadores económicos y sociales de Argentina (IPC, CBA-CBT, EMAE, ICA) en JSON, extraídos del INDEC.">
+  <title>PINDEC API — Indicadores económicos de Argentina</title>
+  <link rel="stylesheet" href="/assets/style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <nav>
+    <div class="container">
+      <div class="logo"><span class="logo-dot"></span> PINDEC API</div>
+      <div>
+        <a href="#indicadores">Indicadores</a>
+        <a href="#playground">Probá la API</a>
+        <a href="#endpoints">Endpoints</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="grid-lines" aria-hidden="true"></div>
+    <div class="orb orb-a" aria-hidden="true"></div>
+    <div class="orb orb-b" aria-hidden="true"></div>
+    <div class="container" data-stagger>
+      <div class="badge-row reveal">
+        <span class="badge live"><span class="dot"></span> En línea</span>
+        <span class="badge">Actualizado semanalmente</span>
+        <span class="badge">Gratis · Sin API key</span>
+      </div>
+      <h1 class="reveal">Indicadores económicos de Argentina en JSON</h1>
+      <p class="sub reveal">IPC, canastas básicas, EMAE e intercambio comercial — extraídos del INDEC y servidos como archivos estáticos desde el edge. Rápido, gratis y sin límites de requests.</p>
+      <div class="cta-row reveal">
+        <a class="btn primary" href="#playground">Probar ahora</a>
+        <a class="btn ghost" href="#endpoints">Ver endpoints</a>
+      </div>
+
+      <div class="stats reveal" data-stagger>
+        <div class="stat reveal"><div class="label">IPC Nacional</div><div class="value" id="stat-ipc">—</div><div class="hint" id="stat-ipc-hint">último dato publicado</div></div>
+        <div class="stat reveal"><div class="label">CBA adulto equivalente</div><div class="value" id="stat-cba">—</div><div class="hint">último dato publicado</div></div>
+        <div class="stat reveal"><div class="label">EMAE</div><div class="value" id="stat-emae">—</div><div class="hint" id="stat-emae-hint">último dato publicado</div></div>
+        <div class="stat reveal"><div class="label">Saldo comercial</div><div class="value" id="stat-ica">—</div><div class="hint">millones de USD · último dato</div></div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="indicadores">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="kicker">Datos disponibles</div>
+          <h2>Cuatro indicadores clave del INDEC</h2>
+        </div>
+        <div class="ind-grid" id="ind-grid" data-stagger>
+          <button class="ind-card reveal" data-tab="ipc">
+            <span class="arrow">→</span><div class="icon">📈</div>
+            <h4>IPC — Índice de Precios al Consumidor</h4>
+            <p>Precios por región y clasificación COICOP con variación mensual e interanual.</p>
+          </button>
+          <button class="ind-card reveal" data-tab="cba-cbt">
+            <span class="arrow">→</span><div class="icon">🛒</div>
+            <h4>CBA-CBT — Canastas Básicas</h4>
+            <p>Canasta Básica Alimentaria y Total para adulto equivalente y hogares.</p>
+          </button>
+          <button class="ind-card reveal" data-tab="emae">
+            <span class="arrow">→</span><div class="icon">🏭</div>
+            <h4>EMAE — Actividad Económica</h4>
+            <p>Nivel general, desestacionalizado y por sector, base 2004.</p>
+          </button>
+          <button class="ind-card reveal" data-tab="ica">
+            <span class="arrow">→</span><div class="icon">🌎</div>
+            <h4>ICA — Intercambio Comercial</h4>
+            <p>Exportaciones, importaciones y saldo en millones de dólares.</p>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="playground">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="kicker">Playground</div>
+          <h2>Probá la API en vivo</h2>
+          <p>Es una API 100% estática: cada request es un archivo servido desde la CDN. Podés probar cualquier endpoint sin límites ni costo.</p>
+        </div>
+
+        <div class="playground reveal">
+          <div class="toolbar">
+            <div class="dots"><span></span><span></span><span></span>
+            </div>
+            <div class="field">
+              <label for="pg-ind">Indicador</label>
+              <select id="pg-ind">
+                <option value="ipc">ipc</option>
+                <option value="cba-cbt">cba-cbt</option>
+                <option value="emae">emae</option>
+                <option value="ica">ica</option>
+              </select>
+            </div>
+            <div class="field" id="pg-f1-wrap" style="display:none">
+              <label for="pg-f1">Región / Subcategoría</label>
+              <select id="pg-f1" disabled><option value="">—</option></select>
+            </div>
+            <div class="field" id="pg-f2-wrap" style="display:none">
+              <label for="pg-f2">Clasificación / Sector</label>
+              <select id="pg-f2" disabled><option value="">—</option></select>
+            </div>
+            <div class="field" id="pg-f3-wrap" style="display:none">
+              <label for="pg-f3">Código</label>
+              <select id="pg-f3" disabled><option value="">—</option></select>
+            </div>
+            <div class="field">
+              <label for="pg-year">Año (opcional)</label>
+              <input id="pg-year" type="number" min="1990" max="2030" placeholder="vacío = índice">
+            </div>
+            <button class="run-btn" id="pg-run">Ejecutar</button>
+          </div>
+
+          <div class="mode-row">
+            <button class="mode-btn active" id="mode-guide">Constructor</button>
+            <button class="mode-btn" id="mode-raw">Ruta libre</button>
+          </div>
+
+          <div class="url-bar">
+            <b>GET</b> https://pindec.pages.dev<span id="pg-url">/v1/ipc/</span>
+            <span class="url-actions">
+              <button class="icon-btn" id="pg-open" title="Abrir en pestaña nueva">↗ abrir</button>
+              <button class="icon-btn" id="pg-copy" title="Copiar URL">⧉ copiar</button>
+            </span>
+          </div>
+
+          <div class="raw-input" id="raw-row" style="display:none">
+            <input id="raw-path" placeholder="/v1/ipc/Pampeana/COICOP/04/2024/" spellcheck="false">
+            <button class="run-btn" id="raw-run">Ejecutar</button>
+          </div>
+
+          <pre id="pg-output">// Elegí una combinación y hacé clic en "Ejecutar".\n// Dejá el año vacío para obtener el índice de esa sección.</pre>
+          <div class="status-line waiting" id="pg-status">Esperando solicitud…</div>
+        </div>
+
+        <div class="history" id="history"></div>
+      </div>
+    </section>
+
+    <section id="endpoints">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="kicker">Referencia</div>
+          <h2>Endpoints</h2>
+        </div>
+
+        <div class="tabs" id="doc-tabs">
+          <button class="tab active" data-tab="general">General</button>
+          <button class="tab" data-tab="ipc">IPC</button>
+          <button class="tab" data-tab="cba-cbt">CBA-CBT</button>
+          <button class="tab" data-tab="emae">EMAE</button>
+          <button class="tab" data-tab="ica">ICA</button>
+        </div>
+
+        <!-- General -->
+        <div class="tab-panel active" id="panel-general">
+          <div class="doc-card reveal">
+            <div class="doc-group-title">Índices</div>
+            <div class="doc-row"><span class="method">GET</span><div class="path-wrap"><code>/v1/</code><div class="desc">Índice raíz: indicadores disponibles</div></div><button class="copy-btn" data-copy="/v1/">copiar</button></div>
+            <div class="doc-row"><span class="method">GET</span><div class="path-wrap"><code>/v1/ipc/</code><div class="desc">Índice del IPC: regiones, clasificaciones y años</div></div><button class="copy-btn" data-copy="/v1/ipc/">copiar</button></div>
+            <div class="doc-row"><span class="method">GET</span><div class="path-wrap"><code>/v1/cba-cbt/</code><div class="desc">Índice de canastas: subcategorías y años</div></div><button class="copy-btn" data-copy="/v1/cba-cbt/">copiar</button></div>
+            <div class="doc-row"><span class="method">GET</span><div class="path-wrap"><code>/v1/emae/</code><div class="desc">Índice del EMAE: sectores y años</div></div><button class="copy-btn" data-copy="/v1/emae/">copiar</button></div>
+            <div class="doc-row"><span class="method">GET</span><div class="path-wrap"><code>/v1/ica/</code><div class="desc">Índice del ICA: años disponibles</div></div><button class="copy-btn" data-copy="/v1/ica/">copiar</button></div>
+          </div>
+          <div class="legend">
+            <span class="lg"><code>/v1/ipc/</code> — todo endpoint admite el sufijo <code>index.json</code> (ej: <code>/v1/ipc/index.json</code>)</span>
+          </div>
+        </div>
+
+        <!-- IPC -->
+        <div class="tab-panel" id="panel-ipc">
+          <div class="doc-card reveal">
+            <div class="doc-group-title">Índices por nivel</div>
+            <div class="doc-row"><span class="method">GET</span><div class="path-wrap"><code>/v1/ipc/{region}/</code><div class="desc">Clasificaciones y años de una región</div></div><button class="copy-btn" data-copy="/v1/ipc/Nacional/">copiar</button></div>
+            <div class="doc-row"><span class="method">GET</span><div class="path-wrap"><code>/v1/ipc/{region}/{clasificacion}/</code><div class="desc">Códigos disponibles en esa clasificación</div></div><button class="copy-btn" data-copy="/v1/ipc/Nacional/COICOP/">copiar</button></div>
+            <div class="doc-row"><span class="method">GET</span><div class="path-wrap"><code>/v1/ipc/{region}/{clasificacion}/{codigo}/</code><div class="desc">Años disponibles para ese código</div></div><button class="copy-btn" data-copy="/v1/ipc/Nacional/COICOP/0/">copiar</button></div>
+            <div class="doc-group-title">Datos</div>
+            <div class="doc-row"><span class="method">GET</span><div class="path-wrap"><code>/v1/ipc/{region}/<span class="opt">{año}</span>/</code><span class="opt-tag">año opcional</span><div class="desc">Serie completa de la región para ese año</div></div><button class="copy-btn" data-copy="/v1/ipc/Nacional/2024/">copiar</button></div>
+            <div class="doc-row"><span class="method">GET</span><div class="path-wrap"><code>/v1/ipc/{region}/{clasificacion}/<span class="opt">{año}</span>/</code><span class="opt-tag">año opcional</span><div class="desc">Datos de una clasificación en ese año</div></div><button class="copy-btn" data-copy="/v1/ipc/Nacional/COICOP/2024/">copiar</button></div>
+            <div class="doc-row"><span class="method">GET</span><div class="path-wrap"><code>/v1/ipc/{region}/{clasificacion}/{codigo}/<span class="opt">{año}</span>/</code><span class="opt-tag">año opcional</span><div class="desc">Serie de un código específico</div></div><button class="copy-btn" data-copy="/v1/ipc/Nacional/COICOP/0/2024/">copiar</button></div>
+          </div>
+          <div class="legend">
+            <span class="lg"><code>region</code> — Nacional, GBA, Pampeana, NEA, NOA, Cuyo, Patagonia</span>
+            <span class="lg"><code>clasificacion</code> — COICOP, categorias, bienes_servicios</span>
+            <span class="lg">segmentos <code class="opt">subrayados</code> = opcionales</span>
+          </div>
+        </div>
+
+        <!-- CBA-CBT -->
+        <div class="tab-panel" id="panel-cba-cbt">
+          <div class="doc-card reveal">
+            <div class="doc-group-title">Índices por nivel</div>
+            <div class="doc-row"><span class="method">GET</span><div class="path-wrap"><code>/v1/cba-cbt/adulto-equivalente/</code><div class="desc">Años disponibles del adulto equivalente</div></div><button class="copy-btn" data-copy="/v1/cba-cbt/adulto-equivalente/">copiar</button></div>
+            <div class="doc-row"><span class="method">GET</span><div class="path-wrap"><code>/v1/cba-cbt/hogares/</code><div class="desc">Años disponibles de hogares</div></div><button class="copy-btn" data-copy="/v1/cba-cbt/hogares/">copiar</button></div>
+            <div class="doc-group-title">Datos</div>
+            <div class="doc-row"><span class="method">GET</span><div class="path-wrap"><code>/v1/cba-cbt/<span class="opt">{año}</span>/</code><span class="opt-tag">año opcional</span><div class="desc">Canastas completas de un año</div></div><button class="copy-btn" data-copy="/v1/cba-cbt/2024/">copiar</button></div>
+            <div class="doc-row"><span class="method">GET</span><div class="path-wrap"><code>/v1/cba-cbt/adulto-equivalente/<span class="opt">{año}</span>/</code><span class="opt-tag">año opcional</span><div class="desc">Solo adulto equivalente</div></div><button class="copy-btn" data-copy="/v1/cba-cbt/adulto-equivalente/2024/">copiar</button></div>
+            <div class="doc-row"><span class="method">GET</span><div class="path-wrap"><code>/v1/cba-cbt/hogares/<span class="opt">{año}</span>/</code><span class="opt-tag">año opcional</span><div class="desc">Solo hogares (1 a 3 miembros)</div></div><button class="copy-btn" data-copy="/v1/cba-cbt/hogares/2024/">copiar</button></div>
+          </div>
+        </div>
+
+        <!-- EMAE -->
+        <div class="tab-panel" id="panel-emae">
+          <div class="doc-card reveal">
+            <div class="doc-group-title">Índices por nivel</div>
+            <div class="doc-row"><span class="method">GET</span><div class="path-wrap"><code>/v1/emae/nivel-general/</code><div class="desc">Años disponibles del nivel general</div></div><button class="copy-btn" data-copy="/v1/emae/nivel-general/">copiar</button></div>
+            <div class="doc-row"><span class="method">GET</span><div class="path-wrap"><code>/v1/emae/sectores/</code><div class="desc">Códigos de sectores disponibles</div></div><button class="copy-btn" data-copy="/v1/emae/sectores/">copiar</button></div>
+            <div class="doc-row"><span class="method">GET</span><div class="path-wrap"><code>/v1/emae/sectores/{codigo}/</code><div class="desc">Años disponibles para un sector</div></div><button class="copy-btn" data-copy="/v1/emae/sectores/A/">copiar</button></div>
+            <div class="doc-row"><span class="method">GET</span><div class="path-wrap"><code>/v1/emae/impuestos/</code><div class="desc">Años disponibles de impuestos netos de subsidios</div></div><button class="copy-btn" data-copy="/v1/emae/impuestos/">copiar</button></div>
+            <div class="doc-group-title">Datos</div>
+            <div class="doc-row"><span class="method">GET</span><div class="path-wrap"><code>/v1/emae/<span class="opt">{año}</span>/</code><span class="opt-tag">año opcional</span><div class="desc">EMAE completo de un año</div></div><button class="copy-btn" data-copy="/v1/emae/2024/">copiar</button></div>
+            <div class="doc-row"><span class="method">GET</span><div class="path-wrap"><code>/v1/emae/nivel-general/<span class="opt">{año}</span>/</code><span class="opt-tag">año opcional</span><div class="desc">Nivel general: original, desestacionalizado y tendencia-ciclo</div></div><button class="copy-btn" data-copy="/v1/emae/nivel-general/2024/">copiar</button></div>
+            <div class="doc-row"><span class="method">GET</span><div class="path-wrap"><code>/v1/emae/sectores/{codigo}/<span class="opt">{año}</span>/</code><span class="opt-tag">año opcional</span><div class="desc">Serie de un sector específico</div></div><button class="copy-btn" data-copy="/v1/emae/sectores/A/2024/">copiar</button></div>
+            <div class="doc-row"><span class="method">GET</span><div class="path-wrap"><code>/v1/emae/impuestos/<span class="opt">{año}</span>/</code><span class="opt-tag">año opcional</span><div class="desc">Impuestos netos de subsidios</div></div><button class="copy-btn" data-copy="/v1/emae/impuestos/2024/">copiar</button></div>
+          </div>
+          <div class="legend">
+            <span class="lg"><code>codigo</code> — A: Agricultura · B: Pesca · C: Minas … O: Otros servicios</span>
+          </div>
+        </div>
+
+        <!-- ICA -->
+        <div class="tab-panel" id="panel-ica">
+          <div class="doc-card reveal">
+            <div class="doc-group-title">Datos</div>
+            <div class="doc-row"><span class="method">GET</span><div class="path-wrap"><code>/v1/ica/<span class="opt">{año}</span>/</code><span class="opt-tag">año opcional</span><div class="desc">Exportaciones, importaciones y saldo de un año</div></div><button class="copy-btn" data-copy="/v1/ica/2024/">copiar</button></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <span>
+        Datos oficiales del <a href="https://www.indec.gob.ar" target="_blank" rel="noopener">Instituto Nacional de Estadística y Censos (INDEC)</a> · indec.gob.ar
+      </span>
+      <span>
+        Última actualización: <span id="foot-update">—</span>
+      </span>
+      <span>Proyecto de código abierto, sin afiliación oficial con el INDEC</span>
+    </div>
+  </footer>
+
+  <script src="/assets/app.js" defer></script>
+</body>
+</html>

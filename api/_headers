@@ -1,0 +1,7 @@
+/v1/*
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Methods: GET
+  Cache-Control: public, max-age=3600
+
+/assets/*
+  Cache-Control: public, max-age=3600
