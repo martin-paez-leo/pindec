@@ -1,5 +1,3 @@
-document.documentElement.classList.add('js');
-
 const fmt = new Intl.NumberFormat('es-AR');
 const BASE = 'https://pindec.pages.dev';
 let history = [];
@@ -38,9 +36,9 @@ function updateUrlBar() {
 function setField(id, options, selected) {
   const el = document.getElementById(id);
   const wrap = document.getElementById(id + '-wrap');
-  el.innerHTML = '<option value="">—</option>' + options.map(o =>
-    '<option value="' + o + '"' + (o === selected ? ' selected' : '') + '>' + o + '</option>'
-  ).join('');
+  el.innerHTML = '';
+  el.appendChild(new Option('—', ''));
+  options.forEach(o => el.appendChild(new Option(o, o, false, o === selected)));
   el.disabled = false;
   wrap.style.display = 'flex';
 }
