@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
+  <title>404 — Página no encontrada | PINDEC API</title>
+  <link rel="stylesheet" href="/assets/style.css">
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <script src="/assets/no-fouc.js"></script>
+  <style>
+    .nf { min-height: calc(100vh - 60px); display: flex; align-items: center; justify-content: center; padding: 48px 0; }
+    .nf-card { text-align: center; max-width: 520px; }
+    .nf-code {
+      font-size: 5.5rem; font-weight: 800; line-height: 1;
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+      margin-bottom: 8px; letter-spacing: 2px;
+    }
+    .nf-card h1 { font-size: 1.5rem; margin-bottom: 10px; }
+    .nf-card p { color: var(--muted); margin-bottom: 26px; }
+    .nf-card .mono { font-family: var(--mono); font-size: 0.85rem; color: var(--muted); }
+    .nf-actions { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="container">
+      <div class="logo"><svg class="logo-icon" viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="lg-p" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4f8cff"/><stop offset="1" stop-color="#7c5cff"/></linearGradient></defs><path d="M22 54 V10 H34 C44 10 48 16 48 24 C48 32 44 38 34 38 H30 V54 Z" fill="url(#lg-p)"/><circle cx="54" cy="12" r="6" fill="#34d399"/></svg> PINDEC API</div>
+    </div>
+  </nav>
+
+  <main class="nf">
+    <div class="container">
+      <div class="nf-card">
+        <div class="nf-code">404</div>
+        <h1>Página no encontrada</h1>
+        <p>El recurso que buscás no existe o se movió de lugar. Probá con el índice de la API o volvé al inicio.</p>
+        <div class="nf-actions">
+          <a class="btn primary" href="/">Volver al inicio</a>
+          <a class="btn ghost" href="/v1/index.json">Ver índice de la API</a>
+        </div>
+        <p class="mono" style="margin-top:22px">GET /v1/ → 200 OK</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <span>
+        Datos oficiales del <a href="https://www.indec.gob.ar" target="_blank" rel="noopener">Instituto Nacional de Estadística y Censos (INDEC)</a> · indec.gob.ar
+      </span>
+      <span>Proyecto de código abierto, sin afiliación oficial con el INDEC</span>
+    </div>
+  </footer>
+</body>
+</html>
