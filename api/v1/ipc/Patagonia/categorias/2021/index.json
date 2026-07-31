@@ -1,0 +1,239 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": [
+    {
+      "codigo": "Estacional",
+      "nombre": null,
+      "historico": [
+        {
+          "periodo": "2021-01",
+          "indice": 370.0196,
+          "mensual": 3.4,
+          "interanual": 54.9
+        },
+        {
+          "periodo": "2021-02",
+          "indice": 390.6331,
+          "mensual": 5.6,
+          "interanual": 60.1
+        },
+        {
+          "periodo": "2021-03",
+          "indice": 403.2036,
+          "mensual": 3.2,
+          "interanual": 64.3
+        },
+        {
+          "periodo": "2021-04",
+          "indice": 418.9992,
+          "mensual": 3.9,
+          "interanual": 65.3
+        },
+        {
+          "periodo": "2021-05",
+          "indice": 439.2918,
+          "mensual": 4.8,
+          "interanual": 66.7
+        },
+        {
+          "periodo": "2021-06",
+          "indice": 447.149,
+          "mensual": 1.8,
+          "interanual": 59.8
+        },
+        {
+          "periodo": "2021-07",
+          "indice": 468.0208,
+          "mensual": 4.7,
+          "interanual": 59.1
+        },
+        {
+          "periodo": "2021-08",
+          "indice": 479.2609,
+          "mensual": 2.4,
+          "interanual": 57.7
+        },
+        {
+          "periodo": "2021-09",
+          "indice": 504.6371,
+          "mensual": 5.3,
+          "interanual": 59.4
+        },
+        {
+          "periodo": "2021-10",
+          "indice": 527.9466,
+          "mensual": 4.6,
+          "interanual": 55.4
+        },
+        {
+          "periodo": "2021-11",
+          "indice": 543.8181,
+          "mensual": 3.0,
+          "interanual": 52.8
+        },
+        {
+          "periodo": "2021-12",
+          "indice": 558.6194,
+          "mensual": 2.7,
+          "interanual": 56.1
+        }
+      ]
+    },
+    {
+      "codigo": "Núcleo",
+      "nombre": null,
+      "historico": [
+        {
+          "periodo": "2021-01",
+          "indice": 392.8476,
+          "mensual": 3.9,
+          "interanual": 36.0
+        },
+        {
+          "periodo": "2021-02",
+          "indice": 408.7115,
+          "mensual": 4.0,
+          "interanual": 38.5
+        },
+        {
+          "periodo": "2021-03",
+          "indice": 426.167,
+          "mensual": 4.3,
+          "interanual": 40.3
+        },
+        {
+          "periodo": "2021-04",
+          "indice": 448.066,
+          "mensual": 5.1,
+          "interanual": 46.5
+        },
+        {
+          "periodo": "2021-05",
+          "indice": 462.6808,
+          "mensual": 3.3,
+          "interanual": 48.7
+        },
+        {
+          "periodo": "2021-06",
+          "indice": 479.1736,
+          "mensual": 3.6,
+          "interanual": 51.6
+        },
+        {
+          "periodo": "2021-07",
+          "indice": 497.1632,
+          "mensual": 3.8,
+          "interanual": 52.6
+        },
+        {
+          "periodo": "2021-08",
+          "indice": 516.7028,
+          "mensual": 3.9,
+          "interanual": 53.2
+        },
+        {
+          "periodo": "2021-09",
+          "indice": 536.96,
+          "mensual": 3.9,
+          "interanual": 56.2
+        },
+        {
+          "periodo": "2021-10",
+          "indice": 553.7438,
+          "mensual": 3.1,
+          "interanual": 56.1
+        },
+        {
+          "periodo": "2021-11",
+          "indice": 567.1807,
+          "mensual": 2.4,
+          "interanual": 55.4
+        },
+        {
+          "periodo": "2021-12",
+          "indice": 587.2114,
+          "mensual": 3.5,
+          "interanual": 55.2
+        }
+      ]
+    },
+    {
+      "codigo": "Regulados",
+      "nombre": null,
+      "historico": [
+        {
+          "periodo": "2021-01",
+          "indice": 414.8919,
+          "mensual": 5.3,
+          "interanual": 20.8
+        },
+        {
+          "periodo": "2021-02",
+          "indice": 424.545,
+          "mensual": 2.3,
+          "interanual": 23.1
+        },
+        {
+          "periodo": "2021-03",
+          "indice": 440.7006,
+          "mensual": 3.8,
+          "interanual": 24.6
+        },
+        {
+          "periodo": "2021-04",
+          "indice": 458.1541,
+          "mensual": 4.0,
+          "interanual": 30.3
+        },
+        {
+          "periodo": "2021-05",
+          "indice": 474.6423,
+          "mensual": 3.6,
+          "interanual": 35.0
+        },
+        {
+          "periodo": "2021-06",
+          "indice": 493.6422,
+          "mensual": 4.0,
+          "interanual": 38.9
+        },
+        {
+          "periodo": "2021-07",
+          "indice": 499.9833,
+          "mensual": 1.3,
+          "interanual": 40.1
+        },
+        {
+          "periodo": "2021-08",
+          "indice": 511.1068,
+          "mensual": 2.2,
+          "interanual": 41.9
+        },
+        {
+          "periodo": "2021-09",
+          "indice": 522.5829,
+          "mensual": 2.2,
+          "interanual": 41.8
+        },
+        {
+          "periodo": "2021-10",
+          "indice": 527.3889,
+          "mensual": 0.9,
+          "interanual": 40.1
+        },
+        {
+          "periodo": "2021-11",
+          "indice": 531.8697,
+          "mensual": 0.8,
+          "interanual": 38.4
+        },
+        {
+          "periodo": "2021-12",
+          "indice": 541.1245,
+          "mensual": 1.7,
+          "interanual": 37.4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "03",
+    "nombre": "Prendas de vestir y calzado",
+    "historico": [
+      {
+        "periodo": "2026-01",
+        "indice": 7155.1636,
+        "mensual": 1.2,
+        "interanual": 14.5
+      },
+      {
+        "periodo": "2026-02",
+        "indice": 7174.9392,
+        "mensual": 0.3,
+        "interanual": 15.0
+      },
+      {
+        "periodo": "2026-03",
+        "indice": 7351.7051,
+        "mensual": 2.5,
+        "interanual": 16.8
+      },
+      {
+        "periodo": "2026-04",
+        "indice": 7507.4278,
+        "mensual": 2.1,
+        "interanual": 15.8
+      },
+      {
+        "periodo": "2026-05",
+        "indice": 7615.0329,
+        "mensual": 1.4,
+        "interanual": 14.7
+      },
+      {
+        "periodo": "2026-06",
+        "indice": 7666.2508,
+        "mensual": 0.7,
+        "interanual": 14.4
+      }
+    ]
+  }
+}

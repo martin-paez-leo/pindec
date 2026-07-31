@@ -1,0 +1,69 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "codigo": "M",
+    "nombre": "Enseñanza",
+    "historico": [
+      {
+        "periodo": "2018-01",
+        "indice": 156.22569,
+        "interanual": 2.288904
+      },
+      {
+        "periodo": "2018-02",
+        "indice": 156.514989,
+        "interanual": 2.424426
+      },
+      {
+        "periodo": "2018-03",
+        "indice": 158.794957,
+        "interanual": 2.541244
+      },
+      {
+        "periodo": "2018-04",
+        "indice": 159.645262,
+        "interanual": 2.538677
+      },
+      {
+        "periodo": "2018-05",
+        "indice": 160.683535,
+        "interanual": 2.138527
+      },
+      {
+        "periodo": "2018-06",
+        "indice": 162.142503,
+        "interanual": 1.998966
+      },
+      {
+        "periodo": "2018-07",
+        "indice": 162.594162,
+        "interanual": 1.265714
+      },
+      {
+        "periodo": "2018-08",
+        "indice": 162.661817,
+        "interanual": 1.418488
+      },
+      {
+        "periodo": "2018-09",
+        "indice": 163.115097,
+        "interanual": 1.365871
+      },
+      {
+        "periodo": "2018-10",
+        "indice": 163.417778,
+        "interanual": 1.558684
+      },
+      {
+        "periodo": "2018-11",
+        "indice": 163.775543,
+        "interanual": 1.379139
+      },
+      {
+        "periodo": "2018-12",
+        "indice": 163.418701,
+        "interanual": 1.139289
+      }
+    ]
+  }
+}

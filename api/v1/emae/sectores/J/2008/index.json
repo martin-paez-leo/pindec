@@ -1,0 +1,69 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "codigo": "J",
+    "nombre": "Intermediación financiera",
+    "historico": [
+      {
+        "periodo": "2008-01",
+        "indice": 153.101215,
+        "interanual": 8.614104
+      },
+      {
+        "periodo": "2008-02",
+        "indice": 146.663675,
+        "interanual": 9.332368
+      },
+      {
+        "periodo": "2008-03",
+        "indice": 144.808463,
+        "interanual": 3.863269
+      },
+      {
+        "periodo": "2008-04",
+        "indice": 149.612375,
+        "interanual": 9.480004
+      },
+      {
+        "periodo": "2008-05",
+        "indice": 151.215768,
+        "interanual": 7.203177
+      },
+      {
+        "periodo": "2008-06",
+        "indice": 150.234745,
+        "interanual": 4.582259
+      },
+      {
+        "periodo": "2008-07",
+        "indice": 146.852244,
+        "interanual": 3.287347
+      },
+      {
+        "periodo": "2008-08",
+        "indice": 155.143143,
+        "interanual": 6.979827
+      },
+      {
+        "periodo": "2008-09",
+        "indice": 150.679687,
+        "interanual": 7.720031
+      },
+      {
+        "periodo": "2008-10",
+        "indice": 157.184857,
+        "interanual": 9.185382
+      },
+      {
+        "periodo": "2008-11",
+        "indice": 149.274823,
+        "interanual": 3.458005
+      },
+      {
+        "periodo": "2008-12",
+        "indice": 150.464927,
+        "interanual": 1.552598
+      }
+    ]
+  }
+}

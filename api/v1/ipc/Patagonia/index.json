@@ -1,0 +1,43 @@
+{
+  "indicador": "ipc",
+  "region": "Patagonia",
+  "clasificaciones": {
+    "COICOP": [
+      "0",
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06",
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "categorias": [
+      "Estacional",
+      "Núcleo",
+      "Regulados"
+    ],
+    "bienes_servicios": [
+      "B",
+      "S"
+    ]
+  },
+  "anos_disponibles": [
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": [
+    {
+      "codigo": "B",
+      "nombre": null,
+      "historico": [
+        {
+          "periodo": "2020-01",
+          "indice": 288.1329,
+          "mensual": 2.8,
+          "interanual": 56.4
+        },
+        {
+          "periodo": "2020-02",
+          "indice": 295.313,
+          "mensual": 2.5,
+          "interanual": 53.4
+        },
+        {
+          "periodo": "2020-03",
+          "indice": 306.412,
+          "mensual": 3.8,
+          "interanual": 52.0
+        },
+        {
+          "periodo": "2020-04",
+          "indice": 317.0231,
+          "mensual": 3.5,
+          "interanual": 51.9
+        },
+        {
+          "periodo": "2020-05",
+          "indice": 322.7368,
+          "mensual": 1.8,
+          "interanual": 50.1
+        },
+        {
+          "periodo": "2020-06",
+          "indice": 331.0398,
+          "mensual": 2.6,
+          "interanual": 49.8
+        },
+        {
+          "periodo": "2020-07",
+          "indice": 338.2947,
+          "mensual": 2.2,
+          "interanual": 50.3
+        },
+        {
+          "periodo": "2020-08",
+          "indice": 347.5782,
+          "mensual": 2.7,
+          "interanual": 47.5
+        },
+        {
+          "periodo": "2020-09",
+          "indice": 357.4138,
+          "mensual": 2.8,
+          "interanual": 41.8
+        },
+        {
+          "periodo": "2020-10",
+          "indice": 374.7126,
+          "mensual": 4.8,
+          "interanual": 44.4
+        },
+        {
+          "periodo": "2020-11",
+          "indice": 387.4969,
+          "mensual": 3.4,
+          "interanual": 42.9
+        },
+        {
+          "periodo": "2020-12",
+          "indice": 405.972,
+          "mensual": 4.8,
+          "interanual": 44.9
+        }
+      ]
+    },
+    {
+      "codigo": "S",
+      "nombre": null,
+      "historico": [
+        {
+          "periodo": "2020-01",
+          "indice": 305.9084,
+          "mensual": 1.4,
+          "interanual": 48.6
+        },
+        {
+          "periodo": "2020-02",
+          "indice": 305.7209,
+          "mensual": -0.1,
+          "interanual": 43.4
+        },
+        {
+          "periodo": "2020-03",
+          "indice": 317.5629,
+          "mensual": 3.9,
+          "interanual": 41.5
+        },
+        {
+          "periodo": "2020-04",
+          "indice": 317.7089,
+          "mensual": 0.0,
+          "interanual": 36.4
+        },
+        {
+          "periodo": "2020-05",
+          "indice": 321.8012,
+          "mensual": 1.3,
+          "interanual": 30.0
+        },
+        {
+          "periodo": "2020-06",
+          "indice": 325.3725,
+          "mensual": 1.1,
+          "interanual": 27.8
+        },
+        {
+          "periodo": "2020-07",
+          "indice": 328.5507,
+          "mensual": 1.0,
+          "interanual": 26.0
+        },
+        {
+          "periodo": "2020-08",
+          "indice": 335.0,
+          "mensual": 2.0,
+          "interanual": 25.1
+        },
+        {
+          "periodo": "2020-09",
+          "indice": 337.3896,
+          "mensual": 0.7,
+          "interanual": 22.7
+        },
+        {
+          "periodo": "2020-10",
+          "indice": 342.77,
+          "mensual": 1.6,
+          "interanual": 21.4
+        },
+        {
+          "periodo": "2020-11",
+          "indice": 349.9339,
+          "mensual": 2.1,
+          "interanual": 21.3
+        },
+        {
+          "periodo": "2020-12",
+          "indice": 359.6501,
+          "mensual": 2.8,
+          "interanual": 19.2
+        }
+      ]
+    }
+  ]
+}

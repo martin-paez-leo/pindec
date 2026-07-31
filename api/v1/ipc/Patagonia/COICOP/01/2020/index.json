@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "01",
+    "nombre": "Alimentos y bebidas no alcohólicas",
+    "historico": [
+      {
+        "periodo": "2020-01",
+        "indice": 291.0005,
+        "mensual": 3.7,
+        "interanual": 59.2
+      },
+      {
+        "periodo": "2020-02",
+        "indice": 298.9808,
+        "mensual": 2.7,
+        "interanual": 58.0
+      },
+      {
+        "periodo": "2020-03",
+        "indice": 308.2663,
+        "mensual": 3.1,
+        "interanual": 53.4
+      },
+      {
+        "periodo": "2020-04",
+        "indice": 309.3919,
+        "mensual": 0.4,
+        "interanual": 48.3
+      },
+      {
+        "periodo": "2020-05",
+        "indice": 314.0004,
+        "mensual": 1.5,
+        "interanual": 46.0
+      },
+      {
+        "periodo": "2020-06",
+        "indice": 317.4475,
+        "mensual": 1.1,
+        "interanual": 43.4
+      },
+      {
+        "periodo": "2020-07",
+        "indice": 323.9068,
+        "mensual": 2.0,
+        "interanual": 43.0
+      },
+      {
+        "periodo": "2020-08",
+        "indice": 335.1676,
+        "mensual": 3.5,
+        "interanual": 42.1
+      },
+      {
+        "periodo": "2020-09",
+        "indice": 343.9195,
+        "mensual": 2.6,
+        "interanual": 38.5
+      },
+      {
+        "periodo": "2020-10",
+        "indice": 360.1813,
+        "mensual": 4.7,
+        "interanual": 40.7
+      },
+      {
+        "periodo": "2020-11",
+        "indice": 371.2628,
+        "mensual": 3.1,
+        "interanual": 37.5
+      },
+      {
+        "periodo": "2020-12",
+        "indice": 382.4027,
+        "mensual": 3.0,
+        "interanual": 36.3
+      }
+    ]
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "COICOP": [
+      {
+        "codigo": "0",
+        "nombre": "NIVEL GENERAL",
+        "historico": [
+          {
+            "periodo": "2016-12",
+            "indice": 100.0,
+            "mensual": null,
+            "interanual": null
+          }
+        ]
+      },
+      {
+        "codigo": "01",
+        "nombre": "Alimentos y bebidas no alcohólicas",
+        "historico": [
+          {
+            "periodo": "2016-12",
+            "indice": 100.0,
+            "mensual": null,
+            "interanual": null
+          }
+        ]
+      },
+      {
+        "codigo": "02",
+        "nombre": "Bebidas alcohólicas y tabaco",
+        "historico": [
+          {
+            "periodo": "2016-12",
+            "indice": 100.0,
+            "mensual": null,
+            "interanual": null
+          }
+        ]
+      },
+      {
+        "codigo": "03",
+        "nombre": "Prendas de vestir y calzado",
+        "historico": [
+          {
+            "periodo": "2016-12",
+            "indice": 100.0,
+            "mensual": null,
+            "interanual": null
+          }
+        ]
+      },
+      {
+        "codigo": "04",
+        "nombre": "Vivienda, agua, electricidad, gas y otros combustibles",
+        "historico": [
+          {
+            "periodo": "2016-12",
+            "indice": 100.0,
+            "mensual": null,
+            "interanual": null
+          }
+        ]
+      },
+      {
+        "codigo": "05",
+        "nombre": "Equipamiento y mantenimiento del hogar",
+        "historico": [
+          {
+            "periodo": "2016-12",
+            "indice": 100.0,
+            "mensual": null,
+            "interanual": null
+          }
+        ]
+      },
+      {
+        "codigo": "06",
+        "nombre": "Salud",
+        "historico": [
+          {
+            "periodo": "2016-12",
+            "indice": 100.0,
+            "mensual": null,
+            "interanual": null
+          }
+        ]
+      },
+      {
+        "codigo": "07",
+        "nombre": "Transporte",
+        "historico": [
+          {
+            "periodo": "2016-12",
+            "indice": 100.0,
+            "mensual": null,
+            "interanual": null
+          }
+        ]
+      },
+      {
+        "codigo": "08",
+        "nombre": "Comunicación",
+        "historico": [
+          {
+            "periodo": "2016-12",
+            "indice": 100.0,
+            "mensual": null,
+            "interanual": null
+          }
+        ]
+      },
+      {
+        "codigo": "09",
+        "nombre": "Recreación y cultura",
+        "historico": [
+          {
+            "periodo": "2016-12",
+            "indice": 100.0,
+            "mensual": null,
+            "interanual": null
+          }
+        ]
+      },
+      {
+        "codigo": "10",
+        "nombre": "Educación",
+        "historico": [
+          {
+            "periodo": "2016-12",
+            "indice": 100.0,
+            "mensual": null,
+            "interanual": null
+          }
+        ]
+      },
+      {
+        "codigo": "11",
+        "nombre": "Restaurantes y hoteles",
+        "historico": [
+          {
+            "periodo": "2016-12",
+            "indice": 100.0,
+            "mensual": null,
+            "interanual": null
+          }
+        ]
+      },
+      {
+        "codigo": "12",
+        "nombre": "Bienes y servicios varios",
+        "historico": [
+          {
+            "periodo": "2016-12",
+            "indice": 100.0,
+            "mensual": null,
+            "interanual": null
+          }
+        ]
+      }
+    ],
+    "categorias": [
+      {
+        "codigo": "Estacional",
+        "nombre": null,
+        "historico": [
+          {
+            "periodo": "2016-12",
+            "indice": 100.0,
+            "mensual": null,
+            "interanual": null
+          }
+        ]
+      },
+      {
+        "codigo": "Núcleo",
+        "nombre": null,
+        "historico": [
+          {
+            "periodo": "2016-12",
+            "indice": 100.0,
+            "mensual": null,
+            "interanual": null
+          }
+        ]
+      },
+      {
+        "codigo": "Regulados",
+        "nombre": null,
+        "historico": [
+          {
+            "periodo": "2016-12",
+            "indice": 100.0,
+            "mensual": null,
+            "interanual": null
+          }
+        ]
+      }
+    ],
+    "bienes_servicios": [
+      {
+        "codigo": "B",
+        "nombre": null,
+        "historico": [
+          {
+            "periodo": "2016-12",
+            "indice": 100.0,
+            "mensual": null,
+            "interanual": null
+          }
+        ]
+      },
+      {
+        "codigo": "S",
+        "nombre": null,
+        "historico": [
+          {
+            "periodo": "2016-12",
+            "indice": 100.0,
+            "mensual": null,
+            "interanual": null
+          }
+        ]
+      }
+    ]
+  }
+}

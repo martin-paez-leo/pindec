@@ -1,0 +1,210 @@
+{
+  "indicador": "ipc",
+  "nombre": "Índice de Precios al Consumidor",
+  "regiones": [
+    "Cuyo",
+    "GBA",
+    "Nacional",
+    "Noreste",
+    "Noroeste",
+    "Pampeana",
+    "Patagonia"
+  ],
+  "anos_disponibles": [
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "estructura": {
+    "Cuyo": {
+      "COICOP": [
+        "0",
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10",
+        "11",
+        "12"
+      ],
+      "bienes_servicios": [
+        "B",
+        "S"
+      ],
+      "categorias": [
+        "Estacional",
+        "Núcleo",
+        "Regulados"
+      ]
+    },
+    "GBA": {
+      "COICOP": [
+        "0",
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10",
+        "11",
+        "12"
+      ],
+      "bienes_servicios": [
+        "B",
+        "S"
+      ],
+      "categorias": [
+        "Estacional",
+        "Núcleo",
+        "Regulados"
+      ]
+    },
+    "Nacional": {
+      "COICOP": [
+        "0",
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10",
+        "11",
+        "12"
+      ],
+      "bienes_servicios": [
+        "B",
+        "S"
+      ],
+      "categorias": [
+        "Estacional",
+        "Núcleo",
+        "Regulados"
+      ]
+    },
+    "Noreste": {
+      "COICOP": [
+        "0",
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10",
+        "11",
+        "12"
+      ],
+      "bienes_servicios": [
+        "B",
+        "S"
+      ],
+      "categorias": [
+        "Estacional",
+        "Núcleo",
+        "Regulados"
+      ]
+    },
+    "Noroeste": {
+      "COICOP": [
+        "0",
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10",
+        "11",
+        "12"
+      ],
+      "bienes_servicios": [
+        "B",
+        "S"
+      ],
+      "categorias": [
+        "Estacional",
+        "Núcleo",
+        "Regulados"
+      ]
+    },
+    "Pampeana": {
+      "COICOP": [
+        "0",
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10",
+        "11",
+        "12"
+      ],
+      "bienes_servicios": [
+        "B",
+        "S"
+      ],
+      "categorias": [
+        "Estacional",
+        "Núcleo",
+        "Regulados"
+      ]
+    },
+    "Patagonia": {
+      "COICOP": [
+        "0",
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10",
+        "11",
+        "12"
+      ],
+      "bienes_servicios": [
+        "B",
+        "S"
+      ],
+      "categorias": [
+        "Estacional",
+        "Núcleo",
+        "Regulados"
+      ]
+    }
+  }
+}

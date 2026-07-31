@@ -1,0 +1,45 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "11",
+    "nombre": "Restaurantes y hoteles",
+    "historico": [
+      {
+        "periodo": "2026-01",
+        "indice": 12843.2705,
+        "mensual": 4.1,
+        "interanual": 40.6
+      },
+      {
+        "periodo": "2026-02",
+        "indice": 13228.6515,
+        "mensual": 3.0,
+        "interanual": 41.6
+      },
+      {
+        "periodo": "2026-03",
+        "indice": 13684.7468,
+        "mensual": 3.4,
+        "interanual": 41.0
+      },
+      {
+        "periodo": "2026-04",
+        "indice": 14041.1974,
+        "mensual": 2.6,
+        "interanual": 39.0
+      },
+      {
+        "periodo": "2026-05",
+        "indice": 14291.4848,
+        "mensual": 1.8,
+        "interanual": 37.3
+      },
+      {
+        "periodo": "2026-06",
+        "indice": 14524.0788,
+        "mensual": 1.6,
+        "interanual": 36.7
+      }
+    ]
+  }
+}

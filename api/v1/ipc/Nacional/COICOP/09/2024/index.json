@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "09",
+    "nombre": "Recreación y cultura",
+    "historico": [
+      {
+        "periodo": "2024-01",
+        "indice": 4113.85,
+        "mensual": 24.0,
+        "interanual": 262.1
+      },
+      {
+        "periodo": "2024-02",
+        "indice": 4466.7506,
+        "mensual": 8.6,
+        "interanual": 270.4
+      },
+      {
+        "periodo": "2024-03",
+        "indice": 4846.745,
+        "mensual": 8.5,
+        "interanual": 285.0
+      },
+      {
+        "periodo": "2024-04",
+        "indice": 5192.9,
+        "mensual": 7.1,
+        "interanual": 283.6
+      },
+      {
+        "periodo": "2024-05",
+        "indice": 5429.47,
+        "mensual": 4.6,
+        "interanual": 270.1
+      },
+      {
+        "periodo": "2024-06",
+        "indice": 5734.361,
+        "mensual": 5.6,
+        "interanual": 267.2
+      },
+      {
+        "periodo": "2024-07",
+        "indice": 6059.306,
+        "mensual": 5.7,
+        "interanual": 248.9
+      },
+      {
+        "periodo": "2024-08",
+        "indice": 6282.238,
+        "mensual": 3.7,
+        "interanual": 224.2
+      },
+      {
+        "periodo": "2024-09",
+        "indice": 6416.185,
+        "mensual": 2.1,
+        "interanual": 187.6
+      },
+      {
+        "periodo": "2024-10",
+        "indice": 6599.944,
+        "mensual": 2.9,
+        "interanual": 170.7
+      },
+      {
+        "periodo": "2024-11",
+        "indice": 6798.731,
+        "mensual": 3.0,
+        "interanual": 146.3
+      },
+      {
+        "periodo": "2024-12",
+        "indice": 6988.4998,
+        "mensual": 2.8,
+        "interanual": 110.7
+      }
+    ]
+  }
+}

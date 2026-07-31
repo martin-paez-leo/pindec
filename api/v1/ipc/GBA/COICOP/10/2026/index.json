@@ -1,0 +1,45 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "10",
+    "nombre": "Educación",
+    "historico": [
+      {
+        "periodo": "2026-01",
+        "indice": 9370.5914,
+        "mensual": 0.7,
+        "interanual": 41.4
+      },
+      {
+        "periodo": "2026-02",
+        "indice": 9486.1187,
+        "mensual": 1.2,
+        "interanual": 40.9
+      },
+      {
+        "periodo": "2026-03",
+        "indice": 10501.4142,
+        "mensual": 10.7,
+        "interanual": 34.5
+      },
+      {
+        "periodo": "2026-04",
+        "indice": 11074.8715,
+        "mensual": 5.5,
+        "interanual": 39.4
+      },
+      {
+        "periodo": "2026-05",
+        "indice": 11512.6196,
+        "mensual": 4.0,
+        "interanual": 42.5
+      },
+      {
+        "periodo": "2026-06",
+        "indice": 11673.7894,
+        "mensual": 1.4,
+        "interanual": 39.3
+      }
+    ]
+  }
+}

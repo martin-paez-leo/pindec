@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "B",
+    "nombre": null,
+    "historico": [
+      {
+        "periodo": "2021-01",
+        "indice": 413.8491,
+        "mensual": 4.1,
+        "interanual": 40.0
+      },
+      {
+        "periodo": "2021-02",
+        "indice": 431.5778,
+        "mensual": 4.3,
+        "interanual": 43.1
+      },
+      {
+        "periodo": "2021-03",
+        "indice": 450.1315,
+        "mensual": 4.3,
+        "interanual": 45.6
+      },
+      {
+        "periodo": "2021-04",
+        "indice": 473.9471,
+        "mensual": 5.3,
+        "interanual": 51.8
+      },
+      {
+        "periodo": "2021-05",
+        "indice": 492.1251,
+        "mensual": 3.8,
+        "interanual": 54.9
+      },
+      {
+        "periodo": "2021-06",
+        "indice": 510.2305,
+        "mensual": 3.7,
+        "interanual": 56.8
+      },
+      {
+        "periodo": "2021-07",
+        "indice": 527.44,
+        "mensual": 3.4,
+        "interanual": 56.8
+      },
+      {
+        "periodo": "2021-08",
+        "indice": 545.0879,
+        "mensual": 3.3,
+        "interanual": 56.5
+      },
+      {
+        "periodo": "2021-09",
+        "indice": 565.6896,
+        "mensual": 3.8,
+        "interanual": 58.1
+      },
+      {
+        "periodo": "2021-10",
+        "indice": 582.8173,
+        "mensual": 3.0,
+        "interanual": 56.6
+      },
+      {
+        "periodo": "2021-11",
+        "indice": 596.2812,
+        "mensual": 2.3,
+        "interanual": 54.9
+      },
+      {
+        "periodo": "2021-12",
+        "indice": 615.6196,
+        "mensual": 3.2,
+        "interanual": 54.8
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "07",
+    "nombre": "Transporte",
+    "historico": [
+      {
+        "periodo": "2020-01",
+        "indice": 323.2063,
+        "mensual": 1.6,
+        "interanual": 53.7
+      },
+      {
+        "periodo": "2020-02",
+        "indice": 329.0442,
+        "mensual": 1.8,
+        "interanual": 50.9
+      },
+      {
+        "periodo": "2020-03",
+        "indice": 340.9368,
+        "mensual": 3.6,
+        "interanual": 49.4
+      },
+      {
+        "periodo": "2020-04",
+        "indice": 342.4771,
+        "mensual": 0.5,
+        "interanual": 45.5
+      },
+      {
+        "periodo": "2020-05",
+        "indice": 347.573,
+        "mensual": 1.5,
+        "interanual": 43.5
+      },
+      {
+        "periodo": "2020-06",
+        "indice": 349.3072,
+        "mensual": 0.5,
+        "interanual": 41.9
+      },
+      {
+        "periodo": "2020-07",
+        "indice": 357.8977,
+        "mensual": 2.5,
+        "interanual": 43.9
+      },
+      {
+        "periodo": "2020-08",
+        "indice": 371.9104,
+        "mensual": 3.9,
+        "interanual": 43.9
+      },
+      {
+        "periodo": "2020-09",
+        "indice": 381.4486,
+        "mensual": 2.6,
+        "interanual": 40.2
+      },
+      {
+        "periodo": "2020-10",
+        "indice": 396.3428,
+        "mensual": 3.9,
+        "interanual": 40.0
+      },
+      {
+        "periodo": "2020-11",
+        "indice": 412.0487,
+        "mensual": 4.0,
+        "interanual": 37.6
+      },
+      {
+        "periodo": "2020-12",
+        "indice": 426.7893,
+        "mensual": 3.6,
+        "interanual": 34.1
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "codigo": "K",
+    "nombre": "Actividades inmobiliarias, empresariales y de alquiler",
+    "historico": [
+      {
+        "periodo": "2019-01",
+        "indice": 135.464392,
+        "interanual": -2.021912
+      },
+      {
+        "periodo": "2019-02",
+        "indice": 136.997018,
+        "interanual": -0.425798
+      },
+      {
+        "periodo": "2019-03",
+        "indice": 138.13194,
+        "interanual": -3.036731
+      },
+      {
+        "periodo": "2019-04",
+        "indice": 140.67958,
+        "interanual": -2.153506
+      },
+      {
+        "periodo": "2019-05",
+        "indice": 142.785393,
+        "interanual": -1.957463
+      },
+      {
+        "periodo": "2019-06",
+        "indice": 142.382682,
+        "interanual": -2.188583
+      },
+      {
+        "periodo": "2019-07",
+        "indice": 143.107358,
+        "interanual": 0.332795
+      },
+      {
+        "periodo": "2019-08",
+        "indice": 141.606598,
+        "interanual": -0.918431
+      },
+      {
+        "periodo": "2019-09",
+        "indice": 139.909123,
+        "interanual": 1.224622
+      },
+      {
+        "periodo": "2019-10",
+        "indice": 141.762115,
+        "interanual": -0.011356
+      },
+      {
+        "periodo": "2019-11",
+        "indice": 140.149566,
+        "interanual": -0.362617
+      },
+      {
+        "periodo": "2019-12",
+        "indice": 143.71641,
+        "interanual": 0.484521
+      }
+    ]
+  }
+}

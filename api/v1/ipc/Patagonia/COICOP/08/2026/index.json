@@ -1,0 +1,45 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "08",
+    "nombre": "Comunicación",
+    "historico": [
+      {
+        "periodo": "2026-01",
+        "indice": 8385.1977,
+        "mensual": 3.7,
+        "interanual": 38.0
+      },
+      {
+        "periodo": "2026-02",
+        "indice": 8498.6179,
+        "mensual": 1.4,
+        "interanual": 35.8
+      },
+      {
+        "periodo": "2026-03",
+        "indice": 8731.1119,
+        "mensual": 2.7,
+        "interanual": 35.6
+      },
+      {
+        "periodo": "2026-04",
+        "indice": 9028.6759,
+        "mensual": 3.4,
+        "interanual": 35.8
+      },
+      {
+        "periodo": "2026-05",
+        "indice": 9358.1231,
+        "mensual": 3.6,
+        "interanual": 36.8
+      },
+      {
+        "periodo": "2026-06",
+        "indice": 9390.2227,
+        "mensual": 0.3,
+        "interanual": 34.5
+      }
+    ]
+  }
+}

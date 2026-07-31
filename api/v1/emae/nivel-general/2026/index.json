@@ -1,0 +1,80 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": [
+    {
+      "periodo": "2026-01",
+      "original": {
+        "indice": 149.429834,
+        "interanual": 2.002229
+      },
+      "desestacionalizada": {
+        "indice": 156.300871,
+        "mensual": 0.226389
+      },
+      "tendencia_ciclo": {
+        "indice": 153.547925,
+        "mensual": 0.16055
+      }
+    },
+    {
+      "periodo": "2026-02",
+      "original": {
+        "indice": 139.311632,
+        "interanual": -1.480127
+      },
+      "desestacionalizada": {
+        "indice": 152.462325,
+        "mensual": -2.45587
+      },
+      "tendencia_ciclo": {
+        "indice": 153.811461,
+        "mensual": 0.171631
+      }
+    },
+    {
+      "periodo": "2026-03",
+      "original": {
+        "indice": 159.97685,
+        "interanual": 6.219168
+      },
+      "desestacionalizada": {
+        "indice": 156.731112,
+        "mensual": 2.799896
+      },
+      "tendencia_ciclo": {
+        "indice": 154.088015,
+        "mensual": 0.1798
+      }
+    },
+    {
+      "periodo": "2026-04",
+      "original": {
+        "indice": 161.607211,
+        "interanual": 1.678573
+      },
+      "desestacionalizada": {
+        "indice": 154.336402,
+        "mensual": -1.52791
+      },
+      "tendencia_ciclo": {
+        "indice": 154.369942,
+        "mensual": 0.182965
+      }
+    },
+    {
+      "periodo": "2026-05",
+      "original": {
+        "indice": 165.471414,
+        "interanual": 0.240358
+      },
+      "desestacionalizada": {
+        "indice": 153.620272,
+        "mensual": -0.464006
+      },
+      "tendencia_ciclo": {
+        "indice": 154.655613,
+        "mensual": 0.185056
+      }
+    }
+  ]
+}

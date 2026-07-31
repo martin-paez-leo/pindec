@@ -1,0 +1,239 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": [
+    {
+      "codigo": "Estacional",
+      "nombre": null,
+      "historico": [
+        {
+          "periodo": "2022-01",
+          "indice": 580.884,
+          "mensual": 4.0,
+          "interanual": 57.0
+        },
+        {
+          "periodo": "2022-02",
+          "indice": 621.9957,
+          "mensual": 7.1,
+          "interanual": 59.2
+        },
+        {
+          "periodo": "2022-03",
+          "indice": 672.7009,
+          "mensual": 8.2,
+          "interanual": 66.8
+        },
+        {
+          "periodo": "2022-04",
+          "indice": 720.7347,
+          "mensual": 7.1,
+          "interanual": 72.0
+        },
+        {
+          "periodo": "2022-05",
+          "indice": 761.3018,
+          "mensual": 5.6,
+          "interanual": 73.3
+        },
+        {
+          "periodo": "2022-06",
+          "indice": 806.8766,
+          "mensual": 6.0,
+          "interanual": 80.4
+        },
+        {
+          "periodo": "2022-07",
+          "indice": 896.7955,
+          "mensual": 11.1,
+          "interanual": 91.6
+        },
+        {
+          "periodo": "2022-08",
+          "indice": 970.0844,
+          "mensual": 8.2,
+          "interanual": 102.4
+        },
+        {
+          "periodo": "2022-09",
+          "indice": 1068.3169,
+          "mensual": 10.1,
+          "interanual": 111.7
+        },
+        {
+          "periodo": "2022-10",
+          "indice": 1147.0208,
+          "mensual": 7.4,
+          "interanual": 117.3
+        },
+        {
+          "periodo": "2022-11",
+          "indice": 1209.8876,
+          "mensual": 5.5,
+          "interanual": 122.5
+        },
+        {
+          "periodo": "2022-12",
+          "indice": 1255.5574,
+          "mensual": 3.8,
+          "interanual": 124.8
+        }
+      ]
+    },
+    {
+      "codigo": "Núcleo",
+      "nombre": null,
+      "historico": [
+        {
+          "periodo": "2022-01",
+          "indice": 609.4888,
+          "mensual": 3.8,
+          "interanual": 55.1
+        },
+        {
+          "periodo": "2022-02",
+          "indice": 637.3396,
+          "mensual": 4.6,
+          "interanual": 55.9
+        },
+        {
+          "periodo": "2022-03",
+          "indice": 682.5249,
+          "mensual": 7.1,
+          "interanual": 60.2
+        },
+        {
+          "periodo": "2022-04",
+          "indice": 723.9699,
+          "mensual": 6.1,
+          "interanual": 61.6
+        },
+        {
+          "periodo": "2022-05",
+          "indice": 758.8248,
+          "mensual": 4.8,
+          "interanual": 64.0
+        },
+        {
+          "periodo": "2022-06",
+          "indice": 797.063,
+          "mensual": 5.0,
+          "interanual": 66.3
+        },
+        {
+          "periodo": "2022-07",
+          "indice": 860.1417,
+          "mensual": 7.9,
+          "interanual": 73.0
+        },
+        {
+          "periodo": "2022-08",
+          "indice": 917.229,
+          "mensual": 6.6,
+          "interanual": 77.5
+        },
+        {
+          "periodo": "2022-09",
+          "indice": 968.7437,
+          "mensual": 5.6,
+          "interanual": 80.4
+        },
+        {
+          "periodo": "2022-10",
+          "indice": 1031.5166,
+          "mensual": 6.5,
+          "interanual": 86.3
+        },
+        {
+          "periodo": "2022-11",
+          "indice": 1077.2851,
+          "mensual": 4.4,
+          "interanual": 89.9
+        },
+        {
+          "periodo": "2022-12",
+          "indice": 1123.6997,
+          "mensual": 4.3,
+          "interanual": 91.4
+        }
+      ]
+    },
+    {
+      "codigo": "Regulados",
+      "nombre": null,
+      "historico": [
+        {
+          "periodo": "2022-01",
+          "indice": 555.2174,
+          "mensual": 2.6,
+          "interanual": 33.8
+        },
+        {
+          "periodo": "2022-02",
+          "indice": 579.6957,
+          "mensual": 4.4,
+          "interanual": 36.5
+        },
+        {
+          "periodo": "2022-03",
+          "indice": 627.5343,
+          "mensual": 8.3,
+          "interanual": 42.4
+        },
+        {
+          "periodo": "2022-04",
+          "indice": 654.9963,
+          "mensual": 4.4,
+          "interanual": 43.0
+        },
+        {
+          "periodo": "2022-05",
+          "indice": 684.8202,
+          "mensual": 4.6,
+          "interanual": 44.3
+        },
+        {
+          "periodo": "2022-06",
+          "indice": 716.4678,
+          "mensual": 4.6,
+          "interanual": 45.1
+        },
+        {
+          "periodo": "2022-07",
+          "indice": 762.0666,
+          "mensual": 6.4,
+          "interanual": 52.4
+        },
+        {
+          "periodo": "2022-08",
+          "indice": 795.8283,
+          "mensual": 4.4,
+          "interanual": 55.7
+        },
+        {
+          "periodo": "2022-09",
+          "indice": 836.6054,
+          "mensual": 5.1,
+          "interanual": 60.1
+        },
+        {
+          "periodo": "2022-10",
+          "indice": 890.6001,
+          "mensual": 6.5,
+          "interanual": 68.9
+        },
+        {
+          "periodo": "2022-11",
+          "indice": 946.443,
+          "mensual": 6.3,
+          "interanual": 77.9
+        },
+        {
+          "periodo": "2022-12",
+          "indice": 1003.2345,
+          "mensual": 6.0,
+          "interanual": 85.4
+        }
+      ]
+    }
+  ]
+}

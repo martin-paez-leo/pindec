@@ -1,0 +1,995 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": [
+    {
+      "codigo": "A",
+      "nombre": "Agricultura, ganadería, caza y silvicultura",
+      "historico": [
+        {
+          "periodo": "2020-01",
+          "indice": 84.7799,
+          "interanual": 15.842062
+        },
+        {
+          "periodo": "2020-02",
+          "indice": 68.525431,
+          "interanual": -11.323767
+        },
+        {
+          "periodo": "2020-03",
+          "indice": 138.798932,
+          "interanual": -13.537084
+        },
+        {
+          "periodo": "2020-04",
+          "indice": 210.482568,
+          "interanual": -8.879768
+        },
+        {
+          "periodo": "2020-05",
+          "indice": 294.489522,
+          "interanual": -13.847516
+        },
+        {
+          "periodo": "2020-06",
+          "indice": 200.894765,
+          "interanual": -9.839355
+        },
+        {
+          "periodo": "2020-07",
+          "indice": 117.049707,
+          "interanual": -7.72469
+        },
+        {
+          "periodo": "2020-08",
+          "indice": 75.823748,
+          "interanual": -2.815838
+        },
+        {
+          "periodo": "2020-09",
+          "indice": 73.787097,
+          "interanual": 4.218021
+        },
+        {
+          "periodo": "2020-10",
+          "indice": 73.327101,
+          "interanual": -9.065236
+        },
+        {
+          "periodo": "2020-11",
+          "indice": 86.966274,
+          "interanual": -4.431552
+        },
+        {
+          "periodo": "2020-12",
+          "indice": 112.256126,
+          "interanual": 11.460573
+        }
+      ]
+    },
+    {
+      "codigo": "B",
+      "nombre": "Pesca",
+      "historico": [
+        {
+          "periodo": "2020-01",
+          "indice": 101.708959,
+          "interanual": -32.733637
+        },
+        {
+          "periodo": "2020-02",
+          "indice": 183.550519,
+          "interanual": 10.717718
+        },
+        {
+          "periodo": "2020-03",
+          "indice": 80.919238,
+          "interanual": -47.705571
+        },
+        {
+          "periodo": "2020-04",
+          "indice": 128.835966,
+          "interanual": -15.872284
+        },
+        {
+          "periodo": "2020-05",
+          "indice": 153.34525,
+          "interanual": 66.307559
+        },
+        {
+          "periodo": "2020-06",
+          "indice": 88.79622,
+          "interanual": -50.894209
+        },
+        {
+          "periodo": "2020-07",
+          "indice": 86.84341,
+          "interanual": -65.604042
+        },
+        {
+          "periodo": "2020-08",
+          "indice": 264.279409,
+          "interanual": -8.991705
+        },
+        {
+          "periodo": "2020-09",
+          "indice": 237.468725,
+          "interanual": 45.323439
+        },
+        {
+          "periodo": "2020-10",
+          "indice": 162.649088,
+          "interanual": -26.337675
+        },
+        {
+          "periodo": "2020-11",
+          "indice": 86.643434,
+          "interanual": -8.523837
+        },
+        {
+          "periodo": "2020-12",
+          "indice": 103.053391,
+          "interanual": 7.640085
+        }
+      ]
+    },
+    {
+      "codigo": "C",
+      "nombre": "Explotación de minas y canteras",
+      "historico": [
+        {
+          "periodo": "2020-01",
+          "indice": 88.023249,
+          "interanual": 0.506454
+        },
+        {
+          "periodo": "2020-02",
+          "indice": 85.928472,
+          "interanual": 5.202746
+        },
+        {
+          "periodo": "2020-03",
+          "indice": 85.812133,
+          "interanual": -3.080257
+        },
+        {
+          "periodo": "2020-04",
+          "indice": 69.766034,
+          "interanual": -19.88553
+        },
+        {
+          "periodo": "2020-05",
+          "indice": 74.910883,
+          "interanual": -19.354327
+        },
+        {
+          "periodo": "2020-06",
+          "indice": 75.17548,
+          "interanual": -15.105768
+        },
+        {
+          "periodo": "2020-07",
+          "indice": 78.698087,
+          "interanual": -14.130038
+        },
+        {
+          "periodo": "2020-08",
+          "indice": 80.995709,
+          "interanual": -11.387165
+        },
+        {
+          "periodo": "2020-09",
+          "indice": 77.025752,
+          "interanual": -12.735862
+        },
+        {
+          "periodo": "2020-10",
+          "indice": 79.675167,
+          "interanual": -12.325691
+        },
+        {
+          "periodo": "2020-11",
+          "indice": 76.553093,
+          "interanual": -11.67061
+        },
+        {
+          "periodo": "2020-12",
+          "indice": 80.7837,
+          "interanual": -9.338851
+        }
+      ]
+    },
+    {
+      "codigo": "D",
+      "nombre": "Industria manufacturera",
+      "historico": [
+        {
+          "periodo": "2020-01",
+          "indice": 101.714766,
+          "interanual": -2.836059
+        },
+        {
+          "periodo": "2020-02",
+          "indice": 102.30741,
+          "interanual": -1.577457
+        },
+        {
+          "periodo": "2020-03",
+          "indice": 98.96455,
+          "interanual": -13.925839
+        },
+        {
+          "periodo": "2020-04",
+          "indice": 78.015611,
+          "interanual": -32.699062
+        },
+        {
+          "periodo": "2020-05",
+          "indice": 93.104996,
+          "interanual": -25.033574
+        },
+        {
+          "periodo": "2020-06",
+          "indice": 113.411042,
+          "interanual": -6.657182
+        },
+        {
+          "periodo": "2020-07",
+          "indice": 114.608832,
+          "interanual": -8.297324
+        },
+        {
+          "periodo": "2020-08",
+          "indice": 114.398752,
+          "interanual": -8.942857
+        },
+        {
+          "periodo": "2020-09",
+          "indice": 119.252919,
+          "interanual": 2.817017
+        },
+        {
+          "periodo": "2020-10",
+          "indice": 127.434889,
+          "interanual": -1.729828
+        },
+        {
+          "periodo": "2020-11",
+          "indice": 124.649213,
+          "interanual": 4.118781
+        },
+        {
+          "periodo": "2020-12",
+          "indice": 118.550579,
+          "interanual": 3.875203
+        }
+      ]
+    },
+    {
+      "codigo": "E",
+      "nombre": "Electricidad, gas y agua",
+      "historico": [
+        {
+          "periodo": "2020-01",
+          "indice": 151.921596,
+          "interanual": 4.250526
+        },
+        {
+          "periodo": "2020-02",
+          "indice": 140.224299,
+          "interanual": 1.418035
+        },
+        {
+          "periodo": "2020-03",
+          "indice": 146.297446,
+          "interanual": 8.547923
+        },
+        {
+          "periodo": "2020-04",
+          "indice": 119.987195,
+          "interanual": -7.167289
+        },
+        {
+          "periodo": "2020-05",
+          "indice": 132.756694,
+          "interanual": -4.118126
+        },
+        {
+          "periodo": "2020-06",
+          "indice": 143.29377,
+          "interanual": 3.984691
+        },
+        {
+          "periodo": "2020-07",
+          "indice": 158.859895,
+          "interanual": 4.940807
+        },
+        {
+          "periodo": "2020-08",
+          "indice": 144.581004,
+          "interanual": 1.206378
+        },
+        {
+          "periodo": "2020-09",
+          "indice": 133.95363,
+          "interanual": 1.280906
+        },
+        {
+          "periodo": "2020-10",
+          "indice": 132.346358,
+          "interanual": -3.301585
+        },
+        {
+          "periodo": "2020-11",
+          "indice": 139.373813,
+          "interanual": 1.931449
+        },
+        {
+          "periodo": "2020-12",
+          "indice": 149.975313,
+          "interanual": 3.370552
+        }
+      ]
+    },
+    {
+      "codigo": "F",
+      "nombre": "Construcción",
+      "historico": [
+        {
+          "periodo": "2020-01",
+          "indice": 129.904806,
+          "interanual": -9.187863
+        },
+        {
+          "periodo": "2020-02",
+          "indice": 125.267519,
+          "interanual": -15.092872
+        },
+        {
+          "periodo": "2020-03",
+          "indice": 97.69679,
+          "interanual": -34.021307
+        },
+        {
+          "periodo": "2020-04",
+          "indice": 43.886063,
+          "interanual": -68.869285
+        },
+        {
+          "periodo": "2020-05",
+          "indice": 75.02261,
+          "interanual": -49.890003
+        },
+        {
+          "periodo": "2020-06",
+          "indice": 95.340611,
+          "interanual": -31.018405
+        },
+        {
+          "periodo": "2020-07",
+          "indice": 114.835269,
+          "interanual": -21.865875
+        },
+        {
+          "periodo": "2020-08",
+          "indice": 117.71328,
+          "interanual": -24.472667
+        },
+        {
+          "periodo": "2020-09",
+          "indice": 116.465788,
+          "interanual": -18.344848
+        },
+        {
+          "periodo": "2020-10",
+          "indice": 133.119653,
+          "interanual": -2.038229
+        },
+        {
+          "periodo": "2020-11",
+          "indice": 137.349453,
+          "interanual": 2.63801
+        },
+        {
+          "periodo": "2020-12",
+          "indice": 136.607522,
+          "interanual": 11.959968
+        }
+      ]
+    },
+    {
+      "codigo": "G",
+      "nombre": "Comercio mayorista, minorista y reparaciones",
+      "historico": [
+        {
+          "periodo": "2020-01",
+          "indice": 129.379666,
+          "interanual": 2.613972
+        },
+        {
+          "periodo": "2020-02",
+          "indice": 129.572295,
+          "interanual": -3.705936
+        },
+        {
+          "periodo": "2020-03",
+          "indice": 126.981966,
+          "interanual": -14.495242
+        },
+        {
+          "periodo": "2020-04",
+          "indice": 106.493717,
+          "interanual": -23.077938
+        },
+        {
+          "periodo": "2020-05",
+          "indice": 118.088496,
+          "interanual": -19.702301
+        },
+        {
+          "periodo": "2020-06",
+          "indice": 133.523144,
+          "interanual": -7.112707
+        },
+        {
+          "periodo": "2020-07",
+          "indice": 136.161971,
+          "interanual": -6.045969
+        },
+        {
+          "periodo": "2020-08",
+          "indice": 134.442121,
+          "interanual": -5.629596
+        },
+        {
+          "periodo": "2020-09",
+          "indice": 141.842403,
+          "interanual": 7.073259
+        },
+        {
+          "periodo": "2020-10",
+          "indice": 145.265367,
+          "interanual": -1.324711
+        },
+        {
+          "periodo": "2020-11",
+          "indice": 144.485197,
+          "interanual": 1.111916
+        },
+        {
+          "periodo": "2020-12",
+          "indice": 144.665116,
+          "interanual": 10.388683
+        }
+      ]
+    },
+    {
+      "codigo": "H",
+      "nombre": "Hoteles y restaurantes",
+      "historico": [
+        {
+          "periodo": "2020-01",
+          "indice": 176.600066,
+          "interanual": 1.428061
+        },
+        {
+          "periodo": "2020-02",
+          "indice": 170.138461,
+          "interanual": 3.631489
+        },
+        {
+          "periodo": "2020-03",
+          "indice": 102.430447,
+          "interanual": -36.195066
+        },
+        {
+          "periodo": "2020-04",
+          "indice": 24.08034,
+          "interanual": -84.592979
+        },
+        {
+          "periodo": "2020-05",
+          "indice": 42.754245,
+          "interanual": -72.126986
+        },
+        {
+          "periodo": "2020-06",
+          "indice": 58.57499,
+          "interanual": -61.582829
+        },
+        {
+          "periodo": "2020-07",
+          "indice": 58.855169,
+          "interanual": -66.262841
+        },
+        {
+          "periodo": "2020-08",
+          "indice": 71.335315,
+          "interanual": -57.294984
+        },
+        {
+          "periodo": "2020-09",
+          "indice": 63.822216,
+          "interanual": -60.767725
+        },
+        {
+          "periodo": "2020-10",
+          "indice": 75.241091,
+          "interanual": -56.391739
+        },
+        {
+          "periodo": "2020-11",
+          "indice": 77.984331,
+          "interanual": -54.960701
+        },
+        {
+          "periodo": "2020-12",
+          "indice": 90.324138,
+          "interanual": -48.509118
+        }
+      ]
+    },
+    {
+      "codigo": "I",
+      "nombre": "Transporte y comunicaciones",
+      "historico": [
+        {
+          "periodo": "2020-01",
+          "indice": 182.935423,
+          "interanual": -2.029829
+        },
+        {
+          "periodo": "2020-02",
+          "indice": 177.456502,
+          "interanual": -0.907455
+        },
+        {
+          "periodo": "2020-03",
+          "indice": 163.955088,
+          "interanual": -14.375157
+        },
+        {
+          "periodo": "2020-04",
+          "indice": 143.875252,
+          "interanual": -25.759749
+        },
+        {
+          "periodo": "2020-05",
+          "indice": 162.277537,
+          "interanual": -20.908883
+        },
+        {
+          "periodo": "2020-06",
+          "indice": 158.985172,
+          "interanual": -19.18025
+        },
+        {
+          "periodo": "2020-07",
+          "indice": 150.62536,
+          "interanual": -23.246856
+        },
+        {
+          "periodo": "2020-08",
+          "indice": 149.949973,
+          "interanual": -21.149208
+        },
+        {
+          "periodo": "2020-09",
+          "indice": 152.136123,
+          "interanual": -18.656096
+        },
+        {
+          "periodo": "2020-10",
+          "indice": 151.686749,
+          "interanual": -19.638515
+        },
+        {
+          "periodo": "2020-11",
+          "indice": 153.161442,
+          "interanual": -17.527562
+        },
+        {
+          "periodo": "2020-12",
+          "indice": 150.696774,
+          "interanual": -18.367603
+        }
+      ]
+    },
+    {
+      "codigo": "J",
+      "nombre": "Intermediación financiera",
+      "historico": [
+        {
+          "periodo": "2020-01",
+          "indice": 161.531509,
+          "interanual": -10.622239
+        },
+        {
+          "periodo": "2020-02",
+          "indice": 154.455753,
+          "interanual": -9.316778
+        },
+        {
+          "periodo": "2020-03",
+          "indice": 171.187555,
+          "interanual": -0.028757
+        },
+        {
+          "periodo": "2020-04",
+          "indice": 165.468462,
+          "interanual": -3.993846
+        },
+        {
+          "periodo": "2020-05",
+          "indice": 155.633971,
+          "interanual": -5.939
+        },
+        {
+          "periodo": "2020-06",
+          "indice": 166.864913,
+          "interanual": 3.222128
+        },
+        {
+          "periodo": "2020-07",
+          "indice": 166.529225,
+          "interanual": -0.758788
+        },
+        {
+          "periodo": "2020-08",
+          "indice": 171.179131,
+          "interanual": 1.122512
+        },
+        {
+          "periodo": "2020-09",
+          "indice": 167.265291,
+          "interanual": 4.765091
+        },
+        {
+          "periodo": "2020-10",
+          "indice": 172.651116,
+          "interanual": 2.999461
+        },
+        {
+          "periodo": "2020-11",
+          "indice": 169.187949,
+          "interanual": 5.038692
+        },
+        {
+          "periodo": "2020-12",
+          "indice": 175.954881,
+          "interanual": 4.345571
+        }
+      ]
+    },
+    {
+      "codigo": "K",
+      "nombre": "Actividades inmobiliarias, empresariales y de alquiler",
+      "historico": [
+        {
+          "periodo": "2020-01",
+          "indice": 137.10218,
+          "interanual": 1.209017
+        },
+        {
+          "periodo": "2020-02",
+          "indice": 136.286044,
+          "interanual": -0.51897
+        },
+        {
+          "periodo": "2020-03",
+          "indice": 129.576054,
+          "interanual": -6.193995
+        },
+        {
+          "periodo": "2020-04",
+          "indice": 116.110999,
+          "interanual": -17.464213
+        },
+        {
+          "periodo": "2020-05",
+          "indice": 122.702262,
+          "interanual": -14.065256
+        },
+        {
+          "periodo": "2020-06",
+          "indice": 128.610729,
+          "interanual": -9.672492
+        },
+        {
+          "periodo": "2020-07",
+          "indice": 130.247774,
+          "interanual": -8.98597
+        },
+        {
+          "periodo": "2020-08",
+          "indice": 134.644339,
+          "interanual": -4.916621
+        },
+        {
+          "periodo": "2020-09",
+          "indice": 135.817899,
+          "interanual": -2.924201
+        },
+        {
+          "periodo": "2020-10",
+          "indice": 137.68023,
+          "interanual": -2.87939
+        },
+        {
+          "periodo": "2020-11",
+          "indice": 139.682843,
+          "interanual": -0.333018
+        },
+        {
+          "periodo": "2020-12",
+          "indice": 142.270068,
+          "interanual": -1.006386
+        }
+      ]
+    },
+    {
+      "codigo": "L",
+      "nombre": "Administración pública y defensa; planes de seguridad social de afiliación obligatoria",
+      "historico": [
+        {
+          "periodo": "2020-01",
+          "indice": 155.783835,
+          "interanual": 1.153794
+        },
+        {
+          "periodo": "2020-02",
+          "indice": 156.312027,
+          "interanual": 1.351025
+        },
+        {
+          "periodo": "2020-03",
+          "indice": 154.359875,
+          "interanual": 0.110913
+        },
+        {
+          "periodo": "2020-04",
+          "indice": 135.068471,
+          "interanual": -12.522689
+        },
+        {
+          "periodo": "2020-05",
+          "indice": 136.45071,
+          "interanual": -12.018932
+        },
+        {
+          "periodo": "2020-06",
+          "indice": 137.297549,
+          "interanual": -11.900088
+        },
+        {
+          "periodo": "2020-07",
+          "indice": 141.063445,
+          "interanual": -9.191412
+        },
+        {
+          "periodo": "2020-08",
+          "indice": 140.025534,
+          "interanual": -9.82936
+        },
+        {
+          "periodo": "2020-09",
+          "indice": 140.583763,
+          "interanual": -9.787837
+        },
+        {
+          "periodo": "2020-10",
+          "indice": 143.151871,
+          "interanual": -8.739019
+        },
+        {
+          "periodo": "2020-11",
+          "indice": 143.308596,
+          "interanual": -8.684743
+        },
+        {
+          "periodo": "2020-12",
+          "indice": 144.277035,
+          "interanual": -8.435939
+        }
+      ]
+    },
+    {
+      "codigo": "M",
+      "nombre": "Enseñanza",
+      "historico": [
+        {
+          "periodo": "2020-01",
+          "indice": 157.666676,
+          "interanual": 0.343078
+        },
+        {
+          "periodo": "2020-02",
+          "indice": 158.405067,
+          "interanual": 0.378857
+        },
+        {
+          "periodo": "2020-03",
+          "indice": 158.282148,
+          "interanual": -1.242985
+        },
+        {
+          "periodo": "2020-04",
+          "indice": 145.012533,
+          "interanual": -9.610591
+        },
+        {
+          "periodo": "2020-05",
+          "indice": 149.291208,
+          "interanual": -7.72836
+        },
+        {
+          "periodo": "2020-06",
+          "indice": 149.846824,
+          "interanual": -7.894218
+        },
+        {
+          "periodo": "2020-07",
+          "indice": 153.459826,
+          "interanual": -6.426054
+        },
+        {
+          "periodo": "2020-08",
+          "indice": 153.092008,
+          "interanual": -6.403079
+        },
+        {
+          "periodo": "2020-09",
+          "indice": 155.106673,
+          "interanual": -5.616422
+        },
+        {
+          "periodo": "2020-10",
+          "indice": 156.54106,
+          "interanual": -4.495401
+        },
+        {
+          "periodo": "2020-11",
+          "indice": 156.78658,
+          "interanual": -4.468853
+        },
+        {
+          "periodo": "2020-12",
+          "indice": 157.87222,
+          "interanual": -3.629607
+        }
+      ]
+    },
+    {
+      "codigo": "N",
+      "nombre": "Servicios sociales y de salud",
+      "historico": [
+        {
+          "periodo": "2020-01",
+          "indice": 181.058836,
+          "interanual": 0.461277
+        },
+        {
+          "periodo": "2020-02",
+          "indice": 172.602793,
+          "interanual": 0.641442
+        },
+        {
+          "periodo": "2020-03",
+          "indice": 169.015311,
+          "interanual": -8.982814
+        },
+        {
+          "periodo": "2020-04",
+          "indice": 125.104853,
+          "interanual": -33.535555
+        },
+        {
+          "periodo": "2020-05",
+          "indice": 154.792966,
+          "interanual": -19.646486
+        },
+        {
+          "periodo": "2020-06",
+          "indice": 163.008891,
+          "interanual": -17.819788
+        },
+        {
+          "periodo": "2020-07",
+          "indice": 164.445748,
+          "interanual": -9.441411
+        },
+        {
+          "periodo": "2020-08",
+          "indice": 162.482959,
+          "interanual": -10.329295
+        },
+        {
+          "periodo": "2020-09",
+          "indice": 166.233066,
+          "interanual": -6.691867
+        },
+        {
+          "periodo": "2020-10",
+          "indice": 169.686201,
+          "interanual": -1.951436
+        },
+        {
+          "periodo": "2020-11",
+          "indice": 169.720329,
+          "interanual": -1.878023
+        },
+        {
+          "periodo": "2020-12",
+          "indice": 163.653523,
+          "interanual": -1.736367
+        }
+      ]
+    },
+    {
+      "codigo": "O",
+      "nombre": "Otras actividades de servicios comunitarios, sociales y personales",
+      "historico": [
+        {
+          "periodo": "2020-01",
+          "indice": 154.050927,
+          "interanual": -1.107573
+        },
+        {
+          "periodo": "2020-02",
+          "indice": 144.736655,
+          "interanual": -0.83861
+        },
+        {
+          "periodo": "2020-03",
+          "indice": 116.349319,
+          "interanual": -18.806286
+        },
+        {
+          "periodo": "2020-04",
+          "indice": 38.302413,
+          "interanual": -73.276287
+        },
+        {
+          "periodo": "2020-05",
+          "indice": 43.599084,
+          "interanual": -70.380781
+        },
+        {
+          "periodo": "2020-06",
+          "indice": 57.947508,
+          "interanual": -61.657139
+        },
+        {
+          "periodo": "2020-07",
+          "indice": 62.265777,
+          "interanual": -63.312697
+        },
+        {
+          "periodo": "2020-08",
+          "indice": 66.929277,
+          "interanual": -54.422791
+        },
+        {
+          "periodo": "2020-09",
+          "indice": 69.00351,
+          "interanual": -51.128718
+        },
+        {
+          "periodo": "2020-10",
+          "indice": 103.550722,
+          "interanual": -24.433007
+        },
+        {
+          "periodo": "2020-11",
+          "indice": 104.872228,
+          "interanual": -22.638105
+        },
+        {
+          "periodo": "2020-12",
+          "indice": 111.127353,
+          "interanual": -15.785371
+        }
+      ]
+    }
+  ]
+}

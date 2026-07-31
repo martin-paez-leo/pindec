@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "10",
+    "nombre": "Educación",
+    "historico": [
+      {
+        "periodo": "2017-01",
+        "indice": 106.9917,
+        "mensual": 7.0,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-02",
+        "indice": 106.687,
+        "mensual": -0.3,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-03",
+        "indice": 123.3177,
+        "mensual": 15.6,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-04",
+        "indice": 123.6835,
+        "mensual": 0.3,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-05",
+        "indice": 123.8872,
+        "mensual": 0.2,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-06",
+        "indice": 124.1271,
+        "mensual": 0.2,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-07",
+        "indice": 124.9513,
+        "mensual": 0.7,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-08",
+        "indice": 126.1421,
+        "mensual": 1.0,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-09",
+        "indice": 128.8272,
+        "mensual": 2.1,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-10",
+        "indice": 129.2188,
+        "mensual": 0.3,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-11",
+        "indice": 129.28,
+        "mensual": 0.0,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-12",
+        "indice": 129.2407,
+        "mensual": 0.0,
+        "interanual": 29.2
+      }
+    ]
+  }
+}

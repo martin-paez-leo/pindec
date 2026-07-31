@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "07",
+    "nombre": "Transporte",
+    "historico": [
+      {
+        "periodo": "2023-01",
+        "indice": 1207.701,
+        "mensual": 4.9,
+        "interanual": 93.7
+      },
+      {
+        "periodo": "2023-02",
+        "indice": 1273.1359,
+        "mensual": 5.4,
+        "interanual": 93.1
+      },
+      {
+        "periodo": "2023-03",
+        "indice": 1341.2973,
+        "mensual": 5.4,
+        "interanual": 91.8
+      },
+      {
+        "periodo": "2023-04",
+        "indice": 1414.3274,
+        "mensual": 5.4,
+        "interanual": 92.5
+      },
+      {
+        "periodo": "2023-05",
+        "indice": 1504.3752,
+        "mensual": 6.4,
+        "interanual": 93.2
+      },
+      {
+        "periodo": "2023-06",
+        "indice": 1592.9016,
+        "mensual": 5.9,
+        "interanual": 94.8
+      },
+      {
+        "periodo": "2023-07",
+        "indice": 1703.1215,
+        "mensual": 6.9,
+        "interanual": 97.3
+      },
+      {
+        "periodo": "2023-08",
+        "indice": 1895.7266,
+        "mensual": 11.3,
+        "interanual": 107.0
+      },
+      {
+        "periodo": "2023-09",
+        "indice": 2129.0276,
+        "mensual": 12.3,
+        "interanual": 117.9
+      },
+      {
+        "periodo": "2023-10",
+        "indice": 2277.0307,
+        "mensual": 7.0,
+        "interanual": 120.7
+      },
+      {
+        "periodo": "2023-11",
+        "indice": 2525.6146,
+        "mensual": 10.9,
+        "interanual": 132.9
+      },
+      {
+        "periodo": "2023-12",
+        "indice": 3378.2355,
+        "mensual": 33.8,
+        "interanual": 193.4
+      }
+    ]
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": [
+    {
+      "periodo": "2005-01",
+      "original": {
+        "indice": 98.47336,
+        "interanual": 6.311142
+      },
+      "desestacionalizada": {
+        "indice": 105.749785,
+        "mensual": 2.691066
+      },
+      "tendencia_ciclo": {
+        "indice": 105.106597,
+        "mensual": 0.728123
+      }
+    },
+    {
+      "periodo": "2005-02",
+      "original": {
+        "indice": 96.118866,
+        "interanual": 6.578266
+      },
+      "desestacionalizada": {
+        "indice": 106.05741,
+        "mensual": 0.290899
+      },
+      "tendencia_ciclo": {
+        "indice": 105.821516,
+        "mensual": 0.680185
+      }
+    },
+    {
+      "periodo": "2005-03",
+      "original": {
+        "indice": 110.656426,
+        "interanual": 8.610958
+      },
+      "desestacionalizada": {
+        "indice": 106.850617,
+        "mensual": 0.747903
+      },
+      "tendencia_ciclo": {
+        "indice": 106.488777,
+        "mensual": 0.630553
+      }
+    },
+    {
+      "periodo": "2005-04",
+      "original": {
+        "indice": 116.54519,
+        "interanual": 13.627874
+      },
+      "desestacionalizada": {
+        "indice": 107.965693,
+        "mensual": 1.043584
+      },
+      "tendencia_ciclo": {
+        "indice": 107.112911,
+        "mensual": 0.586104
+      }
+    },
+    {
+      "periodo": "2005-05",
+      "original": {
+        "indice": 126.661943,
+        "interanual": 15.275592
+      },
+      "desestacionalizada": {
+        "indice": 109.100321,
+        "mensual": 1.050915
+      },
+      "tendencia_ciclo": {
+        "indice": 107.7016,
+        "mensual": 0.549597
+      }
+    },
+    {
+      "periodo": "2005-06",
+      "original": {
+        "indice": 116.502223,
+        "interanual": 10.258916
+      },
+      "desestacionalizada": {
+        "indice": 108.583632,
+        "mensual": -0.473591
+      },
+      "tendencia_ciclo": {
+        "indice": 108.267358,
+        "mensual": 0.525301
+      }
+    },
+    {
+      "periodo": "2005-07",
+      "original": {
+        "indice": 107.581139,
+        "interanual": 6.403258
+      },
+      "desestacionalizada": {
+        "indice": 109.134256,
+        "mensual": 0.507097
+      },
+      "tendencia_ciclo": {
+        "indice": 108.825548,
+        "mensual": 0.515566
+      }
+    },
+    {
+      "periodo": "2005-08",
+      "original": {
+        "indice": 105.820893,
+        "interanual": 7.589955
+      },
+      "desestacionalizada": {
+        "indice": 109.37691,
+        "mensual": 0.222344
+      },
+      "tendencia_ciclo": {
+        "indice": 109.391006,
+        "mensual": 0.5196
+      }
+    },
+    {
+      "periodo": "2005-09",
+      "original": {
+        "indice": 104.892135,
+        "interanual": 6.938538
+      },
+      "desestacionalizada": {
+        "indice": 109.261479,
+        "mensual": -0.105535
+      },
+      "tendencia_ciclo": {
+        "indice": 109.978649,
+        "mensual": 0.537195
+      }
+    },
+    {
+      "periodo": "2005-10",
+      "original": {
+        "indice": 104.460665,
+        "interanual": 6.771559
+      },
+      "desestacionalizada": {
+        "indice": 109.949656,
+        "mensual": 0.629845
+      },
+      "tendencia_ciclo": {
+        "indice": 110.59937,
+        "mensual": 0.564402
+      }
+    },
+    {
+      "periodo": "2005-11",
+      "original": {
+        "indice": 108.003754,
+        "interanual": 7.861435
+      },
+      "desestacionalizada": {
+        "indice": 111.16807,
+        "mensual": 1.108156
+      },
+      "tendencia_ciclo": {
+        "indice": 111.26261,
+        "mensual": 0.599678
+      }
+    },
+    {
+      "periodo": "2005-12",
+      "original": {
+        "indice": 110.503324,
+        "interanual": 8.678658
+      },
+      "desestacionalizada": {
+        "indice": 113.02209,
+        "mensual": 1.667763
+      },
+      "tendencia_ciclo": {
+        "indice": 111.971537,
+        "mensual": 0.637166
+      }
+    }
+  ]
+}

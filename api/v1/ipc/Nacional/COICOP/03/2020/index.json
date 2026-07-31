@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "03",
+    "nombre": "Prendas de vestir y calzado",
+    "historico": [
+      {
+        "periodo": "2020-01",
+        "indice": 238.2562,
+        "mensual": 1.1,
+        "interanual": 54.4
+      },
+      {
+        "periodo": "2020-02",
+        "indice": 243.9437,
+        "mensual": 2.4,
+        "interanual": 56.6
+      },
+      {
+        "periodo": "2020-03",
+        "indice": 254.1219,
+        "mensual": 4.2,
+        "interanual": 53.1
+      },
+      {
+        "periodo": "2020-04",
+        "indice": 257.9206,
+        "mensual": 1.5,
+        "interanual": 46.3
+      },
+      {
+        "periodo": "2020-05",
+        "indice": 277.3804,
+        "mensual": 7.5,
+        "interanual": 52.2
+      },
+      {
+        "periodo": "2020-06",
+        "indice": 295.818,
+        "mensual": 6.6,
+        "interanual": 59.3
+      },
+      {
+        "periodo": "2020-07",
+        "indice": 305.5099,
+        "mensual": 3.3,
+        "interanual": 63.9
+      },
+      {
+        "periodo": "2020-08",
+        "indice": 312.2789,
+        "mensual": 2.2,
+        "interanual": 62.5
+      },
+      {
+        "periodo": "2020-09",
+        "indice": 330.5055,
+        "mensual": 5.8,
+        "interanual": 57.0
+      },
+      {
+        "periodo": "2020-10",
+        "indice": 351.1551,
+        "mensual": 6.2,
+        "interanual": 59.3
+      },
+      {
+        "periodo": "2020-11",
+        "indice": 364.0892,
+        "mensual": 3.7,
+        "interanual": 58.1
+      },
+      {
+        "periodo": "2020-12",
+        "indice": 377.2469,
+        "mensual": 3.6,
+        "interanual": 60.0
+      }
+    ]
+  }
+}

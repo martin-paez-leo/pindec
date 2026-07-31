@@ -1,0 +1,21 @@
+{
+  "indicador": "cba-cbt",
+  "nombre": "Canasta Básica Alimentaria y Canasta Básica Total",
+  "subcategorias": [
+    "adulto-equivalente",
+    "hogares"
+  ],
+  "anos_disponibles": [
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ]
+}

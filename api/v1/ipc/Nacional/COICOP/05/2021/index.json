@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "05",
+    "nombre": "Equipamiento y mantenimiento del hogar",
+    "historico": [
+      {
+        "periodo": "2021-01",
+        "indice": 409.0026,
+        "mensual": 3.0,
+        "interanual": 43.6
+      },
+      {
+        "periodo": "2021-02",
+        "indice": 427.6367,
+        "mensual": 4.6,
+        "interanual": 47.1
+      },
+      {
+        "periodo": "2021-03",
+        "indice": 441.1744,
+        "mensual": 3.2,
+        "interanual": 47.5
+      },
+      {
+        "periodo": "2021-04",
+        "indice": 460.1121,
+        "mensual": 4.3,
+        "interanual": 52.0
+      },
+      {
+        "periodo": "2021-05",
+        "indice": 470.991,
+        "mensual": 2.4,
+        "interanual": 51.3
+      },
+      {
+        "periodo": "2021-06",
+        "indice": 486.2222,
+        "mensual": 3.2,
+        "interanual": 50.1
+      },
+      {
+        "periodo": "2021-07",
+        "indice": 499.4892,
+        "mensual": 2.7,
+        "interanual": 48.4
+      },
+      {
+        "periodo": "2021-08",
+        "indice": 515.857,
+        "mensual": 3.3,
+        "interanual": 48.2
+      },
+      {
+        "periodo": "2021-09",
+        "indice": 533.8161,
+        "mensual": 3.5,
+        "interanual": 49.5
+      },
+      {
+        "periodo": "2021-10",
+        "indice": 548.5192,
+        "mensual": 2.8,
+        "interanual": 47.0
+      },
+      {
+        "periodo": "2021-11",
+        "indice": 563.3426,
+        "mensual": 2.7,
+        "interanual": 45.2
+      },
+      {
+        "periodo": "2021-12",
+        "indice": 582.338,
+        "mensual": 3.4,
+        "interanual": 46.6
+      }
+    ]
+  }
+}

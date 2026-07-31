@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "11",
+    "nombre": "Restaurantes y hoteles",
+    "historico": [
+      {
+        "periodo": "2023-01",
+        "indice": 1231.5519,
+        "mensual": 8.3,
+        "interanual": 128.6
+      },
+      {
+        "periodo": "2023-02",
+        "indice": 1313.9135,
+        "mensual": 6.7,
+        "interanual": 126.9
+      },
+      {
+        "periodo": "2023-03",
+        "indice": 1388.6095,
+        "mensual": 5.7,
+        "interanual": 125.4
+      },
+      {
+        "periodo": "2023-04",
+        "indice": 1512.6841,
+        "mensual": 8.9,
+        "interanual": 127.6
+      },
+      {
+        "periodo": "2023-05",
+        "indice": 1635.3118,
+        "mensual": 8.1,
+        "interanual": 137.5
+      },
+      {
+        "periodo": "2023-06",
+        "indice": 1754.7671,
+        "mensual": 7.3,
+        "interanual": 138.2
+      },
+      {
+        "periodo": "2023-07",
+        "indice": 1878.5619,
+        "mensual": 7.1,
+        "interanual": 131.2
+      },
+      {
+        "periodo": "2023-08",
+        "indice": 2087.1859,
+        "mensual": 11.1,
+        "interanual": 141.1
+      },
+      {
+        "periodo": "2023-09",
+        "indice": 2430.2713,
+        "mensual": 16.4,
+        "interanual": 161.6
+      },
+      {
+        "periodo": "2023-10",
+        "indice": 2634.1757,
+        "mensual": 8.4,
+        "interanual": 163.2
+      },
+      {
+        "periodo": "2023-11",
+        "indice": 2938.9673,
+        "mensual": 11.6,
+        "interanual": 177.4
+      },
+      {
+        "periodo": "2023-12",
+        "indice": 3535.37,
+        "mensual": 20.3,
+        "interanual": 210.8
+      }
+    ]
+  }
+}

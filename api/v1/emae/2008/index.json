@@ -1,0 +1,1243 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "nivel_general": [
+      {
+        "periodo": "2008-01",
+        "original": {
+          "indice": 126.226893,
+          "interanual": 10.047908
+        },
+        "desestacionalizada": {
+          "indice": 135.1947,
+          "mensual": 0.742547
+        },
+        "tendencia_ciclo": {
+          "indice": 133.60187,
+          "mensual": 0.494736
+        }
+      },
+      {
+        "periodo": "2008-02",
+        "original": {
+          "indice": 122.824905,
+          "interanual": 8.942137
+        },
+        "desestacionalizada": {
+          "indice": 133.426887,
+          "mensual": -1.307605
+        },
+        "tendencia_ciclo": {
+          "indice": 134.119745,
+          "mensual": 0.387625
+        }
+      },
+      {
+        "periodo": "2008-03",
+        "original": {
+          "indice": 132.334127,
+          "interanual": 2.360224
+        },
+        "desestacionalizada": {
+          "indice": 133.383652,
+          "mensual": -0.032404
+        },
+        "tendencia_ciclo": {
+          "indice": 134.459676,
+          "mensual": 0.253453
+        }
+      },
+      {
+        "periodo": "2008-04",
+        "original": {
+          "indice": 145.280499,
+          "interanual": 8.854445
+        },
+        "desestacionalizada": {
+          "indice": 135.748076,
+          "mensual": 1.772649
+        },
+        "tendencia_ciclo": {
+          "indice": 134.587455,
+          "mensual": 0.095031
+        }
+      },
+      {
+        "periodo": "2008-05",
+        "original": {
+          "indice": 154.156164,
+          "interanual": 4.436248
+        },
+        "desestacionalizada": {
+          "indice": 134.857,
+          "mensual": -0.656419
+        },
+        "tendencia_ciclo": {
+          "indice": 134.473313,
+          "mensual": -0.084808
+        }
+      },
+      {
+        "periodo": "2008-06",
+        "original": {
+          "indice": 140.503484,
+          "interanual": 3.219561
+        },
+        "desestacionalizada": {
+          "indice": 133.383359,
+          "mensual": -1.092743
+        },
+        "tendencia_ciclo": {
+          "indice": 134.098209,
+          "mensual": -0.278944
+        }
+      },
+      {
+        "periodo": "2008-07",
+        "original": {
+          "indice": 136.638688,
+          "interanual": 7.262198
+        },
+        "desestacionalizada": {
+          "indice": 135.270699,
+          "mensual": 1.414975
+        },
+        "tendencia_ciclo": {
+          "indice": 133.462584,
+          "mensual": -0.473999
+        }
+      },
+      {
+        "periodo": "2008-08",
+        "original": {
+          "indice": 131.340921,
+          "interanual": 3.748715
+        },
+        "desestacionalizada": {
+          "indice": 135.693745,
+          "mensual": 0.31274
+        },
+        "tendencia_ciclo": {
+          "indice": 132.58691,
+          "mensual": -0.65612
+        }
+      },
+      {
+        "periodo": "2008-09",
+        "original": {
+          "indice": 132.185938,
+          "interanual": 7.024081
+        },
+        "desestacionalizada": {
+          "indice": 135.910215,
+          "mensual": 0.159528
+        },
+        "tendencia_ciclo": {
+          "indice": 131.510014,
+          "mensual": -0.812219
+        }
+      },
+      {
+        "periodo": "2008-10",
+        "original": {
+          "indice": 130.395179,
+          "interanual": 1.541713
+        },
+        "desestacionalizada": {
+          "indice": 132.515852,
+          "mensual": -2.497504
+        },
+        "tendencia_ciclo": {
+          "indice": 130.28913,
+          "mensual": -0.928358
+        }
+      },
+      {
+        "periodo": "2008-11",
+        "original": {
+          "indice": 125.527563,
+          "interanual": -3.243167
+        },
+        "desestacionalizada": {
+          "indice": 130.32737,
+          "mensual": -1.651487
+        },
+        "tendencia_ciclo": {
+          "indice": 128.995756,
+          "mensual": -0.992695
+        }
+      },
+      {
+        "periodo": "2008-12",
+        "original": {
+          "indice": 123.466006,
+          "interanual": -4.214127
+        },
+        "desestacionalizada": {
+          "indice": 125.168812,
+          "mensual": -3.958154
+        },
+        "tendencia_ciclo": {
+          "indice": 127.708037,
+          "mensual": -0.998264
+        }
+      }
+    ],
+    "sectores": [
+      {
+        "codigo": "A",
+        "nombre": "Agricultura, ganadería, caza y silvicultura",
+        "historico": [
+          {
+            "periodo": "2008-01",
+            "indice": 66.478016,
+            "interanual": -4.906128
+          },
+          {
+            "periodo": "2008-02",
+            "indice": 68.6845,
+            "interanual": -1.563172
+          },
+          {
+            "periodo": "2008-03",
+            "indice": 134.994082,
+            "interanual": -0.056587
+          },
+          {
+            "periodo": "2008-04",
+            "indice": 220.238618,
+            "interanual": -0.726296
+          },
+          {
+            "periodo": "2008-05",
+            "indice": 321.720792,
+            "interanual": -2.45235
+          },
+          {
+            "periodo": "2008-06",
+            "indice": 211.857406,
+            "interanual": -3.570318
+          },
+          {
+            "periodo": "2008-07",
+            "indice": 110.978789,
+            "interanual": 1.280146
+          },
+          {
+            "periodo": "2008-08",
+            "indice": 70.813718,
+            "interanual": 0.573745
+          },
+          {
+            "periodo": "2008-09",
+            "indice": 67.161261,
+            "interanual": 4.346793
+          },
+          {
+            "periodo": "2008-10",
+            "indice": 66.492491,
+            "interanual": -0.352226
+          },
+          {
+            "periodo": "2008-11",
+            "indice": 80.222944,
+            "interanual": -4.456461
+          },
+          {
+            "periodo": "2008-12",
+            "indice": 79.396461,
+            "interanual": -17.195984
+          }
+        ]
+      },
+      {
+        "codigo": "B",
+        "nombre": "Pesca",
+        "historico": [
+          {
+            "periodo": "2008-01",
+            "indice": 34.155497,
+            "interanual": -32.880414
+          },
+          {
+            "periodo": "2008-02",
+            "indice": 58.973009,
+            "interanual": -18.102518
+          },
+          {
+            "periodo": "2008-03",
+            "indice": 157.054045,
+            "interanual": -36.58711
+          },
+          {
+            "periodo": "2008-04",
+            "indice": 239.913345,
+            "interanual": -6.020421
+          },
+          {
+            "periodo": "2008-05",
+            "indice": 276.528246,
+            "interanual": 9.027255
+          },
+          {
+            "periodo": "2008-06",
+            "indice": 225.78967,
+            "interanual": 25.235553
+          },
+          {
+            "periodo": "2008-07",
+            "indice": 172.390821,
+            "interanual": 8.824257
+          },
+          {
+            "periodo": "2008-08",
+            "indice": 176.428052,
+            "interanual": 67.589921
+          },
+          {
+            "periodo": "2008-09",
+            "indice": 86.882746,
+            "interanual": 7.838833
+          },
+          {
+            "periodo": "2008-10",
+            "indice": 107.598518,
+            "interanual": 60.084201
+          },
+          {
+            "periodo": "2008-11",
+            "indice": 62.395208,
+            "interanual": 17.361307
+          },
+          {
+            "periodo": "2008-12",
+            "indice": 79.542911,
+            "interanual": 15.926086
+          }
+        ]
+      },
+      {
+        "codigo": "C",
+        "nombre": "Explotación de minas y canteras",
+        "historico": [
+          {
+            "periodo": "2008-01",
+            "indice": 101.511955,
+            "interanual": -0.67849
+          },
+          {
+            "periodo": "2008-02",
+            "indice": 97.654606,
+            "interanual": 3.395661
+          },
+          {
+            "periodo": "2008-03",
+            "indice": 104.397531,
+            "interanual": -0.175528
+          },
+          {
+            "periodo": "2008-04",
+            "indice": 100.585601,
+            "interanual": -2.485487
+          },
+          {
+            "periodo": "2008-05",
+            "indice": 90.951226,
+            "interanual": -14.597578
+          },
+          {
+            "periodo": "2008-06",
+            "indice": 98.071326,
+            "interanual": -4.576969
+          },
+          {
+            "periodo": "2008-07",
+            "indice": 103.678867,
+            "interanual": 2.347569
+          },
+          {
+            "periodo": "2008-08",
+            "indice": 104.769076,
+            "interanual": -0.621957
+          },
+          {
+            "periodo": "2008-09",
+            "indice": 102.469184,
+            "interanual": -0.749645
+          },
+          {
+            "periodo": "2008-10",
+            "indice": 104.919807,
+            "interanual": 0.335644
+          },
+          {
+            "periodo": "2008-11",
+            "indice": 102.721003,
+            "interanual": 5.528371
+          },
+          {
+            "periodo": "2008-12",
+            "indice": 104.385282,
+            "interanual": -0.140888
+          }
+        ]
+      },
+      {
+        "codigo": "D",
+        "nombre": "Industria manufacturera",
+        "historico": [
+          {
+            "periodo": "2008-01",
+            "indice": 121.844603,
+            "interanual": 10.836102
+          },
+          {
+            "periodo": "2008-02",
+            "indice": 119.059957,
+            "interanual": 8.533787
+          },
+          {
+            "periodo": "2008-03",
+            "indice": 129.663584,
+            "interanual": 2.191693
+          },
+          {
+            "periodo": "2008-04",
+            "indice": 137.313601,
+            "interanual": 9.975645
+          },
+          {
+            "periodo": "2008-05",
+            "indice": 137.486927,
+            "interanual": 7.03208
+          },
+          {
+            "periodo": "2008-06",
+            "indice": 128.333193,
+            "interanual": 3.817839
+          },
+          {
+            "periodo": "2008-07",
+            "indice": 136.754644,
+            "interanual": 11.011489
+          },
+          {
+            "periodo": "2008-08",
+            "indice": 134.096338,
+            "interanual": 4.418304
+          },
+          {
+            "periodo": "2008-09",
+            "indice": 140.779534,
+            "interanual": 7.395976
+          },
+          {
+            "periodo": "2008-10",
+            "indice": 137.176835,
+            "interanual": -1.140945
+          },
+          {
+            "periodo": "2008-11",
+            "indice": 126.102183,
+            "interanual": -7.694534
+          },
+          {
+            "periodo": "2008-12",
+            "indice": 118.489417,
+            "interanual": -9.430946
+          }
+        ]
+      },
+      {
+        "codigo": "E",
+        "nombre": "Electricidad, gas y agua",
+        "historico": [
+          {
+            "periodo": "2008-01",
+            "indice": 125.756048,
+            "interanual": 7.893886
+          },
+          {
+            "periodo": "2008-02",
+            "indice": 119.2242,
+            "interanual": 7.703541
+          },
+          {
+            "periodo": "2008-03",
+            "indice": 120.248856,
+            "interanual": 5.087867
+          },
+          {
+            "periodo": "2008-04",
+            "indice": 114.978708,
+            "interanual": 3.702594
+          },
+          {
+            "periodo": "2008-05",
+            "indice": 118.281098,
+            "interanual": -1.827354
+          },
+          {
+            "periodo": "2008-06",
+            "indice": 128.412799,
+            "interanual": 7.983789
+          },
+          {
+            "periodo": "2008-07",
+            "indice": 123.696753,
+            "interanual": 5.113722
+          },
+          {
+            "periodo": "2008-08",
+            "indice": 126.320928,
+            "interanual": 7.049675
+          },
+          {
+            "periodo": "2008-09",
+            "indice": 120.103665,
+            "interanual": 7.103319
+          },
+          {
+            "periodo": "2008-10",
+            "indice": 112.856344,
+            "interanual": 0.907803
+          },
+          {
+            "periodo": "2008-11",
+            "indice": 118.132838,
+            "interanual": 6.883337
+          },
+          {
+            "periodo": "2008-12",
+            "indice": 121.37018,
+            "interanual": 0.93115
+          }
+        ]
+      },
+      {
+        "codigo": "F",
+        "nombre": "Construcción",
+        "historico": [
+          {
+            "periodo": "2008-01",
+            "indice": 147.915167,
+            "interanual": 8.960455
+          },
+          {
+            "periodo": "2008-02",
+            "indice": 150.627393,
+            "interanual": 8.523409
+          },
+          {
+            "periodo": "2008-03",
+            "indice": 151.299462,
+            "interanual": 5.80675
+          },
+          {
+            "periodo": "2008-04",
+            "indice": 148.684528,
+            "interanual": 11.39518
+          },
+          {
+            "periodo": "2008-05",
+            "indice": 149.099257,
+            "interanual": 8.812541
+          },
+          {
+            "periodo": "2008-06",
+            "indice": 147.065458,
+            "interanual": 8.147033
+          },
+          {
+            "periodo": "2008-07",
+            "indice": 152.136072,
+            "interanual": 6.52109
+          },
+          {
+            "periodo": "2008-08",
+            "indice": 149.612829,
+            "interanual": 3.874753
+          },
+          {
+            "periodo": "2008-09",
+            "indice": 149.988418,
+            "interanual": 3.70248
+          },
+          {
+            "periodo": "2008-10",
+            "indice": 138.280994,
+            "interanual": -3.128299
+          },
+          {
+            "periodo": "2008-11",
+            "indice": 136.194109,
+            "interanual": -4.902632
+          },
+          {
+            "periodo": "2008-12",
+            "indice": 129.505117,
+            "interanual": -6.423226
+          }
+        ]
+      },
+      {
+        "codigo": "G",
+        "nombre": "Comercio mayorista, minorista y reparaciones",
+        "historico": [
+          {
+            "periodo": "2008-01",
+            "indice": 137.418533,
+            "interanual": 12.417737
+          },
+          {
+            "periodo": "2008-02",
+            "indice": 134.8747,
+            "interanual": 11.968333
+          },
+          {
+            "periodo": "2008-03",
+            "indice": 148.090376,
+            "interanual": 3.0993
+          },
+          {
+            "periodo": "2008-04",
+            "indice": 156.597209,
+            "interanual": 17.220633
+          },
+          {
+            "periodo": "2008-05",
+            "indice": 153.456322,
+            "interanual": 11.78914
+          },
+          {
+            "periodo": "2008-06",
+            "indice": 142.709712,
+            "interanual": 4.209473
+          },
+          {
+            "periodo": "2008-07",
+            "indice": 152.202506,
+            "interanual": 11.985882
+          },
+          {
+            "periodo": "2008-08",
+            "indice": 142.840461,
+            "interanual": 1.821944
+          },
+          {
+            "periodo": "2008-09",
+            "indice": 148.4033,
+            "interanual": 7.575855
+          },
+          {
+            "periodo": "2008-10",
+            "indice": 144.939434,
+            "interanual": -0.547963
+          },
+          {
+            "periodo": "2008-11",
+            "indice": 133.016847,
+            "interanual": -9.360682
+          },
+          {
+            "periodo": "2008-12",
+            "indice": 126.033832,
+            "interanual": -5.48039
+          }
+        ]
+      },
+      {
+        "codigo": "H",
+        "nombre": "Hoteles y restaurantes",
+        "historico": [
+          {
+            "periodo": "2008-01",
+            "indice": 156.681584,
+            "interanual": 5.22116
+          },
+          {
+            "periodo": "2008-02",
+            "indice": 150.981068,
+            "interanual": 4.022817
+          },
+          {
+            "periodo": "2008-03",
+            "indice": 146.145828,
+            "interanual": 3.371231
+          },
+          {
+            "periodo": "2008-04",
+            "indice": 136.058249,
+            "interanual": 1.405641
+          },
+          {
+            "periodo": "2008-05",
+            "indice": 131.384679,
+            "interanual": 3.600487
+          },
+          {
+            "periodo": "2008-06",
+            "indice": 125.2245,
+            "interanual": 0.566542
+          },
+          {
+            "periodo": "2008-07",
+            "indice": 138.95826,
+            "interanual": 0.337007
+          },
+          {
+            "periodo": "2008-08",
+            "indice": 139.443525,
+            "interanual": 2.548798
+          },
+          {
+            "periodo": "2008-09",
+            "indice": 138.45378,
+            "interanual": 0.793364
+          },
+          {
+            "periodo": "2008-10",
+            "indice": 137.856125,
+            "interanual": -2.501631
+          },
+          {
+            "periodo": "2008-11",
+            "indice": 136.730281,
+            "interanual": -5.682797
+          },
+          {
+            "periodo": "2008-12",
+            "indice": 134.541588,
+            "interanual": -7.241772
+          }
+        ]
+      },
+      {
+        "codigo": "I",
+        "nombre": "Transporte y comunicaciones",
+        "historico": [
+          {
+            "periodo": "2008-01",
+            "indice": 152.239995,
+            "interanual": 11.444102
+          },
+          {
+            "periodo": "2008-02",
+            "indice": 146.237692,
+            "interanual": 11.835085
+          },
+          {
+            "periodo": "2008-03",
+            "indice": 150.316067,
+            "interanual": 5.383868
+          },
+          {
+            "periodo": "2008-04",
+            "indice": 158.741032,
+            "interanual": 9.023087
+          },
+          {
+            "periodo": "2008-05",
+            "indice": 165.888688,
+            "interanual": 5.758554
+          },
+          {
+            "periodo": "2008-06",
+            "indice": 154.648672,
+            "interanual": 2.841083
+          },
+          {
+            "periodo": "2008-07",
+            "indice": 157.129933,
+            "interanual": 6.464606
+          },
+          {
+            "periodo": "2008-08",
+            "indice": 154.049528,
+            "interanual": 4.941484
+          },
+          {
+            "periodo": "2008-09",
+            "indice": 153.650891,
+            "interanual": 6.793128
+          },
+          {
+            "periodo": "2008-10",
+            "indice": 153.619168,
+            "interanual": 3.070741
+          },
+          {
+            "periodo": "2008-11",
+            "indice": 148.669628,
+            "interanual": -0.13651
+          },
+          {
+            "periodo": "2008-12",
+            "indice": 149.338678,
+            "interanual": -0.687957
+          }
+        ]
+      },
+      {
+        "codigo": "J",
+        "nombre": "Intermediación financiera",
+        "historico": [
+          {
+            "periodo": "2008-01",
+            "indice": 153.101215,
+            "interanual": 8.614104
+          },
+          {
+            "periodo": "2008-02",
+            "indice": 146.663675,
+            "interanual": 9.332368
+          },
+          {
+            "periodo": "2008-03",
+            "indice": 144.808463,
+            "interanual": 3.863269
+          },
+          {
+            "periodo": "2008-04",
+            "indice": 149.612375,
+            "interanual": 9.480004
+          },
+          {
+            "periodo": "2008-05",
+            "indice": 151.215768,
+            "interanual": 7.203177
+          },
+          {
+            "periodo": "2008-06",
+            "indice": 150.234745,
+            "interanual": 4.582259
+          },
+          {
+            "periodo": "2008-07",
+            "indice": 146.852244,
+            "interanual": 3.287347
+          },
+          {
+            "periodo": "2008-08",
+            "indice": 155.143143,
+            "interanual": 6.979827
+          },
+          {
+            "periodo": "2008-09",
+            "indice": 150.679687,
+            "interanual": 7.720031
+          },
+          {
+            "periodo": "2008-10",
+            "indice": 157.184857,
+            "interanual": 9.185382
+          },
+          {
+            "periodo": "2008-11",
+            "indice": 149.274823,
+            "interanual": 3.458005
+          },
+          {
+            "periodo": "2008-12",
+            "indice": 150.464927,
+            "interanual": 1.552598
+          }
+        ]
+      },
+      {
+        "codigo": "K",
+        "nombre": "Actividades inmobiliarias, empresariales y de alquiler",
+        "historico": [
+          {
+            "periodo": "2008-01",
+            "indice": 118.0455,
+            "interanual": 7.864302
+          },
+          {
+            "periodo": "2008-02",
+            "indice": 121.341029,
+            "interanual": 9.23094
+          },
+          {
+            "periodo": "2008-03",
+            "indice": 121.389121,
+            "interanual": 3.335162
+          },
+          {
+            "periodo": "2008-04",
+            "indice": 125.821774,
+            "interanual": 9.792649
+          },
+          {
+            "periodo": "2008-05",
+            "indice": 127.594023,
+            "interanual": 6.580684
+          },
+          {
+            "periodo": "2008-06",
+            "indice": 127.538441,
+            "interanual": 5.127523
+          },
+          {
+            "periodo": "2008-07",
+            "indice": 128.847941,
+            "interanual": 7.022195
+          },
+          {
+            "periodo": "2008-08",
+            "indice": 126.004555,
+            "interanual": 3.265966
+          },
+          {
+            "periodo": "2008-09",
+            "indice": 127.331589,
+            "interanual": 5.217793
+          },
+          {
+            "periodo": "2008-10",
+            "indice": 127.932372,
+            "interanual": 3.35658
+          },
+          {
+            "periodo": "2008-11",
+            "indice": 126.436136,
+            "interanual": 1.672613
+          },
+          {
+            "periodo": "2008-12",
+            "indice": 128.649411,
+            "interanual": 4.382971
+          }
+        ]
+      },
+      {
+        "codigo": "L",
+        "nombre": "Administración pública y defensa; planes de seguridad social de afiliación obligatoria",
+        "historico": [
+          {
+            "periodo": "2008-01",
+            "indice": 113.80871,
+            "interanual": 1.702001
+          },
+          {
+            "periodo": "2008-02",
+            "indice": 117.075421,
+            "interanual": 4.011195
+          },
+          {
+            "periodo": "2008-03",
+            "indice": 117.22839,
+            "interanual": 4.030239
+          },
+          {
+            "periodo": "2008-04",
+            "indice": 118.026435,
+            "interanual": 5.222021
+          },
+          {
+            "periodo": "2008-05",
+            "indice": 119.152313,
+            "interanual": 3.418432
+          },
+          {
+            "periodo": "2008-06",
+            "indice": 121.380572,
+            "interanual": 4.240386
+          },
+          {
+            "periodo": "2008-07",
+            "indice": 120.766702,
+            "interanual": 4.93456
+          },
+          {
+            "periodo": "2008-08",
+            "indice": 121.264341,
+            "interanual": 5.151585
+          },
+          {
+            "periodo": "2008-09",
+            "indice": 121.774322,
+            "interanual": 5.433204
+          },
+          {
+            "periodo": "2008-10",
+            "indice": 121.056724,
+            "interanual": 4.476342
+          },
+          {
+            "periodo": "2008-11",
+            "indice": 121.86256,
+            "interanual": 2.96729
+          },
+          {
+            "periodo": "2008-12",
+            "indice": 123.61003,
+            "interanual": 3.850561
+          }
+        ]
+      },
+      {
+        "codigo": "M",
+        "nombre": "Enseñanza",
+        "historico": [
+          {
+            "periodo": "2008-01",
+            "indice": 112.822307,
+            "interanual": 0.563888
+          },
+          {
+            "periodo": "2008-02",
+            "indice": 116.674359,
+            "interanual": 3.499569
+          },
+          {
+            "periodo": "2008-03",
+            "indice": 116.981696,
+            "interanual": 3.127589
+          },
+          {
+            "periodo": "2008-04",
+            "indice": 119.254659,
+            "interanual": 5.7182
+          },
+          {
+            "periodo": "2008-05",
+            "indice": 120.979546,
+            "interanual": 3.256005
+          },
+          {
+            "periodo": "2008-06",
+            "indice": 124.622595,
+            "interanual": 4.101465
+          },
+          {
+            "periodo": "2008-07",
+            "indice": 123.587997,
+            "interanual": 4.883004
+          },
+          {
+            "periodo": "2008-08",
+            "indice": 124.287758,
+            "interanual": 5.294963
+          },
+          {
+            "periodo": "2008-09",
+            "indice": 124.793683,
+            "interanual": 5.729111
+          },
+          {
+            "periodo": "2008-10",
+            "indice": 124.769426,
+            "interanual": 5.548594
+          },
+          {
+            "periodo": "2008-11",
+            "indice": 125.227443,
+            "interanual": 3.375487
+          },
+          {
+            "periodo": "2008-12",
+            "indice": 126.633821,
+            "interanual": 4.941749
+          }
+        ]
+      },
+      {
+        "codigo": "N",
+        "nombre": "Servicios sociales y de salud",
+        "historico": [
+          {
+            "periodo": "2008-01",
+            "indice": 122.657559,
+            "interanual": 7.218959
+          },
+          {
+            "periodo": "2008-02",
+            "indice": 115.685275,
+            "interanual": 5.390175
+          },
+          {
+            "periodo": "2008-03",
+            "indice": 124.819505,
+            "interanual": 5.208331
+          },
+          {
+            "periodo": "2008-04",
+            "indice": 131.249475,
+            "interanual": 7.710363
+          },
+          {
+            "periodo": "2008-05",
+            "indice": 133.850547,
+            "interanual": 7.77986
+          },
+          {
+            "periodo": "2008-06",
+            "indice": 135.631502,
+            "interanual": 5.827447
+          },
+          {
+            "periodo": "2008-07",
+            "indice": 129.981578,
+            "interanual": 8.304652
+          },
+          {
+            "periodo": "2008-08",
+            "indice": 133.087943,
+            "interanual": 6.27597
+          },
+          {
+            "periodo": "2008-09",
+            "indice": 131.107442,
+            "interanual": 7.864833
+          },
+          {
+            "periodo": "2008-10",
+            "indice": 125.559614,
+            "interanual": 5.572191
+          },
+          {
+            "periodo": "2008-11",
+            "indice": 126.036219,
+            "interanual": 5.956921
+          },
+          {
+            "periodo": "2008-12",
+            "indice": 122.04311,
+            "interanual": 5.015798
+          }
+        ]
+      },
+      {
+        "codigo": "O",
+        "nombre": "Otras actividades de servicios comunitarios, sociales y personales",
+        "historico": [
+          {
+            "periodo": "2008-01",
+            "indice": 135.597052,
+            "interanual": 3.606167
+          },
+          {
+            "periodo": "2008-02",
+            "indice": 134.305062,
+            "interanual": 4.607138
+          },
+          {
+            "periodo": "2008-03",
+            "indice": 134.574247,
+            "interanual": 4.237957
+          },
+          {
+            "periodo": "2008-04",
+            "indice": 136.273068,
+            "interanual": 9.293161
+          },
+          {
+            "periodo": "2008-05",
+            "indice": 139.589752,
+            "interanual": 6.718848
+          },
+          {
+            "periodo": "2008-06",
+            "indice": 141.667029,
+            "interanual": 7.558144
+          },
+          {
+            "periodo": "2008-07",
+            "indice": 150.495983,
+            "interanual": 2.009415
+          },
+          {
+            "periodo": "2008-08",
+            "indice": 143.815423,
+            "interanual": 4.251776
+          },
+          {
+            "periodo": "2008-09",
+            "indice": 135.833225,
+            "interanual": 4.973417
+          },
+          {
+            "periodo": "2008-10",
+            "indice": 136.540547,
+            "interanual": 7.137263
+          },
+          {
+            "periodo": "2008-11",
+            "indice": 131.025758,
+            "interanual": 2.764893
+          },
+          {
+            "periodo": "2008-12",
+            "indice": 134.152551,
+            "interanual": 3.899093
+          }
+        ]
+      }
+    ],
+    "impuestos_netos_subsidios": {
+      "historico": [
+        {
+          "periodo": "2008-01",
+          "indice": 153.064717,
+          "interanual": 23.262547
+        },
+        {
+          "periodo": "2008-02",
+          "indice": 137.324744,
+          "interanual": 15.215886
+        },
+        {
+          "periodo": "2008-03",
+          "indice": 133.634024,
+          "interanual": 0.348106
+        },
+        {
+          "periodo": "2008-04",
+          "indice": 149.341521,
+          "interanual": 14.506406
+        },
+        {
+          "periodo": "2008-05",
+          "indice": 152.495723,
+          "interanual": 5.768558
+        },
+        {
+          "periodo": "2008-06",
+          "indice": 142.06605,
+          "interanual": 4.753982
+        },
+        {
+          "periodo": "2008-07",
+          "indice": 148.206858,
+          "interanual": 7.240833
+        },
+        {
+          "periodo": "2008-08",
+          "indice": 147.180028,
+          "interanual": 3.269216
+        },
+        {
+          "periodo": "2008-09",
+          "indice": 146.65413,
+          "interanual": 12.432203
+        },
+        {
+          "periodo": "2008-10",
+          "indice": 143.956768,
+          "interanual": 1.9432
+        },
+        {
+          "periodo": "2008-11",
+          "indice": 134.702355,
+          "interanual": -5.864779
+        },
+        {
+          "periodo": "2008-12",
+          "indice": 134.198168,
+          "interanual": -8.10454
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "fuente": "INDEC - Intercambio Comercial Argentino (Balanza Comercial)",
+  "unidad_medida": "Millones de dólares",
+  "datos": [
+    {
+      "periodo": "2026-01",
+      "exportaciones": {
+        "mensual": 7245.296047,
+        "acumulado": 7245.296047,
+        "var_interanual_mensual": 22.493359,
+        "var_interanual_acumulada": 22.493359
+      },
+      "importaciones": {
+        "mensual": 5056.670157,
+        "acumulado": 5056.670157,
+        "var_interanual_mensual": -12.099952,
+        "var_interanual_acumulada": -12.099952
+      },
+      "saldo": 2188.62589
+    },
+    {
+      "periodo": "2026-02",
+      "exportaciones": {
+        "mensual": 5963.339018,
+        "acumulado": 13208.635066,
+        "var_interanual_mensual": -2.872533,
+        "var_interanual_acumulada": 9.573835
+      },
+      "importaciones": {
+        "mensual": 5166.573882,
+        "acumulado": 10223.244039,
+        "var_interanual_mensual": -11.897672,
+        "var_interanual_acumulada": -11.997841
+      },
+      "saldo": 796.765136
+    },
+    {
+      "periodo": "2026-03",
+      "exportaciones": {
+        "mensual": 8697.085126,
+        "acumulado": 21905.720192,
+        "var_interanual_mensual": 30.933918,
+        "var_interanual_acumulada": 17.162317
+      },
+      "importaciones": {
+        "mensual": 6115.895278,
+        "acumulado": 16339.139318,
+        "var_interanual_mensual": 1.61239,
+        "var_interanual_acumulada": -7.352885
+      },
+      "saldo": 2581.189848
+    },
+    {
+      "periodo": "2026-04",
+      "exportaciones": {
+        "mensual": 8915.936373,
+        "acumulado": 30821.656565,
+        "var_interanual_mensual": 33.585475,
+        "var_interanual_acumulada": 21.482706
+      },
+      "importaciones": {
+        "mensual": 6203.139714,
+        "acumulado": 22542.279031,
+        "var_interanual_mensual": -3.975559,
+        "var_interanual_acumulada": -6.447443
+      },
+      "saldo": 2712.796659
+    },
+    {
+      "periodo": "2026-05",
+      "exportaciones": {
+        "mensual": 9577.820382,
+        "acumulado": 40399.476947,
+        "var_interanual_mensual": 34.990463,
+        "var_interanual_acumulada": 24.43468
+      },
+      "importaciones": {
+        "mensual": 6128.02646,
+        "acumulado": 28670.305491,
+        "var_interanual_mensual": -5.547861,
+        "var_interanual_acumulada": -6.256608
+      },
+      "saldo": 3449.793922
+    },
+    {
+      "periodo": "2026-01",
+      "exportaciones": {
+        "mensual": 9054.985737,
+        "acumulado": 49454.462684,
+        "var_interanual_mensual": 24.462699,
+        "var_interanual_acumulada": 24.43981
+      },
+      "importaciones": {
+        "mensual": 6861.137527,
+        "acumulado": 35531.443019,
+        "var_interanual_mensual": 7.273827,
+        "var_interanual_acumulada": -3.916422
+      },
+      "saldo": 2193.84821
+    }
+  ]
+}

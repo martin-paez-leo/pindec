@@ -1,0 +1,69 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "codigo": "A",
+    "nombre": "Agricultura, ganadería, caza y silvicultura",
+    "historico": [
+      {
+        "periodo": "2005-01",
+        "indice": 65.695472,
+        "interanual": -0.454394
+      },
+      {
+        "periodo": "2005-02",
+        "indice": 69.209749,
+        "interanual": 6.596913
+      },
+      {
+        "periodo": "2005-03",
+        "indice": 138.563577,
+        "interanual": 25.208173
+      },
+      {
+        "periodo": "2005-04",
+        "indice": 208.899823,
+        "interanual": 39.205372
+      },
+      {
+        "periodo": "2005-05",
+        "indice": 294.864395,
+        "interanual": 40.821961
+      },
+      {
+        "periodo": "2005-06",
+        "indice": 197.553812,
+        "interanual": 36.562983
+      },
+      {
+        "periodo": "2005-07",
+        "indice": 98.413028,
+        "interanual": 3.742854
+      },
+      {
+        "periodo": "2005-08",
+        "indice": 63.852659,
+        "interanual": -1.554857
+      },
+      {
+        "periodo": "2005-09",
+        "indice": 59.388424,
+        "interanual": -2.241112
+      },
+      {
+        "periodo": "2005-10",
+        "indice": 60.658392,
+        "interanual": -3.208706
+      },
+      {
+        "periodo": "2005-11",
+        "indice": 79.32336,
+        "interanual": 1.158078
+      },
+      {
+        "periodo": "2005-12",
+        "indice": 100.752162,
+        "interanual": 8.641557
+      }
+    ]
+  }
+}

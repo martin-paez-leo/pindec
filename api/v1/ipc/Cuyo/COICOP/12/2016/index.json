@@ -1,0 +1,15 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "12",
+    "nombre": "Bienes y servicios varios",
+    "historico": [
+      {
+        "periodo": "2016-12",
+        "indice": 100.0,
+        "mensual": null,
+        "interanual": null
+      }
+    ]
+  }
+}

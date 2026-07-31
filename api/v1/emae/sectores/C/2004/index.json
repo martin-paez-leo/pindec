@@ -1,0 +1,69 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "codigo": "C",
+    "nombre": "Explotación de minas y canteras",
+    "historico": [
+      {
+        "periodo": "2004-01",
+        "indice": 100.704499,
+        "interanual": null
+      },
+      {
+        "periodo": "2004-02",
+        "indice": 95.414186,
+        "interanual": null
+      },
+      {
+        "periodo": "2004-03",
+        "indice": 100.251038,
+        "interanual": null
+      },
+      {
+        "periodo": "2004-04",
+        "indice": 96.697547,
+        "interanual": null
+      },
+      {
+        "periodo": "2004-05",
+        "indice": 104.100533,
+        "interanual": null
+      },
+      {
+        "periodo": "2004-06",
+        "indice": 100.677853,
+        "interanual": null
+      },
+      {
+        "periodo": "2004-07",
+        "indice": 100.801741,
+        "interanual": null
+      },
+      {
+        "periodo": "2004-08",
+        "indice": 102.273513,
+        "interanual": null
+      },
+      {
+        "periodo": "2004-09",
+        "indice": 100.584077,
+        "interanual": null
+      },
+      {
+        "periodo": "2004-10",
+        "indice": 101.392728,
+        "interanual": null
+      },
+      {
+        "periodo": "2004-11",
+        "indice": 96.383469,
+        "interanual": null
+      },
+      {
+        "periodo": "2004-12",
+        "indice": 100.718814,
+        "interanual": null
+      }
+    ]
+  }
+}

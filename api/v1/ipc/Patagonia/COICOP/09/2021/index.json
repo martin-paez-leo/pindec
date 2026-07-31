@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "09",
+    "nombre": "Recreación y cultura",
+    "historico": [
+      {
+        "periodo": "2021-01",
+        "indice": 389.5475,
+        "mensual": 4.7,
+        "interanual": 39.2
+      },
+      {
+        "periodo": "2021-02",
+        "indice": 405.7329,
+        "mensual": 4.2,
+        "interanual": 41.3
+      },
+      {
+        "periodo": "2021-03",
+        "indice": 420.5266,
+        "mensual": 3.6,
+        "interanual": 44.5
+      },
+      {
+        "periodo": "2021-04",
+        "indice": 434.2966,
+        "mensual": 3.3,
+        "interanual": 45.4
+      },
+      {
+        "periodo": "2021-05",
+        "indice": 443.6422,
+        "mensual": 2.2,
+        "interanual": 40.4
+      },
+      {
+        "periodo": "2021-06",
+        "indice": 456.1597,
+        "mensual": 2.8,
+        "interanual": 45.5
+      },
+      {
+        "periodo": "2021-07",
+        "indice": 472.5689,
+        "mensual": 3.6,
+        "interanual": 41.9
+      },
+      {
+        "periodo": "2021-08",
+        "indice": 488.7301,
+        "mensual": 3.4,
+        "interanual": 39.4
+      },
+      {
+        "periodo": "2021-09",
+        "indice": 516.4493,
+        "mensual": 5.7,
+        "interanual": 47.6
+      },
+      {
+        "periodo": "2021-10",
+        "indice": 524.8739,
+        "mensual": 1.6,
+        "interanual": 45.6
+      },
+      {
+        "periodo": "2021-11",
+        "indice": 530.3905,
+        "mensual": 1.1,
+        "interanual": 45.2
+      },
+      {
+        "periodo": "2021-12",
+        "indice": 547.4848,
+        "mensual": 3.2,
+        "interanual": 47.1
+      }
+    ]
+  }
+}

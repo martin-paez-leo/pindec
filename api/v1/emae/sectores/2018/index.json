@@ -1,0 +1,995 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": [
+    {
+      "codigo": "A",
+      "nombre": "Agricultura, ganadería, caza y silvicultura",
+      "historico": [
+        {
+          "periodo": "2018-01",
+          "indice": 68.410586,
+          "interanual": 1.616362
+        },
+        {
+          "periodo": "2018-02",
+          "indice": 74.749176,
+          "interanual": -0.571155
+        },
+        {
+          "periodo": "2018-03",
+          "indice": 144.65148,
+          "interanual": 1.708722
+        },
+        {
+          "periodo": "2018-04",
+          "indice": 163.285404,
+          "interanual": -29.626019
+        },
+        {
+          "periodo": "2018-05",
+          "indice": 223.684247,
+          "interanual": -32.220759
+        },
+        {
+          "periodo": "2018-06",
+          "indice": 149.951518,
+          "interanual": -34.263351
+        },
+        {
+          "periodo": "2018-07",
+          "indice": 105.722929,
+          "interanual": -5.31973
+        },
+        {
+          "periodo": "2018-08",
+          "indice": 74.548745,
+          "interanual": 1.999606
+        },
+        {
+          "periodo": "2018-09",
+          "indice": 65.386721,
+          "interanual": 0.979055
+        },
+        {
+          "periodo": "2018-10",
+          "indice": 78.628356,
+          "interanual": 0.505277
+        },
+        {
+          "periodo": "2018-11",
+          "indice": 90.218472,
+          "interanual": 1.351257
+        },
+        {
+          "periodo": "2018-12",
+          "indice": 101.8814,
+          "interanual": 5.262274
+        }
+      ]
+    },
+    {
+      "codigo": "B",
+      "nombre": "Pesca",
+      "historico": [
+        {
+          "periodo": "2018-01",
+          "indice": 126.006297,
+          "interanual": 67.449673
+        },
+        {
+          "periodo": "2018-02",
+          "indice": 161.93114,
+          "interanual": -0.00186
+        },
+        {
+          "periodo": "2018-03",
+          "indice": 153.507958,
+          "interanual": 2.897877
+        },
+        {
+          "periodo": "2018-04",
+          "indice": 111.098935,
+          "interanual": 6.316267
+        },
+        {
+          "periodo": "2018-05",
+          "indice": 130.959425,
+          "interanual": -21.222816
+        },
+        {
+          "periodo": "2018-06",
+          "indice": 197.338387,
+          "interanual": -16.403217
+        },
+        {
+          "periodo": "2018-07",
+          "indice": 265.743334,
+          "interanual": 6.683169
+        },
+        {
+          "periodo": "2018-08",
+          "indice": 292.737789,
+          "interanual": 14.093993
+        },
+        {
+          "periodo": "2018-09",
+          "indice": 291.204236,
+          "interanual": 4.242634
+        },
+        {
+          "periodo": "2018-10",
+          "indice": 304.675133,
+          "interanual": 30.679622
+        },
+        {
+          "periodo": "2018-11",
+          "indice": 121.778534,
+          "interanual": -3.086347
+        },
+        {
+          "periodo": "2018-12",
+          "indice": 84.643202,
+          "interanual": -5.264326
+        }
+      ]
+    },
+    {
+      "codigo": "C",
+      "nombre": "Explotación de minas y canteras",
+      "historico": [
+        {
+          "periodo": "2018-01",
+          "indice": 87.859878,
+          "interanual": 0.892585
+        },
+        {
+          "periodo": "2018-02",
+          "indice": 81.766055,
+          "interanual": 1.372409
+        },
+        {
+          "periodo": "2018-03",
+          "indice": 89.912846,
+          "interanual": 1.282815
+        },
+        {
+          "periodo": "2018-04",
+          "indice": 86.702215,
+          "interanual": 6.28094
+        },
+        {
+          "periodo": "2018-05",
+          "indice": 91.387806,
+          "interanual": 2.730917
+        },
+        {
+          "periodo": "2018-06",
+          "indice": 87.077363,
+          "interanual": 4.891408
+        },
+        {
+          "periodo": "2018-07",
+          "indice": 88.861537,
+          "interanual": 1.740961
+        },
+        {
+          "periodo": "2018-08",
+          "indice": 87.870995,
+          "interanual": -1.372728
+        },
+        {
+          "periodo": "2018-09",
+          "indice": 86.349735,
+          "interanual": -0.622463
+        },
+        {
+          "periodo": "2018-10",
+          "indice": 88.611351,
+          "interanual": -2.608179
+        },
+        {
+          "periodo": "2018-11",
+          "indice": 84.961844,
+          "interanual": -2.863387
+        },
+        {
+          "periodo": "2018-12",
+          "indice": 87.974336,
+          "interanual": -0.787912
+        }
+      ]
+    },
+    {
+      "codigo": "D",
+      "nombre": "Industria manufacturera",
+      "historico": [
+        {
+          "periodo": "2018-01",
+          "indice": 116.916123,
+          "interanual": 3.651182
+        },
+        {
+          "periodo": "2018-02",
+          "indice": 112.84132,
+          "interanual": 5.65955
+        },
+        {
+          "periodo": "2018-03",
+          "indice": 133.277528,
+          "interanual": 1.940226
+        },
+        {
+          "periodo": "2018-04",
+          "indice": 126.925213,
+          "interanual": 3.439738
+        },
+        {
+          "periodo": "2018-05",
+          "indice": 132.897119,
+          "interanual": -0.792365
+        },
+        {
+          "periodo": "2018-06",
+          "indice": 130.764322,
+          "interanual": -7.597229
+        },
+        {
+          "periodo": "2018-07",
+          "indice": 126.695199,
+          "interanual": -5.922708
+        },
+        {
+          "periodo": "2018-08",
+          "indice": 135.050078,
+          "interanual": -4.900549
+        },
+        {
+          "periodo": "2018-09",
+          "indice": 122.103016,
+          "interanual": -11.547591
+        },
+        {
+          "periodo": "2018-10",
+          "indice": 132.124572,
+          "interanual": -7.605602
+        },
+        {
+          "periodo": "2018-11",
+          "indice": 125.617432,
+          "interanual": -13.50103
+        },
+        {
+          "periodo": "2018-12",
+          "indice": 112.985951,
+          "interanual": -14.958542
+        }
+      ]
+    },
+    {
+      "codigo": "E",
+      "nombre": "Electricidad, gas y agua",
+      "historico": [
+        {
+          "periodo": "2018-01",
+          "indice": 154.802736,
+          "interanual": -0.356164
+        },
+        {
+          "periodo": "2018-02",
+          "indice": 144.253989,
+          "interanual": 2.025446
+        },
+        {
+          "periodo": "2018-03",
+          "indice": 145.02591,
+          "interanual": -0.413412
+        },
+        {
+          "periodo": "2018-04",
+          "indice": 138.294473,
+          "interanual": 3.027003
+        },
+        {
+          "periodo": "2018-05",
+          "indice": 141.781848,
+          "interanual": -1.236648
+        },
+        {
+          "periodo": "2018-06",
+          "indice": 156.654762,
+          "interanual": 4.421125
+        },
+        {
+          "periodo": "2018-07",
+          "indice": 155.956308,
+          "interanual": 3.016444
+        },
+        {
+          "periodo": "2018-08",
+          "indice": 149.153092,
+          "interanual": 2.366864
+        },
+        {
+          "periodo": "2018-09",
+          "indice": 132.402777,
+          "interanual": -3.132513
+        },
+        {
+          "periodo": "2018-10",
+          "indice": 133.405924,
+          "interanual": -1.326531
+        },
+        {
+          "periodo": "2018-11",
+          "indice": 131.162472,
+          "interanual": 0.530075
+        },
+        {
+          "periodo": "2018-12",
+          "indice": 139.279557,
+          "interanual": -7.404108
+        }
+      ]
+    },
+    {
+      "codigo": "F",
+      "nombre": "Construcción",
+      "historico": [
+        {
+          "periodo": "2018-01",
+          "indice": 157.054813,
+          "interanual": 11.179398
+        },
+        {
+          "periodo": "2018-02",
+          "indice": 151.269914,
+          "interanual": 9.968866
+        },
+        {
+          "periodo": "2018-03",
+          "indice": 158.423841,
+          "interanual": 4.918484
+        },
+        {
+          "periodo": "2018-04",
+          "indice": 147.527475,
+          "interanual": 9.163927
+        },
+        {
+          "periodo": "2018-05",
+          "indice": 153.417229,
+          "interanual": 5.22588
+        },
+        {
+          "periodo": "2018-06",
+          "indice": 148.593073,
+          "interanual": 1.825778
+        },
+        {
+          "periodo": "2018-07",
+          "indice": 147.468815,
+          "interanual": 0.722109
+        },
+        {
+          "periodo": "2018-08",
+          "indice": 159.870465,
+          "interanual": 0.326849
+        },
+        {
+          "periodo": "2018-09",
+          "indice": 147.831848,
+          "interanual": -2.262786
+        },
+        {
+          "periodo": "2018-10",
+          "indice": 143.655066,
+          "interanual": -3.970898
+        },
+        {
+          "periodo": "2018-11",
+          "indice": 138.575186,
+          "interanual": -9.859543
+        },
+        {
+          "periodo": "2018-12",
+          "indice": 126.296855,
+          "interanual": -11.817054
+        }
+      ]
+    },
+    {
+      "codigo": "G",
+      "nombre": "Comercio mayorista, minorista y reparaciones",
+      "historico": [
+        {
+          "periodo": "2018-01",
+          "indice": 142.245392,
+          "interanual": 8.217771
+        },
+        {
+          "periodo": "2018-02",
+          "indice": 150.992373,
+          "interanual": 9.661683
+        },
+        {
+          "periodo": "2018-03",
+          "indice": 176.134277,
+          "interanual": 3.025077
+        },
+        {
+          "periodo": "2018-04",
+          "indice": 154.992,
+          "interanual": 6.600373
+        },
+        {
+          "periodo": "2018-05",
+          "indice": 162.758192,
+          "interanual": -0.109102
+        },
+        {
+          "periodo": "2018-06",
+          "indice": 155.662601,
+          "interanual": -7.77128
+        },
+        {
+          "periodo": "2018-07",
+          "indice": 149.181668,
+          "interanual": -6.138417
+        },
+        {
+          "periodo": "2018-08",
+          "indice": 155.4073,
+          "interanual": -5.58183
+        },
+        {
+          "periodo": "2018-09",
+          "indice": 139.545747,
+          "interanual": -12.215759
+        },
+        {
+          "periodo": "2018-10",
+          "indice": 150.081898,
+          "interanual": -10.343467
+        },
+        {
+          "periodo": "2018-11",
+          "indice": 150.942164,
+          "interanual": -15.652303
+        },
+        {
+          "periodo": "2018-12",
+          "indice": 130.73588,
+          "interanual": -12.018177
+        }
+      ]
+    },
+    {
+      "codigo": "H",
+      "nombre": "Hoteles y restaurantes",
+      "historico": [
+        {
+          "periodo": "2018-01",
+          "indice": 177.331209,
+          "interanual": 3.490984
+        },
+        {
+          "periodo": "2018-02",
+          "indice": 169.506683,
+          "interanual": 3.327449
+        },
+        {
+          "periodo": "2018-03",
+          "indice": 166.391006,
+          "interanual": 5.189483
+        },
+        {
+          "periodo": "2018-04",
+          "indice": 159.057114,
+          "interanual": 0.972964
+        },
+        {
+          "periodo": "2018-05",
+          "indice": 153.298655,
+          "interanual": 0.659976
+        },
+        {
+          "periodo": "2018-06",
+          "indice": 149.72378,
+          "interanual": -2.50033
+        },
+        {
+          "periodo": "2018-07",
+          "indice": 167.952253,
+          "interanual": -2.901037
+        },
+        {
+          "periodo": "2018-08",
+          "indice": 165.442044,
+          "interanual": -1.83514
+        },
+        {
+          "periodo": "2018-09",
+          "indice": 160.660815,
+          "interanual": -3.186282
+        },
+        {
+          "periodo": "2018-10",
+          "indice": 170.705667,
+          "interanual": -2.391656
+        },
+        {
+          "periodo": "2018-11",
+          "indice": 171.761218,
+          "interanual": -3.127823
+        },
+        {
+          "periodo": "2018-12",
+          "indice": 173.113757,
+          "interanual": -2.047749
+        }
+      ]
+    },
+    {
+      "codigo": "I",
+      "nombre": "Transporte y comunicaciones",
+      "historico": [
+        {
+          "periodo": "2018-01",
+          "indice": 197.706179,
+          "interanual": 1.020606
+        },
+        {
+          "periodo": "2018-02",
+          "indice": 186.503276,
+          "interanual": 0.430572
+        },
+        {
+          "periodo": "2018-03",
+          "indice": 199.241475,
+          "interanual": -0.25478
+        },
+        {
+          "periodo": "2018-04",
+          "indice": 195.482711,
+          "interanual": -1.352168
+        },
+        {
+          "periodo": "2018-05",
+          "indice": 200.86209,
+          "interanual": -5.238758
+        },
+        {
+          "periodo": "2018-06",
+          "indice": 192.574865,
+          "interanual": -5.820836
+        },
+        {
+          "periodo": "2018-07",
+          "indice": 194.02594,
+          "interanual": -3.776038
+        },
+        {
+          "periodo": "2018-08",
+          "indice": 191.348986,
+          "interanual": -3.409478
+        },
+        {
+          "periodo": "2018-09",
+          "indice": 185.249144,
+          "interanual": -5.016252
+        },
+        {
+          "periodo": "2018-10",
+          "indice": 188.980127,
+          "interanual": -3.908446
+        },
+        {
+          "periodo": "2018-11",
+          "indice": 185.803665,
+          "interanual": -5.579328
+        },
+        {
+          "periodo": "2018-12",
+          "indice": 183.893623,
+          "interanual": -4.702384
+        }
+      ]
+    },
+    {
+      "codigo": "J",
+      "nombre": "Intermediación financiera",
+      "historico": [
+        {
+          "periodo": "2018-01",
+          "indice": 195.274347,
+          "interanual": 5.927058
+        },
+        {
+          "periodo": "2018-02",
+          "indice": 188.193698,
+          "interanual": 8.019264
+        },
+        {
+          "periodo": "2018-03",
+          "indice": 192.164304,
+          "interanual": 3.034922
+        },
+        {
+          "periodo": "2018-04",
+          "indice": 192.414832,
+          "interanual": 10.595796
+        },
+        {
+          "periodo": "2018-05",
+          "indice": 195.461292,
+          "interanual": 10.791397
+        },
+        {
+          "periodo": "2018-06",
+          "indice": 190.459347,
+          "interanual": 5.089997
+        },
+        {
+          "periodo": "2018-07",
+          "indice": 194.246827,
+          "interanual": 7.287909
+        },
+        {
+          "periodo": "2018-08",
+          "indice": 200.020782,
+          "interanual": 6.693891
+        },
+        {
+          "periodo": "2018-09",
+          "indice": 187.796919,
+          "interanual": 2.135217
+        },
+        {
+          "periodo": "2018-10",
+          "indice": 183.940574,
+          "interanual": -2.377303
+        },
+        {
+          "periodo": "2018-11",
+          "indice": 175.22018,
+          "interanual": -6.885117
+        },
+        {
+          "periodo": "2018-12",
+          "indice": 186.172352,
+          "interanual": -3.934826
+        }
+      ]
+    },
+    {
+      "codigo": "K",
+      "nombre": "Actividades inmobiliarias, empresariales y de alquiler",
+      "historico": [
+        {
+          "periodo": "2018-01",
+          "indice": 138.259885,
+          "interanual": 4.595037
+        },
+        {
+          "periodo": "2018-02",
+          "indice": 137.582843,
+          "interanual": 4.223238
+        },
+        {
+          "periodo": "2018-03",
+          "indice": 142.458006,
+          "interanual": 3.313379
+        },
+        {
+          "periodo": "2018-04",
+          "indice": 143.7758,
+          "interanual": 5.60143
+        },
+        {
+          "periodo": "2018-05",
+          "indice": 145.636167,
+          "interanual": 4.115409
+        },
+        {
+          "periodo": "2018-06",
+          "indice": 145.568572,
+          "interanual": 1.652471
+        },
+        {
+          "periodo": "2018-07",
+          "indice": 142.632683,
+          "interanual": 0.922748
+        },
+        {
+          "periodo": "2018-08",
+          "indice": 142.919212,
+          "interanual": 0.212608
+        },
+        {
+          "periodo": "2018-09",
+          "indice": 138.216494,
+          "interanual": -2.129362
+        },
+        {
+          "periodo": "2018-10",
+          "indice": 141.778215,
+          "interanual": -1.067246
+        },
+        {
+          "periodo": "2018-11",
+          "indice": 140.659622,
+          "interanual": -2.432945
+        },
+        {
+          "periodo": "2018-12",
+          "indice": 143.023432,
+          "interanual": -2.354829
+        }
+      ]
+    },
+    {
+      "codigo": "L",
+      "nombre": "Administración pública y defensa; planes de seguridad social de afiliación obligatoria",
+      "historico": [
+        {
+          "periodo": "2018-01",
+          "indice": 155.000126,
+          "interanual": 1.161916
+        },
+        {
+          "periodo": "2018-02",
+          "indice": 154.609104,
+          "interanual": 0.884409
+        },
+        {
+          "periodo": "2018-03",
+          "indice": 154.349718,
+          "interanual": 0.426712
+        },
+        {
+          "periodo": "2018-04",
+          "indice": 153.660635,
+          "interanual": 0.065581
+        },
+        {
+          "periodo": "2018-05",
+          "indice": 153.799092,
+          "interanual": -0.04534
+        },
+        {
+          "periodo": "2018-06",
+          "indice": 154.624322,
+          "interanual": -0.05214
+        },
+        {
+          "periodo": "2018-07",
+          "indice": 153.933227,
+          "interanual": -0.162873
+        },
+        {
+          "periodo": "2018-08",
+          "indice": 153.189173,
+          "interanual": -0.280777
+        },
+        {
+          "periodo": "2018-09",
+          "indice": 153.50452,
+          "interanual": -0.137119
+        },
+        {
+          "periodo": "2018-10",
+          "indice": 153.944332,
+          "interanual": -0.258179
+        },
+        {
+          "periodo": "2018-11",
+          "indice": 154.60988,
+          "interanual": -0.234482
+        },
+        {
+          "periodo": "2018-12",
+          "indice": 154.651628,
+          "interanual": -0.432201
+        }
+      ]
+    },
+    {
+      "codigo": "M",
+      "nombre": "Enseñanza",
+      "historico": [
+        {
+          "periodo": "2018-01",
+          "indice": 156.22569,
+          "interanual": 2.288904
+        },
+        {
+          "periodo": "2018-02",
+          "indice": 156.514989,
+          "interanual": 2.424426
+        },
+        {
+          "periodo": "2018-03",
+          "indice": 158.794957,
+          "interanual": 2.541244
+        },
+        {
+          "periodo": "2018-04",
+          "indice": 159.645262,
+          "interanual": 2.538677
+        },
+        {
+          "periodo": "2018-05",
+          "indice": 160.683535,
+          "interanual": 2.138527
+        },
+        {
+          "periodo": "2018-06",
+          "indice": 162.142503,
+          "interanual": 1.998966
+        },
+        {
+          "periodo": "2018-07",
+          "indice": 162.594162,
+          "interanual": 1.265714
+        },
+        {
+          "periodo": "2018-08",
+          "indice": 162.661817,
+          "interanual": 1.418488
+        },
+        {
+          "periodo": "2018-09",
+          "indice": 163.115097,
+          "interanual": 1.365871
+        },
+        {
+          "periodo": "2018-10",
+          "indice": 163.417778,
+          "interanual": 1.558684
+        },
+        {
+          "periodo": "2018-11",
+          "indice": 163.775543,
+          "interanual": 1.379139
+        },
+        {
+          "periodo": "2018-12",
+          "indice": 163.418701,
+          "interanual": 1.139289
+        }
+      ]
+    },
+    {
+      "codigo": "N",
+      "nombre": "Servicios sociales y de salud",
+      "historico": [
+        {
+          "periodo": "2018-01",
+          "indice": 180.510682,
+          "interanual": 2.163432
+        },
+        {
+          "periodo": "2018-02",
+          "indice": 170.628676,
+          "interanual": 1.890337
+        },
+        {
+          "periodo": "2018-03",
+          "indice": 185.440435,
+          "interanual": 2.166839
+        },
+        {
+          "periodo": "2018-04",
+          "indice": 188.896735,
+          "interanual": 1.852668
+        },
+        {
+          "periodo": "2018-05",
+          "indice": 192.983351,
+          "interanual": 2.106034
+        },
+        {
+          "periodo": "2018-06",
+          "indice": 198.757642,
+          "interanual": 2.046013
+        },
+        {
+          "periodo": "2018-07",
+          "indice": 181.295877,
+          "interanual": 1.399265
+        },
+        {
+          "periodo": "2018-08",
+          "indice": 180.831772,
+          "interanual": 1.249979
+        },
+        {
+          "periodo": "2018-09",
+          "indice": 177.777987,
+          "interanual": 1.210926
+        },
+        {
+          "periodo": "2018-10",
+          "indice": 172.814744,
+          "interanual": 0.929633
+        },
+        {
+          "periodo": "2018-11",
+          "indice": 172.978737,
+          "interanual": 0.932376
+        },
+        {
+          "periodo": "2018-12",
+          "indice": 165.649074,
+          "interanual": 0.891437
+        }
+      ]
+    },
+    {
+      "codigo": "O",
+      "nombre": "Otras actividades de servicios comunitarios, sociales y personales",
+      "historico": [
+        {
+          "periodo": "2018-01",
+          "indice": 158.692106,
+          "interanual": 4.911108
+        },
+        {
+          "periodo": "2018-02",
+          "indice": 150.656941,
+          "interanual": 0.560285
+        },
+        {
+          "periodo": "2018-03",
+          "indice": 146.388013,
+          "interanual": -4.328776
+        },
+        {
+          "periodo": "2018-04",
+          "indice": 148.297232,
+          "interanual": -4.392764
+        },
+        {
+          "periodo": "2018-05",
+          "indice": 152.653803,
+          "interanual": 3.521994
+        },
+        {
+          "periodo": "2018-06",
+          "indice": 153.886968,
+          "interanual": 6.389247
+        },
+        {
+          "periodo": "2018-07",
+          "indice": 172.181069,
+          "interanual": 1.030959
+        },
+        {
+          "periodo": "2018-08",
+          "indice": 153.66322,
+          "interanual": 1.772581
+        },
+        {
+          "periodo": "2018-09",
+          "indice": 145.54728,
+          "interanual": -4.039565
+        },
+        {
+          "periodo": "2018-10",
+          "indice": 146.229099,
+          "interanual": -4.261528
+        },
+        {
+          "periodo": "2018-11",
+          "indice": 140.534536,
+          "interanual": -5.304811
+        },
+        {
+          "periodo": "2018-12",
+          "indice": 136.750555,
+          "interanual": -5.709188
+        }
+      ]
+    }
+  ]
+}

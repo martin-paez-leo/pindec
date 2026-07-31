@@ -1,0 +1,1415 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "COICOP": [
+      {
+        "codigo": "0",
+        "nombre": "NIVEL GENERAL",
+        "historico": [
+          {
+            "periodo": "2017-01",
+            "indice": 101.313,
+            "mensual": 1.3,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-02",
+            "indice": 103.8085,
+            "mensual": 2.5,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-03",
+            "indice": 106.2627,
+            "mensual": 2.4,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-04",
+            "indice": 109.0613,
+            "mensual": 2.6,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-05",
+            "indice": 110.4607,
+            "mensual": 1.3,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-06",
+            "indice": 111.9943,
+            "mensual": 1.4,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-07",
+            "indice": 113.9199,
+            "mensual": 1.7,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-08",
+            "indice": 115.6031,
+            "mensual": 1.5,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-09",
+            "indice": 117.9656,
+            "mensual": 2.0,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-10",
+            "indice": 119.4985,
+            "mensual": 1.3,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-11",
+            "indice": 120.8941,
+            "mensual": 1.2,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-12",
+            "indice": 125.0392,
+            "mensual": 3.4,
+            "interanual": 25.0
+          }
+        ]
+      },
+      {
+        "codigo": "01",
+        "nombre": "Alimentos y bebidas no alcohólicas",
+        "historico": [
+          {
+            "periodo": "2017-01",
+            "indice": 101.3069,
+            "mensual": 1.3,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-02",
+            "indice": 103.1646,
+            "mensual": 1.8,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-03",
+            "indice": 106.7878,
+            "mensual": 3.5,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-04",
+            "indice": 109.2144,
+            "mensual": 2.3,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-05",
+            "indice": 110.3615,
+            "mensual": 1.1,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-06",
+            "indice": 111.7923,
+            "mensual": 1.3,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-07",
+            "indice": 113.1579,
+            "mensual": 1.2,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-08",
+            "indice": 115.6549,
+            "mensual": 2.2,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-09",
+            "indice": 117.8695,
+            "mensual": 1.9,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-10",
+            "indice": 119.695,
+            "mensual": 1.5,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-11",
+            "indice": 120.909,
+            "mensual": 1.0,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-12",
+            "indice": 121.5528,
+            "mensual": 0.5,
+            "interanual": 21.6
+          }
+        ]
+      },
+      {
+        "codigo": "02",
+        "nombre": "Bebidas alcohólicas y tabaco",
+        "historico": [
+          {
+            "periodo": "2017-01",
+            "indice": 100.5008,
+            "mensual": 0.5,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-02",
+            "indice": 105.4806,
+            "mensual": 5.0,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-03",
+            "indice": 107.1121,
+            "mensual": 1.5,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-04",
+            "indice": 109.5812,
+            "mensual": 2.3,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-05",
+            "indice": 111.639,
+            "mensual": 1.9,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-06",
+            "indice": 112.1628,
+            "mensual": 0.5,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-07",
+            "indice": 115.9318,
+            "mensual": 3.4,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-08",
+            "indice": 117.4477,
+            "mensual": 1.3,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-09",
+            "indice": 118.2786,
+            "mensual": 0.7,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-10",
+            "indice": 122.1014,
+            "mensual": 3.2,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-11",
+            "indice": 123.4181,
+            "mensual": 1.1,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-12",
+            "indice": 124.1072,
+            "mensual": 0.6,
+            "interanual": 24.1
+          }
+        ]
+      },
+      {
+        "codigo": "03",
+        "nombre": "Prendas de vestir y calzado",
+        "historico": [
+          {
+            "periodo": "2017-01",
+            "indice": 97.8719,
+            "mensual": -2.1,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-02",
+            "indice": 97.4253,
+            "mensual": -0.5,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-03",
+            "indice": 102.0665,
+            "mensual": 4.8,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-04",
+            "indice": 107.2381,
+            "mensual": 5.1,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-05",
+            "indice": 107.9072,
+            "mensual": 0.6,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-06",
+            "indice": 108.5621,
+            "mensual": 0.6,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-07",
+            "indice": 106.5553,
+            "mensual": -1.8,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-08",
+            "indice": 105.6182,
+            "mensual": -0.9,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-09",
+            "indice": 111.8326,
+            "mensual": 5.9,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-10",
+            "indice": 113.6026,
+            "mensual": 1.6,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-11",
+            "indice": 114.8528,
+            "mensual": 1.1,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-12",
+            "indice": 115.6853,
+            "mensual": 0.7,
+            "interanual": 15.7
+          }
+        ]
+      },
+      {
+        "codigo": "04",
+        "nombre": "Vivienda, agua, electricidad, gas y otros combustibles",
+        "historico": [
+          {
+            "periodo": "2017-01",
+            "indice": 99.9812,
+            "mensual": 0.0,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-02",
+            "indice": 108.4042,
+            "mensual": 8.4,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-03",
+            "indice": 110.7756,
+            "mensual": 2.2,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-04",
+            "indice": 115.889,
+            "mensual": 4.6,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-05",
+            "indice": 118.0458,
+            "mensual": 1.9,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-06",
+            "indice": 120.9192,
+            "mensual": 2.4,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-07",
+            "indice": 123.9173,
+            "mensual": 2.5,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-08",
+            "indice": 127.1644,
+            "mensual": 2.6,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-09",
+            "indice": 128.2415,
+            "mensual": 0.8,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-10",
+            "indice": 128.9128,
+            "mensual": 0.5,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-11",
+            "indice": 130.1608,
+            "mensual": 1.0,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-12",
+            "indice": 154.7145,
+            "mensual": 18.9,
+            "interanual": 54.7
+          }
+        ]
+      },
+      {
+        "codigo": "05",
+        "nombre": "Equipamiento y mantenimiento del hogar",
+        "historico": [
+          {
+            "periodo": "2017-01",
+            "indice": 100.8651,
+            "mensual": 0.9,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-02",
+            "indice": 101.2178,
+            "mensual": 0.3,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-03",
+            "indice": 102.1399,
+            "mensual": 0.9,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-04",
+            "indice": 103.1802,
+            "mensual": 1.0,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-05",
+            "indice": 106.2886,
+            "mensual": 3.0,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-06",
+            "indice": 107.7485,
+            "mensual": 1.4,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-07",
+            "indice": 110.4314,
+            "mensual": 2.5,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-08",
+            "indice": 111.5098,
+            "mensual": 1.0,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-09",
+            "indice": 112.5568,
+            "mensual": 0.9,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-10",
+            "indice": 113.4367,
+            "mensual": 0.8,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-11",
+            "indice": 114.2362,
+            "mensual": 0.7,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-12",
+            "indice": 117.6715,
+            "mensual": 3.0,
+            "interanual": 17.7
+          }
+        ]
+      },
+      {
+        "codigo": "06",
+        "nombre": "Salud",
+        "historico": [
+          {
+            "periodo": "2017-01",
+            "indice": 101.3559,
+            "mensual": 1.4,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-02",
+            "indice": 104.6961,
+            "mensual": 3.3,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-03",
+            "indice": 106.6572,
+            "mensual": 1.9,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-04",
+            "indice": 108.1913,
+            "mensual": 1.4,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-05",
+            "indice": 109.7879,
+            "mensual": 1.5,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-06",
+            "indice": 111.1892,
+            "mensual": 1.3,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-07",
+            "indice": 114.9895,
+            "mensual": 3.4,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-08",
+            "indice": 118.3191,
+            "mensual": 2.9,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-09",
+            "indice": 121.1943,
+            "mensual": 2.4,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-10",
+            "indice": 122.1487,
+            "mensual": 0.8,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-11",
+            "indice": 123.5655,
+            "mensual": 1.2,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-12",
+            "indice": 127.1571,
+            "mensual": 2.9,
+            "interanual": 27.2
+          }
+        ]
+      },
+      {
+        "codigo": "07",
+        "nombre": "Transporte",
+        "historico": [
+          {
+            "periodo": "2017-01",
+            "indice": 101.7583,
+            "mensual": 1.8,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-02",
+            "indice": 103.5441,
+            "mensual": 1.8,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-03",
+            "indice": 104.5685,
+            "mensual": 1.0,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-04",
+            "indice": 105.0876,
+            "mensual": 0.5,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-05",
+            "indice": 106.2149,
+            "mensual": 1.1,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-06",
+            "indice": 106.5466,
+            "mensual": 0.3,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-07",
+            "indice": 108.0683,
+            "mensual": 1.4,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-08",
+            "indice": 109.2582,
+            "mensual": 1.1,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-09",
+            "indice": 110.258,
+            "mensual": 0.9,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-10",
+            "indice": 111.165,
+            "mensual": 0.8,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-11",
+            "indice": 114.133,
+            "mensual": 2.7,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-12",
+            "indice": 117.4772,
+            "mensual": 2.9,
+            "interanual": 17.5
+          }
+        ]
+      },
+      {
+        "codigo": "08",
+        "nombre": "Comunicación",
+        "historico": [
+          {
+            "periodo": "2017-01",
+            "indice": 103.8174,
+            "mensual": 3.8,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-02",
+            "indice": 108.0484,
+            "mensual": 4.1,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-03",
+            "indice": 110.6652,
+            "mensual": 2.4,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-04",
+            "indice": 118.2386,
+            "mensual": 6.8,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-05",
+            "indice": 118.1821,
+            "mensual": 0.0,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-06",
+            "indice": 120.4465,
+            "mensual": 1.9,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-07",
+            "indice": 121.0689,
+            "mensual": 0.5,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-08",
+            "indice": 123.3833,
+            "mensual": 1.9,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-09",
+            "indice": 124.5391,
+            "mensual": 0.9,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-10",
+            "indice": 130.4597,
+            "mensual": 4.8,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-11",
+            "indice": 131.1853,
+            "mensual": 0.6,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-12",
+            "indice": 134.1889,
+            "mensual": 2.3,
+            "interanual": 34.2
+          }
+        ]
+      },
+      {
+        "codigo": "09",
+        "nombre": "Recreación y cultura",
+        "historico": [
+          {
+            "periodo": "2017-01",
+            "indice": 103.243,
+            "mensual": 3.2,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-02",
+            "indice": 103.3096,
+            "mensual": 0.1,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-03",
+            "indice": 104.8017,
+            "mensual": 1.4,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-04",
+            "indice": 108.3531,
+            "mensual": 3.4,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-05",
+            "indice": 109.3191,
+            "mensual": 0.9,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-06",
+            "indice": 112.5701,
+            "mensual": 3.0,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-07",
+            "indice": 116.1042,
+            "mensual": 3.1,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-08",
+            "indice": 116.1082,
+            "mensual": 0.0,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-09",
+            "indice": 120.017,
+            "mensual": 3.4,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-10",
+            "indice": 120.605,
+            "mensual": 0.5,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-11",
+            "indice": 120.7139,
+            "mensual": 0.1,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-12",
+            "indice": 121.4988,
+            "mensual": 0.7,
+            "interanual": 21.5
+          }
+        ]
+      },
+      {
+        "codigo": "10",
+        "nombre": "Educación",
+        "historico": [
+          {
+            "periodo": "2017-01",
+            "indice": 100.4869,
+            "mensual": 0.5,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-02",
+            "indice": 104.936,
+            "mensual": 4.4,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-03",
+            "indice": 111.9338,
+            "mensual": 6.7,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-04",
+            "indice": 116.2786,
+            "mensual": 3.9,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-05",
+            "indice": 118.5362,
+            "mensual": 1.9,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-06",
+            "indice": 119.4016,
+            "mensual": 0.7,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-07",
+            "indice": 120.2404,
+            "mensual": 0.7,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-08",
+            "indice": 121.9879,
+            "mensual": 1.5,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-09",
+            "indice": 128.2949,
+            "mensual": 5.2,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-10",
+            "indice": 129.2551,
+            "mensual": 0.7,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-11",
+            "indice": 129.7823,
+            "mensual": 0.4,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-12",
+            "indice": 129.748,
+            "mensual": 0.0,
+            "interanual": 29.7
+          }
+        ]
+      },
+      {
+        "codigo": "11",
+        "nombre": "Restaurantes y hoteles",
+        "historico": [
+          {
+            "periodo": "2017-01",
+            "indice": 103.2868,
+            "mensual": 3.3,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-02",
+            "indice": 105.1373,
+            "mensual": 1.8,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-03",
+            "indice": 106.1813,
+            "mensual": 1.0,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-04",
+            "indice": 108.3494,
+            "mensual": 2.0,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-05",
+            "indice": 109.4833,
+            "mensual": 1.0,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-06",
+            "indice": 111.3293,
+            "mensual": 1.7,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-07",
+            "indice": 114.0646,
+            "mensual": 2.5,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-08",
+            "indice": 115.0985,
+            "mensual": 0.9,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-09",
+            "indice": 116.4971,
+            "mensual": 1.2,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-10",
+            "indice": 118.4669,
+            "mensual": 1.7,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-11",
+            "indice": 120.4916,
+            "mensual": 1.7,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-12",
+            "indice": 122.6855,
+            "mensual": 1.8,
+            "interanual": 22.7
+          }
+        ]
+      },
+      {
+        "codigo": "12",
+        "nombre": "Bienes y servicios varios",
+        "historico": [
+          {
+            "periodo": "2017-01",
+            "indice": 102.117,
+            "mensual": 2.1,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-02",
+            "indice": 104.1416,
+            "mensual": 2.0,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-03",
+            "indice": 105.5869,
+            "mensual": 1.4,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-04",
+            "indice": 107.5817,
+            "mensual": 1.9,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-05",
+            "indice": 109.0808,
+            "mensual": 1.4,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-06",
+            "indice": 110.1832,
+            "mensual": 1.0,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-07",
+            "indice": 111.7819,
+            "mensual": 1.5,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-08",
+            "indice": 113.4518,
+            "mensual": 1.5,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-09",
+            "indice": 115.5821,
+            "mensual": 1.9,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-10",
+            "indice": 117.3347,
+            "mensual": 1.5,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-11",
+            "indice": 118.7033,
+            "mensual": 1.2,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-12",
+            "indice": 119.6537,
+            "mensual": 0.8,
+            "interanual": 19.7
+          }
+        ]
+      }
+    ],
+    "categorias": [
+      {
+        "codigo": "Estacional",
+        "nombre": null,
+        "historico": [
+          {
+            "periodo": "2017-01",
+            "indice": 101.5562,
+            "mensual": 1.6,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-02",
+            "indice": 102.0783,
+            "mensual": 0.5,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-03",
+            "indice": 105.879,
+            "mensual": 3.7,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-04",
+            "indice": 108.5334,
+            "mensual": 2.5,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-05",
+            "indice": 108.0039,
+            "mensual": -0.5,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-06",
+            "indice": 109.5654,
+            "mensual": 1.4,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-07",
+            "indice": 110.1248,
+            "mensual": 0.5,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-08",
+            "indice": 111.4882,
+            "mensual": 1.2,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-09",
+            "indice": 117.1944,
+            "mensual": 5.1,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-10",
+            "indice": 119.8444,
+            "mensual": 2.3,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-11",
+            "indice": 121.0014,
+            "mensual": 1.0,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-12",
+            "indice": 121.1666,
+            "mensual": 0.1,
+            "interanual": 21.2
+          }
+        ]
+      },
+      {
+        "codigo": "Núcleo",
+        "nombre": null,
+        "historico": [
+          {
+            "periodo": "2017-01",
+            "indice": 101.3389,
+            "mensual": 1.3,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-02",
+            "indice": 103.2097,
+            "mensual": 1.8,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-03",
+            "indice": 105.0891,
+            "mensual": 1.8,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-04",
+            "indice": 107.4973,
+            "mensual": 2.3,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-05",
+            "indice": 109.2199,
+            "mensual": 1.6,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-06",
+            "indice": 110.8829,
+            "mensual": 1.5,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-07",
+            "indice": 112.8387,
+            "mensual": 1.8,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-08",
+            "indice": 114.5355,
+            "mensual": 1.5,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-09",
+            "indice": 116.5488,
+            "mensual": 1.8,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-10",
+            "indice": 117.8751,
+            "mensual": 1.1,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-11",
+            "indice": 119.4138,
+            "mensual": 1.3,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-12",
+            "indice": 121.7707,
+            "mensual": 2.0,
+            "interanual": 21.8
+          }
+        ]
+      },
+      {
+        "codigo": "Regulados",
+        "nombre": null,
+        "historico": [
+          {
+            "periodo": "2017-01",
+            "indice": 101.1274,
+            "mensual": 1.1,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-02",
+            "indice": 106.3489,
+            "mensual": 5.2,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-03",
+            "indice": 109.8871,
+            "mensual": 3.3,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-04",
+            "indice": 113.8991,
+            "mensual": 3.7,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-05",
+            "indice": 115.2166,
+            "mensual": 1.2,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-06",
+            "indice": 116.3567,
+            "mensual": 1.0,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-07",
+            "indice": 118.809,
+            "mensual": 2.1,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-08",
+            "indice": 120.5959,
+            "mensual": 1.5,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-09",
+            "indice": 122.4798,
+            "mensual": 1.6,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-10",
+            "indice": 124.1174,
+            "mensual": 1.3,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-11",
+            "indice": 125.1994,
+            "mensual": 0.9,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-12",
+            "indice": 136.3959,
+            "mensual": 8.9,
+            "interanual": 36.4
+          }
+        ]
+      }
+    ],
+    "bienes_servicios": [
+      {
+        "codigo": "B",
+        "nombre": null,
+        "historico": [
+          {
+            "periodo": "2017-01",
+            "indice": 101.0205,
+            "mensual": 1.0,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-02",
+            "indice": 102.4793,
+            "mensual": 1.4,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-03",
+            "indice": 105.1793,
+            "mensual": 2.6,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-04",
+            "indice": 107.7352,
+            "mensual": 2.4,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-05",
+            "indice": 109.0355,
+            "mensual": 1.2,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-06",
+            "indice": 110.2676,
+            "mensual": 1.1,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-07",
+            "indice": 111.4245,
+            "mensual": 1.0,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-08",
+            "indice": 112.9325,
+            "mensual": 1.4,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-09",
+            "indice": 115.3613,
+            "mensual": 2.2,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-10",
+            "indice": 117.0753,
+            "mensual": 1.5,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-11",
+            "indice": 118.7271,
+            "mensual": 1.4,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-12",
+            "indice": 120.0339,
+            "mensual": 1.1,
+            "interanual": 20.0
+          }
+        ]
+      },
+      {
+        "codigo": "S",
+        "nombre": null,
+        "historico": [
+          {
+            "periodo": "2017-01",
+            "indice": 101.7397,
+            "mensual": 1.7,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-02",
+            "indice": 105.7472,
+            "mensual": 3.9,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-03",
+            "indice": 107.8429,
+            "mensual": 2.0,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-04",
+            "indice": 110.9956,
+            "mensual": 2.9,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-05",
+            "indice": 112.5395,
+            "mensual": 1.4,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-06",
+            "indice": 114.5127,
+            "mensual": 1.8,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-07",
+            "indice": 117.5597,
+            "mensual": 2.7,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-08",
+            "indice": 119.4983,
+            "mensual": 1.6,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-09",
+            "indice": 121.7642,
+            "mensual": 1.9,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-10",
+            "indice": 123.033,
+            "mensual": 1.0,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-11",
+            "indice": 124.0548,
+            "mensual": 0.8,
+            "interanual": null
+          },
+          {
+            "periodo": "2017-12",
+            "indice": 132.3399,
+            "mensual": 6.7,
+            "interanual": 32.3
+          }
+        ]
+      }
+    ]
+  }
+}

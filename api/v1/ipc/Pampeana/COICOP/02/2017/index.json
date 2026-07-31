@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "02",
+    "nombre": "Bebidas alcohólicas y tabaco",
+    "historico": [
+      {
+        "periodo": "2017-01",
+        "indice": 101.3123,
+        "mensual": 1.3,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-02",
+        "indice": 105.2329,
+        "mensual": 3.9,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-03",
+        "indice": 107.7278,
+        "mensual": 2.4,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-04",
+        "indice": 110.2615,
+        "mensual": 2.4,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-05",
+        "indice": 111.9322,
+        "mensual": 1.5,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-06",
+        "indice": 112.7727,
+        "mensual": 0.8,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-07",
+        "indice": 115.9517,
+        "mensual": 2.8,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-08",
+        "indice": 117.2003,
+        "mensual": 1.1,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-09",
+        "indice": 118.0307,
+        "mensual": 0.7,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-10",
+        "indice": 121.4659,
+        "mensual": 2.9,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-11",
+        "indice": 122.9479,
+        "mensual": 1.2,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-12",
+        "indice": 123.6549,
+        "mensual": 0.6,
+        "interanual": 23.7
+      }
+    ]
+  }
+}

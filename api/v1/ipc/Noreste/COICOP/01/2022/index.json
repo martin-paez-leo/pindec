@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "01",
+    "nombre": "Alimentos y bebidas no alcohólicas",
+    "historico": [
+      {
+        "periodo": "2022-01",
+        "indice": 674.0474,
+        "mensual": 3.8,
+        "interanual": 46.2
+      },
+      {
+        "periodo": "2022-02",
+        "indice": 716.4709,
+        "mensual": 6.3,
+        "interanual": 49.8
+      },
+      {
+        "periodo": "2022-03",
+        "indice": 771.919,
+        "mensual": 7.7,
+        "interanual": 56.5
+      },
+      {
+        "periodo": "2022-04",
+        "indice": 821.4676,
+        "mensual": 6.4,
+        "interanual": 60.9
+      },
+      {
+        "periodo": "2022-05",
+        "indice": 863.0607,
+        "mensual": 5.1,
+        "interanual": 64.5
+      },
+      {
+        "periodo": "2022-06",
+        "indice": 900.1344,
+        "mensual": 4.3,
+        "interanual": 67.3
+      },
+      {
+        "periodo": "2022-07",
+        "indice": 959.1709,
+        "mensual": 6.6,
+        "interanual": 73.0
+      },
+      {
+        "periodo": "2022-08",
+        "indice": 1031.0056,
+        "mensual": 7.5,
+        "interanual": 82.4
+      },
+      {
+        "periodo": "2022-09",
+        "indice": 1101.2801,
+        "mensual": 6.8,
+        "interanual": 90.2
+      },
+      {
+        "periodo": "2022-10",
+        "indice": 1165.5308,
+        "mensual": 5.8,
+        "interanual": 95.2
+      },
+      {
+        "periodo": "2022-11",
+        "indice": 1207.7786,
+        "mensual": 3.6,
+        "interanual": 96.9
+      },
+      {
+        "periodo": "2022-12",
+        "indice": 1250.7603,
+        "mensual": 3.6,
+        "interanual": 92.6
+      }
+    ]
+  }
+}

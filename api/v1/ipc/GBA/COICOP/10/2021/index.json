@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "10",
+    "nombre": "Educación",
+    "historico": [
+      {
+        "periodo": "2021-01",
+        "indice": 323.7569,
+        "mensual": 0.7,
+        "interanual": 17.7
+      },
+      {
+        "periodo": "2021-02",
+        "indice": 323.7569,
+        "mensual": 0.0,
+        "interanual": 16.8
+      },
+      {
+        "periodo": "2021-03",
+        "indice": 421.306,
+        "mensual": 30.1,
+        "interanual": 26.6
+      },
+      {
+        "periodo": "2021-04",
+        "indice": 434.3193,
+        "mensual": 3.1,
+        "interanual": 33.4
+      },
+      {
+        "periodo": "2021-05",
+        "indice": 445.9948,
+        "mensual": 2.7,
+        "interanual": 39.8
+      },
+      {
+        "periodo": "2021-06",
+        "indice": 450.4861,
+        "mensual": 1.0,
+        "interanual": 41.9
+      },
+      {
+        "periodo": "2021-07",
+        "indice": 468.179,
+        "mensual": 3.9,
+        "interanual": 48.3
+      },
+      {
+        "periodo": "2021-08",
+        "indice": 488.7261,
+        "mensual": 4.4,
+        "interanual": 53.2
+      },
+      {
+        "periodo": "2021-09",
+        "indice": 506.6458,
+        "mensual": 3.7,
+        "interanual": 58.4
+      },
+      {
+        "periodo": "2021-10",
+        "indice": 511.521,
+        "mensual": 1.0,
+        "interanual": 59.9
+      },
+      {
+        "periodo": "2021-11",
+        "indice": 513.5276,
+        "mensual": 0.4,
+        "interanual": 59.7
+      },
+      {
+        "periodo": "2021-12",
+        "indice": 521.8127,
+        "mensual": 1.6,
+        "interanual": 62.3
+      }
+    ]
+  }
+}

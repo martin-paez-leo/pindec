@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "10",
+    "nombre": "Educación",
+    "historico": [
+      {
+        "periodo": "2024-01",
+        "indice": 1731.924,
+        "mensual": 3.9,
+        "interanual": 128.7
+      },
+      {
+        "periodo": "2024-02",
+        "indice": 2153.348,
+        "mensual": 24.3,
+        "interanual": 147.5
+      },
+      {
+        "periodo": "2024-03",
+        "indice": 2812.849,
+        "mensual": 30.6,
+        "interanual": 163.2
+      },
+      {
+        "periodo": "2024-04",
+        "indice": 3204.035,
+        "mensual": 13.9,
+        "interanual": 189.7
+      },
+      {
+        "periodo": "2024-05",
+        "indice": 3520.833,
+        "mensual": 9.9,
+        "interanual": 208.4
+      },
+      {
+        "periodo": "2024-06",
+        "indice": 3727.644,
+        "mensual": 5.9,
+        "interanual": 189.5
+      },
+      {
+        "periodo": "2024-07",
+        "indice": 4242.669,
+        "mensual": 13.8,
+        "interanual": 209.5
+      },
+      {
+        "periodo": "2024-08",
+        "indice": 4429.407,
+        "mensual": 4.4,
+        "interanual": 206.7
+      },
+      {
+        "periodo": "2024-09",
+        "indice": 4561.482,
+        "mensual": 3.0,
+        "interanual": 197.9
+      },
+      {
+        "periodo": "2024-10",
+        "indice": 4625.324,
+        "mensual": 1.4,
+        "interanual": 193.9
+      },
+      {
+        "periodo": "2024-11",
+        "indice": 4676.716,
+        "mensual": 1.1,
+        "interanual": 192.7
+      },
+      {
+        "periodo": "2024-12",
+        "indice": 4724.8948,
+        "mensual": 1.0,
+        "interanual": 183.6
+      }
+    ]
+  }
+}

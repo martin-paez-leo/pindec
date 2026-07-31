@@ -1,0 +1,69 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "codigo": "F",
+    "nombre": "Construcción",
+    "historico": [
+      {
+        "periodo": "2024-01",
+        "indice": 130.473352,
+        "interanual": -15.625343
+      },
+      {
+        "periodo": "2024-02",
+        "indice": 125.068574,
+        "interanual": -17.47978
+      },
+      {
+        "periodo": "2024-03",
+        "indice": 119.404033,
+        "interanual": -26.650392
+      },
+      {
+        "periodo": "2024-04",
+        "indice": 114.698014,
+        "interanual": -24.50085
+      },
+      {
+        "periodo": "2024-05",
+        "indice": 114.979822,
+        "interanual": -21.757028
+      },
+      {
+        "periodo": "2024-06",
+        "indice": 115.718084,
+        "interanual": -23.266363
+      },
+      {
+        "periodo": "2024-07",
+        "indice": 130.683032,
+        "interanual": -13.069045
+      },
+      {
+        "periodo": "2024-08",
+        "indice": 137.849503,
+        "interanual": -16.554416
+      },
+      {
+        "periodo": "2024-09",
+        "indice": 135.531491,
+        "interanual": -15.251866
+      },
+      {
+        "periodo": "2024-10",
+        "indice": 128.122973,
+        "interanual": -14.759007
+      },
+      {
+        "periodo": "2024-11",
+        "indice": 127.984055,
+        "interanual": -14.478004
+      },
+      {
+        "periodo": "2024-12",
+        "indice": 122.142891,
+        "interanual": -7.016122
+      }
+    ]
+  }
+}

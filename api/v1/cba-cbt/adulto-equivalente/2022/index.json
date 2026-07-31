@@ -1,0 +1,173 @@
+{
+  "fuente": "INDEC - Canasta Básica Alimentaria y Canasta Básica Total",
+  "datos": [
+    {
+      "periodo": "2022-01",
+      "cba": {
+        "indice": 11111.27,
+        "mensual": 4.2,
+        "interanual": 44.7
+      },
+      "cbt": {
+        "indice": 25444.81,
+        "mensual": 3.3,
+        "interanual": 39.3
+      },
+      "coef_engel": 2.29
+    },
+    {
+      "periodo": "2022-02",
+      "cba": {
+        "indice": 12108.08,
+        "mensual": 9.0,
+        "interanual": 52.2
+      },
+      "cbt": {
+        "indice": 27122.1,
+        "mensual": 6.6,
+        "interanual": 44.5
+      },
+      "coef_engel": 2.24
+    },
+    {
+      "periodo": "2022-03",
+      "cba": {
+        "indice": 12900.45,
+        "mensual": 6.5,
+        "interanual": 55.2
+      },
+      "cbt": {
+        "indice": 29026.01,
+        "mensual": 7.0,
+        "interanual": 47.3
+      },
+      "coef_engel": 2.25
+    },
+    {
+      "periodo": "2022-04",
+      "cba": {
+        "indice": 13762.77,
+        "mensual": 6.7,
+        "interanual": 59.4
+      },
+      "cbt": {
+        "indice": 30828.6,
+        "mensual": 6.2,
+        "interanual": 51.3
+      },
+      "coef_engel": 2.24
+    },
+    {
+      "periodo": "2022-05",
+      "cba": {
+        "indice": 14400.84,
+        "mensual": 4.6,
+        "interanual": 62.3
+      },
+      "cbt": {
+        "indice": 32257.88,
+        "mensual": 4.6,
+        "interanual": 54.7
+      },
+      "coef_engel": 2.24
+    },
+    {
+      "periodo": "2022-06",
+      "cba": {
+        "indice": 15056.75,
+        "mensual": 4.6,
+        "interanual": 63.7
+      },
+      "cbt": {
+        "indice": 33727.12,
+        "mensual": 4.6,
+        "interanual": 56.7
+      },
+      "coef_engel": 2.24
+    },
+    {
+      "periodo": "2022-07",
+      "cba": {
+        "indice": 16008.28,
+        "mensual": 6.3,
+        "interanual": 70.6
+      },
+      "cbt": {
+        "indice": 36018.63,
+        "mensual": 6.8,
+        "interanual": 64.7
+      },
+      "coef_engel": 2.25
+    },
+    {
+      "periodo": "2022-08",
+      "cba": {
+        "indice": 17148.8,
+        "mensual": 7.1,
+        "interanual": 81.4
+      },
+      "cbt": {
+        "indice": 38756.29,
+        "mensual": 7.6,
+        "interanual": 75.2
+      },
+      "coef_engel": 2.26
+    },
+    {
+      "periodo": "2022-09",
+      "cba": {
+        "indice": 18359.84,
+        "mensual": 7.1,
+        "interanual": 89.0
+      },
+      "cbt": {
+        "indice": 41493.24,
+        "mensual": 7.1,
+        "interanual": 81.8
+      },
+      "coef_engel": 2.26
+    },
+    {
+      "periodo": "2022-10",
+      "cba": {
+        "indice": 20098.92,
+        "mensual": 9.5,
+        "interanual": 100.8
+      },
+      "cbt": {
+        "indice": 45222.57,
+        "mensual": 9.0,
+        "interanual": 93.1
+      },
+      "coef_engel": 2.25
+    },
+    {
+      "periodo": "2022-11",
+      "cba": {
+        "indice": 20715.93,
+        "mensual": 3.1,
+        "interanual": 101.8
+      },
+      "cbt": {
+        "indice": 47232.32,
+        "mensual": 4.4,
+        "interanual": 97.4
+      },
+      "coef_engel": 2.28
+    },
+    {
+      "periodo": "2022-12",
+      "cba": {
+        "indice": 21743.48,
+        "mensual": 5.0,
+        "interanual": 103.8
+      },
+      "cbt": {
+        "indice": 49357.7,
+        "mensual": 4.5,
+        "interanual": 100.3
+      },
+      "coef_engel": 2.27
+    }
+  ]
+}

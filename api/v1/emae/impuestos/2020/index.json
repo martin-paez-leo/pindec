@@ -1,0 +1,67 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "historico": [
+      {
+        "periodo": "2020-01",
+        "indice": 162.138063,
+        "interanual": -2.090763
+      },
+      {
+        "periodo": "2020-02",
+        "indice": 146.481938,
+        "interanual": -3.546982
+      },
+      {
+        "periodo": "2020-03",
+        "indice": 137.18329,
+        "interanual": -12.16267
+      },
+      {
+        "periodo": "2020-04",
+        "indice": 119.12066,
+        "interanual": -24.664344
+      },
+      {
+        "periodo": "2020-05",
+        "indice": 134.378787,
+        "interanual": -18.96597
+      },
+      {
+        "periodo": "2020-06",
+        "indice": 140.964828,
+        "interanual": -7.314117
+      },
+      {
+        "periodo": "2020-07",
+        "indice": 140.264006,
+        "interanual": -12.994364
+      },
+      {
+        "periodo": "2020-08",
+        "indice": 140.154887,
+        "interanual": -11.587085
+      },
+      {
+        "periodo": "2020-09",
+        "indice": 143.535575,
+        "interanual": -6.686929
+      },
+      {
+        "periodo": "2020-10",
+        "indice": 144.860652,
+        "interanual": -9.375687
+      },
+      {
+        "periodo": "2020-11",
+        "indice": 145.35427,
+        "interanual": -4.876573
+      },
+      {
+        "periodo": "2020-12",
+        "indice": 144.320714,
+        "interanual": -3.208033
+      }
+    ]
+  }
+}

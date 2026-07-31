@@ -1,0 +1,69 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "codigo": "A",
+    "nombre": "Agricultura, ganadería, caza y silvicultura",
+    "historico": [
+      {
+        "periodo": "2023-01",
+        "indice": 81.062977,
+        "interanual": -21.265527
+      },
+      {
+        "periodo": "2023-02",
+        "indice": 69.233637,
+        "interanual": -12.085366
+      },
+      {
+        "periodo": "2023-03",
+        "indice": 123.419888,
+        "interanual": -17.951285
+      },
+      {
+        "periodo": "2023-04",
+        "indice": 121.751288,
+        "interanual": -39.997748
+      },
+      {
+        "periodo": "2023-05",
+        "indice": 138.557488,
+        "interanual": -49.062199
+      },
+      {
+        "periodo": "2023-06",
+        "indice": 106.796412,
+        "interanual": -43.970553
+      },
+      {
+        "periodo": "2023-07",
+        "indice": 93.187746,
+        "interanual": -14.017452
+      },
+      {
+        "periodo": "2023-08",
+        "indice": 74.219473,
+        "interanual": -2.979651
+      },
+      {
+        "periodo": "2023-09",
+        "indice": 71.254881,
+        "interanual": -1.775321
+      },
+      {
+        "periodo": "2023-10",
+        "indice": 65.223228,
+        "interanual": 1.099621
+      },
+      {
+        "periodo": "2023-11",
+        "indice": 78.832785,
+        "interanual": 4.646733
+      },
+      {
+        "periodo": "2023-12",
+        "indice": 100.803503,
+        "interanual": 9.567822
+      }
+    ]
+  }
+}

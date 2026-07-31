@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "05",
+    "nombre": "Equipamiento y mantenimiento del hogar",
+    "historico": [
+      {
+        "periodo": "2019-01",
+        "indice": 180.8936,
+        "mensual": 2.7,
+        "interanual": 52.5
+      },
+      {
+        "periodo": "2019-02",
+        "indice": 185.932,
+        "mensual": 2.8,
+        "interanual": 54.0
+      },
+      {
+        "periodo": "2019-03",
+        "indice": 192.9944,
+        "mensual": 3.8,
+        "interanual": 52.9
+      },
+      {
+        "periodo": "2019-04",
+        "indice": 201.8547,
+        "mensual": 4.6,
+        "interanual": 58.0
+      },
+      {
+        "periodo": "2019-05",
+        "indice": 208.3447,
+        "mensual": 3.2,
+        "interanual": 59.6
+      },
+      {
+        "periodo": "2019-06",
+        "indice": 215.4878,
+        "mensual": 3.4,
+        "interanual": 58.6
+      },
+      {
+        "periodo": "2019-07",
+        "indice": 220.9243,
+        "mensual": 2.5,
+        "interanual": 56.1
+      },
+      {
+        "periodo": "2019-08",
+        "indice": 234.3379,
+        "mensual": 6.1,
+        "interanual": 60.5
+      },
+      {
+        "periodo": "2019-09",
+        "indice": 251.7058,
+        "mensual": 7.4,
+        "interanual": 57.2
+      },
+      {
+        "periodo": "2019-10",
+        "indice": 272.1918,
+        "mensual": 8.1,
+        "interanual": 63.0
+      },
+      {
+        "periodo": "2019-11",
+        "indice": 273.7052,
+        "mensual": 0.6,
+        "interanual": 58.2
+      },
+      {
+        "periodo": "2019-12",
+        "indice": 288.4718,
+        "mensual": 5.4,
+        "interanual": 63.7
+      }
+    ]
+  }
+}

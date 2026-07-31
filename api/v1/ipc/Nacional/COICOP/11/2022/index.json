@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "11",
+    "nombre": "Restaurantes y hoteles",
+    "historico": [
+      {
+        "periodo": "2022-01",
+        "indice": 607.7867,
+        "mensual": 5.7,
+        "interanual": 65.8
+      },
+      {
+        "periodo": "2022-02",
+        "indice": 634.0233,
+        "mensual": 4.3,
+        "interanual": 64.1
+      },
+      {
+        "periodo": "2022-03",
+        "indice": 668.4613,
+        "mensual": 5.4,
+        "interanual": 67.8
+      },
+      {
+        "periodo": "2022-04",
+        "indice": 717.5668,
+        "mensual": 7.3,
+        "interanual": 73.4
+      },
+      {
+        "periodo": "2022-05",
+        "indice": 758.3527,
+        "mensual": 5.7,
+        "interanual": 76.7
+      },
+      {
+        "periodo": "2022-06",
+        "indice": 805.4594,
+        "mensual": 6.2,
+        "interanual": 81.9
+      },
+      {
+        "periodo": "2022-07",
+        "indice": 884.0683,
+        "mensual": 9.8,
+        "interanual": 90.6
+      },
+      {
+        "periodo": "2022-08",
+        "indice": 942.9087,
+        "mensual": 6.7,
+        "interanual": 97.5
+      },
+      {
+        "periodo": "2022-09",
+        "indice": 988.6307,
+        "mensual": 4.8,
+        "interanual": 99.0
+      },
+      {
+        "periodo": "2022-10",
+        "indice": 1061.9488,
+        "mensual": 7.4,
+        "interanual": 105.2
+      },
+      {
+        "periodo": "2022-11",
+        "indice": 1120.5659,
+        "mensual": 5.5,
+        "interanual": 106.3
+      },
+      {
+        "periodo": "2022-12",
+        "indice": 1200.8127,
+        "mensual": 7.2,
+        "interanual": 108.8
+      }
+    ]
+  }
+}

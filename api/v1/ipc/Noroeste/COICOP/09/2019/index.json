@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "09",
+    "nombre": "Recreación y cultura",
+    "historico": [
+      {
+        "periodo": "2019-01",
+        "indice": 185.4879,
+        "mensual": 3.2,
+        "interanual": 44.4
+      },
+      {
+        "periodo": "2019-02",
+        "indice": 190.3606,
+        "mensual": 2.6,
+        "interanual": 46.6
+      },
+      {
+        "periodo": "2019-03",
+        "indice": 193.2556,
+        "mensual": 1.5,
+        "interanual": 42.6
+      },
+      {
+        "periodo": "2019-04",
+        "indice": 202.1036,
+        "mensual": 4.6,
+        "interanual": 44.9
+      },
+      {
+        "periodo": "2019-05",
+        "indice": 207.0696,
+        "mensual": 2.5,
+        "interanual": 47.4
+      },
+      {
+        "periodo": "2019-06",
+        "indice": 216.2327,
+        "mensual": 4.4,
+        "interanual": 51.4
+      },
+      {
+        "periodo": "2019-07",
+        "indice": 224.0236,
+        "mensual": 3.6,
+        "interanual": 51.4
+      },
+      {
+        "periodo": "2019-08",
+        "indice": 233.2965,
+        "mensual": 4.1,
+        "interanual": 52.8
+      },
+      {
+        "periodo": "2019-09",
+        "indice": 246.5935,
+        "mensual": 5.7,
+        "interanual": 51.2
+      },
+      {
+        "periodo": "2019-10",
+        "indice": 254.3766,
+        "mensual": 3.2,
+        "interanual": 49.4
+      },
+      {
+        "periodo": "2019-11",
+        "indice": 261.3164,
+        "mensual": 2.7,
+        "interanual": 49.8
+      },
+      {
+        "periodo": "2019-12",
+        "indice": 273.4025,
+        "mensual": 4.6,
+        "interanual": 52.2
+      }
+    ]
+  }
+}

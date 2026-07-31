@@ -1,0 +1,69 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "codigo": "N",
+    "nombre": "Servicios sociales y de salud",
+    "historico": [
+      {
+        "periodo": "2007-01",
+        "indice": 114.399133,
+        "interanual": 6.705687
+      },
+      {
+        "periodo": "2007-02",
+        "indice": 109.768558,
+        "interanual": 6.386263
+      },
+      {
+        "periodo": "2007-03",
+        "indice": 118.640324,
+        "interanual": 7.205226
+      },
+      {
+        "periodo": "2007-04",
+        "indice": 121.854083,
+        "interanual": 7.08383
+      },
+      {
+        "periodo": "2007-05",
+        "indice": 124.18883,
+        "interanual": 7.411451
+      },
+      {
+        "periodo": "2007-06",
+        "indice": 128.162879,
+        "interanual": 7.237411
+      },
+      {
+        "periodo": "2007-07",
+        "indice": 120.014768,
+        "interanual": 5.825689
+      },
+      {
+        "periodo": "2007-08",
+        "indice": 125.228632,
+        "interanual": 5.256152
+      },
+      {
+        "periodo": "2007-09",
+        "indice": 121.547902,
+        "interanual": 4.606611
+      },
+      {
+        "periodo": "2007-10",
+        "indice": 118.93247,
+        "interanual": 6.336537
+      },
+      {
+        "periodo": "2007-11",
+        "indice": 118.950436,
+        "interanual": 6.907535
+      },
+      {
+        "periodo": "2007-12",
+        "indice": 116.214048,
+        "interanual": 6.362393
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "codigo": "B",
+    "nombre": "Pesca",
+    "historico": [
+      {
+        "periodo": "2020-01",
+        "indice": 101.708959,
+        "interanual": -32.733637
+      },
+      {
+        "periodo": "2020-02",
+        "indice": 183.550519,
+        "interanual": 10.717718
+      },
+      {
+        "periodo": "2020-03",
+        "indice": 80.919238,
+        "interanual": -47.705571
+      },
+      {
+        "periodo": "2020-04",
+        "indice": 128.835966,
+        "interanual": -15.872284
+      },
+      {
+        "periodo": "2020-05",
+        "indice": 153.34525,
+        "interanual": 66.307559
+      },
+      {
+        "periodo": "2020-06",
+        "indice": 88.79622,
+        "interanual": -50.894209
+      },
+      {
+        "periodo": "2020-07",
+        "indice": 86.84341,
+        "interanual": -65.604042
+      },
+      {
+        "periodo": "2020-08",
+        "indice": 264.279409,
+        "interanual": -8.991705
+      },
+      {
+        "periodo": "2020-09",
+        "indice": 237.468725,
+        "interanual": 45.323439
+      },
+      {
+        "periodo": "2020-10",
+        "indice": 162.649088,
+        "interanual": -26.337675
+      },
+      {
+        "periodo": "2020-11",
+        "indice": 86.643434,
+        "interanual": -8.523837
+      },
+      {
+        "periodo": "2020-12",
+        "indice": 103.053391,
+        "interanual": 7.640085
+      }
+    ]
+  }
+}

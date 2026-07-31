@@ -1,0 +1,69 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "codigo": "F",
+    "nombre": "Construcción",
+    "historico": [
+      {
+        "periodo": "2004-01",
+        "indice": 95.938047,
+        "interanual": null
+      },
+      {
+        "periodo": "2004-02",
+        "indice": 98.853388,
+        "interanual": null
+      },
+      {
+        "periodo": "2004-03",
+        "indice": 103.124529,
+        "interanual": null
+      },
+      {
+        "periodo": "2004-04",
+        "indice": 95.815492,
+        "interanual": null
+      },
+      {
+        "periodo": "2004-05",
+        "indice": 97.994567,
+        "interanual": null
+      },
+      {
+        "periodo": "2004-06",
+        "indice": 99.156784,
+        "interanual": null
+      },
+      {
+        "periodo": "2004-07",
+        "indice": 98.905998,
+        "interanual": null
+      },
+      {
+        "periodo": "2004-08",
+        "indice": 102.032812,
+        "interanual": null
+      },
+      {
+        "periodo": "2004-09",
+        "indice": 106.815127,
+        "interanual": null
+      },
+      {
+        "periodo": "2004-10",
+        "indice": 97.842113,
+        "interanual": null
+      },
+      {
+        "periodo": "2004-11",
+        "indice": 101.655574,
+        "interanual": null
+      },
+      {
+        "periodo": "2004-12",
+        "indice": 101.86557,
+        "interanual": null
+      }
+    ]
+  }
+}

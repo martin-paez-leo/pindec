@@ -1,0 +1,45 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "Estacional",
+    "nombre": null,
+    "historico": [
+      {
+        "periodo": "2026-01",
+        "indice": 9433.312,
+        "mensual": 5.4,
+        "interanual": 24.2
+      },
+      {
+        "periodo": "2026-02",
+        "indice": 9176.3219,
+        "mensual": -2.7,
+        "interanual": 22.1
+      },
+      {
+        "periodo": "2026-03",
+        "indice": 9284.12,
+        "mensual": 1.2,
+        "interanual": 12.5
+      },
+      {
+        "periodo": "2026-04",
+        "indice": 9300.4126,
+        "mensual": 0.2,
+        "interanual": 10.9
+      },
+      {
+        "periodo": "2026-05",
+        "indice": 9620.9269,
+        "mensual": 3.4,
+        "interanual": 18.2
+      },
+      {
+        "periodo": "2026-06",
+        "indice": 9954.0184,
+        "mensual": 3.5,
+        "interanual": 22.0
+      }
+    ]
+  }
+}

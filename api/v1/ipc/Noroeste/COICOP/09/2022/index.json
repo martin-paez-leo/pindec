@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "09",
+    "nombre": "Recreación y cultura",
+    "historico": [
+      {
+        "periodo": "2022-01",
+        "indice": 585.7392,
+        "mensual": 3.4,
+        "interanual": 45.3
+      },
+      {
+        "periodo": "2022-02",
+        "indice": 610.4035,
+        "mensual": 4.2,
+        "interanual": 47.5
+      },
+      {
+        "periodo": "2022-03",
+        "indice": 630.6953,
+        "mensual": 3.3,
+        "interanual": 48.4
+      },
+      {
+        "periodo": "2022-04",
+        "indice": 668.9202,
+        "mensual": 6.1,
+        "interanual": 52.9
+      },
+      {
+        "periodo": "2022-05",
+        "indice": 720.1144,
+        "mensual": 7.7,
+        "interanual": 60.8
+      },
+      {
+        "periodo": "2022-06",
+        "indice": 737.4775,
+        "mensual": 2.4,
+        "interanual": 61.9
+      },
+      {
+        "periodo": "2022-07",
+        "indice": 813.555,
+        "mensual": 10.3,
+        "interanual": 72.4
+      },
+      {
+        "periodo": "2022-08",
+        "indice": 875.4758,
+        "mensual": 7.6,
+        "interanual": 77.0
+      },
+      {
+        "periodo": "2022-09",
+        "indice": 913.0629,
+        "mensual": 4.3,
+        "interanual": 78.1
+      },
+      {
+        "periodo": "2022-10",
+        "indice": 978.8845,
+        "mensual": 7.2,
+        "interanual": 82.2
+      },
+      {
+        "periodo": "2022-11",
+        "indice": 1013.6889,
+        "mensual": 3.6,
+        "interanual": 85.4
+      },
+      {
+        "periodo": "2022-12",
+        "indice": 1078.2792,
+        "mensual": 6.4,
+        "interanual": 90.4
+      }
+    ]
+  }
+}

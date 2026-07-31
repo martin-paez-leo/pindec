@@ -1,0 +1,69 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "codigo": "F",
+    "nombre": "Construcción",
+    "historico": [
+      {
+        "periodo": "2008-01",
+        "indice": 147.915167,
+        "interanual": 8.960455
+      },
+      {
+        "periodo": "2008-02",
+        "indice": 150.627393,
+        "interanual": 8.523409
+      },
+      {
+        "periodo": "2008-03",
+        "indice": 151.299462,
+        "interanual": 5.80675
+      },
+      {
+        "periodo": "2008-04",
+        "indice": 148.684528,
+        "interanual": 11.39518
+      },
+      {
+        "periodo": "2008-05",
+        "indice": 149.099257,
+        "interanual": 8.812541
+      },
+      {
+        "periodo": "2008-06",
+        "indice": 147.065458,
+        "interanual": 8.147033
+      },
+      {
+        "periodo": "2008-07",
+        "indice": 152.136072,
+        "interanual": 6.52109
+      },
+      {
+        "periodo": "2008-08",
+        "indice": 149.612829,
+        "interanual": 3.874753
+      },
+      {
+        "periodo": "2008-09",
+        "indice": 149.988418,
+        "interanual": 3.70248
+      },
+      {
+        "periodo": "2008-10",
+        "indice": 138.280994,
+        "interanual": -3.128299
+      },
+      {
+        "periodo": "2008-11",
+        "indice": 136.194109,
+        "interanual": -4.902632
+      },
+      {
+        "periodo": "2008-12",
+        "indice": 129.505117,
+        "interanual": -6.423226
+      }
+    ]
+  }
+}

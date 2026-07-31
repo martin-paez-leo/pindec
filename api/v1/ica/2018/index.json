@@ -1,0 +1,198 @@
+{
+  "fuente": "INDEC - Intercambio Comercial Argentino (Balanza Comercial)",
+  "unidad_medida": "Millones de dólares",
+  "datos": [
+    {
+      "periodo": "2018-01",
+      "exportaciones": {
+        "mensual": 4810.240382,
+        "acumulado": 4810.240382,
+        "var_interanual_mensual": 12.107084,
+        "var_interanual_acumulada": 12.107084
+      },
+      "importaciones": {
+        "mensual": 5743.263921,
+        "acumulado": 5743.263921,
+        "var_interanual_mensual": 32.207875,
+        "var_interanual_acumulada": 32.207875
+      },
+      "saldo": -933.023539
+    },
+    {
+      "periodo": "2018-02",
+      "exportaciones": {
+        "mensual": 4304.213999,
+        "acumulado": 9114.454381,
+        "var_interanual_mensual": 10.382923,
+        "var_interanual_acumulada": 11.286203
+      },
+      "importaciones": {
+        "mensual": 5195.980217,
+        "acumulado": 10939.244137,
+        "var_interanual_mensual": 26.202754,
+        "var_interanual_acumulada": 29.285849
+      },
+      "saldo": -891.766217
+    },
+    {
+      "periodo": "2018-03",
+      "exportaciones": {
+        "mensual": 5416.664832,
+        "acumulado": 14531.119214,
+        "var_interanual_mensual": 18.664953,
+        "var_interanual_acumulada": 13.926906
+      },
+      "importaciones": {
+        "mensual": 5978.949641,
+        "acumulado": 16918.193779,
+        "var_interanual_mensual": 9.204893,
+        "var_interanual_acumulada": 21.396872
+      },
+      "saldo": -562.284809
+    },
+    {
+      "periodo": "2018-04",
+      "exportaciones": {
+        "mensual": 5216.330942,
+        "acumulado": 19747.450155,
+        "var_interanual_mensual": 7.185694,
+        "var_interanual_acumulada": 12.065137
+      },
+      "importaciones": {
+        "mensual": 6105.585065,
+        "acumulado": 23023.778844,
+        "var_interanual_mensual": 22.772155,
+        "var_interanual_acumulada": 21.758567
+      },
+      "saldo": -889.254123
+    },
+    {
+      "periodo": "2018-05",
+      "exportaciones": {
+        "mensual": 5163.055213,
+        "acumulado": 24910.505369,
+        "var_interanual_mensual": -6.009749,
+        "var_interanual_acumulada": 7.76964
+      },
+      "importaciones": {
+        "mensual": 6448.00055,
+        "acumulado": 29471.779393,
+        "var_interanual_mensual": 6.326842,
+        "var_interanual_acumulada": 18.011306
+      },
+      "saldo": -1284.945336
+    },
+    {
+      "periodo": "2018-06",
+      "exportaciones": {
+        "mensual": 5133.42608,
+        "acumulado": 30043.931449,
+        "var_interanual_mensual": -0.485815,
+        "var_interanual_acumulada": 6.263413
+      },
+      "importaciones": {
+        "mensual": 5461.019359,
+        "acumulado": 34932.798752,
+        "var_interanual_mensual": -7.41129,
+        "var_interanual_acumulada": 13.154251
+      },
+      "saldo": -327.593279
+    },
+    {
+      "periodo": "2018-07",
+      "exportaciones": {
+        "mensual": 5414.831051,
+        "acumulado": 35458.762499,
+        "var_interanual_mensual": 2.087965,
+        "var_interanual_acumulada": 5.60383
+      },
+      "importaciones": {
+        "mensual": 6182.401024,
+        "acumulado": 41115.199776,
+        "var_interanual_mensual": 2.311285,
+        "var_interanual_acumulada": 11.37931
+      },
+      "saldo": -767.569973
+    },
+    {
+      "periodo": "2018-08",
+      "exportaciones": {
+        "mensual": 5201.810175,
+        "acumulado": 40660.572674,
+        "var_interanual_mensual": -1.338429,
+        "var_interanual_acumulada": 4.661677
+      },
+      "importaciones": {
+        "mensual": 6314.301003,
+        "acumulado": 47429.500779,
+        "var_interanual_mensual": -0.038484,
+        "var_interanual_acumulada": 9.711002
+      },
+      "saldo": -1112.490828
+    },
+    {
+      "periodo": "2018-09",
+      "exportaciones": {
+        "mensual": 5036.808397,
+        "acumulado": 45697.381071,
+        "var_interanual_mensual": -4.392902,
+        "var_interanual_acumulada": 3.580442
+      },
+      "importaciones": {
+        "mensual": 4699.954629,
+        "acumulado": 52129.455409,
+        "var_interanual_mensual": -21.251996,
+        "var_interanual_acumulada": 5.95492
+      },
+      "saldo": 336.853767
+    },
+    {
+      "periodo": "2018-10",
+      "exportaciones": {
+        "mensual": 5398.125594,
+        "acumulado": 51095.506665,
+        "var_interanual_mensual": 2.226903,
+        "var_interanual_acumulada": 3.435753
+      },
+      "importaciones": {
+        "mensual": 5073.473682,
+        "acumulado": 57202.929091,
+        "var_interanual_mensual": -18.290157,
+        "var_interanual_acumulada": 3.238006
+      },
+      "saldo": 324.651912
+    },
+    {
+      "periodo": "2018-11",
+      "exportaciones": {
+        "mensual": 5349.607649,
+        "acumulado": 56445.114314,
+        "var_interanual_mensual": 14.601472,
+        "var_interanual_acumulada": 4.399785
+      },
+      "importaciones": {
+        "mensual": 4363.01218,
+        "acumulado": 61565.94127,
+        "var_interanual_mensual": -29.210546,
+        "var_interanual_acumulada": -0.01009
+      },
+      "saldo": 986.59547
+    },
+    {
+      "periodo": "2018-12",
+      "exportaciones": {
+        "mensual": 5336.414287,
+        "acumulado": 61781.528601,
+        "var_interanual_mensual": 16.55578,
+        "var_interanual_acumulada": 5.348809
+      },
+      "importaciones": {
+        "mensual": 3916.873146,
+        "acumulado": 65482.814416,
+        "var_interanual_mensual": -27.004774,
+        "var_interanual_acumulada": -2.174054
+      },
+      "saldo": 1419.541141
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "codigo": "B",
+    "nombre": "Pesca",
+    "historico": [
+      {
+        "periodo": "2018-01",
+        "indice": 126.006297,
+        "interanual": 67.449673
+      },
+      {
+        "periodo": "2018-02",
+        "indice": 161.93114,
+        "interanual": -0.00186
+      },
+      {
+        "periodo": "2018-03",
+        "indice": 153.507958,
+        "interanual": 2.897877
+      },
+      {
+        "periodo": "2018-04",
+        "indice": 111.098935,
+        "interanual": 6.316267
+      },
+      {
+        "periodo": "2018-05",
+        "indice": 130.959425,
+        "interanual": -21.222816
+      },
+      {
+        "periodo": "2018-06",
+        "indice": 197.338387,
+        "interanual": -16.403217
+      },
+      {
+        "periodo": "2018-07",
+        "indice": 265.743334,
+        "interanual": 6.683169
+      },
+      {
+        "periodo": "2018-08",
+        "indice": 292.737789,
+        "interanual": 14.093993
+      },
+      {
+        "periodo": "2018-09",
+        "indice": 291.204236,
+        "interanual": 4.242634
+      },
+      {
+        "periodo": "2018-10",
+        "indice": 304.675133,
+        "interanual": 30.679622
+      },
+      {
+        "periodo": "2018-11",
+        "indice": 121.778534,
+        "interanual": -3.086347
+      },
+      {
+        "periodo": "2018-12",
+        "indice": 84.643202,
+        "interanual": -5.264326
+      }
+    ]
+  }
+}

@@ -1,0 +1,995 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": [
+    {
+      "codigo": "A",
+      "nombre": "Agricultura, ganadería, caza y silvicultura",
+      "historico": [
+        {
+          "periodo": "2005-01",
+          "indice": 65.695472,
+          "interanual": -0.454394
+        },
+        {
+          "periodo": "2005-02",
+          "indice": 69.209749,
+          "interanual": 6.596913
+        },
+        {
+          "periodo": "2005-03",
+          "indice": 138.563577,
+          "interanual": 25.208173
+        },
+        {
+          "periodo": "2005-04",
+          "indice": 208.899823,
+          "interanual": 39.205372
+        },
+        {
+          "periodo": "2005-05",
+          "indice": 294.864395,
+          "interanual": 40.821961
+        },
+        {
+          "periodo": "2005-06",
+          "indice": 197.553812,
+          "interanual": 36.562983
+        },
+        {
+          "periodo": "2005-07",
+          "indice": 98.413028,
+          "interanual": 3.742854
+        },
+        {
+          "periodo": "2005-08",
+          "indice": 63.852659,
+          "interanual": -1.554857
+        },
+        {
+          "periodo": "2005-09",
+          "indice": 59.388424,
+          "interanual": -2.241112
+        },
+        {
+          "periodo": "2005-10",
+          "indice": 60.658392,
+          "interanual": -3.208706
+        },
+        {
+          "periodo": "2005-11",
+          "indice": 79.32336,
+          "interanual": 1.158078
+        },
+        {
+          "periodo": "2005-12",
+          "indice": 100.752162,
+          "interanual": 8.641557
+        }
+      ]
+    },
+    {
+      "codigo": "B",
+      "nombre": "Pesca",
+      "historico": [
+        {
+          "periodo": "2005-01",
+          "indice": 35.839641,
+          "interanual": -15.766306
+        },
+        {
+          "periodo": "2005-02",
+          "indice": 88.960427,
+          "interanual": 42.4717
+        },
+        {
+          "periodo": "2005-03",
+          "indice": 146.686981,
+          "interanual": -15.738129
+        },
+        {
+          "periodo": "2005-04",
+          "indice": 122.488741,
+          "interanual": -20.398608
+        },
+        {
+          "periodo": "2005-05",
+          "indice": 193.254246,
+          "interanual": 46.009109
+        },
+        {
+          "periodo": "2005-06",
+          "indice": 110.957014,
+          "interanual": -30.198092
+        },
+        {
+          "periodo": "2005-07",
+          "indice": 74.546248,
+          "interanual": -3.691174
+        },
+        {
+          "periodo": "2005-08",
+          "indice": 56.440578,
+          "interanual": -43.160912
+        },
+        {
+          "periodo": "2005-09",
+          "indice": 41.207362,
+          "interanual": -39.541575
+        },
+        {
+          "periodo": "2005-10",
+          "indice": 61.357364,
+          "interanual": -27.341661
+        },
+        {
+          "periodo": "2005-11",
+          "indice": 67.778525,
+          "interanual": -3.772366
+        },
+        {
+          "periodo": "2005-12",
+          "indice": 108.247039,
+          "interanual": 42.450702
+        }
+      ]
+    },
+    {
+      "codigo": "C",
+      "nombre": "Explotación de minas y canteras",
+      "historico": [
+        {
+          "periodo": "2005-01",
+          "indice": 101.19731,
+          "interanual": 0.489363
+        },
+        {
+          "periodo": "2005-02",
+          "indice": 93.223411,
+          "interanual": -2.296069
+        },
+        {
+          "periodo": "2005-03",
+          "indice": 101.591248,
+          "interanual": 1.336854
+        },
+        {
+          "periodo": "2005-04",
+          "indice": 99.125236,
+          "interanual": 2.5106
+        },
+        {
+          "periodo": "2005-05",
+          "indice": 104.305515,
+          "interanual": 0.196907
+        },
+        {
+          "periodo": "2005-06",
+          "indice": 99.494746,
+          "interanual": -1.175141
+        },
+        {
+          "periodo": "2005-07",
+          "indice": 104.128664,
+          "interanual": 3.300461
+        },
+        {
+          "periodo": "2005-08",
+          "indice": 102.779768,
+          "interanual": 0.495001
+        },
+        {
+          "periodo": "2005-09",
+          "indice": 98.041092,
+          "interanual": -2.528219
+        },
+        {
+          "periodo": "2005-10",
+          "indice": 96.293876,
+          "interanual": -5.028814
+        },
+        {
+          "periodo": "2005-11",
+          "indice": 97.361152,
+          "interanual": 1.014368
+        },
+        {
+          "periodo": "2005-12",
+          "indice": 98.735067,
+          "interanual": -1.969589
+        }
+      ]
+    },
+    {
+      "codigo": "D",
+      "nombre": "Industria manufacturera",
+      "historico": [
+        {
+          "periodo": "2005-01",
+          "indice": 97.298369,
+          "interanual": 6.389791
+        },
+        {
+          "periodo": "2005-02",
+          "indice": 94.707846,
+          "interanual": 5.907747
+        },
+        {
+          "periodo": "2005-03",
+          "indice": 107.569737,
+          "interanual": 6.056906
+        },
+        {
+          "periodo": "2005-04",
+          "indice": 107.551657,
+          "interanual": 9.259035
+        },
+        {
+          "periodo": "2005-05",
+          "indice": 109.43599,
+          "interanual": 9.050889
+        },
+        {
+          "periodo": "2005-06",
+          "indice": 107.965141,
+          "interanual": 7.249859
+        },
+        {
+          "periodo": "2005-07",
+          "indice": 108.632705,
+          "interanual": 5.974304
+        },
+        {
+          "periodo": "2005-08",
+          "indice": 109.721889,
+          "interanual": 8.623769
+        },
+        {
+          "periodo": "2005-09",
+          "indice": 108.689219,
+          "interanual": 5.973419
+        },
+        {
+          "periodo": "2005-10",
+          "indice": 114.314172,
+          "interanual": 7.939596
+        },
+        {
+          "periodo": "2005-11",
+          "indice": 113.20834,
+          "interanual": 8.462969
+        },
+        {
+          "periodo": "2005-12",
+          "indice": 109.982846,
+          "interanual": 7.959959
+        }
+      ]
+    },
+    {
+      "codigo": "E",
+      "nombre": "Electricidad, gas y agua",
+      "historico": [
+        {
+          "periodo": "2005-01",
+          "indice": 109.064218,
+          "interanual": 9.153743
+        },
+        {
+          "periodo": "2005-02",
+          "indice": 99.192425,
+          "interanual": 6.780871
+        },
+        {
+          "periodo": "2005-03",
+          "indice": 107.908977,
+          "interanual": 3.988396
+        },
+        {
+          "periodo": "2005-04",
+          "indice": 103.211166,
+          "interanual": 6.392461
+        },
+        {
+          "periodo": "2005-05",
+          "indice": 108.038706,
+          "interanual": 5.432596
+        },
+        {
+          "periodo": "2005-06",
+          "indice": 106.26375,
+          "interanual": 4.271009
+        },
+        {
+          "periodo": "2005-07",
+          "indice": 112.653868,
+          "interanual": 6.865458
+        },
+        {
+          "periodo": "2005-08",
+          "indice": 111.991176,
+          "interanual": 7.706799
+        },
+        {
+          "periodo": "2005-09",
+          "indice": 105.81064,
+          "interanual": 8.350023
+        },
+        {
+          "periodo": "2005-10",
+          "indice": 98.783314,
+          "interanual": 2.698675
+        },
+        {
+          "periodo": "2005-11",
+          "indice": 104.512668,
+          "interanual": 9.932756
+        },
+        {
+          "periodo": "2005-12",
+          "indice": 105.971259,
+          "interanual": 2.172733
+        }
+      ]
+    },
+    {
+      "codigo": "F",
+      "nombre": "Construcción",
+      "historico": [
+        {
+          "periodo": "2005-01",
+          "indice": 105.317046,
+          "interanual": 9.776099
+        },
+        {
+          "periodo": "2005-02",
+          "indice": 109.014691,
+          "interanual": 10.279166
+        },
+        {
+          "periodo": "2005-03",
+          "indice": 114.231074,
+          "interanual": 10.770032
+        },
+        {
+          "periodo": "2005-04",
+          "indice": 108.787384,
+          "interanual": 13.538408
+        },
+        {
+          "periodo": "2005-05",
+          "indice": 111.055134,
+          "interanual": 13.327848
+        },
+        {
+          "periodo": "2005-06",
+          "indice": 111.981828,
+          "interanual": 12.934107
+        },
+        {
+          "periodo": "2005-07",
+          "indice": 108.84565,
+          "interanual": 10.049595
+        },
+        {
+          "periodo": "2005-08",
+          "indice": 113.680843,
+          "interanual": 11.415967
+        },
+        {
+          "periodo": "2005-09",
+          "indice": 117.976418,
+          "interanual": 10.449167
+        },
+        {
+          "periodo": "2005-10",
+          "indice": 113.891616,
+          "interanual": 16.403471
+        },
+        {
+          "periodo": "2005-11",
+          "indice": 117.748082,
+          "interanual": 15.830424
+        },
+        {
+          "periodo": "2005-12",
+          "indice": 117.102203,
+          "interanual": 14.957589
+        }
+      ]
+    },
+    {
+      "codigo": "G",
+      "nombre": "Comercio mayorista, minorista y reparaciones",
+      "historico": [
+        {
+          "periodo": "2005-01",
+          "indice": 99.651367,
+          "interanual": 8.239832
+        },
+        {
+          "periodo": "2005-02",
+          "indice": 99.735819,
+          "interanual": 9.042941
+        },
+        {
+          "periodo": "2005-03",
+          "indice": 118.325049,
+          "interanual": 8.427981
+        },
+        {
+          "periodo": "2005-04",
+          "indice": 112.52418,
+          "interanual": 13.180467
+        },
+        {
+          "periodo": "2005-05",
+          "indice": 115.05014,
+          "interanual": 14.440465
+        },
+        {
+          "periodo": "2005-06",
+          "indice": 112.996224,
+          "interanual": 8.294078
+        },
+        {
+          "periodo": "2005-07",
+          "indice": 109.856246,
+          "interanual": 8.954947
+        },
+        {
+          "periodo": "2005-08",
+          "indice": 111.870065,
+          "interanual": 12.373084
+        },
+        {
+          "periodo": "2005-09",
+          "indice": 111.402171,
+          "interanual": 11.446397
+        },
+        {
+          "periodo": "2005-10",
+          "indice": 109.47016,
+          "interanual": 8.211705
+        },
+        {
+          "periodo": "2005-11",
+          "indice": 115.197933,
+          "interanual": 12.480425
+        },
+        {
+          "periodo": "2005-12",
+          "indice": 108.931135,
+          "interanual": 9.888908
+        }
+      ]
+    },
+    {
+      "codigo": "H",
+      "nombre": "Hoteles y restaurantes",
+      "historico": [
+        {
+          "periodo": "2005-01",
+          "indice": 118.473793,
+          "interanual": 9.281389
+        },
+        {
+          "periodo": "2005-02",
+          "indice": 112.706575,
+          "interanual": 8.949709
+        },
+        {
+          "periodo": "2005-03",
+          "indice": 110.767574,
+          "interanual": 9.603755
+        },
+        {
+          "periodo": "2005-04",
+          "indice": 102.694297,
+          "interanual": 10.136201
+        },
+        {
+          "periodo": "2005-05",
+          "indice": 99.669798,
+          "interanual": 9.544995
+        },
+        {
+          "periodo": "2005-06",
+          "indice": 100.193547,
+          "interanual": 10.642536
+        },
+        {
+          "periodo": "2005-07",
+          "indice": 113.500163,
+          "interanual": 14.587461
+        },
+        {
+          "periodo": "2005-08",
+          "indice": 114.8998,
+          "interanual": 17.041062
+        },
+        {
+          "periodo": "2005-09",
+          "indice": 117.748519,
+          "interanual": 17.688445
+        },
+        {
+          "periodo": "2005-10",
+          "indice": 117.431164,
+          "interanual": 14.077923
+        },
+        {
+          "periodo": "2005-11",
+          "indice": 119.793885,
+          "interanual": 12.489798
+        },
+        {
+          "periodo": "2005-12",
+          "indice": 117.444607,
+          "interanual": 11.228422
+        }
+      ]
+    },
+    {
+      "codigo": "I",
+      "nombre": "Transporte y comunicaciones",
+      "historico": [
+        {
+          "periodo": "2005-01",
+          "indice": 107.256978,
+          "interanual": 12.303062
+        },
+        {
+          "periodo": "2005-02",
+          "indice": 102.010171,
+          "interanual": 12.424733
+        },
+        {
+          "periodo": "2005-03",
+          "indice": 111.185706,
+          "interanual": 14.417062
+        },
+        {
+          "periodo": "2005-04",
+          "indice": 115.224455,
+          "interanual": 15.563133
+        },
+        {
+          "periodo": "2005-05",
+          "indice": 124.373995,
+          "interanual": 17.831477
+        },
+        {
+          "periodo": "2005-06",
+          "indice": 118.479037,
+          "interanual": 16.526466
+        },
+        {
+          "periodo": "2005-07",
+          "indice": 116.43926,
+          "interanual": 16.63731
+        },
+        {
+          "periodo": "2005-08",
+          "indice": 115.392561,
+          "interanual": 16.295365
+        },
+        {
+          "periodo": "2005-09",
+          "indice": 114.585165,
+          "interanual": 15.869994
+        },
+        {
+          "periodo": "2005-10",
+          "indice": 116.549908,
+          "interanual": 14.745508
+        },
+        {
+          "periodo": "2005-11",
+          "indice": 117.491121,
+          "interanual": 12.385749
+        },
+        {
+          "periodo": "2005-12",
+          "indice": 120.379427,
+          "interanual": 14.011055
+        }
+      ]
+    },
+    {
+      "codigo": "J",
+      "nombre": "Intermediación financiera",
+      "historico": [
+        {
+          "periodo": "2005-01",
+          "indice": 105.084953,
+          "interanual": 1.149961
+        },
+        {
+          "periodo": "2005-02",
+          "indice": 102.103137,
+          "interanual": 5.826687
+        },
+        {
+          "periodo": "2005-03",
+          "indice": 106.166915,
+          "interanual": 7.997947
+        },
+        {
+          "periodo": "2005-04",
+          "indice": 106.639062,
+          "interanual": 11.87962
+        },
+        {
+          "periodo": "2005-05",
+          "indice": 109.787183,
+          "interanual": 13.177213
+        },
+        {
+          "periodo": "2005-06",
+          "indice": 110.430842,
+          "interanual": 13.481039
+        },
+        {
+          "periodo": "2005-07",
+          "indice": 112.539922,
+          "interanual": 13.654288
+        },
+        {
+          "periodo": "2005-08",
+          "indice": 110.38335,
+          "interanual": 9.095682
+        },
+        {
+          "periodo": "2005-09",
+          "indice": 110.352221,
+          "interanual": 9.467144
+        },
+        {
+          "periodo": "2005-10",
+          "indice": 110.899075,
+          "interanual": 8.640116
+        },
+        {
+          "periodo": "2005-11",
+          "indice": 114.057744,
+          "interanual": 10.776359
+        },
+        {
+          "periodo": "2005-12",
+          "indice": 119.608632,
+          "interanual": 13.221618
+        }
+      ]
+    },
+    {
+      "codigo": "K",
+      "nombre": "Actividades inmobiliarias, empresariales y de alquiler",
+      "historico": [
+        {
+          "periodo": "2005-01",
+          "indice": 95.907299,
+          "interanual": 4.9103
+        },
+        {
+          "periodo": "2005-02",
+          "indice": 98.551628,
+          "interanual": 4.789787
+        },
+        {
+          "periodo": "2005-03",
+          "indice": 102.979593,
+          "interanual": 3.34261
+        },
+        {
+          "periodo": "2005-04",
+          "indice": 103.979959,
+          "interanual": 6.534376
+        },
+        {
+          "periodo": "2005-05",
+          "indice": 105.897316,
+          "interanual": 6.105822
+        },
+        {
+          "periodo": "2005-06",
+          "indice": 107.1167,
+          "interanual": 5.312711
+        },
+        {
+          "periodo": "2005-07",
+          "indice": 104.604149,
+          "interanual": 3.712643
+        },
+        {
+          "periodo": "2005-08",
+          "indice": 107.849176,
+          "interanual": 6.177433
+        },
+        {
+          "periodo": "2005-09",
+          "indice": 109.222976,
+          "interanual": 6.037259
+        },
+        {
+          "periodo": "2005-10",
+          "indice": 107.443258,
+          "interanual": 6.705757
+        },
+        {
+          "periodo": "2005-11",
+          "indice": 109.871307,
+          "interanual": 6.381688
+        },
+        {
+          "periodo": "2005-12",
+          "indice": 114.806609,
+          "interanual": 7.944233
+        }
+      ]
+    },
+    {
+      "codigo": "L",
+      "nombre": "Administración pública y defensa; planes de seguridad social de afiliación obligatoria",
+      "historico": [
+        {
+          "periodo": "2005-01",
+          "indice": 102.394795,
+          "interanual": 5.278079
+        },
+        {
+          "periodo": "2005-02",
+          "indice": 102.949937,
+          "interanual": 5.177293
+        },
+        {
+          "periodo": "2005-03",
+          "indice": 103.545878,
+          "interanual": 5.963478
+        },
+        {
+          "periodo": "2005-04",
+          "indice": 103.455447,
+          "interanual": 5.131728
+        },
+        {
+          "periodo": "2005-05",
+          "indice": 104.509852,
+          "interanual": 5.343628
+        },
+        {
+          "periodo": "2005-06",
+          "indice": 106.00525,
+          "interanual": 5.535191
+        },
+        {
+          "periodo": "2005-07",
+          "indice": 104.98282,
+          "interanual": 4.80969
+        },
+        {
+          "periodo": "2005-08",
+          "indice": 105.451713,
+          "interanual": 4.743409
+        },
+        {
+          "periodo": "2005-09",
+          "indice": 106.243487,
+          "interanual": 4.645977
+        },
+        {
+          "periodo": "2005-10",
+          "indice": 106.862526,
+          "interanual": 5.086763
+        },
+        {
+          "periodo": "2005-11",
+          "indice": 107.923999,
+          "interanual": 5.77039
+        },
+        {
+          "periodo": "2005-12",
+          "indice": 109.465183,
+          "interanual": 6.292766
+        }
+      ]
+    },
+    {
+      "codigo": "M",
+      "nombre": "Enseñanza",
+      "historico": [
+        {
+          "periodo": "2005-01",
+          "indice": 101.47357,
+          "interanual": 6.113161
+        },
+        {
+          "periodo": "2005-02",
+          "indice": 102.044016,
+          "interanual": 6.20265
+        },
+        {
+          "periodo": "2005-03",
+          "indice": 103.905701,
+          "interanual": 7.808023
+        },
+        {
+          "periodo": "2005-04",
+          "indice": 103.641022,
+          "interanual": 6.067998
+        },
+        {
+          "periodo": "2005-05",
+          "indice": 105.178237,
+          "interanual": 6.093947
+        },
+        {
+          "periodo": "2005-06",
+          "indice": 108.164508,
+          "interanual": 5.826267
+        },
+        {
+          "periodo": "2005-07",
+          "indice": 106.397122,
+          "interanual": 5.867686
+        },
+        {
+          "periodo": "2005-08",
+          "indice": 106.774961,
+          "interanual": 5.307864
+        },
+        {
+          "periodo": "2005-09",
+          "indice": 107.722298,
+          "interanual": 5.81417
+        },
+        {
+          "periodo": "2005-10",
+          "indice": 108.080915,
+          "interanual": 5.741767
+        },
+        {
+          "periodo": "2005-11",
+          "indice": 109.366437,
+          "interanual": 6.697533
+        },
+        {
+          "periodo": "2005-12",
+          "indice": 111.027662,
+          "interanual": 6.308154
+        }
+      ]
+    },
+    {
+      "codigo": "N",
+      "nombre": "Servicios sociales y de salud",
+      "historico": [
+        {
+          "periodo": "2005-01",
+          "indice": 103.773315,
+          "interanual": 10.164634
+        },
+        {
+          "periodo": "2005-02",
+          "indice": 99.890425,
+          "interanual": 10.604137
+        },
+        {
+          "periodo": "2005-03",
+          "indice": 110.524825,
+          "interanual": 12.686733
+        },
+        {
+          "periodo": "2005-04",
+          "indice": 109.491783,
+          "interanual": 7.15123
+        },
+        {
+          "periodo": "2005-05",
+          "indice": 111.68503,
+          "interanual": 8.683978
+        },
+        {
+          "periodo": "2005-06",
+          "indice": 117.951391,
+          "interanual": 13.127133
+        },
+        {
+          "periodo": "2005-07",
+          "indice": 111.839367,
+          "interanual": 9.814419
+        },
+        {
+          "periodo": "2005-08",
+          "indice": 115.490277,
+          "interanual": 10.524248
+        },
+        {
+          "periodo": "2005-09",
+          "indice": 114.055315,
+          "interanual": 8.935418
+        },
+        {
+          "periodo": "2005-10",
+          "indice": 109.39494,
+          "interanual": 9.154069
+        },
+        {
+          "periodo": "2005-11",
+          "indice": 109.219229,
+          "interanual": 9.551651
+        },
+        {
+          "periodo": "2005-12",
+          "indice": 106.179101,
+          "interanual": 9.190253
+        }
+      ]
+    },
+    {
+      "codigo": "O",
+      "nombre": "Otras actividades de servicios comunitarios, sociales y personales",
+      "historico": [
+        {
+          "periodo": "2005-01",
+          "indice": 106.679061,
+          "interanual": 9.97141
+        },
+        {
+          "periodo": "2005-02",
+          "indice": 105.456183,
+          "interanual": 8.901685
+        },
+        {
+          "periodo": "2005-03",
+          "indice": 104.694178,
+          "interanual": 8.88059
+        },
+        {
+          "periodo": "2005-04",
+          "indice": 106.032039,
+          "interanual": 8.104249
+        },
+        {
+          "periodo": "2005-05",
+          "indice": 107.595926,
+          "interanual": 9.730907
+        },
+        {
+          "periodo": "2005-06",
+          "indice": 110.561803,
+          "interanual": 10.820477
+        },
+        {
+          "periodo": "2005-07",
+          "indice": 122.563695,
+          "interanual": 12.722879
+        },
+        {
+          "periodo": "2005-08",
+          "indice": 112.011727,
+          "interanual": 11.502362
+        },
+        {
+          "periodo": "2005-09",
+          "indice": 110.609423,
+          "interanual": 10.692979
+        },
+        {
+          "periodo": "2005-10",
+          "indice": 112.497814,
+          "interanual": 11.206001
+        },
+        {
+          "periodo": "2005-11",
+          "indice": 112.20742,
+          "interanual": 12.17787
+        },
+        {
+          "periodo": "2005-12",
+          "indice": 116.75269,
+          "interanual": 12.479415
+        }
+      ]
+    }
+  ]
+}

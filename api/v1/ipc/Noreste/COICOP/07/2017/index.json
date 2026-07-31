@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "07",
+    "nombre": "Transporte",
+    "historico": [
+      {
+        "periodo": "2017-01",
+        "indice": 100.3463,
+        "mensual": 0.3,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-02",
+        "indice": 101.2812,
+        "mensual": 0.9,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-03",
+        "indice": 102.3716,
+        "mensual": 1.1,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-04",
+        "indice": 102.8986,
+        "mensual": 0.5,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-05",
+        "indice": 104.8915,
+        "mensual": 1.9,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-06",
+        "indice": 106.5643,
+        "mensual": 1.6,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-07",
+        "indice": 110.6746,
+        "mensual": 3.9,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-08",
+        "indice": 111.5878,
+        "mensual": 0.8,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-09",
+        "indice": 112.4219,
+        "mensual": 0.7,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-10",
+        "indice": 114.7539,
+        "mensual": 2.1,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-11",
+        "indice": 118.3001,
+        "mensual": 3.1,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-12",
+        "indice": 121.8522,
+        "mensual": 3.0,
+        "interanual": 21.9
+      }
+    ]
+  }
+}

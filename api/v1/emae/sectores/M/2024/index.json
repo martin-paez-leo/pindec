@@ -1,0 +1,69 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "codigo": "M",
+    "nombre": "Enseñanza",
+    "historico": [
+      {
+        "periodo": "2024-01",
+        "indice": 167.161234,
+        "interanual": 1.656192
+      },
+      {
+        "periodo": "2024-02",
+        "indice": 168.498574,
+        "interanual": 1.827225
+      },
+      {
+        "periodo": "2024-03",
+        "indice": 171.269987,
+        "interanual": 0.883535
+      },
+      {
+        "periodo": "2024-04",
+        "indice": 170.424257,
+        "interanual": 0.651229
+      },
+      {
+        "periodo": "2024-05",
+        "indice": 171.084975,
+        "interanual": 0.404529
+      },
+      {
+        "periodo": "2024-06",
+        "indice": 172.072014,
+        "interanual": 0.233771
+      },
+      {
+        "periodo": "2024-07",
+        "indice": 172.42612,
+        "interanual": 0.410924
+      },
+      {
+        "periodo": "2024-08",
+        "indice": 172.673135,
+        "interanual": 0.204292
+      },
+      {
+        "periodo": "2024-09",
+        "indice": 173.013436,
+        "interanual": 0.010556
+      },
+      {
+        "periodo": "2024-10",
+        "indice": 173.230001,
+        "interanual": 0.486491
+      },
+      {
+        "periodo": "2024-11",
+        "indice": 173.459479,
+        "interanual": 0.413612
+      },
+      {
+        "periodo": "2024-12",
+        "indice": 174.401133,
+        "interanual": 0.287256
+      }
+    ]
+  }
+}

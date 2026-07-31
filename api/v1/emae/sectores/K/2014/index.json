@@ -1,0 +1,69 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "codigo": "K",
+    "nombre": "Actividades inmobiliarias, empresariales y de alquiler",
+    "historico": [
+      {
+        "periodo": "2014-01",
+        "indice": 128.039542,
+        "interanual": 0.191022
+      },
+      {
+        "periodo": "2014-02",
+        "indice": 128.577327,
+        "interanual": 0.87799
+      },
+      {
+        "periodo": "2014-03",
+        "indice": 129.11694,
+        "interanual": -2.129692
+      },
+      {
+        "periodo": "2014-04",
+        "indice": 130.978496,
+        "interanual": -1.360221
+      },
+      {
+        "periodo": "2014-05",
+        "indice": 134.04586,
+        "interanual": -2.163707
+      },
+      {
+        "periodo": "2014-06",
+        "indice": 138.384503,
+        "interanual": 2.121253
+      },
+      {
+        "periodo": "2014-07",
+        "indice": 135.40927,
+        "interanual": -0.231855
+      },
+      {
+        "periodo": "2014-08",
+        "indice": 133.898802,
+        "interanual": -0.939637
+      },
+      {
+        "periodo": "2014-09",
+        "indice": 135.388533,
+        "interanual": 0.432295
+      },
+      {
+        "periodo": "2014-10",
+        "indice": 135.776625,
+        "interanual": -0.823544
+      },
+      {
+        "periodo": "2014-11",
+        "indice": 135.237904,
+        "interanual": -1.339019
+      },
+      {
+        "periodo": "2014-12",
+        "indice": 139.329755,
+        "interanual": -0.650741
+      }
+    ]
+  }
+}

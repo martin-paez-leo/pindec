@@ -1,0 +1,69 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "codigo": "D",
+    "nombre": "Industria manufacturera",
+    "historico": [
+      {
+        "periodo": "2017-01",
+        "indice": 112.797674,
+        "interanual": -1.039452
+      },
+      {
+        "periodo": "2017-02",
+        "indice": 106.797086,
+        "interanual": -6.49667
+      },
+      {
+        "periodo": "2017-03",
+        "indice": 130.74086,
+        "interanual": 0.174763
+      },
+      {
+        "periodo": "2017-04",
+        "indice": 122.7045,
+        "interanual": -5.388173
+      },
+      {
+        "periodo": "2017-05",
+        "indice": 133.95856,
+        "interanual": 1.41126
+      },
+      {
+        "periodo": "2017-06",
+        "indice": 141.515586,
+        "interanual": 12.620727
+      },
+      {
+        "periodo": "2017-07",
+        "indice": 134.671393,
+        "interanual": 5.992915
+      },
+      {
+        "periodo": "2017-08",
+        "indice": 142.009313,
+        "interanual": 7.002443
+      },
+      {
+        "periodo": "2017-09",
+        "indice": 138.043743,
+        "interanual": 1.850776
+      },
+      {
+        "periodo": "2017-10",
+        "indice": 143.000631,
+        "interanual": 6.315263
+      },
+      {
+        "periodo": "2017-11",
+        "indice": 145.224194,
+        "interanual": 4.961603
+      },
+      {
+        "periodo": "2017-12",
+        "indice": 132.859847,
+        "interanual": 2.015435
+      }
+    ]
+  }
+}

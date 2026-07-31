@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "12",
+    "nombre": "Bienes y servicios varios",
+    "historico": [
+      {
+        "periodo": "2025-01",
+        "indice": 7544.2859,
+        "mensual": 3.3,
+        "interanual": 73.6
+      },
+      {
+        "periodo": "2025-02",
+        "indice": 7782.0959,
+        "mensual": 3.2,
+        "interanual": 55.9
+      },
+      {
+        "periodo": "2025-03",
+        "indice": 8113.781,
+        "mensual": 4.3,
+        "interanual": 49.0
+      },
+      {
+        "periodo": "2025-04",
+        "indice": 8321.8701,
+        "mensual": 2.6,
+        "interanual": 45.2
+      },
+      {
+        "periodo": "2025-05",
+        "indice": 8569.2984,
+        "mensual": 3.0,
+        "interanual": 42.8
+      },
+      {
+        "periodo": "2025-06",
+        "indice": 8637.2837,
+        "mensual": 0.8,
+        "interanual": 40.2
+      },
+      {
+        "periodo": "2025-07",
+        "indice": 8865.3992,
+        "mensual": 2.6,
+        "interanual": 39.1
+      },
+      {
+        "periodo": "2025-08",
+        "indice": 9056.3956,
+        "mensual": 2.2,
+        "interanual": 38.6
+      },
+      {
+        "periodo": "2025-09",
+        "indice": 9259.5673,
+        "mensual": 2.2,
+        "interanual": 37.0
+      },
+      {
+        "periodo": "2025-10",
+        "indice": 9476.215,
+        "mensual": 2.3,
+        "interanual": 35.7
+      },
+      {
+        "periodo": "2025-11",
+        "indice": 9715.7343,
+        "mensual": 2.5,
+        "interanual": 35.7
+      },
+      {
+        "periodo": "2025-12",
+        "indice": 10043.411,
+        "mensual": 3.4,
+        "interanual": 37.5
+      }
+    ]
+  }
+}

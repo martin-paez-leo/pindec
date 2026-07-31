@@ -1,0 +1,69 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "codigo": "G",
+    "nombre": "Comercio mayorista, minorista y reparaciones",
+    "historico": [
+      {
+        "periodo": "2012-01",
+        "indice": 148.060715,
+        "interanual": 1.699998
+      },
+      {
+        "periodo": "2012-02",
+        "indice": 142.068598,
+        "interanual": 0.648305
+      },
+      {
+        "periodo": "2012-03",
+        "indice": 168.58441,
+        "interanual": -1.634784
+      },
+      {
+        "periodo": "2012-04",
+        "indice": 150.703998,
+        "interanual": -6.382516
+      },
+      {
+        "periodo": "2012-05",
+        "indice": 160.467814,
+        "interanual": -5.393248
+      },
+      {
+        "periodo": "2012-06",
+        "indice": 158.87011,
+        "interanual": -6.9633
+      },
+      {
+        "periodo": "2012-07",
+        "indice": 164.006378,
+        "interanual": 0.058073
+      },
+      {
+        "periodo": "2012-08",
+        "indice": 167.155651,
+        "interanual": -3.758206
+      },
+      {
+        "periodo": "2012-09",
+        "indice": 161.023662,
+        "interanual": -8.944319
+      },
+      {
+        "periodo": "2012-10",
+        "indice": 171.397684,
+        "interanual": -0.136556
+      },
+      {
+        "periodo": "2012-11",
+        "indice": 168.86188,
+        "interanual": -0.550046
+      },
+      {
+        "periodo": "2012-12",
+        "indice": 156.605583,
+        "interanual": -0.374274
+      }
+    ]
+  }
+}

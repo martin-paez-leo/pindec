@@ -1,0 +1,11 @@
+{
+  "nombre": "PINDEC API",
+  "descripcion": "API no oficial del INDEC para indicadores económicos y sociales de Argentina",
+  "version": "v1",
+  "indicadores": [
+    "ipc",
+    "cba-cbt",
+    "emae",
+    "ica"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "11",
+    "nombre": "Restaurantes y hoteles",
+    "historico": [
+      {
+        "periodo": "2020-01",
+        "indice": 270.9855,
+        "mensual": 6.5,
+        "interanual": 58.6
+      },
+      {
+        "periodo": "2020-02",
+        "indice": 269.6897,
+        "mensual": -0.5,
+        "interanual": 51.3
+      },
+      {
+        "periodo": "2020-03",
+        "indice": 278.5756,
+        "mensual": 3.3,
+        "interanual": 49.0
+      },
+      {
+        "periodo": "2020-04",
+        "indice": 284.542,
+        "mensual": 2.1,
+        "interanual": 43.5
+      },
+      {
+        "periodo": "2020-05",
+        "indice": 289.2288,
+        "mensual": 1.6,
+        "interanual": 44.1
+      },
+      {
+        "periodo": "2020-06",
+        "indice": 295.8995,
+        "mensual": 2.3,
+        "interanual": 43.8
+      },
+      {
+        "periodo": "2020-07",
+        "indice": 302.4151,
+        "mensual": 2.2,
+        "interanual": 42.9
+      },
+      {
+        "periodo": "2020-08",
+        "indice": 307.1504,
+        "mensual": 1.6,
+        "interanual": 40.8
+      },
+      {
+        "periodo": "2020-09",
+        "indice": 316.9198,
+        "mensual": 3.2,
+        "interanual": 35.5
+      },
+      {
+        "periodo": "2020-10",
+        "indice": 322.2622,
+        "mensual": 1.7,
+        "interanual": 35.4
+      },
+      {
+        "periodo": "2020-11",
+        "indice": 333.3281,
+        "mensual": 3.4,
+        "interanual": 35.7
+      },
+      {
+        "periodo": "2020-12",
+        "indice": 353.9476,
+        "mensual": 6.2,
+        "interanual": 39.1
+      }
+    ]
+  }
+}

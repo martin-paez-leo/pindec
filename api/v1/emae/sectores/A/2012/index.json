@@ -1,0 +1,69 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "codigo": "A",
+    "nombre": "Agricultura, ganadería, caza y silvicultura",
+    "historico": [
+      {
+        "periodo": "2012-01",
+        "indice": 70.398993,
+        "interanual": -0.747038
+      },
+      {
+        "periodo": "2012-02",
+        "indice": 68.387538,
+        "interanual": -4.217816
+      },
+      {
+        "periodo": "2012-03",
+        "indice": 124.360906,
+        "interanual": -11.021969
+      },
+      {
+        "periodo": "2012-04",
+        "indice": 166.146739,
+        "interanual": -22.809275
+      },
+      {
+        "periodo": "2012-05",
+        "indice": 239.349567,
+        "interanual": -24.199512
+      },
+      {
+        "periodo": "2012-06",
+        "indice": 162.020637,
+        "interanual": -23.287363
+      },
+      {
+        "periodo": "2012-07",
+        "indice": 101.720596,
+        "interanual": -4.388288
+      },
+      {
+        "periodo": "2012-08",
+        "indice": 73.195574,
+        "interanual": 5.743046
+      },
+      {
+        "periodo": "2012-09",
+        "indice": 70.830687,
+        "interanual": 7.305538
+      },
+      {
+        "periodo": "2012-10",
+        "indice": 71.873084,
+        "interanual": 5.252797
+      },
+      {
+        "periodo": "2012-11",
+        "indice": 84.909204,
+        "interanual": -1.266616
+      },
+      {
+        "periodo": "2012-12",
+        "indice": 81.0775,
+        "interanual": -16.033705
+      }
+    ]
+  }
+}

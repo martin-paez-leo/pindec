@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "06",
+    "nombre": "Salud",
+    "historico": [
+      {
+        "periodo": "2022-01",
+        "indice": 726.7274,
+        "mensual": 3.7,
+        "interanual": 54.3
+      },
+      {
+        "periodo": "2022-02",
+        "indice": 757.962,
+        "mensual": 4.3,
+        "interanual": 55.1
+      },
+      {
+        "periodo": "2022-03",
+        "indice": 790.304,
+        "mensual": 4.3,
+        "interanual": 56.0
+      },
+      {
+        "periodo": "2022-04",
+        "indice": 845.4147,
+        "mensual": 7.0,
+        "interanual": 61.0
+      },
+      {
+        "periodo": "2022-05",
+        "indice": 901.7533,
+        "mensual": 6.7,
+        "interanual": 63.7
+      },
+      {
+        "periodo": "2022-06",
+        "indice": 966.4358,
+        "mensual": 7.2,
+        "interanual": 68.6
+      },
+      {
+        "periodo": "2022-07",
+        "indice": 1032.1162,
+        "mensual": 6.8,
+        "interanual": 71.4
+      },
+      {
+        "periodo": "2022-08",
+        "indice": 1078.0811,
+        "mensual": 4.5,
+        "interanual": 72.0
+      },
+      {
+        "periodo": "2022-09",
+        "indice": 1135.2945,
+        "mensual": 5.3,
+        "interanual": 74.6
+      },
+      {
+        "periodo": "2022-10",
+        "indice": 1215.0548,
+        "mensual": 7.0,
+        "interanual": 79.9
+      },
+      {
+        "periodo": "2022-11",
+        "indice": 1278.7392,
+        "mensual": 5.2,
+        "interanual": 84.0
+      },
+      {
+        "periodo": "2022-12",
+        "indice": 1350.4129,
+        "mensual": 5.6,
+        "interanual": 92.6
+      }
+    ]
+  }
+}

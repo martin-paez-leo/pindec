@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "Estacional",
+    "nombre": null,
+    "historico": [
+      {
+        "periodo": "2024-01",
+        "indice": 4576.9582,
+        "mensual": 16.8,
+        "interanual": 199.8
+      },
+      {
+        "periodo": "2024-02",
+        "indice": 4926.3977,
+        "mensual": 7.6,
+        "interanual": 215.0
+      },
+      {
+        "periodo": "2024-03",
+        "indice": 5483.463,
+        "mensual": 11.3,
+        "interanual": 221.2
+      },
+      {
+        "periodo": "2024-04",
+        "indice": 6073.03,
+        "mensual": 10.8,
+        "interanual": 214.3
+      },
+      {
+        "periodo": "2024-05",
+        "indice": 6425.662,
+        "mensual": 5.8,
+        "interanual": 216.8
+      },
+      {
+        "periodo": "2024-06",
+        "indice": 6826.715,
+        "mensual": 6.2,
+        "interanual": 228.8
+      },
+      {
+        "periodo": "2024-07",
+        "indice": 7165.519,
+        "mensual": 5.0,
+        "interanual": 227.3
+      },
+      {
+        "periodo": "2024-08",
+        "indice": 7322.775,
+        "mensual": 2.2,
+        "interanual": 202.6
+      },
+      {
+        "periodo": "2024-09",
+        "indice": 7489.835,
+        "mensual": 2.3,
+        "interanual": 171.1
+      },
+      {
+        "periodo": "2024-10",
+        "indice": 7636.666,
+        "mensual": 2.0,
+        "interanual": 157.4
+      },
+      {
+        "periodo": "2024-11",
+        "indice": 7557.055,
+        "mensual": -1.0,
+        "interanual": 123.5
+      },
+      {
+        "periodo": "2024-12",
+        "indice": 7447.2066,
+        "mensual": -1.5,
+        "interanual": 90.1
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "codigo": "N",
+    "nombre": "Servicios sociales y de salud",
+    "historico": [
+      {
+        "periodo": "2024-01",
+        "indice": 188.095986,
+        "interanual": 1.762459
+      },
+      {
+        "periodo": "2024-02",
+        "indice": 177.965765,
+        "interanual": 1.471867
+      },
+      {
+        "periodo": "2024-03",
+        "indice": 192.054101,
+        "interanual": 0.754622
+      },
+      {
+        "periodo": "2024-04",
+        "indice": 195.306342,
+        "interanual": 0.740231
+      },
+      {
+        "periodo": "2024-05",
+        "indice": 197.449678,
+        "interanual": -0.041592
+      },
+      {
+        "periodo": "2024-06",
+        "indice": 203.447471,
+        "interanual": -0.363728
+      },
+      {
+        "periodo": "2024-07",
+        "indice": 186.234705,
+        "interanual": -0.430682
+      },
+      {
+        "periodo": "2024-08",
+        "indice": 185.141641,
+        "interanual": -0.897591
+      },
+      {
+        "periodo": "2024-09",
+        "indice": 181.922077,
+        "interanual": -0.999241
+      },
+      {
+        "periodo": "2024-10",
+        "indice": 177.247013,
+        "interanual": -1.220622
+      },
+      {
+        "periodo": "2024-11",
+        "indice": 176.434643,
+        "interanual": -1.392888
+      },
+      {
+        "periodo": "2024-12",
+        "indice": 169.650906,
+        "interanual": -1.449215
+      }
+    ]
+  }
+}

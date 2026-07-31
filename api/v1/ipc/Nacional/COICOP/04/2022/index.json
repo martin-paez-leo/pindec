@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "04",
+    "nombre": "Vivienda, agua, electricidad, gas y otros combustibles",
+    "historico": [
+      {
+        "periodo": "2022-01",
+        "indice": 485.193,
+        "mensual": 1.8,
+        "interanual": 29.1
+      },
+      {
+        "periodo": "2022-02",
+        "indice": 498.9476,
+        "mensual": 2.8,
+        "interanual": 30.1
+      },
+      {
+        "periodo": "2022-03",
+        "indice": 537.1626,
+        "mensual": 7.7,
+        "interanual": 38.3
+      },
+      {
+        "periodo": "2022-04",
+        "indice": 561.7478,
+        "mensual": 4.6,
+        "interanual": 39.8
+      },
+      {
+        "periodo": "2022-05",
+        "indice": 581.7106,
+        "mensual": 3.6,
+        "interanual": 41.8
+      },
+      {
+        "periodo": "2022-06",
+        "indice": 621.3286,
+        "mensual": 6.8,
+        "interanual": 47.8
+      },
+      {
+        "periodo": "2022-07",
+        "indice": 649.6896,
+        "mensual": 4.6,
+        "interanual": 50.3
+      },
+      {
+        "periodo": "2022-08",
+        "indice": 685.6993,
+        "mensual": 5.5,
+        "interanual": 56.8
+      },
+      {
+        "periodo": "2022-09",
+        "indice": 706.9826,
+        "mensual": 3.1,
+        "interanual": 58.6
+      },
+      {
+        "periodo": "2022-10",
+        "indice": 759.7711,
+        "mensual": 7.5,
+        "interanual": 66.3
+      },
+      {
+        "periodo": "2022-11",
+        "indice": 825.5091,
+        "mensual": 8.7,
+        "interanual": 76.8
+      },
+      {
+        "periodo": "2022-12",
+        "indice": 860.1091,
+        "mensual": 4.2,
+        "interanual": 80.4
+      }
+    ]
+  }
+}

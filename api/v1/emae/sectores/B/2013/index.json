@@ -1,0 +1,69 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "codigo": "B",
+    "nombre": "Pesca",
+    "historico": [
+      {
+        "periodo": "2013-01",
+        "indice": 45.051518,
+        "interanual": 13.421001
+      },
+      {
+        "periodo": "2013-02",
+        "indice": 114.135954,
+        "interanual": 43.483422
+      },
+      {
+        "periodo": "2013-03",
+        "indice": 108.065708,
+        "interanual": -27.361538
+      },
+      {
+        "periodo": "2013-04",
+        "indice": 163.987846,
+        "interanual": 39.634173
+      },
+      {
+        "periodo": "2013-05",
+        "indice": 135.596479,
+        "interanual": 5.873496
+      },
+      {
+        "periodo": "2013-06",
+        "indice": 222.651242,
+        "interanual": 104.740731
+      },
+      {
+        "periodo": "2013-07",
+        "indice": 227.791036,
+        "interanual": 51.026178
+      },
+      {
+        "periodo": "2013-08",
+        "indice": 182.335601,
+        "interanual": 2.600262
+      },
+      {
+        "periodo": "2013-09",
+        "indice": 188.403701,
+        "interanual": 3.09557
+      },
+      {
+        "periodo": "2013-10",
+        "indice": 192.987186,
+        "interanual": 30.596391
+      },
+      {
+        "periodo": "2013-11",
+        "indice": 136.244807,
+        "interanual": 23.421615
+      },
+      {
+        "periodo": "2013-12",
+        "indice": 77.534484,
+        "interanual": 12.903626
+      }
+    ]
+  }
+}

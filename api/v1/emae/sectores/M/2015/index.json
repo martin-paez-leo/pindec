@@ -1,0 +1,69 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "codigo": "M",
+    "nombre": "Enseñanza",
+    "historico": [
+      {
+        "periodo": "2015-01",
+        "indice": 146.546997,
+        "interanual": 3.205355
+      },
+      {
+        "periodo": "2015-02",
+        "indice": 146.308503,
+        "interanual": 1.986833
+      },
+      {
+        "periodo": "2015-03",
+        "indice": 147.269428,
+        "interanual": 2.649241
+      },
+      {
+        "periodo": "2015-04",
+        "indice": 150.089227,
+        "interanual": 3.642243
+      },
+      {
+        "periodo": "2015-05",
+        "indice": 152.067632,
+        "interanual": 3.906192
+      },
+      {
+        "periodo": "2015-06",
+        "indice": 154.232394,
+        "interanual": 3.680589
+      },
+      {
+        "periodo": "2015-07",
+        "indice": 153.672989,
+        "interanual": 3.619489
+      },
+      {
+        "periodo": "2015-08",
+        "indice": 155.166101,
+        "interanual": 4.136029
+      },
+      {
+        "periodo": "2015-09",
+        "indice": 155.752403,
+        "interanual": 4.062289
+      },
+      {
+        "periodo": "2015-10",
+        "indice": 156.101381,
+        "interanual": 3.549608
+      },
+      {
+        "periodo": "2015-11",
+        "indice": 156.634128,
+        "interanual": 3.849368
+      },
+      {
+        "periodo": "2015-12",
+        "indice": 156.698996,
+        "interanual": 3.874224
+      }
+    ]
+  }
+}

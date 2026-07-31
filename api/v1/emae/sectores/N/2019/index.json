@@ -1,0 +1,69 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "codigo": "N",
+    "nombre": "Servicios sociales y de salud",
+    "historico": [
+      {
+        "periodo": "2019-01",
+        "indice": 180.227488,
+        "interanual": -0.156885
+      },
+      {
+        "periodo": "2019-02",
+        "indice": 171.502703,
+        "interanual": 0.512239
+      },
+      {
+        "periodo": "2019-03",
+        "indice": 185.696041,
+        "interanual": 0.137837
+      },
+      {
+        "periodo": "2019-04",
+        "indice": 188.228236,
+        "interanual": -0.353896
+      },
+      {
+        "periodo": "2019-05",
+        "indice": 192.639947,
+        "interanual": -0.177945
+      },
+      {
+        "periodo": "2019-06",
+        "indice": 198.355402,
+        "interanual": -0.202377
+      },
+      {
+        "periodo": "2019-07",
+        "indice": 181.590449,
+        "interanual": 0.162481
+      },
+      {
+        "periodo": "2019-08",
+        "indice": 181.1996,
+        "interanual": 0.203409
+      },
+      {
+        "periodo": "2019-09",
+        "indice": 178.154959,
+        "interanual": 0.212047
+      },
+      {
+        "periodo": "2019-10",
+        "indice": 173.063422,
+        "interanual": 0.143899
+      },
+      {
+        "periodo": "2019-11",
+        "indice": 172.96872,
+        "interanual": -0.005791
+      },
+      {
+        "periodo": "2019-12",
+        "indice": 166.54536,
+        "interanual": 0.541075
+      }
+    ]
+  }
+}

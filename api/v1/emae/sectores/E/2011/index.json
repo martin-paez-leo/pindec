@@ -1,0 +1,69 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "codigo": "E",
+    "nombre": "Electricidad, gas y agua",
+    "historico": [
+      {
+        "periodo": "2011-01",
+        "indice": 132.596695,
+        "interanual": 6.819629
+      },
+      {
+        "periodo": "2011-02",
+        "indice": 120.890719,
+        "interanual": 5.125504
+      },
+      {
+        "periodo": "2011-03",
+        "indice": 129.821387,
+        "interanual": 3.819572
+      },
+      {
+        "periodo": "2011-04",
+        "indice": 117.95473,
+        "interanual": 2.839392
+      },
+      {
+        "periodo": "2011-05",
+        "indice": 127.526978,
+        "interanual": 4.33622
+      },
+      {
+        "periodo": "2011-06",
+        "indice": 130.402711,
+        "interanual": 5.793113
+      },
+      {
+        "periodo": "2011-07",
+        "indice": 135.541228,
+        "interanual": 3.693853
+      },
+      {
+        "periodo": "2011-08",
+        "indice": 133.794605,
+        "interanual": 4.570443
+      },
+      {
+        "periodo": "2011-09",
+        "indice": 120.014672,
+        "interanual": 1.628639
+      },
+      {
+        "periodo": "2011-10",
+        "indice": 123.288082,
+        "interanual": 4.090749
+      },
+      {
+        "periodo": "2011-11",
+        "indice": 128.062607,
+        "interanual": 9.455147
+      },
+      {
+        "periodo": "2011-12",
+        "indice": 136.543097,
+        "interanual": 4.767042
+      }
+    ]
+  }
+}

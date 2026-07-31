@@ -1,0 +1,69 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "codigo": "D",
+    "nombre": "Industria manufacturera",
+    "historico": [
+      {
+        "periodo": "2005-01",
+        "indice": 97.298369,
+        "interanual": 6.389791
+      },
+      {
+        "periodo": "2005-02",
+        "indice": 94.707846,
+        "interanual": 5.907747
+      },
+      {
+        "periodo": "2005-03",
+        "indice": 107.569737,
+        "interanual": 6.056906
+      },
+      {
+        "periodo": "2005-04",
+        "indice": 107.551657,
+        "interanual": 9.259035
+      },
+      {
+        "periodo": "2005-05",
+        "indice": 109.43599,
+        "interanual": 9.050889
+      },
+      {
+        "periodo": "2005-06",
+        "indice": 107.965141,
+        "interanual": 7.249859
+      },
+      {
+        "periodo": "2005-07",
+        "indice": 108.632705,
+        "interanual": 5.974304
+      },
+      {
+        "periodo": "2005-08",
+        "indice": 109.721889,
+        "interanual": 8.623769
+      },
+      {
+        "periodo": "2005-09",
+        "indice": 108.689219,
+        "interanual": 5.973419
+      },
+      {
+        "periodo": "2005-10",
+        "indice": 114.314172,
+        "interanual": 7.939596
+      },
+      {
+        "periodo": "2005-11",
+        "indice": 113.20834,
+        "interanual": 8.462969
+      },
+      {
+        "periodo": "2005-12",
+        "indice": 109.982846,
+        "interanual": 7.959959
+      }
+    ]
+  }
+}

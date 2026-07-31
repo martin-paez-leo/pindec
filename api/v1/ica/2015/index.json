@@ -1,0 +1,198 @@
+{
+  "fuente": "INDEC - Intercambio Comercial Argentino (Balanza Comercial)",
+  "unidad_medida": "Millones de dólares",
+  "datos": [
+    {
+      "periodo": "2015-01",
+      "exportaciones": {
+        "mensual": 3795.983493,
+        "acumulado": 3795.983493,
+        "var_interanual_mensual": -11.21131,
+        "var_interanual_acumulada": -11.21131
+      },
+      "importaciones": {
+        "mensual": 4362.705095,
+        "acumulado": 4362.705095,
+        "var_interanual_mensual": -22.765222,
+        "var_interanual_acumulada": -22.765222
+      },
+      "saldo": -566.721602
+    },
+    {
+      "periodo": "2015-02",
+      "exportaciones": {
+        "mensual": 3871.716514,
+        "acumulado": 7667.700007,
+        "var_interanual_mensual": -16.696643,
+        "var_interanual_acumulada": -14.06845
+      },
+      "importaciones": {
+        "mensual": 4084.501227,
+        "acumulado": 8447.206322,
+        "var_interanual_mensual": -26.238652,
+        "var_interanual_acumulada": -24.484676
+      },
+      "saldo": -212.784713
+    },
+    {
+      "periodo": "2015-03",
+      "exportaciones": {
+        "mensual": 4381.460261,
+        "acumulado": 12049.160269,
+        "var_interanual_mensual": -10.818261,
+        "var_interanual_acumulada": -12.914356
+      },
+      "importaciones": {
+        "mensual": 5058.821164,
+        "acumulado": 13506.027486,
+        "var_interanual_mensual": -6.142432,
+        "var_interanual_acumulada": -18.520459
+      },
+      "saldo": -677.360903
+    },
+    {
+      "periodo": "2015-04",
+      "exportaciones": {
+        "mensual": 5155.271515,
+        "acumulado": 17204.431784,
+        "var_interanual_mensual": -20.425194,
+        "var_interanual_acumulada": -15.309645
+      },
+      "importaciones": {
+        "mensual": 4932.949822,
+        "acumulado": 18438.977308,
+        "var_interanual_mensual": -12.785928,
+        "var_interanual_acumulada": -17.06152
+      },
+      "saldo": 222.321693
+    },
+    {
+      "periodo": "2015-05",
+      "exportaciones": {
+        "mensual": 5205.50413,
+        "acumulado": 22409.935914,
+        "var_interanual_mensual": -27.484973,
+        "var_interanual_acumulada": -18.488662
+      },
+      "importaciones": {
+        "mensual": 5002.903685,
+        "acumulado": 23441.880993,
+        "var_interanual_mensual": -13.398414,
+        "var_interanual_acumulada": -16.305997
+      },
+      "saldo": 202.600445
+    },
+    {
+      "periodo": "2015-06",
+      "exportaciones": {
+        "mensual": 6046.473729,
+        "acumulado": 28456.409643,
+        "var_interanual_mensual": -16.064407,
+        "var_interanual_acumulada": -17.985341
+      },
+      "importaciones": {
+        "mensual": 5707.066413,
+        "acumulado": 29148.947406,
+        "var_interanual_mensual": -2.406329,
+        "var_interanual_acumulada": -13.905232
+      },
+      "saldo": 339.407316
+    },
+    {
+      "periodo": "2015-07",
+      "exportaciones": {
+        "mensual": 5568.893478,
+        "acumulado": 34025.303121,
+        "var_interanual_mensual": -13.21539,
+        "var_interanual_acumulada": -17.240859
+      },
+      "importaciones": {
+        "mensual": 5800.577256,
+        "acumulado": 34949.524663,
+        "var_interanual_mensual": -5.606243,
+        "var_interanual_acumulada": -12.630343
+      },
+      "saldo": -231.683778
+    },
+    {
+      "periodo": "2015-08",
+      "exportaciones": {
+        "mensual": 5135.724207,
+        "acumulado": 39161.027328,
+        "var_interanual_mensual": -20.003742,
+        "var_interanual_acumulada": -17.614018
+      },
+      "importaciones": {
+        "mensual": 5604.947458,
+        "acumulado": 40554.472121,
+        "var_interanual_mensual": -0.698758,
+        "var_interanual_acumulada": -11.154944
+      },
+      "saldo": -469.223251
+    },
+    {
+      "periodo": "2015-09",
+      "exportaciones": {
+        "mensual": 5162.002389,
+        "acumulado": 44323.029717,
+        "var_interanual_mensual": -9.203316,
+        "var_interanual_acumulada": -16.715524
+      },
+      "importaciones": {
+        "mensual": 5487.089058,
+        "acumulado": 46041.561179,
+        "var_interanual_mensual": -2.781653,
+        "var_interanual_acumulada": -10.233531
+      },
+      "saldo": -325.086669
+    },
+    {
+      "periodo": "2015-10",
+      "exportaciones": {
+        "mensual": 5032.95723,
+        "acumulado": 49355.986947,
+        "var_interanual_mensual": -13.135576,
+        "var_interanual_acumulada": -16.364035
+      },
+      "importaciones": {
+        "mensual": 5058.001281,
+        "acumulado": 51099.56246,
+        "var_interanual_mensual": -7.940598,
+        "var_interanual_acumulada": -10.011675
+      },
+      "saldo": -25.044051
+    },
+    {
+      "periodo": "2015-11",
+      "exportaciones": {
+        "mensual": 3998.628853,
+        "acumulado": 53354.6158,
+        "var_interanual_mensual": -18.214883,
+        "var_interanual_acumulada": -16.505645
+      },
+      "importaciones": {
+        "mensual": 4699.566229,
+        "acumulado": 55799.128689,
+        "var_interanual_mensual": 1.044466,
+        "var_interanual_acumulada": -9.17467
+      },
+      "saldo": -700.937376
+    },
+    {
+      "periodo": "2015-12",
+      "exportaciones": {
+        "mensual": 3429.336703,
+        "acumulado": 56783.952504,
+        "var_interanual_mensual": -23.831162,
+        "var_interanual_acumulada": -16.987801
+      },
+      "importaciones": {
+        "mensual": 4403.906845,
+        "acumulado": 60203.035534,
+        "var_interanual_mensual": 2.406377,
+        "var_interanual_acumulada": -8.417043
+      },
+      "saldo": -974.570142
+    }
+  ]
+}

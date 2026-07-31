@@ -1,0 +1,69 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "codigo": "E",
+    "nombre": "Electricidad, gas y agua",
+    "historico": [
+      {
+        "periodo": "2025-01",
+        "indice": 166.443897,
+        "interanual": 6.171026
+      },
+      {
+        "periodo": "2025-02",
+        "indice": 156.334399,
+        "interanual": 0.070217
+      },
+      {
+        "periodo": "2025-03",
+        "indice": 146.218175,
+        "interanual": -3.929031
+      },
+      {
+        "periodo": "2025-04",
+        "indice": 129.688973,
+        "interanual": -4.085616
+      },
+      {
+        "periodo": "2025-05",
+        "indice": 146.899774,
+        "interanual": -8.698833
+      },
+      {
+        "periodo": "2025-06",
+        "indice": 161.834253,
+        "interanual": 9.013986
+      },
+      {
+        "periodo": "2025-07",
+        "indice": 161.739523,
+        "interanual": -2.234726
+      },
+      {
+        "periodo": "2025-08",
+        "indice": 152.524521,
+        "interanual": -1.749072
+      },
+      {
+        "periodo": "2025-09",
+        "indice": 138.922352,
+        "interanual": 1.267556
+      },
+      {
+        "periodo": "2025-10",
+        "indice": 138.569126,
+        "interanual": 2.075232
+      },
+      {
+        "periodo": "2025-11",
+        "indice": 138.380264,
+        "interanual": 1.66359
+      },
+      {
+        "periodo": "2025-12",
+        "indice": 159.910557,
+        "interanual": 9.669038
+      }
+    ]
+  }
+}

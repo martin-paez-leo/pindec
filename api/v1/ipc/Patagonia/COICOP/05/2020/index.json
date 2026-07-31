@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "05",
+    "nombre": "Equipamiento y mantenimiento del hogar",
+    "historico": [
+      {
+        "periodo": "2020-01",
+        "indice": 294.168,
+        "mensual": 0.0,
+        "interanual": 57.9
+      },
+      {
+        "periodo": "2020-02",
+        "indice": 298.8178,
+        "mensual": 1.6,
+        "interanual": 55.7
+      },
+      {
+        "periodo": "2020-03",
+        "indice": 311.5604,
+        "mensual": 4.3,
+        "interanual": 58.4
+      },
+      {
+        "periodo": "2020-04",
+        "indice": 312.1318,
+        "mensual": 0.2,
+        "interanual": 51.7
+      },
+      {
+        "periodo": "2020-05",
+        "indice": 318.2735,
+        "mensual": 2.0,
+        "interanual": 48.9
+      },
+      {
+        "periodo": "2020-06",
+        "indice": 325.656,
+        "mensual": 2.3,
+        "interanual": 46.9
+      },
+      {
+        "periodo": "2020-07",
+        "indice": 344.1135,
+        "mensual": 5.7,
+        "interanual": 51.0
+      },
+      {
+        "periodo": "2020-08",
+        "indice": 359.5478,
+        "mensual": 4.5,
+        "interanual": 47.7
+      },
+      {
+        "periodo": "2020-09",
+        "indice": 366.1054,
+        "mensual": 1.8,
+        "interanual": 42.0
+      },
+      {
+        "periodo": "2020-10",
+        "indice": 380.7133,
+        "mensual": 4.0,
+        "interanual": 38.9
+      },
+      {
+        "periodo": "2020-11",
+        "indice": 395.8409,
+        "mensual": 4.0,
+        "interanual": 41.0
+      },
+      {
+        "periodo": "2020-12",
+        "indice": 410.4037,
+        "mensual": 3.7,
+        "interanual": 39.6
+      }
+    ]
+  }
+}

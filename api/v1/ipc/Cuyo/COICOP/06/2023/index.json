@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "06",
+    "nombre": "Salud",
+    "historico": [
+      {
+        "periodo": "2023-01",
+        "indice": 1404.8319,
+        "mensual": 4.0,
+        "interanual": 93.3
+      },
+      {
+        "periodo": "2023-02",
+        "indice": 1478.2953,
+        "mensual": 5.2,
+        "interanual": 95.0
+      },
+      {
+        "periodo": "2023-03",
+        "indice": 1561.9746,
+        "mensual": 5.7,
+        "interanual": 97.6
+      },
+      {
+        "periodo": "2023-04",
+        "indice": 1659.1733,
+        "mensual": 6.2,
+        "interanual": 96.3
+      },
+      {
+        "periodo": "2023-05",
+        "indice": 1834.6177,
+        "mensual": 10.6,
+        "interanual": 103.5
+      },
+      {
+        "periodo": "2023-06",
+        "indice": 2008.9713,
+        "mensual": 9.5,
+        "interanual": 107.9
+      },
+      {
+        "periodo": "2023-07",
+        "indice": 2204.7714,
+        "mensual": 9.7,
+        "interanual": 113.6
+      },
+      {
+        "periodo": "2023-08",
+        "indice": 2496.8252,
+        "mensual": 13.2,
+        "interanual": 131.6
+      },
+      {
+        "periodo": "2023-09",
+        "indice": 2832.9215,
+        "mensual": 13.5,
+        "interanual": 149.5
+      },
+      {
+        "periodo": "2023-10",
+        "indice": 2951.3134,
+        "mensual": 4.2,
+        "interanual": 142.9
+      },
+      {
+        "periodo": "2023-11",
+        "indice": 3398.1713,
+        "mensual": 15.1,
+        "interanual": 165.7
+      },
+      {
+        "periodo": "2023-12",
+        "indice": 4662.1765,
+        "mensual": 37.2,
+        "interanual": 245.2
+      }
+    ]
+  }
+}

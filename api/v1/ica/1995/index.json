@@ -1,0 +1,198 @@
+{
+  "fuente": "INDEC - Intercambio Comercial Argentino (Balanza Comercial)",
+  "unidad_medida": "Millones de dólares",
+  "datos": [
+    {
+      "periodo": "1995-01",
+      "exportaciones": {
+        "mensual": 1341.892936,
+        "acumulado": 1341.892936,
+        "var_interanual_mensual": 39.291892,
+        "var_interanual_acumulada": 39.291892
+      },
+      "importaciones": {
+        "mensual": 1717.910739,
+        "acumulado": 1717.910739,
+        "var_interanual_mensual": 8.849914,
+        "var_interanual_acumulada": 8.849914
+      },
+      "saldo": -376.017803
+    },
+    {
+      "periodo": "1995-02",
+      "exportaciones": {
+        "mensual": 1392.176762,
+        "acumulado": 2734.069698,
+        "var_interanual_mensual": 44.143443,
+        "var_interanual_acumulada": 41.72076
+      },
+      "importaciones": {
+        "mensual": 1629.544245,
+        "acumulado": 3347.454984,
+        "var_interanual_mensual": 9.583384,
+        "var_interanual_acumulada": 9.205737
+      },
+      "saldo": -237.367483
+    },
+    {
+      "periodo": "1995-03",
+      "exportaciones": {
+        "mensual": 1801.805398,
+        "acumulado": 4535.875096,
+        "var_interanual_mensual": 59.928031,
+        "var_interanual_acumulada": 48.433487
+      },
+      "importaciones": {
+        "mensual": 1890.613932,
+        "acumulado": 5238.068916,
+        "var_interanual_mensual": 2.20373,
+        "var_interanual_acumulada": 6.570472
+      },
+      "saldo": -88.808534
+    },
+    {
+      "periodo": "1995-04",
+      "exportaciones": {
+        "mensual": 1897.065341,
+        "acumulado": 6432.940437,
+        "var_interanual_mensual": 55.265132,
+        "var_interanual_acumulada": 50.384805
+      },
+      "importaciones": {
+        "mensual": 1485.177409,
+        "acumulado": 6723.246325,
+        "var_interanual_mensual": -15.22087,
+        "var_interanual_acumulada": 0.844533
+      },
+      "saldo": 411.887932
+    },
+    {
+      "periodo": "1995-05",
+      "exportaciones": {
+        "mensual": 2270.440256,
+        "acumulado": 8703.380693,
+        "var_interanual_mensual": 42.064227,
+        "var_interanual_acumulada": 48.121675
+      },
+      "importaciones": {
+        "mensual": 1721.813152,
+        "acumulado": 8445.059477,
+        "var_interanual_mensual": -1.099479,
+        "var_interanual_acumulada": 0.442002
+      },
+      "saldo": 548.627104
+    },
+    {
+      "periodo": "1995-06",
+      "exportaciones": {
+        "mensual": 2149.367295,
+        "acumulado": 10852.747988,
+        "var_interanual_mensual": 47.372167,
+        "var_interanual_acumulada": 47.972631
+      },
+      "importaciones": {
+        "mensual": 1573.118779,
+        "acumulado": 10018.178256,
+        "var_interanual_mensual": -14.308577,
+        "var_interanual_acumulada": -2.201482
+      },
+      "saldo": 576.248516
+    },
+    {
+      "periodo": "1995-07",
+      "exportaciones": {
+        "mensual": 1842.449197,
+        "acumulado": 12695.197185,
+        "var_interanual_mensual": 28.838003,
+        "var_interanual_acumulada": 44.850493
+      },
+      "importaciones": {
+        "mensual": 1518.781747,
+        "acumulado": 11536.960003,
+        "var_interanual_mensual": -14.48142,
+        "var_interanual_acumulada": -4.015907
+      },
+      "saldo": 323.66745
+    },
+    {
+      "periodo": "1995-08",
+      "exportaciones": {
+        "mensual": 1766.727141,
+        "acumulado": 14461.924326,
+        "var_interanual_mensual": 20.214543,
+        "var_interanual_acumulada": 41.312665
+      },
+      "importaciones": {
+        "mensual": 1743.831589,
+        "acumulado": 13280.791592,
+        "var_interanual_mensual": -17.072155,
+        "var_interanual_acumulada": -5.959974
+      },
+      "saldo": 22.895552
+    },
+    {
+      "periodo": "1995-09",
+      "exportaciones": {
+        "mensual": 1664.471229,
+        "acumulado": 16126.395555,
+        "var_interanual_mensual": 22.6797,
+        "var_interanual_acumulada": 39.131573
+      },
+      "importaciones": {
+        "mensual": 1654.549873,
+        "acumulado": 14935.341465,
+        "var_interanual_mensual": -6.311626,
+        "var_interanual_acumulada": -5.99906
+      },
+      "saldo": 9.921356
+    },
+    {
+      "periodo": "1995-10",
+      "exportaciones": {
+        "mensual": 1577.411756,
+        "acumulado": 17703.807311,
+        "var_interanual_mensual": 16.397688,
+        "var_interanual_acumulada": 36.751772
+      },
+      "importaciones": {
+        "mensual": 1752.375214,
+        "acumulado": 16687.716679,
+        "var_interanual_mensual": -4.7624,
+        "var_interanual_acumulada": -5.87071
+      },
+      "saldo": -174.963458
+    },
+    {
+      "periodo": "1995-11",
+      "exportaciones": {
+        "mensual": 1588.758572,
+        "acumulado": 19292.565883,
+        "var_interanual_mensual": 11.815166,
+        "var_interanual_acumulada": 34.285541
+      },
+      "importaciones": {
+        "mensual": 1833.026093,
+        "acumulado": 18520.742772,
+        "var_interanual_mensual": -3.109485,
+        "var_interanual_acumulada": -5.604465
+      },
+      "saldo": -244.267521
+    },
+    {
+      "periodo": "1995-12",
+      "exportaciones": {
+        "mensual": 1670.542255,
+        "acumulado": 20963.108138,
+        "var_interanual_mensual": 13.457827,
+        "var_interanual_acumulada": 32.349426
+      },
+      "importaciones": {
+        "mensual": 1600.93972,
+        "acumulado": 20121.682492,
+        "var_interanual_mensual": -18.729756,
+        "var_interanual_acumulada": -6.802017
+      },
+      "saldo": 69.602535
+    }
+  ]
+}

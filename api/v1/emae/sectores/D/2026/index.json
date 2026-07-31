@@ -1,0 +1,34 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "codigo": "D",
+    "nombre": "Industria manufacturera",
+    "historico": [
+      {
+        "periodo": "2026-01",
+        "indice": 104.383797,
+        "interanual": -2.366235
+      },
+      {
+        "periodo": "2026-02",
+        "indice": 98.817322,
+        "interanual": -8.423916
+      },
+      {
+        "periodo": "2026-03",
+        "indice": 122.019609,
+        "interanual": 5.239311
+      },
+      {
+        "periodo": "2026-04",
+        "indice": 115.683688,
+        "interanual": -2.685614
+      },
+      {
+        "periodo": "2026-05",
+        "indice": 114.353057,
+        "interanual": -5.618496
+      }
+    ]
+  }
+}

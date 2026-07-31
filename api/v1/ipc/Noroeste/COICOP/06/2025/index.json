@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "06",
+    "nombre": "Salud",
+    "historico": [
+      {
+        "periodo": "2025-01",
+        "indice": 9316.7665,
+        "mensual": 2.9,
+        "interanual": 78.8
+      },
+      {
+        "periodo": "2025-02",
+        "indice": 9487.4086,
+        "mensual": 1.8,
+        "interanual": 63.2
+      },
+      {
+        "periodo": "2025-03",
+        "indice": 9715.6166,
+        "mensual": 2.4,
+        "interanual": 50.7
+      },
+      {
+        "periodo": "2025-04",
+        "indice": 9935.6289,
+        "mensual": 2.3,
+        "interanual": 42.3
+      },
+      {
+        "periodo": "2025-05",
+        "indice": 10284.9104,
+        "mensual": 3.5,
+        "interanual": 44.5
+      },
+      {
+        "periodo": "2025-06",
+        "indice": 10482.7929,
+        "mensual": 1.9,
+        "interanual": 39.8
+      },
+      {
+        "periodo": "2025-07",
+        "indice": 10547.0009,
+        "mensual": 0.6,
+        "interanual": 34.4
+      },
+      {
+        "periodo": "2025-08",
+        "indice": 10703.2798,
+        "mensual": 1.5,
+        "interanual": 30.9
+      },
+      {
+        "periodo": "2025-09",
+        "indice": 11022.9049,
+        "mensual": 3.0,
+        "interanual": 30.6
+      },
+      {
+        "periodo": "2025-10",
+        "indice": 11183.4333,
+        "mensual": 1.5,
+        "interanual": 28.7
+      },
+      {
+        "periodo": "2025-11",
+        "indice": 11468.216,
+        "mensual": 2.5,
+        "interanual": 28.9
+      },
+      {
+        "periodo": "2025-12",
+        "indice": 11688.2773,
+        "mensual": 1.9,
+        "interanual": 29.1
+      }
+    ]
+  }
+}

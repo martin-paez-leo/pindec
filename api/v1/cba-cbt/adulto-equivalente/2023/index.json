@@ -1,0 +1,173 @@
+{
+  "fuente": "INDEC - Canasta Básica Alimentaria y Canasta Básica Total",
+  "datos": [
+    {
+      "periodo": "2023-01",
+      "cba": {
+        "indice": 23315.04,
+        "mensual": 7.2,
+        "interanual": 109.8
+      },
+      "cbt": {
+        "indice": 52925.14,
+        "mensual": 7.2,
+        "interanual": 108.0
+      },
+      "coef_engel": 2.27
+    },
+    {
+      "periodo": "2023-02",
+      "cba": {
+        "indice": 26046.32,
+        "mensual": 11.7,
+        "interanual": 115.1
+      },
+      "cbt": {
+        "indice": 57301.9,
+        "mensual": 8.3,
+        "interanual": 111.3
+      },
+      "coef_engel": 2.2
+    },
+    {
+      "periodo": "2023-03",
+      "cba": {
+        "indice": 28388.12,
+        "mensual": 9.0,
+        "interanual": 120.1
+      },
+      "cbt": {
+        "indice": 61886.1,
+        "mensual": 8.0,
+        "interanual": 113.2
+      },
+      "coef_engel": 2.18
+    },
+    {
+      "periodo": "2023-04",
+      "cba": {
+        "indice": 30468.76,
+        "mensual": 7.3,
+        "interanual": 121.4
+      },
+      "cbt": {
+        "indice": 65812.52,
+        "mensual": 6.3,
+        "interanual": 113.5
+      },
+      "coef_engel": 2.16
+    },
+    {
+      "periodo": "2023-05",
+      "cba": {
+        "indice": 32055.87,
+        "mensual": 5.2,
+        "interanual": 122.6
+      },
+      "cbt": {
+        "indice": 70522.91,
+        "mensual": 7.2,
+        "interanual": 118.6
+      },
+      "coef_engel": 2.2
+    },
+    {
+      "periodo": "2023-06",
+      "cba": {
+        "indice": 33730.51,
+        "mensual": 5.2,
+        "interanual": 124.0
+      },
+      "cbt": {
+        "indice": 75219.04,
+        "mensual": 6.7,
+        "interanual": 123.0
+      },
+      "coef_engel": 2.23
+    },
+    {
+      "periodo": "2023-07",
+      "cba": {
+        "indice": 36130.15,
+        "mensual": 7.1,
+        "interanual": 125.7
+      },
+      "cbt": {
+        "indice": 80570.23,
+        "mensual": 7.1,
+        "interanual": 123.7
+      },
+      "coef_engel": 2.23
+    },
+    {
+      "periodo": "2023-08",
+      "cba": {
+        "indice": 42262.25,
+        "mensual": 17.0,
+        "interanual": 146.4
+      },
+      "cbt": {
+        "indice": 92131.7,
+        "mensual": 14.3,
+        "interanual": 137.7
+      },
+      "coef_engel": 2.18
+    },
+    {
+      "periodo": "2023-09",
+      "cba": {
+        "indice": 47857.79,
+        "mensual": 13.2,
+        "interanual": 160.7
+      },
+      "cbt": {
+        "indice": 103372.83,
+        "mensual": 12.2,
+        "interanual": 149.1
+      },
+      "coef_engel": 2.16
+    },
+    {
+      "periodo": "2023-10",
+      "cba": {
+        "indice": 51974.93,
+        "mensual": 8.6,
+        "interanual": 158.6
+      },
+      "cbt": {
+        "indice": 111746.1,
+        "mensual": 8.1,
+        "interanual": 147.1
+      },
+      "coef_engel": 2.15
+    },
+    {
+      "periodo": "2023-11",
+      "cba": {
+        "indice": 59886.86,
+        "mensual": 15.2,
+        "interanual": 189.1
+      },
+      "cbt": {
+        "indice": 126361.27,
+        "mensual": 13.1,
+        "interanual": 167.5
+      },
+      "coef_engel": 2.11
+    },
+    {
+      "periodo": "2023-12",
+      "cba": {
+        "indice": 77889.58,
+        "mensual": 30.1,
+        "interanual": 258.2
+      },
+      "cbt": {
+        "indice": 160452.53,
+        "mensual": 27.0,
+        "interanual": 225.1
+      },
+      "coef_engel": 2.06
+    }
+  ]
+}

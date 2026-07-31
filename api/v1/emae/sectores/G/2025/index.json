@@ -1,0 +1,69 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "codigo": "G",
+    "nombre": "Comercio mayorista, minorista y reparaciones",
+    "historico": [
+      {
+        "periodo": "2025-01",
+        "indice": 148.117427,
+        "interanual": 9.028065
+      },
+      {
+        "periodo": "2025-02",
+        "indice": 149.102439,
+        "interanual": 6.843602
+      },
+      {
+        "periodo": "2025-03",
+        "indice": 153.953399,
+        "interanual": 7.334912
+      },
+      {
+        "periodo": "2025-04",
+        "indice": 159.256938,
+        "interanual": 14.360362
+      },
+      {
+        "periodo": "2025-05",
+        "indice": 160.85179,
+        "interanual": 9.051258
+      },
+      {
+        "periodo": "2025-06",
+        "indice": 155.531975,
+        "interanual": 10.371262
+      },
+      {
+        "periodo": "2025-07",
+        "indice": 154.377704,
+        "interanual": 0.991335
+      },
+      {
+        "periodo": "2025-08",
+        "indice": 152.134297,
+        "interanual": -3.014636
+      },
+      {
+        "periodo": "2025-09",
+        "indice": 154.26857,
+        "interanual": 0.562564
+      },
+      {
+        "periodo": "2025-10",
+        "indice": 159.910278,
+        "interanual": 0.157246
+      },
+      {
+        "periodo": "2025-11",
+        "indice": 149.762391,
+        "interanual": -6.038852
+      },
+      {
+        "periodo": "2025-12",
+        "indice": 148.578872,
+        "interanual": -1.2319
+      }
+    ]
+  }
+}

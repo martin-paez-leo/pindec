@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "03",
+    "nombre": "Prendas de vestir y calzado",
+    "historico": [
+      {
+        "periodo": "2018-01",
+        "indice": 114.249,
+        "mensual": -0.3,
+        "interanual": 13.2
+      },
+      {
+        "periodo": "2018-02",
+        "indice": 115.3175,
+        "mensual": 0.9,
+        "interanual": 12.6
+      },
+      {
+        "periodo": "2018-03",
+        "indice": 119.375,
+        "mensual": 3.5,
+        "interanual": 13.9
+      },
+      {
+        "periodo": "2018-04",
+        "indice": 124.3517,
+        "mensual": 4.2,
+        "interanual": 17.6
+      },
+      {
+        "periodo": "2018-05",
+        "indice": 125.4955,
+        "mensual": 0.9,
+        "interanual": 17.3
+      },
+      {
+        "periodo": "2018-06",
+        "indice": 127.315,
+        "mensual": 1.4,
+        "interanual": 17.5
+      },
+      {
+        "periodo": "2018-07",
+        "indice": 126.7048,
+        "mensual": -0.5,
+        "interanual": 17.2
+      },
+      {
+        "periodo": "2018-08",
+        "indice": 129.0016,
+        "mensual": 1.8,
+        "interanual": 17.1
+      },
+      {
+        "periodo": "2018-09",
+        "indice": 134.8023,
+        "mensual": 4.5,
+        "interanual": 22.3
+      },
+      {
+        "periodo": "2018-10",
+        "indice": 140.5762,
+        "mensual": 4.3,
+        "interanual": 26.2
+      },
+      {
+        "periodo": "2018-11",
+        "indice": 146.6829,
+        "mensual": 4.3,
+        "interanual": 29.7
+      },
+      {
+        "periodo": "2018-12",
+        "indice": 149.5705,
+        "mensual": 2.0,
+        "interanual": 30.5
+      }
+    ]
+  }
+}

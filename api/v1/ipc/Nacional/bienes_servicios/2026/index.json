@@ -1,0 +1,89 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": [
+    {
+      "codigo": "B",
+      "nombre": null,
+      "historico": [
+        {
+          "periodo": "2026-01",
+          "indice": 10447.6709,
+          "mensual": 2.8,
+          "interanual": 28.1
+        },
+        {
+          "periodo": "2026-02",
+          "indice": 10692.0487,
+          "mensual": 2.3,
+          "interanual": 28.4
+        },
+        {
+          "periodo": "2026-03",
+          "indice": 11012.1275,
+          "mensual": 3.0,
+          "interanual": 27.6
+        },
+        {
+          "periodo": "2026-04",
+          "indice": 11289.6872,
+          "mensual": 2.5,
+          "interanual": 27.4
+        },
+        {
+          "periodo": "2026-05",
+          "indice": 11514.1432,
+          "mensual": 2.0,
+          "interanual": 28.8
+        },
+        {
+          "periodo": "2026-06",
+          "indice": 11669.7596,
+          "mensual": 1.4,
+          "interanual": 29.4
+        }
+      ]
+    },
+    {
+      "codigo": "S",
+      "nombre": null,
+      "historico": [
+        {
+          "periodo": "2026-01",
+          "indice": 10401.8561,
+          "mensual": 3.1,
+          "interanual": 42.1
+        },
+        {
+          "periodo": "2026-02",
+          "indice": 10822.7791,
+          "mensual": 4.0,
+          "interanual": 43.4
+        },
+        {
+          "periodo": "2026-03",
+          "indice": 11271.9282,
+          "mensual": 4.2,
+          "interanual": 43.7
+        },
+        {
+          "periodo": "2026-04",
+          "indice": 11566.6891,
+          "mensual": 2.6,
+          "interanual": 43.1
+        },
+        {
+          "periodo": "2026-05",
+          "indice": 11856.0739,
+          "mensual": 2.5,
+          "interanual": 42.8
+        },
+        {
+          "periodo": "2026-06",
+          "indice": 12197.4173,
+          "mensual": 2.9,
+          "interanual": 42.4
+        }
+      ]
+    }
+  ]
+}

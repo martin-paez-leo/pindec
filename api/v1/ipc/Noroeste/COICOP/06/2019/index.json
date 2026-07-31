@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "06",
+    "nombre": "Salud",
+    "historico": [
+      {
+        "periodo": "2019-01",
+        "indice": 196.0894,
+        "mensual": 4.5,
+        "interanual": 53.7
+      },
+      {
+        "periodo": "2019-02",
+        "indice": 200.7878,
+        "mensual": 2.4,
+        "interanual": 54.8
+      },
+      {
+        "periodo": "2019-03",
+        "indice": 211.1458,
+        "mensual": 5.2,
+        "interanual": 60.0
+      },
+      {
+        "periodo": "2019-04",
+        "indice": 219.6788,
+        "mensual": 4.0,
+        "interanual": 63.6
+      },
+      {
+        "periodo": "2019-05",
+        "indice": 227.8591,
+        "mensual": 3.7,
+        "interanual": 64.8
+      },
+      {
+        "periodo": "2019-06",
+        "indice": 239.2954,
+        "mensual": 5.0,
+        "interanual": 67.9
+      },
+      {
+        "periodo": "2019-07",
+        "indice": 247.5456,
+        "mensual": 3.4,
+        "interanual": 67.8
+      },
+      {
+        "periodo": "2019-08",
+        "indice": 259.211,
+        "mensual": 4.7,
+        "interanual": 70.7
+      },
+      {
+        "periodo": "2019-09",
+        "indice": 284.4338,
+        "mensual": 9.7,
+        "interanual": 79.3
+      },
+      {
+        "periodo": "2019-10",
+        "indice": 297.1895,
+        "mensual": 4.5,
+        "interanual": 79.3
+      },
+      {
+        "periodo": "2019-11",
+        "indice": 319.3469,
+        "mensual": 7.5,
+        "interanual": 76.8
+      },
+      {
+        "periodo": "2019-12",
+        "indice": 332.5618,
+        "mensual": 4.1,
+        "interanual": 77.3
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "06",
+    "nombre": "Salud",
+    "historico": [
+      {
+        "periodo": "2026-01",
+        "indice": 12069.2806,
+        "mensual": 2.2,
+        "interanual": 26.7
+      },
+      {
+        "periodo": "2026-02",
+        "indice": 12356.0233,
+        "mensual": 2.4,
+        "interanual": 27.1
+      },
+      {
+        "periodo": "2026-03",
+        "indice": 12600.8726,
+        "mensual": 2.0,
+        "interanual": 26.9
+      },
+      {
+        "periodo": "2026-04",
+        "indice": 12914.4916,
+        "mensual": 2.5,
+        "interanual": 27.4
+      },
+      {
+        "periodo": "2026-05",
+        "indice": 13199.362,
+        "mensual": 2.2,
+        "interanual": 27.0
+      },
+      {
+        "periodo": "2026-06",
+        "indice": 13594.3877,
+        "mensual": 3.0,
+        "interanual": 27.7
+      }
+    ]
+  }
+}

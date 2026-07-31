@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "Regulados",
+    "nombre": null,
+    "historico": [
+      {
+        "periodo": "2022-01",
+        "indice": 491.6655,
+        "mensual": 3.0,
+        "interanual": 36.3
+      },
+      {
+        "periodo": "2022-02",
+        "indice": 503.5405,
+        "mensual": 2.4,
+        "interanual": 37.5
+      },
+      {
+        "periodo": "2022-03",
+        "indice": 549.1464,
+        "mensual": 9.1,
+        "interanual": 42.7
+      },
+      {
+        "periodo": "2022-04",
+        "indice": 567.2638,
+        "mensual": 3.3,
+        "interanual": 42.5
+      },
+      {
+        "periodo": "2022-05",
+        "indice": 597.5182,
+        "mensual": 5.3,
+        "interanual": 43.5
+      },
+      {
+        "periodo": "2022-06",
+        "indice": 628.0769,
+        "mensual": 5.1,
+        "interanual": 46.8
+      },
+      {
+        "periodo": "2022-07",
+        "indice": 657.4233,
+        "mensual": 4.7,
+        "interanual": 51.7
+      },
+      {
+        "periodo": "2022-08",
+        "indice": 702.1983,
+        "mensual": 6.8,
+        "interanual": 59.0
+      },
+      {
+        "periodo": "2022-09",
+        "indice": 731.7239,
+        "mensual": 4.2,
+        "interanual": 60.0
+      },
+      {
+        "periodo": "2022-10",
+        "indice": 789.4266,
+        "mensual": 7.9,
+        "interanual": 69.2
+      },
+      {
+        "periodo": "2022-11",
+        "indice": 840.6752,
+        "mensual": 6.5,
+        "interanual": 78.8
+      },
+      {
+        "periodo": "2022-12",
+        "indice": 875.0145,
+        "mensual": 4.1,
+        "interanual": 83.3
+      }
+    ]
+  }
+}

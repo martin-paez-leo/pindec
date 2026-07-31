@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "Regulados",
+    "nombre": null,
+    "historico": [
+      {
+        "periodo": "2025-01",
+        "indice": 8461.9914,
+        "mensual": 2.4,
+        "interanual": 141.9
+      },
+      {
+        "periodo": "2025-02",
+        "indice": 8811.7972,
+        "mensual": 4.1,
+        "interanual": 123.0
+      },
+      {
+        "periodo": "2025-03",
+        "indice": 9196.9925,
+        "mensual": 4.4,
+        "interanual": 102.4
+      },
+      {
+        "periodo": "2025-04",
+        "indice": 9328.301,
+        "mensual": 1.4,
+        "interanual": 72.8
+      },
+      {
+        "periodo": "2025-05",
+        "indice": 9446.5048,
+        "mensual": 1.3,
+        "interanual": 64.8
+      },
+      {
+        "periodo": "2025-06",
+        "indice": 9678.2332,
+        "mensual": 2.5,
+        "interanual": 54.4
+      },
+      {
+        "periodo": "2025-07",
+        "indice": 9902.0997,
+        "mensual": 2.3,
+        "interanual": 49.9
+      },
+      {
+        "periodo": "2025-08",
+        "indice": 10206.0615,
+        "mensual": 3.1,
+        "interanual": 46.3
+      },
+      {
+        "periodo": "2025-09",
+        "indice": 10531.5755,
+        "mensual": 3.2,
+        "interanual": 42.8
+      },
+      {
+        "periodo": "2025-10",
+        "indice": 10893.4252,
+        "mensual": 3.4,
+        "interanual": 43.3
+      },
+      {
+        "periodo": "2025-11",
+        "indice": 11359.7523,
+        "mensual": 4.3,
+        "interanual": 43.3
+      },
+      {
+        "periodo": "2025-12",
+        "indice": 11761.3886,
+        "mensual": 3.5,
+        "interanual": 42.3
+      }
+    ]
+  }
+}

@@ -1,0 +1,995 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": [
+    {
+      "codigo": "A",
+      "nombre": "Agricultura, ganadería, caza y silvicultura",
+      "historico": [
+        {
+          "periodo": "2021-01",
+          "indice": 86.974606,
+          "interanual": 2.588711
+        },
+        {
+          "periodo": "2021-02",
+          "indice": 71.787887,
+          "interanual": 4.760941
+        },
+        {
+          "periodo": "2021-03",
+          "indice": 147.800174,
+          "interanual": 6.485095
+        },
+        {
+          "periodo": "2021-04",
+          "indice": 207.709141,
+          "interanual": -1.317652
+        },
+        {
+          "periodo": "2021-05",
+          "indice": 282.046365,
+          "interanual": -4.225331
+        },
+        {
+          "periodo": "2021-06",
+          "indice": 192.867097,
+          "interanual": -3.995957
+        },
+        {
+          "periodo": "2021-07",
+          "indice": 115.64227,
+          "interanual": -1.202427
+        },
+        {
+          "periodo": "2021-08",
+          "indice": 78.587415,
+          "interanual": 3.644857
+        },
+        {
+          "periodo": "2021-09",
+          "indice": 74.20091,
+          "interanual": 0.56082
+        },
+        {
+          "periodo": "2021-10",
+          "indice": 75.616647,
+          "interanual": 3.122374
+        },
+        {
+          "periodo": "2021-11",
+          "indice": 92.518549,
+          "interanual": 6.3844
+        },
+        {
+          "periodo": "2021-12",
+          "indice": 129.441612,
+          "interanual": 15.309175
+        }
+      ]
+    },
+    {
+      "codigo": "B",
+      "nombre": "Pesca",
+      "historico": [
+        {
+          "periodo": "2021-01",
+          "indice": 126.536241,
+          "interanual": 24.410123
+        },
+        {
+          "periodo": "2021-02",
+          "indice": 161.336877,
+          "interanual": -12.102195
+        },
+        {
+          "periodo": "2021-03",
+          "indice": 136.119134,
+          "interanual": 68.216034
+        },
+        {
+          "periodo": "2021-04",
+          "indice": 133.062295,
+          "interanual": 3.280395
+        },
+        {
+          "periodo": "2021-05",
+          "indice": 158.336223,
+          "interanual": 3.254729
+        },
+        {
+          "periodo": "2021-06",
+          "indice": 186.587144,
+          "interanual": 110.129603
+        },
+        {
+          "periodo": "2021-07",
+          "indice": 286.609741,
+          "interanual": 230.0305
+        },
+        {
+          "periodo": "2021-08",
+          "indice": 274.712231,
+          "interanual": 3.947648
+        },
+        {
+          "periodo": "2021-09",
+          "indice": 218.119696,
+          "interanual": -8.148032
+        },
+        {
+          "periodo": "2021-10",
+          "indice": 119.027448,
+          "interanual": -26.81948
+        },
+        {
+          "periodo": "2021-11",
+          "indice": 91.174622,
+          "interanual": 5.229697
+        },
+        {
+          "periodo": "2021-12",
+          "indice": 106.381809,
+          "interanual": 3.229799
+        }
+      ]
+    },
+    {
+      "codigo": "C",
+      "nombre": "Explotación de minas y canteras",
+      "historico": [
+        {
+          "periodo": "2021-01",
+          "indice": 79.526792,
+          "interanual": -9.652514
+        },
+        {
+          "periodo": "2021-02",
+          "indice": 75.830205,
+          "interanual": -11.751945
+        },
+        {
+          "periodo": "2021-03",
+          "indice": 84.128478,
+          "interanual": -1.962025
+        },
+        {
+          "periodo": "2021-04",
+          "indice": 82.53756,
+          "interanual": 18.306224
+        },
+        {
+          "periodo": "2021-05",
+          "indice": 90.395752,
+          "interanual": 20.671053
+        },
+        {
+          "periodo": "2021-06",
+          "indice": 87.021932,
+          "interanual": 15.758399
+        },
+        {
+          "periodo": "2021-07",
+          "indice": 88.701683,
+          "interanual": 12.711359
+        },
+        {
+          "periodo": "2021-08",
+          "indice": 90.497178,
+          "interanual": 11.730831
+        },
+        {
+          "periodo": "2021-09",
+          "indice": 90.12264,
+          "interanual": 17.003259
+        },
+        {
+          "periodo": "2021-10",
+          "indice": 91.930674,
+          "interanual": 15.38184
+        },
+        {
+          "periodo": "2021-11",
+          "indice": 90.271286,
+          "interanual": 17.919841
+        },
+        {
+          "periodo": "2021-12",
+          "indice": 92.479691,
+          "interanual": 14.478157
+        }
+      ]
+    },
+    {
+      "codigo": "D",
+      "nombre": "Industria manufacturera",
+      "historico": [
+        {
+          "periodo": "2021-01",
+          "indice": 106.259176,
+          "interanual": 4.467798
+        },
+        {
+          "periodo": "2021-02",
+          "indice": 103.4554,
+          "interanual": 1.122099
+        },
+        {
+          "periodo": "2021-03",
+          "indice": 129.523731,
+          "interanual": 30.878917
+        },
+        {
+          "periodo": "2021-04",
+          "indice": 123.316725,
+          "interanual": 58.06673
+        },
+        {
+          "periodo": "2021-05",
+          "indice": 122.087752,
+          "interanual": 31.129109
+        },
+        {
+          "periodo": "2021-06",
+          "indice": 133.052552,
+          "interanual": 17.31887
+        },
+        {
+          "periodo": "2021-07",
+          "indice": 129.646882,
+          "interanual": 13.121196
+        },
+        {
+          "periodo": "2021-08",
+          "indice": 130.635034,
+          "interanual": 14.192709
+        },
+        {
+          "periodo": "2021-09",
+          "indice": 131.991331,
+          "interanual": 10.681845
+        },
+        {
+          "periodo": "2021-10",
+          "indice": 133.679289,
+          "interanual": 4.900071
+        },
+        {
+          "periodo": "2021-11",
+          "indice": 137.741054,
+          "interanual": 10.502947
+        },
+        {
+          "periodo": "2021-12",
+          "indice": 131.044571,
+          "interanual": 10.538955
+        }
+      ]
+    },
+    {
+      "codigo": "E",
+      "nombre": "Electricidad, gas y agua",
+      "historico": [
+        {
+          "periodo": "2021-01",
+          "indice": 151.015547,
+          "interanual": -0.596393
+        },
+        {
+          "periodo": "2021-02",
+          "indice": 128.495174,
+          "interanual": -8.364546
+        },
+        {
+          "periodo": "2021-03",
+          "indice": 144.925765,
+          "interanual": -0.937597
+        },
+        {
+          "periodo": "2021-04",
+          "indice": 134.585371,
+          "interanual": 12.166445
+        },
+        {
+          "periodo": "2021-05",
+          "indice": 146.806183,
+          "interanual": 10.582885
+        },
+        {
+          "periodo": "2021-06",
+          "indice": 157.880614,
+          "interanual": 10.179678
+        },
+        {
+          "periodo": "2021-07",
+          "indice": 163.912173,
+          "interanual": 3.180336
+        },
+        {
+          "periodo": "2021-08",
+          "indice": 158.170233,
+          "interanual": 9.399042
+        },
+        {
+          "periodo": "2021-09",
+          "indice": 139.620064,
+          "interanual": 4.230145
+        },
+        {
+          "periodo": "2021-10",
+          "indice": 129.209557,
+          "interanual": -2.370145
+        },
+        {
+          "periodo": "2021-11",
+          "indice": 139.509629,
+          "interanual": 0.097447
+        },
+        {
+          "periodo": "2021-12",
+          "indice": 154.858423,
+          "interanual": 3.255942
+        }
+      ]
+    },
+    {
+      "codigo": "F",
+      "nombre": "Construcción",
+      "historico": [
+        {
+          "periodo": "2021-01",
+          "indice": 145.538815,
+          "interanual": 12.034973
+        },
+        {
+          "periodo": "2021-02",
+          "indice": 141.898258,
+          "interanual": 13.276178
+        },
+        {
+          "periodo": "2021-03",
+          "indice": 152.506189,
+          "interanual": 56.101535
+        },
+        {
+          "periodo": "2021-04",
+          "indice": 137.98507,
+          "interanual": 214.416607
+        },
+        {
+          "periodo": "2021-05",
+          "indice": 124.46014,
+          "interanual": 65.896841
+        },
+        {
+          "periodo": "2021-06",
+          "indice": 135.992307,
+          "interanual": 42.638385
+        },
+        {
+          "periodo": "2021-07",
+          "indice": 141.528885,
+          "interanual": 23.245137
+        },
+        {
+          "periodo": "2021-08",
+          "indice": 150.726163,
+          "interanual": 28.045165
+        },
+        {
+          "periodo": "2021-09",
+          "indice": 149.735617,
+          "interanual": 28.566183
+        },
+        {
+          "periodo": "2021-10",
+          "indice": 140.816988,
+          "interanual": 5.782267
+        },
+        {
+          "periodo": "2021-11",
+          "indice": 144.831127,
+          "interanual": 5.447181
+        },
+        {
+          "periodo": "2021-12",
+          "indice": 141.647603,
+          "interanual": 3.689461
+        }
+      ]
+    },
+    {
+      "codigo": "G",
+      "nombre": "Comercio mayorista, minorista y reparaciones",
+      "historico": [
+        {
+          "periodo": "2021-01",
+          "indice": 134.909094,
+          "interanual": 4.2738
+        },
+        {
+          "periodo": "2021-02",
+          "indice": 135.852817,
+          "interanual": 4.847118
+        },
+        {
+          "periodo": "2021-03",
+          "indice": 155.546876,
+          "interanual": 22.49525
+        },
+        {
+          "periodo": "2021-04",
+          "indice": 151.533222,
+          "interanual": 42.29311
+        },
+        {
+          "periodo": "2021-05",
+          "indice": 148.736724,
+          "interanual": 25.95361
+        },
+        {
+          "periodo": "2021-06",
+          "indice": 155.800018,
+          "interanual": 16.683904
+        },
+        {
+          "periodo": "2021-07",
+          "indice": 151.57415,
+          "interanual": 11.319004
+        },
+        {
+          "periodo": "2021-08",
+          "indice": 152.693378,
+          "interanual": 13.57555
+        },
+        {
+          "periodo": "2021-09",
+          "indice": 154.020845,
+          "interanual": 8.585897
+        },
+        {
+          "periodo": "2021-10",
+          "indice": 151.753606,
+          "interanual": 4.466473
+        },
+        {
+          "periodo": "2021-11",
+          "indice": 158.633554,
+          "interanual": 9.792254
+        },
+        {
+          "periodo": "2021-12",
+          "indice": 155.109296,
+          "interanual": 7.219557
+        }
+      ]
+    },
+    {
+      "codigo": "H",
+      "nombre": "Hoteles y restaurantes",
+      "historico": [
+        {
+          "periodo": "2021-01",
+          "indice": 111.782009,
+          "interanual": -36.703303
+        },
+        {
+          "periodo": "2021-02",
+          "indice": 112.214333,
+          "interanual": -34.045288
+        },
+        {
+          "periodo": "2021-03",
+          "indice": 91.899269,
+          "interanual": -10.281297
+        },
+        {
+          "periodo": "2021-04",
+          "indice": 98.857913,
+          "interanual": 310.533703
+        },
+        {
+          "periodo": "2021-05",
+          "indice": 91.449755,
+          "interanual": 113.896319
+        },
+        {
+          "periodo": "2021-06",
+          "indice": 92.643155,
+          "interanual": 58.161624
+        },
+        {
+          "periodo": "2021-07",
+          "indice": 104.500986,
+          "interanual": 77.556173
+        },
+        {
+          "periodo": "2021-08",
+          "indice": 113.765494,
+          "interanual": 59.479907
+        },
+        {
+          "periodo": "2021-09",
+          "indice": 120.34505,
+          "interanual": 88.562944
+        },
+        {
+          "periodo": "2021-10",
+          "indice": 113.956219,
+          "interanual": 51.454767
+        },
+        {
+          "periodo": "2021-11",
+          "indice": 119.184561,
+          "interanual": 52.831421
+        },
+        {
+          "periodo": "2021-12",
+          "indice": 126.555919,
+          "interanual": 40.113066
+        }
+      ]
+    },
+    {
+      "codigo": "I",
+      "nombre": "Transporte y comunicaciones",
+      "historico": [
+        {
+          "periodo": "2021-01",
+          "indice": 158.010022,
+          "interanual": -13.625246
+        },
+        {
+          "periodo": "2021-02",
+          "indice": 153.564117,
+          "interanual": -13.463798
+        },
+        {
+          "periodo": "2021-03",
+          "indice": 167.713029,
+          "interanual": 2.292055
+        },
+        {
+          "periodo": "2021-04",
+          "indice": 170.321662,
+          "interanual": 18.381486
+        },
+        {
+          "periodo": "2021-05",
+          "indice": 175.368229,
+          "interanual": 8.066854
+        },
+        {
+          "periodo": "2021-06",
+          "indice": 174.106668,
+          "interanual": 9.511262
+        },
+        {
+          "periodo": "2021-07",
+          "indice": 168.786189,
+          "interanual": 12.056953
+        },
+        {
+          "periodo": "2021-08",
+          "indice": 170.147496,
+          "interanual": 13.469507
+        },
+        {
+          "periodo": "2021-09",
+          "indice": 170.885416,
+          "interanual": 12.324024
+        },
+        {
+          "periodo": "2021-10",
+          "indice": 170.941844,
+          "interanual": 12.693986
+        },
+        {
+          "periodo": "2021-11",
+          "indice": 174.671783,
+          "interanual": 14.044228
+        },
+        {
+          "periodo": "2021-12",
+          "indice": 176.315108,
+          "interanual": 16.999922
+        }
+      ]
+    },
+    {
+      "codigo": "J",
+      "nombre": "Intermediación financiera",
+      "historico": [
+        {
+          "periodo": "2021-01",
+          "indice": 165.468599,
+          "interanual": 2.437351
+        },
+        {
+          "periodo": "2021-02",
+          "indice": 159.704845,
+          "interanual": 3.398444
+        },
+        {
+          "periodo": "2021-03",
+          "indice": 179.512046,
+          "interanual": 4.862789
+        },
+        {
+          "periodo": "2021-04",
+          "indice": 170.83031,
+          "interanual": 3.240405
+        },
+        {
+          "periodo": "2021-05",
+          "indice": 156.550731,
+          "interanual": 0.589049
+        },
+        {
+          "periodo": "2021-06",
+          "indice": 163.700496,
+          "interanual": -1.896394
+        },
+        {
+          "periodo": "2021-07",
+          "indice": 162.430056,
+          "interanual": -2.461531
+        },
+        {
+          "periodo": "2021-08",
+          "indice": 169.161816,
+          "interanual": -1.178482
+        },
+        {
+          "periodo": "2021-09",
+          "indice": 165.70502,
+          "interanual": -0.932812
+        },
+        {
+          "periodo": "2021-10",
+          "indice": 168.893406,
+          "interanual": -2.176476
+        },
+        {
+          "periodo": "2021-11",
+          "indice": 172.138118,
+          "interanual": 1.743723
+        },
+        {
+          "periodo": "2021-12",
+          "indice": 174.983673,
+          "interanual": -0.551964
+        }
+      ]
+    },
+    {
+      "codigo": "K",
+      "nombre": "Actividades inmobiliarias, empresariales y de alquiler",
+      "historico": [
+        {
+          "periodo": "2021-01",
+          "indice": 138.787957,
+          "interanual": 1.229577
+        },
+        {
+          "periodo": "2021-02",
+          "indice": 137.69951,
+          "interanual": 1.037131
+        },
+        {
+          "periodo": "2021-03",
+          "indice": 142.57669,
+          "interanual": 10.033209
+        },
+        {
+          "periodo": "2021-04",
+          "indice": 143.932299,
+          "interanual": 23.960951
+        },
+        {
+          "periodo": "2021-05",
+          "indice": 142.1139,
+          "interanual": 15.820114
+        },
+        {
+          "periodo": "2021-06",
+          "indice": 144.735448,
+          "interanual": 12.537615
+        },
+        {
+          "periodo": "2021-07",
+          "indice": 143.81996,
+          "interanual": 10.420282
+        },
+        {
+          "periodo": "2021-08",
+          "indice": 145.072365,
+          "interanual": 7.744868
+        },
+        {
+          "periodo": "2021-09",
+          "indice": 146.381689,
+          "interanual": 7.777907
+        },
+        {
+          "periodo": "2021-10",
+          "indice": 146.362466,
+          "interanual": 6.306088
+        },
+        {
+          "periodo": "2021-11",
+          "indice": 149.29578,
+          "interanual": 6.881974
+        },
+        {
+          "periodo": "2021-12",
+          "indice": 151.173307,
+          "interanual": 6.257985
+        }
+      ]
+    },
+    {
+      "codigo": "L",
+      "nombre": "Administración pública y defensa; planes de seguridad social de afiliación obligatoria",
+      "historico": [
+        {
+          "periodo": "2021-01",
+          "indice": 146.728058,
+          "interanual": -5.81304
+        },
+        {
+          "periodo": "2021-02",
+          "indice": 147.448292,
+          "interanual": -5.670539
+        },
+        {
+          "periodo": "2021-03",
+          "indice": 148.925951,
+          "interanual": -3.520295
+        },
+        {
+          "periodo": "2021-04",
+          "indice": 146.303925,
+          "interanual": 8.31834
+        },
+        {
+          "periodo": "2021-05",
+          "indice": 147.35017,
+          "interanual": 7.987837
+        },
+        {
+          "periodo": "2021-06",
+          "indice": 148.212571,
+          "interanual": 7.949903
+        },
+        {
+          "periodo": "2021-07",
+          "indice": 150.71523,
+          "interanual": 6.842159
+        },
+        {
+          "periodo": "2021-08",
+          "indice": 150.999285,
+          "interanual": 7.836964
+        },
+        {
+          "periodo": "2021-09",
+          "indice": 152.608331,
+          "interanual": 8.553312
+        },
+        {
+          "periodo": "2021-10",
+          "indice": 159.815987,
+          "interanual": 11.640865
+        },
+        {
+          "periodo": "2021-11",
+          "indice": 160.507217,
+          "interanual": 12.001109
+        },
+        {
+          "periodo": "2021-12",
+          "indice": 161.231619,
+          "interanual": 11.751409
+        }
+      ]
+    },
+    {
+      "codigo": "M",
+      "nombre": "Enseñanza",
+      "historico": [
+        {
+          "periodo": "2021-01",
+          "indice": 152.809228,
+          "interanual": -3.080834
+        },
+        {
+          "periodo": "2021-02",
+          "indice": 154.160995,
+          "interanual": -2.679253
+        },
+        {
+          "periodo": "2021-03",
+          "indice": 159.413941,
+          "interanual": 0.715048
+        },
+        {
+          "periodo": "2021-04",
+          "indice": 156.14509,
+          "interanual": 7.676962
+        },
+        {
+          "periodo": "2021-05",
+          "indice": 157.024682,
+          "interanual": 5.180127
+        },
+        {
+          "periodo": "2021-06",
+          "indice": 157.900899,
+          "interanual": 5.374872
+        },
+        {
+          "periodo": "2021-07",
+          "indice": 158.778946,
+          "interanual": 3.466132
+        },
+        {
+          "periodo": "2021-08",
+          "indice": 161.676705,
+          "interanual": 5.607541
+        },
+        {
+          "periodo": "2021-09",
+          "indice": 163.431797,
+          "interanual": 5.367353
+        },
+        {
+          "periodo": "2021-10",
+          "indice": 164.365423,
+          "interanual": 4.998282
+        },
+        {
+          "periodo": "2021-11",
+          "indice": 164.78529,
+          "interanual": 5.101655
+        },
+        {
+          "periodo": "2021-12",
+          "indice": 166.44216,
+          "interanual": 5.428403
+        }
+      ]
+    },
+    {
+      "codigo": "N",
+      "nombre": "Servicios sociales y de salud",
+      "historico": [
+        {
+          "periodo": "2021-01",
+          "indice": 178.061034,
+          "interanual": -1.655706
+        },
+        {
+          "periodo": "2021-02",
+          "indice": 170.47971,
+          "interanual": -1.23004
+        },
+        {
+          "periodo": "2021-03",
+          "indice": 185.340165,
+          "interanual": 9.658802
+        },
+        {
+          "periodo": "2021-04",
+          "indice": 188.175754,
+          "interanual": 50.414431
+        },
+        {
+          "periodo": "2021-05",
+          "indice": 193.135521,
+          "interanual": 24.770217
+        },
+        {
+          "periodo": "2021-06",
+          "indice": 199.647634,
+          "interanual": 22.47653
+        },
+        {
+          "periodo": "2021-07",
+          "indice": 182.242897,
+          "interanual": 10.822504
+        },
+        {
+          "periodo": "2021-08",
+          "indice": 182.28225,
+          "interanual": 12.185457
+        },
+        {
+          "periodo": "2021-09",
+          "indice": 179.402698,
+          "interanual": 7.92239
+        },
+        {
+          "periodo": "2021-10",
+          "indice": 174.05663,
+          "interanual": 2.575595
+        },
+        {
+          "periodo": "2021-11",
+          "indice": 174.105945,
+          "interanual": 2.584025
+        },
+        {
+          "periodo": "2021-12",
+          "indice": 167.416083,
+          "interanual": 2.299101
+        }
+      ]
+    },
+    {
+      "codigo": "O",
+      "nombre": "Otras actividades de servicios comunitarios, sociales y personales",
+      "historico": [
+        {
+          "periodo": "2021-01",
+          "indice": 130.352413,
+          "interanual": -15.383558
+        },
+        {
+          "periodo": "2021-02",
+          "indice": 124.833051,
+          "interanual": -13.751599
+        },
+        {
+          "periodo": "2021-03",
+          "indice": 123.11019,
+          "interanual": 5.810839
+        },
+        {
+          "periodo": "2021-04",
+          "indice": 103.469981,
+          "interanual": 170.13959
+        },
+        {
+          "periodo": "2021-05",
+          "indice": 106.088618,
+          "interanual": 143.327628
+        },
+        {
+          "periodo": "2021-06",
+          "indice": 113.510347,
+          "interanual": 95.884777
+        },
+        {
+          "periodo": "2021-07",
+          "indice": 122.385868,
+          "interanual": 96.553988
+        },
+        {
+          "periodo": "2021-08",
+          "indice": 118.540232,
+          "interanual": 77.112672
+        },
+        {
+          "periodo": "2021-09",
+          "indice": 115.364689,
+          "interanual": 67.186696
+        },
+        {
+          "periodo": "2021-10",
+          "indice": 121.321842,
+          "interanual": 17.161753
+        },
+        {
+          "periodo": "2021-11",
+          "indice": 121.302592,
+          "interanual": 15.667031
+        },
+        {
+          "periodo": "2021-12",
+          "indice": 126.103718,
+          "interanual": 13.476759
+        }
+      ]
+    }
+  ]
+}

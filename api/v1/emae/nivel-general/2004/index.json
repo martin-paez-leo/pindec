@@ -1,0 +1,185 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": [
+    {
+      "periodo": "2004-01",
+      "original": {
+        "indice": 92.627506,
+        "interanual": 0.0
+      },
+      "desestacionalizada": {
+        "indice": 98.339567,
+        "mensual": null
+      },
+      "tendencia_ciclo": {
+        "indice": 96.003289,
+        "mensual": null
+      }
+    },
+    {
+      "periodo": "2004-02",
+      "original": {
+        "indice": 90.186179,
+        "interanual": 0.0
+      },
+      "desestacionalizada": {
+        "indice": 98.070717,
+        "mensual": -0.273389
+      },
+      "tendencia_ciclo": {
+        "indice": 96.610506,
+        "mensual": 0.632497
+      }
+    },
+    {
+      "periodo": "2004-03",
+      "original": {
+        "indice": 101.883298,
+        "interanual": 0.0
+      },
+      "desestacionalizada": {
+        "indice": 97.667952,
+        "mensual": -0.410688
+      },
+      "tendencia_ciclo": {
+        "indice": 97.289942,
+        "mensual": 0.703273
+      }
+    },
+    {
+      "periodo": "2004-04",
+      "original": {
+        "indice": 102.56743,
+        "interanual": 0.0
+      },
+      "desestacionalizada": {
+        "indice": 95.236785,
+        "mensual": -2.489217
+      },
+      "tendencia_ciclo": {
+        "indice": 97.99762,
+        "mensual": 0.72739
+      }
+    },
+    {
+      "periodo": "2004-05",
+      "original": {
+        "indice": 109.877504,
+        "interanual": 0.0
+      },
+      "desestacionalizada": {
+        "indice": 96.951265,
+        "mensual": 1.800229
+      },
+      "tendencia_ciclo": {
+        "indice": 98.731779,
+        "mensual": 0.74916
+      }
+    },
+    {
+      "periodo": "2004-06",
+      "original": {
+        "indice": 105.662406,
+        "interanual": 0.0
+      },
+      "desestacionalizada": {
+        "indice": 98.683556,
+        "mensual": 1.786764
+      },
+      "tendencia_ciclo": {
+        "indice": 99.48977,
+        "mensual": 0.767728
+      }
+    },
+    {
+      "periodo": "2004-07",
+      "original": {
+        "indice": 101.106997,
+        "interanual": 0.0
+      },
+      "desestacionalizada": {
+        "indice": 100.841103,
+        "mensual": 2.186329
+      },
+      "tendencia_ciclo": {
+        "indice": 100.272516,
+        "mensual": 0.78676
+      }
+    },
+    {
+      "periodo": "2004-08",
+      "original": {
+        "indice": 98.355737,
+        "interanual": 0.0
+      },
+      "desestacionalizada": {
+        "indice": 102.177689,
+        "mensual": 1.325437
+      },
+      "tendencia_ciclo": {
+        "indice": 101.077813,
+        "mensual": 0.803109
+      }
+    },
+    {
+      "periodo": "2004-09",
+      "original": {
+        "indice": 98.086375,
+        "interanual": 0.0
+      },
+      "desestacionalizada": {
+        "indice": 102.350355,
+        "mensual": 0.168986
+      },
+      "tendencia_ciclo": {
+        "indice": 101.899856,
+        "mensual": 0.813277
+      }
+    },
+    {
+      "periodo": "2004-10",
+      "original": {
+        "indice": 97.835666,
+        "interanual": 0.0
+      },
+      "desestacionalizada": {
+        "indice": 103.123679,
+        "mensual": 0.755565
+      },
+      "tendencia_ciclo": {
+        "indice": 102.729834,
+        "mensual": 0.814504
+      }
+    },
+    {
+      "periodo": "2004-11",
+      "original": {
+        "indice": 100.131947,
+        "interanual": 0.0
+      },
+      "desestacionalizada": {
+        "indice": 103.578768,
+        "mensual": 0.441304
+      },
+      "tendencia_ciclo": {
+        "indice": 103.55025,
+        "mensual": 0.798615
+      }
+    },
+    {
+      "periodo": "2004-12",
+      "original": {
+        "indice": 101.678955,
+        "interanual": 0.0
+      },
+      "desestacionalizada": {
+        "indice": 102.978564,
+        "mensual": -0.579466
+      },
+      "tendencia_ciclo": {
+        "indice": 104.346824,
+        "mensual": 0.769263
+      }
+    }
+  ]
+}

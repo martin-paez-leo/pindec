@@ -1,0 +1,69 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "codigo": "A",
+    "nombre": "Agricultura, ganadería, caza y silvicultura",
+    "historico": [
+      {
+        "periodo": "2017-01",
+        "indice": 67.322412,
+        "interanual": 4.186675
+      },
+      {
+        "periodo": "2017-02",
+        "indice": 75.178562,
+        "interanual": 7.28558
+      },
+      {
+        "periodo": "2017-03",
+        "indice": 142.221313,
+        "interanual": 4.063067
+      },
+      {
+        "periodo": "2017-04",
+        "indice": 232.025248,
+        "interanual": 4.401097
+      },
+      {
+        "periodo": "2017-05",
+        "indice": 330.018812,
+        "interanual": 0.082934
+      },
+      {
+        "periodo": "2017-06",
+        "indice": 228.109463,
+        "interanual": 2.585391
+      },
+      {
+        "periodo": "2017-07",
+        "indice": 111.663105,
+        "interanual": -1.373853
+      },
+      {
+        "periodo": "2017-08",
+        "indice": 73.087288,
+        "interanual": 3.369349
+      },
+      {
+        "periodo": "2017-09",
+        "indice": 64.752756,
+        "interanual": 4.567495
+      },
+      {
+        "periodo": "2017-10",
+        "indice": 78.233062,
+        "interanual": 10.437729
+      },
+      {
+        "periodo": "2017-11",
+        "indice": 89.015642,
+        "interanual": 2.8748
+      },
+      {
+        "periodo": "2017-12",
+        "indice": 96.788143,
+        "interanual": 3.199086
+      }
+    ]
+  }
+}

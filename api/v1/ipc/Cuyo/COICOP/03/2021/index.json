@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "03",
+    "nombre": "Prendas de vestir y calzado",
+    "historico": [
+      {
+        "periodo": "2021-01",
+        "indice": 380.1202,
+        "mensual": 4.0,
+        "interanual": 68.5
+      },
+      {
+        "periodo": "2021-02",
+        "indice": 398.4482,
+        "mensual": 4.8,
+        "interanual": 71.0
+      },
+      {
+        "periodo": "2021-03",
+        "indice": 417.7376,
+        "mensual": 4.8,
+        "interanual": 70.2
+      },
+      {
+        "periodo": "2021-04",
+        "indice": 442.2944,
+        "mensual": 5.9,
+        "interanual": 77.9
+      },
+      {
+        "periodo": "2021-05",
+        "indice": 453.7757,
+        "mensual": 2.6,
+        "interanual": 78.2
+      },
+      {
+        "periodo": "2021-06",
+        "indice": 472.4521,
+        "mensual": 4.1,
+        "interanual": 68.5
+      },
+      {
+        "periodo": "2021-07",
+        "indice": 487.9941,
+        "mensual": 3.3,
+        "interanual": 64.6
+      },
+      {
+        "periodo": "2021-08",
+        "indice": 497.57,
+        "mensual": 2.0,
+        "interanual": 64.0
+      },
+      {
+        "periodo": "2021-09",
+        "indice": 526.9041,
+        "mensual": 5.9,
+        "interanual": 58.8
+      },
+      {
+        "periodo": "2021-10",
+        "indice": 541.2378,
+        "mensual": 2.7,
+        "interanual": 59.3
+      },
+      {
+        "periodo": "2021-11",
+        "indice": 554.2844,
+        "mensual": 2.4,
+        "interanual": 56.2
+      },
+      {
+        "periodo": "2021-12",
+        "indice": 589.8435,
+        "mensual": 6.4,
+        "interanual": 61.4
+      }
+    ]
+  }
+}

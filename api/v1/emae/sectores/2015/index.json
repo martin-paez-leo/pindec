@@ -1,0 +1,995 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": [
+    {
+      "codigo": "A",
+      "nombre": "Agricultura, ganadería, caza y silvicultura",
+      "historico": [
+        {
+          "periodo": "2015-01",
+          "indice": 61.321737,
+          "interanual": -5.723611
+        },
+        {
+          "periodo": "2015-02",
+          "indice": 70.347499,
+          "interanual": 2.047187
+        },
+        {
+          "periodo": "2015-03",
+          "indice": 144.428212,
+          "interanual": 10.122389
+        },
+        {
+          "periodo": "2015-04",
+          "indice": 240.917086,
+          "interanual": 12.687908
+        },
+        {
+          "periodo": "2015-05",
+          "indice": 365.658973,
+          "interanual": 12.927006
+        },
+        {
+          "periodo": "2015-06",
+          "indice": 244.31854,
+          "interanual": 13.759551
+        },
+        {
+          "periodo": "2015-07",
+          "indice": 115.608136,
+          "interanual": 4.691889
+        },
+        {
+          "periodo": "2015-08",
+          "indice": 68.817748,
+          "interanual": 0.236373
+        },
+        {
+          "periodo": "2015-09",
+          "indice": 64.550089,
+          "interanual": -3.822896
+        },
+        {
+          "periodo": "2015-10",
+          "indice": 69.960915,
+          "interanual": 0.904244
+        },
+        {
+          "periodo": "2015-11",
+          "indice": 86.565501,
+          "interanual": 3.145673
+        },
+        {
+          "periodo": "2015-12",
+          "indice": 89.890631,
+          "interanual": 1.543858
+        }
+      ]
+    },
+    {
+      "codigo": "B",
+      "nombre": "Pesca",
+      "historico": [
+        {
+          "periodo": "2015-01",
+          "indice": 49.07539,
+          "interanual": 0.199708
+        },
+        {
+          "periodo": "2015-02",
+          "indice": 82.340201,
+          "interanual": 0.830006
+        },
+        {
+          "periodo": "2015-03",
+          "indice": 141.820997,
+          "interanual": -12.97121
+        },
+        {
+          "periodo": "2015-04",
+          "indice": 146.559113,
+          "interanual": 7.525344
+        },
+        {
+          "periodo": "2015-05",
+          "indice": 182.750318,
+          "interanual": 2.5358
+        },
+        {
+          "periodo": "2015-06",
+          "indice": 171.307885,
+          "interanual": -23.905619
+        },
+        {
+          "periodo": "2015-07",
+          "indice": 195.734917,
+          "interanual": 9.807896
+        },
+        {
+          "periodo": "2015-08",
+          "indice": 213.417317,
+          "interanual": 22.333934
+        },
+        {
+          "periodo": "2015-09",
+          "indice": 209.045548,
+          "interanual": 6.827049
+        },
+        {
+          "periodo": "2015-10",
+          "indice": 211.305755,
+          "interanual": -1.878315
+        },
+        {
+          "periodo": "2015-11",
+          "indice": 168.754265,
+          "interanual": 17.360276
+        },
+        {
+          "periodo": "2015-12",
+          "indice": 90.784218,
+          "interanual": 18.841407
+        }
+      ]
+    },
+    {
+      "codigo": "C",
+      "nombre": "Explotación de minas y canteras",
+      "historico": [
+        {
+          "periodo": "2015-01",
+          "indice": 95.14667,
+          "interanual": 2.153866
+        },
+        {
+          "periodo": "2015-02",
+          "indice": 88.28847,
+          "interanual": 1.67399
+        },
+        {
+          "periodo": "2015-03",
+          "indice": 97.375158,
+          "interanual": 1.66803
+        },
+        {
+          "periodo": "2015-04",
+          "indice": 93.843158,
+          "interanual": 4.487357
+        },
+        {
+          "periodo": "2015-05",
+          "indice": 100.678522,
+          "interanual": 2.547905
+        },
+        {
+          "periodo": "2015-06",
+          "indice": 94.46008,
+          "interanual": 1.74728
+        },
+        {
+          "periodo": "2015-07",
+          "indice": 98.480885,
+          "interanual": 3.561039
+        },
+        {
+          "periodo": "2015-08",
+          "indice": 96.675419,
+          "interanual": 2.778002
+        },
+        {
+          "periodo": "2015-09",
+          "indice": 94.301587,
+          "interanual": 0.995857
+        },
+        {
+          "periodo": "2015-10",
+          "indice": 96.179852,
+          "interanual": 0.102974
+        },
+        {
+          "periodo": "2015-11",
+          "indice": 92.56422,
+          "interanual": -0.184391
+        },
+        {
+          "periodo": "2015-12",
+          "indice": 93.202894,
+          "interanual": -1.656845
+        }
+      ]
+    },
+    {
+      "codigo": "D",
+      "nombre": "Industria manufacturera",
+      "historico": [
+        {
+          "periodo": "2015-01",
+          "indice": 118.272738,
+          "interanual": -4.941677
+        },
+        {
+          "periodo": "2015-02",
+          "indice": 116.83817,
+          "interanual": -2.404643
+        },
+        {
+          "periodo": "2015-03",
+          "indice": 134.927216,
+          "interanual": -0.300075
+        },
+        {
+          "periodo": "2015-04",
+          "indice": 137.381394,
+          "interanual": 1.20387
+        },
+        {
+          "periodo": "2015-05",
+          "indice": 139.361062,
+          "interanual": -0.751822
+        },
+        {
+          "periodo": "2015-06",
+          "indice": 143.471638,
+          "interanual": 5.176787
+        },
+        {
+          "periodo": "2015-07",
+          "indice": 141.883402,
+          "interanual": 3.295642
+        },
+        {
+          "periodo": "2015-08",
+          "indice": 143.651642,
+          "interanual": 4.982064
+        },
+        {
+          "periodo": "2015-09",
+          "indice": 140.464663,
+          "interanual": 0.698203
+        },
+        {
+          "periodo": "2015-10",
+          "indice": 145.630684,
+          "interanual": 0.604099
+        },
+        {
+          "periodo": "2015-11",
+          "indice": 141.447522,
+          "interanual": 1.447755
+        },
+        {
+          "periodo": "2015-12",
+          "indice": 132.88156,
+          "interanual": -0.732668
+        }
+      ]
+    },
+    {
+      "codigo": "E",
+      "nombre": "Electricidad, gas y agua",
+      "historico": [
+        {
+          "periodo": "2015-01",
+          "indice": 149.12423,
+          "interanual": -0.844031
+        },
+        {
+          "periodo": "2015-02",
+          "indice": 137.099527,
+          "interanual": 8.627741
+        },
+        {
+          "periodo": "2015-03",
+          "indice": 151.539326,
+          "interanual": 15.501317
+        },
+        {
+          "periodo": "2015-04",
+          "indice": 132.047502,
+          "interanual": 2.650409
+        },
+        {
+          "periodo": "2015-05",
+          "indice": 143.782314,
+          "interanual": 3.309874
+        },
+        {
+          "periodo": "2015-06",
+          "indice": 145.09812,
+          "interanual": 1.627223
+        },
+        {
+          "periodo": "2015-07",
+          "indice": 150.96215,
+          "interanual": 2.421633
+        },
+        {
+          "periodo": "2015-08",
+          "indice": 146.616811,
+          "interanual": 6.935591
+        },
+        {
+          "periodo": "2015-09",
+          "indice": 139.840628,
+          "interanual": 7.793721
+        },
+        {
+          "periodo": "2015-10",
+          "indice": 141.222318,
+          "interanual": 1.831339
+        },
+        {
+          "periodo": "2015-11",
+          "indice": 133.474955,
+          "interanual": -0.309245
+        },
+        {
+          "periodo": "2015-12",
+          "indice": 149.738015,
+          "interanual": 5.112046
+        }
+      ]
+    },
+    {
+      "codigo": "F",
+      "nombre": "Construcción",
+      "historico": [
+        {
+          "periodo": "2015-01",
+          "indice": 146.689712,
+          "interanual": -2.409236
+        },
+        {
+          "periodo": "2015-02",
+          "indice": 147.782989,
+          "interanual": -1.095297
+        },
+        {
+          "periodo": "2015-03",
+          "indice": 151.920156,
+          "interanual": 0.695514
+        },
+        {
+          "periodo": "2015-04",
+          "indice": 151.984589,
+          "interanual": 3.703734
+        },
+        {
+          "periodo": "2015-05",
+          "indice": 153.409565,
+          "interanual": 3.500795
+        },
+        {
+          "periodo": "2015-06",
+          "indice": 155.646539,
+          "interanual": 4.982951
+        },
+        {
+          "periodo": "2015-07",
+          "indice": 158.10424,
+          "interanual": 7.53713
+        },
+        {
+          "periodo": "2015-08",
+          "indice": 156.447176,
+          "interanual": 6.278113
+        },
+        {
+          "periodo": "2015-09",
+          "indice": 157.310011,
+          "interanual": 5.205578
+        },
+        {
+          "periodo": "2015-10",
+          "indice": 150.135527,
+          "interanual": 5.406494
+        },
+        {
+          "periodo": "2015-11",
+          "indice": 147.617851,
+          "interanual": 3.221918
+        },
+        {
+          "periodo": "2015-12",
+          "indice": 138.777608,
+          "interanual": -0.847961
+        }
+      ]
+    },
+    {
+      "codigo": "G",
+      "nombre": "Comercio mayorista, minorista y reparaciones",
+      "historico": [
+        {
+          "periodo": "2015-01",
+          "indice": 133.049726,
+          "interanual": -7.971353
+        },
+        {
+          "periodo": "2015-02",
+          "indice": 142.452768,
+          "interanual": 1.116054
+        },
+        {
+          "periodo": "2015-03",
+          "indice": 170.025134,
+          "interanual": 8.489502
+        },
+        {
+          "periodo": "2015-04",
+          "indice": 153.790134,
+          "interanual": 0.698561
+        },
+        {
+          "periodo": "2015-05",
+          "indice": 156.770427,
+          "interanual": 0.78878
+        },
+        {
+          "periodo": "2015-06",
+          "indice": 171.104601,
+          "interanual": 12.603448
+        },
+        {
+          "periodo": "2015-07",
+          "indice": 162.760931,
+          "interanual": 5.456829
+        },
+        {
+          "periodo": "2015-08",
+          "indice": 164.545081,
+          "interanual": 8.427283
+        },
+        {
+          "periodo": "2015-09",
+          "indice": 163.309954,
+          "interanual": 2.821349
+        },
+        {
+          "periodo": "2015-10",
+          "indice": 165.737572,
+          "interanual": 2.553647
+        },
+        {
+          "periodo": "2015-11",
+          "indice": 166.604933,
+          "interanual": 7.827381
+        },
+        {
+          "periodo": "2015-12",
+          "indice": 145.749578,
+          "interanual": -1.251565
+        }
+      ]
+    },
+    {
+      "codigo": "H",
+      "nombre": "Hoteles y restaurantes",
+      "historico": [
+        {
+          "periodo": "2015-01",
+          "indice": 171.678312,
+          "interanual": 3.670899
+        },
+        {
+          "periodo": "2015-02",
+          "indice": 160.537956,
+          "interanual": 3.290315
+        },
+        {
+          "periodo": "2015-03",
+          "indice": 150.917343,
+          "interanual": 0.846436
+        },
+        {
+          "periodo": "2015-04",
+          "indice": 147.638705,
+          "interanual": -0.160792
+        },
+        {
+          "periodo": "2015-05",
+          "indice": 144.466352,
+          "interanual": -0.574473
+        },
+        {
+          "periodo": "2015-06",
+          "indice": 145.330108,
+          "interanual": 1.352111
+        },
+        {
+          "periodo": "2015-07",
+          "indice": 163.431705,
+          "interanual": 1.789222
+        },
+        {
+          "periodo": "2015-08",
+          "indice": 159.292436,
+          "interanual": 0.610492
+        },
+        {
+          "periodo": "2015-09",
+          "indice": 159.693788,
+          "interanual": 0.930581
+        },
+        {
+          "periodo": "2015-10",
+          "indice": 166.556716,
+          "interanual": 1.238122
+        },
+        {
+          "periodo": "2015-11",
+          "indice": 166.960602,
+          "interanual": 1.811765
+        },
+        {
+          "periodo": "2015-12",
+          "indice": 165.21035,
+          "interanual": 1.405959
+        }
+      ]
+    },
+    {
+      "codigo": "I",
+      "nombre": "Transporte y comunicaciones",
+      "historico": [
+        {
+          "periodo": "2015-01",
+          "indice": 178.843686,
+          "interanual": 2.146271
+        },
+        {
+          "periodo": "2015-02",
+          "indice": 173.509279,
+          "interanual": 2.43487
+        },
+        {
+          "periodo": "2015-03",
+          "indice": 182.999547,
+          "interanual": 3.07215
+        },
+        {
+          "periodo": "2015-04",
+          "indice": 190.611831,
+          "interanual": 2.871542
+        },
+        {
+          "periodo": "2015-05",
+          "indice": 198.279969,
+          "interanual": 0.93311
+        },
+        {
+          "periodo": "2015-06",
+          "indice": 195.404654,
+          "interanual": 2.899571
+        },
+        {
+          "periodo": "2015-07",
+          "indice": 193.054193,
+          "interanual": 4.296685
+        },
+        {
+          "periodo": "2015-08",
+          "indice": 189.469476,
+          "interanual": 4.762332
+        },
+        {
+          "periodo": "2015-09",
+          "indice": 188.929308,
+          "interanual": 5.178363
+        },
+        {
+          "periodo": "2015-10",
+          "indice": 188.309493,
+          "interanual": 3.255973
+        },
+        {
+          "periodo": "2015-11",
+          "indice": 185.175336,
+          "interanual": 2.602511
+        },
+        {
+          "periodo": "2015-12",
+          "indice": 183.595925,
+          "interanual": 2.046637
+        }
+      ]
+    },
+    {
+      "codigo": "J",
+      "nombre": "Intermediación financiera",
+      "historico": [
+        {
+          "periodo": "2015-01",
+          "indice": 176.130051,
+          "interanual": -8.538871
+        },
+        {
+          "periodo": "2015-02",
+          "indice": 172.36309,
+          "interanual": -3.56904
+        },
+        {
+          "periodo": "2015-03",
+          "indice": 176.962241,
+          "interanual": 0.106788
+        },
+        {
+          "periodo": "2015-04",
+          "indice": 176.306723,
+          "interanual": 0.097441
+        },
+        {
+          "periodo": "2015-05",
+          "indice": 172.79118,
+          "interanual": -1.799488
+        },
+        {
+          "periodo": "2015-06",
+          "indice": 184.879605,
+          "interanual": 2.998848
+        },
+        {
+          "periodo": "2015-07",
+          "indice": 182.82424,
+          "interanual": 3.61405
+        },
+        {
+          "periodo": "2015-08",
+          "indice": 182.610536,
+          "interanual": 3.353744
+        },
+        {
+          "periodo": "2015-09",
+          "indice": 181.794088,
+          "interanual": 1.934751
+        },
+        {
+          "periodo": "2015-10",
+          "indice": 185.034262,
+          "interanual": 3.579055
+        },
+        {
+          "periodo": "2015-11",
+          "indice": 183.621899,
+          "interanual": 8.115237
+        },
+        {
+          "periodo": "2015-12",
+          "indice": 187.593437,
+          "interanual": 6.500955
+        }
+      ]
+    },
+    {
+      "codigo": "K",
+      "nombre": "Actividades inmobiliarias, empresariales y de alquiler",
+      "historico": [
+        {
+          "periodo": "2015-01",
+          "indice": 128.377637,
+          "interanual": 0.264054
+        },
+        {
+          "periodo": "2015-02",
+          "indice": 129.19152,
+          "interanual": 0.477684
+        },
+        {
+          "periodo": "2015-03",
+          "indice": 133.174291,
+          "interanual": 3.142385
+        },
+        {
+          "periodo": "2015-04",
+          "indice": 135.518711,
+          "interanual": 3.466382
+        },
+        {
+          "periodo": "2015-05",
+          "indice": 136.516628,
+          "interanual": 1.843226
+        },
+        {
+          "periodo": "2015-06",
+          "indice": 139.231399,
+          "interanual": 0.611987
+        },
+        {
+          "periodo": "2015-07",
+          "indice": 141.341301,
+          "interanual": 4.380816
+        },
+        {
+          "periodo": "2015-08",
+          "indice": 135.643985,
+          "interanual": 1.30336
+        },
+        {
+          "periodo": "2015-09",
+          "indice": 137.689881,
+          "interanual": 1.69981
+        },
+        {
+          "periodo": "2015-10",
+          "indice": 137.888148,
+          "interanual": 1.555145
+        },
+        {
+          "periodo": "2015-11",
+          "indice": 138.078101,
+          "interanual": 2.100149
+        },
+        {
+          "periodo": "2015-12",
+          "indice": 140.558594,
+          "interanual": 0.881965
+        }
+      ]
+    },
+    {
+      "codigo": "L",
+      "nombre": "Administración pública y defensa; planes de seguridad social de afiliación obligatoria",
+      "historico": [
+        {
+          "periodo": "2015-01",
+          "indice": 146.205801,
+          "interanual": 3.030848
+        },
+        {
+          "periodo": "2015-02",
+          "indice": 146.367167,
+          "interanual": 3.162878
+        },
+        {
+          "periodo": "2015-03",
+          "indice": 147.876189,
+          "interanual": 3.966156
+        },
+        {
+          "periodo": "2015-04",
+          "indice": 146.98245,
+          "interanual": 3.66795
+        },
+        {
+          "periodo": "2015-05",
+          "indice": 147.449456,
+          "interanual": 3.343933
+        },
+        {
+          "periodo": "2015-06",
+          "indice": 149.418209,
+          "interanual": 3.732397
+        },
+        {
+          "periodo": "2015-07",
+          "indice": 149.864134,
+          "interanual": 4.008118
+        },
+        {
+          "periodo": "2015-08",
+          "indice": 150.793708,
+          "interanual": 4.208408
+        },
+        {
+          "periodo": "2015-09",
+          "indice": 150.364374,
+          "interanual": 3.766865
+        },
+        {
+          "periodo": "2015-10",
+          "indice": 151.134451,
+          "interanual": 4.133821
+        },
+        {
+          "periodo": "2015-11",
+          "indice": 151.959323,
+          "interanual": 4.175358
+        },
+        {
+          "periodo": "2015-12",
+          "indice": 152.829381,
+          "interanual": 3.809508
+        }
+      ]
+    },
+    {
+      "codigo": "M",
+      "nombre": "Enseñanza",
+      "historico": [
+        {
+          "periodo": "2015-01",
+          "indice": 146.546997,
+          "interanual": 3.205355
+        },
+        {
+          "periodo": "2015-02",
+          "indice": 146.308503,
+          "interanual": 1.986833
+        },
+        {
+          "periodo": "2015-03",
+          "indice": 147.269428,
+          "interanual": 2.649241
+        },
+        {
+          "periodo": "2015-04",
+          "indice": 150.089227,
+          "interanual": 3.642243
+        },
+        {
+          "periodo": "2015-05",
+          "indice": 152.067632,
+          "interanual": 3.906192
+        },
+        {
+          "periodo": "2015-06",
+          "indice": 154.232394,
+          "interanual": 3.680589
+        },
+        {
+          "periodo": "2015-07",
+          "indice": 153.672989,
+          "interanual": 3.619489
+        },
+        {
+          "periodo": "2015-08",
+          "indice": 155.166101,
+          "interanual": 4.136029
+        },
+        {
+          "periodo": "2015-09",
+          "indice": 155.752403,
+          "interanual": 4.062289
+        },
+        {
+          "periodo": "2015-10",
+          "indice": 156.101381,
+          "interanual": 3.549608
+        },
+        {
+          "periodo": "2015-11",
+          "indice": 156.634128,
+          "interanual": 3.849368
+        },
+        {
+          "periodo": "2015-12",
+          "indice": 156.698996,
+          "interanual": 3.874224
+        }
+      ]
+    },
+    {
+      "codigo": "N",
+      "nombre": "Servicios sociales y de salud",
+      "historico": [
+        {
+          "periodo": "2015-01",
+          "indice": 167.451283,
+          "interanual": 2.374977
+        },
+        {
+          "periodo": "2015-02",
+          "indice": 158.489336,
+          "interanual": 2.663127
+        },
+        {
+          "periodo": "2015-03",
+          "indice": 172.157425,
+          "interanual": 2.753954
+        },
+        {
+          "periodo": "2015-04",
+          "indice": 177.442197,
+          "interanual": 2.643012
+        },
+        {
+          "periodo": "2015-05",
+          "indice": 180.633453,
+          "interanual": 2.960951
+        },
+        {
+          "periodo": "2015-06",
+          "indice": 186.134485,
+          "interanual": 3.218281
+        },
+        {
+          "periodo": "2015-07",
+          "indice": 171.171081,
+          "interanual": 2.986267
+        },
+        {
+          "periodo": "2015-08",
+          "indice": 171.841416,
+          "interanual": 3.067208
+        },
+        {
+          "periodo": "2015-09",
+          "indice": 169.074239,
+          "interanual": 3.342906
+        },
+        {
+          "periodo": "2015-10",
+          "indice": 164.451627,
+          "interanual": 2.942146
+        },
+        {
+          "periodo": "2015-11",
+          "indice": 164.569454,
+          "interanual": 3.10428
+        },
+        {
+          "periodo": "2015-12",
+          "indice": 158.207062,
+          "interanual": 2.987161
+        }
+      ]
+    },
+    {
+      "codigo": "O",
+      "nombre": "Otras actividades de servicios comunitarios, sociales y personales",
+      "historico": [
+        {
+          "periodo": "2015-01",
+          "indice": 150.792048,
+          "interanual": -1.268197
+        },
+        {
+          "periodo": "2015-02",
+          "indice": 148.71964,
+          "interanual": 2.340118
+        },
+        {
+          "periodo": "2015-03",
+          "indice": 141.311576,
+          "interanual": -3.886962
+        },
+        {
+          "periodo": "2015-04",
+          "indice": 150.774043,
+          "interanual": 2.301171
+        },
+        {
+          "periodo": "2015-05",
+          "indice": 144.108426,
+          "interanual": -1.651883
+        },
+        {
+          "periodo": "2015-06",
+          "indice": 151.507378,
+          "interanual": 3.566867
+        },
+        {
+          "periodo": "2015-07",
+          "indice": 170.590196,
+          "interanual": 8.433061
+        },
+        {
+          "periodo": "2015-08",
+          "indice": 152.014027,
+          "interanual": 0.343274
+        },
+        {
+          "periodo": "2015-09",
+          "indice": 143.960828,
+          "interanual": -3.022792
+        },
+        {
+          "periodo": "2015-10",
+          "indice": 148.007821,
+          "interanual": -0.460232
+        },
+        {
+          "periodo": "2015-11",
+          "indice": 146.291859,
+          "interanual": -1.65485
+        },
+        {
+          "periodo": "2015-12",
+          "indice": 146.614419,
+          "interanual": -0.601498
+        }
+      ]
+    }
+  ]
+}

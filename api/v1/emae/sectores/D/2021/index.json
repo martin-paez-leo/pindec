@@ -1,0 +1,69 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "codigo": "D",
+    "nombre": "Industria manufacturera",
+    "historico": [
+      {
+        "periodo": "2021-01",
+        "indice": 106.259176,
+        "interanual": 4.467798
+      },
+      {
+        "periodo": "2021-02",
+        "indice": 103.4554,
+        "interanual": 1.122099
+      },
+      {
+        "periodo": "2021-03",
+        "indice": 129.523731,
+        "interanual": 30.878917
+      },
+      {
+        "periodo": "2021-04",
+        "indice": 123.316725,
+        "interanual": 58.06673
+      },
+      {
+        "periodo": "2021-05",
+        "indice": 122.087752,
+        "interanual": 31.129109
+      },
+      {
+        "periodo": "2021-06",
+        "indice": 133.052552,
+        "interanual": 17.31887
+      },
+      {
+        "periodo": "2021-07",
+        "indice": 129.646882,
+        "interanual": 13.121196
+      },
+      {
+        "periodo": "2021-08",
+        "indice": 130.635034,
+        "interanual": 14.192709
+      },
+      {
+        "periodo": "2021-09",
+        "indice": 131.991331,
+        "interanual": 10.681845
+      },
+      {
+        "periodo": "2021-10",
+        "indice": 133.679289,
+        "interanual": 4.900071
+      },
+      {
+        "periodo": "2021-11",
+        "indice": 137.741054,
+        "interanual": 10.502947
+      },
+      {
+        "periodo": "2021-12",
+        "indice": 131.044571,
+        "interanual": 10.538955
+      }
+    ]
+  }
+}

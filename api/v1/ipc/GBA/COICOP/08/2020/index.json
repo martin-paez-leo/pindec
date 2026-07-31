@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "08",
+    "nombre": "Comunicación",
+    "historico": [
+      {
+        "periodo": "2020-01",
+        "indice": 340.007,
+        "mensual": 0.1,
+        "interanual": 52.1
+      },
+      {
+        "periodo": "2020-02",
+        "indice": 348.3377,
+        "mensual": 2.5,
+        "interanual": 53.6
+      },
+      {
+        "periodo": "2020-03",
+        "indice": 377.4036,
+        "mensual": 8.3,
+        "interanual": 59.8
+      },
+      {
+        "periodo": "2020-04",
+        "indice": 366.5663,
+        "mensual": -2.9,
+        "interanual": 50.3
+      },
+      {
+        "periodo": "2020-05",
+        "indice": 368.3501,
+        "mensual": 0.5,
+        "interanual": 49.3
+      },
+      {
+        "periodo": "2020-06",
+        "indice": 369.712,
+        "mensual": 0.4,
+        "interanual": 38.8
+      },
+      {
+        "periodo": "2020-07",
+        "indice": 376.6322,
+        "mensual": 1.9,
+        "interanual": 41.2
+      },
+      {
+        "periodo": "2020-08",
+        "indice": 377.5922,
+        "mensual": 0.3,
+        "interanual": 39.7
+      },
+      {
+        "periodo": "2020-09",
+        "indice": 374.475,
+        "mensual": -0.8,
+        "interanual": 29.8
+      },
+      {
+        "periodo": "2020-10",
+        "indice": 372.4854,
+        "mensual": -0.5,
+        "interanual": 29.0
+      },
+      {
+        "periodo": "2020-11",
+        "indice": 365.8217,
+        "mensual": -1.8,
+        "interanual": 18.6
+      },
+      {
+        "periodo": "2020-12",
+        "indice": 365.6122,
+        "mensual": -0.1,
+        "interanual": 7.6
+      }
+    ]
+  }
+}

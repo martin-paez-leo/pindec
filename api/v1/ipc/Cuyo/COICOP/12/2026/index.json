@@ -1,0 +1,45 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "12",
+    "nombre": "Bienes y servicios varios",
+    "historico": [
+      {
+        "periodo": "2026-01",
+        "indice": 10278.1807,
+        "mensual": 3.6,
+        "interanual": 34.3
+      },
+      {
+        "periodo": "2026-02",
+        "indice": 10599.2171,
+        "mensual": 3.1,
+        "interanual": 34.4
+      },
+      {
+        "periodo": "2026-03",
+        "indice": 10752.2318,
+        "mensual": 1.4,
+        "interanual": 33.0
+      },
+      {
+        "periodo": "2026-04",
+        "indice": 11095.2673,
+        "mensual": 3.2,
+        "interanual": 31.9
+      },
+      {
+        "periodo": "2026-05",
+        "indice": 11355.0232,
+        "mensual": 2.3,
+        "interanual": 31.8
+      },
+      {
+        "periodo": "2026-06",
+        "indice": 11509.3524,
+        "mensual": 1.4,
+        "interanual": 33.0
+      }
+    ]
+  }
+}

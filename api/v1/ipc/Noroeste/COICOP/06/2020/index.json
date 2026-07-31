@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "06",
+    "nombre": "Salud",
+    "historico": [
+      {
+        "periodo": "2020-01",
+        "indice": 329.0386,
+        "mensual": -1.1,
+        "interanual": 67.8
+      },
+      {
+        "periodo": "2020-02",
+        "indice": 329.5888,
+        "mensual": 0.2,
+        "interanual": 64.1
+      },
+      {
+        "periodo": "2020-03",
+        "indice": 338.052,
+        "mensual": 2.6,
+        "interanual": 60.1
+      },
+      {
+        "periodo": "2020-04",
+        "indice": 345.5821,
+        "mensual": 2.2,
+        "interanual": 57.3
+      },
+      {
+        "periodo": "2020-05",
+        "indice": 350.776,
+        "mensual": 1.5,
+        "interanual": 53.9
+      },
+      {
+        "periodo": "2020-06",
+        "indice": 362.5112,
+        "mensual": 3.3,
+        "interanual": 51.5
+      },
+      {
+        "periodo": "2020-07",
+        "indice": 371.6366,
+        "mensual": 2.5,
+        "interanual": 50.1
+      },
+      {
+        "periodo": "2020-08",
+        "indice": 382.1337,
+        "mensual": 2.8,
+        "interanual": 47.4
+      },
+      {
+        "periodo": "2020-09",
+        "indice": 396.3677,
+        "mensual": 3.7,
+        "interanual": 39.4
+      },
+      {
+        "periodo": "2020-10",
+        "indice": 410.6151,
+        "mensual": 3.6,
+        "interanual": 38.2
+      },
+      {
+        "periodo": "2020-11",
+        "indice": 429.6741,
+        "mensual": 4.6,
+        "interanual": 34.5
+      },
+      {
+        "periodo": "2020-12",
+        "indice": 448.2768,
+        "mensual": 4.3,
+        "interanual": 34.8
+      }
+    ]
+  }
+}

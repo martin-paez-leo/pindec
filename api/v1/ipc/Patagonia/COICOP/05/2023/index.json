@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "05",
+    "nombre": "Equipamiento y mantenimiento del hogar",
+    "historico": [
+      {
+        "periodo": "2023-01",
+        "indice": 1213.3925,
+        "mensual": 6.2,
+        "interanual": 94.0
+      },
+      {
+        "periodo": "2023-02",
+        "indice": 1274.1909,
+        "mensual": 5.0,
+        "interanual": 96.4
+      },
+      {
+        "periodo": "2023-03",
+        "indice": 1329.0102,
+        "mensual": 4.3,
+        "interanual": 97.2
+      },
+      {
+        "periodo": "2023-04",
+        "indice": 1445.2934,
+        "mensual": 8.7,
+        "interanual": 105.8
+      },
+      {
+        "periodo": "2023-05",
+        "indice": 1569.7258,
+        "mensual": 8.6,
+        "interanual": 113.4
+      },
+      {
+        "periodo": "2023-06",
+        "indice": 1683.7421,
+        "mensual": 7.3,
+        "interanual": 118.0
+      },
+      {
+        "periodo": "2023-07",
+        "indice": 1841.4126,
+        "mensual": 9.4,
+        "interanual": 114.4
+      },
+      {
+        "periodo": "2023-08",
+        "indice": 2108.7658,
+        "mensual": 14.5,
+        "interanual": 128.9
+      },
+      {
+        "periodo": "2023-09",
+        "indice": 2415.264,
+        "mensual": 14.5,
+        "interanual": 146.5
+      },
+      {
+        "periodo": "2023-10",
+        "indice": 2655.8839,
+        "mensual": 10.0,
+        "interanual": 155.0
+      },
+      {
+        "periodo": "2023-11",
+        "indice": 3035.4184,
+        "mensual": 14.3,
+        "interanual": 176.4
+      },
+      {
+        "periodo": "2023-12",
+        "indice": 3897.4008,
+        "mensual": 28.4,
+        "interanual": 241.2
+      }
+    ]
+  }
+}

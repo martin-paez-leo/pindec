@@ -1,0 +1,45 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "05",
+    "nombre": "Equipamiento y mantenimiento del hogar",
+    "historico": [
+      {
+        "periodo": "2026-01",
+        "indice": 8554.6652,
+        "mensual": 1.5,
+        "interanual": 21.0
+      },
+      {
+        "periodo": "2026-02",
+        "indice": 8818.98,
+        "mensual": 3.1,
+        "interanual": 23.2
+      },
+      {
+        "periodo": "2026-03",
+        "indice": 8934.8387,
+        "mensual": 1.3,
+        "interanual": 23.1
+      },
+      {
+        "periodo": "2026-04",
+        "indice": 9210.471,
+        "mensual": 3.1,
+        "interanual": 25.5
+      },
+      {
+        "periodo": "2026-05",
+        "indice": 9312.3705,
+        "mensual": 1.1,
+        "interanual": 25.1
+      },
+      {
+        "periodo": "2026-06",
+        "indice": 9457.329,
+        "mensual": 1.6,
+        "interanual": 24.4
+      }
+    ]
+  }
+}

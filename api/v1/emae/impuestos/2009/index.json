@@ -1,0 +1,67 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "historico": [
+      {
+        "periodo": "2009-01",
+        "indice": 132.213542,
+        "interanual": -13.622457
+      },
+      {
+        "periodo": "2009-02",
+        "indice": 129.244609,
+        "interanual": -5.883961
+      },
+      {
+        "periodo": "2009-03",
+        "indice": 132.914293,
+        "interanual": -0.538583
+      },
+      {
+        "periodo": "2009-04",
+        "indice": 136.97404,
+        "interanual": -8.281342
+      },
+      {
+        "periodo": "2009-05",
+        "indice": 133.76604,
+        "interanual": -12.282103
+      },
+      {
+        "periodo": "2009-06",
+        "indice": 135.653908,
+        "interanual": -4.513494
+      },
+      {
+        "periodo": "2009-07",
+        "indice": 136.224532,
+        "interanual": -8.084866
+      },
+      {
+        "periodo": "2009-08",
+        "indice": 131.032134,
+        "interanual": -10.971525
+      },
+      {
+        "periodo": "2009-09",
+        "indice": 135.984989,
+        "interanual": -7.275036
+      },
+      {
+        "periodo": "2009-10",
+        "indice": 132.92653,
+        "interanual": -7.662188
+      },
+      {
+        "periodo": "2009-11",
+        "indice": 131.992311,
+        "interanual": -2.011876
+      },
+      {
+        "periodo": "2009-12",
+        "indice": 135.564918,
+        "interanual": 1.018457
+      }
+    ]
+  }
+}

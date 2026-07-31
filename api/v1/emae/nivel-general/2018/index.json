@@ -1,0 +1,185 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": [
+    {
+      "periodo": "2018-01",
+      "original": {
+        "indice": 142.740913,
+        "interanual": 4.470566
+      },
+      "desestacionalizada": {
+        "indice": 150.977502,
+        "mensual": -0.832762
+      },
+      "tendencia_ciclo": {
+        "indice": 150.035246,
+        "mensual": -0.322543
+      }
+    },
+    {
+      "periodo": "2018-02",
+      "original": {
+        "indice": 138.81804,
+        "interanual": 5.039043
+      },
+      "desestacionalizada": {
+        "indice": 152.191475,
+        "mensual": 0.804075
+      },
+      "tendencia_ciclo": {
+        "indice": 149.364355,
+        "mensual": -0.447156
+      }
+    },
+    {
+      "periodo": "2018-03",
+      "original": {
+        "indice": 155.85732,
+        "interanual": 2.120522
+      },
+      "desestacionalizada": {
+        "indice": 151.528756,
+        "mensual": -0.435451
+      },
+      "tendencia_ciclo": {
+        "indice": 148.546495,
+        "mensual": -0.54756
+      }
+    },
+    {
+      "periodo": "2018-04",
+      "original": {
+        "indice": 151.524544,
+        "interanual": -0.277599
+      },
+      "desestacionalizada": {
+        "indice": 146.792658,
+        "mensual": -3.125544
+      },
+      "tendencia_ciclo": {
+        "indice": 147.628454,
+        "mensual": -0.618016
+      }
+    },
+    {
+      "periodo": "2018-05",
+      "original": {
+        "indice": 159.566692,
+        "interanual": -5.23936
+      },
+      "desestacionalizada": {
+        "indice": 144.563087,
+        "mensual": -1.518857
+      },
+      "tendencia_ciclo": {
+        "indice": 146.665547,
+        "mensual": -0.65225
+      }
+    },
+    {
+      "periodo": "2018-06",
+      "original": {
+        "indice": 151.125763,
+        "interanual": -6.153867
+      },
+      "desestacionalizada": {
+        "indice": 143.259083,
+        "mensual": -0.902031
+      },
+      "tendencia_ciclo": {
+        "indice": 145.715981,
+        "mensual": -0.647436
+      }
+    },
+    {
+      "periodo": "2018-07",
+      "original": {
+        "indice": 145.963524,
+        "interanual": -2.889122
+      },
+      "desestacionalizada": {
+        "indice": 143.579209,
+        "mensual": 0.22346
+      },
+      "tendencia_ciclo": {
+        "indice": 144.832918,
+        "mensual": -0.606016
+      }
+    },
+    {
+      "periodo": "2018-08",
+      "original": {
+        "indice": 146.76596,
+        "interanual": -1.667868
+      },
+      "desestacionalizada": {
+        "indice": 146.537231,
+        "mensual": 2.060202
+      },
+      "tendencia_ciclo": {
+        "indice": 144.064722,
+        "mensual": -0.530402
+      }
+    },
+    {
+      "periodo": "2018-09",
+      "original": {
+        "indice": 137.74657,
+        "interanual": -5.902174
+      },
+      "desestacionalizada": {
+        "indice": 143.132241,
+        "mensual": -2.323634
+      },
+      "tendencia_ciclo": {
+        "indice": 143.445952,
+        "mensual": -0.429508
+      }
+    },
+    {
+      "periodo": "2018-10",
+      "original": {
+        "indice": 142.843276,
+        "interanual": -4.379712
+      },
+      "desestacionalizada": {
+        "indice": 143.595585,
+        "mensual": 0.323717
+      },
+      "tendencia_ciclo": {
+        "indice": 142.993161,
+        "mensual": -0.315653
+      }
+    },
+    {
+      "periodo": "2018-11",
+      "original": {
+        "indice": 140.592407,
+        "interanual": -7.459969
+      },
+      "desestacionalizada": {
+        "indice": 141.66615,
+        "mensual": -1.343659
+      },
+      "tendencia_ciclo": {
+        "indice": 142.70789,
+        "mensual": -0.1995
+      }
+    },
+    {
+      "periodo": "2018-12",
+      "original": {
+        "indice": 136.251616,
+        "interanual": -7.175042
+      },
+      "desestacionalizada": {
+        "indice": 141.973649,
+        "mensual": 0.217058
+      },
+      "tendencia_ciclo": {
+        "indice": 142.577133,
+        "mensual": -0.091626
+      }
+    }
+  ]
+}

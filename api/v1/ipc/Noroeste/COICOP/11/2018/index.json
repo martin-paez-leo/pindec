@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "11",
+    "nombre": "Restaurantes y hoteles",
+    "historico": [
+      {
+        "periodo": "2018-01",
+        "indice": 122.2644,
+        "mensual": 3.1,
+        "interanual": 19.3
+      },
+      {
+        "periodo": "2018-02",
+        "indice": 125.1444,
+        "mensual": 2.4,
+        "interanual": 21.0
+      },
+      {
+        "periodo": "2018-03",
+        "indice": 128.4243,
+        "mensual": 2.6,
+        "interanual": 22.3
+      },
+      {
+        "periodo": "2018-04",
+        "indice": 130.6261,
+        "mensual": 1.7,
+        "interanual": 21.9
+      },
+      {
+        "periodo": "2018-05",
+        "indice": 132.4006,
+        "mensual": 1.4,
+        "interanual": 21.4
+      },
+      {
+        "periodo": "2018-06",
+        "indice": 135.7591,
+        "mensual": 2.5,
+        "interanual": 24.1
+      },
+      {
+        "periodo": "2018-07",
+        "indice": 141.6122,
+        "mensual": 4.3,
+        "interanual": 27.3
+      },
+      {
+        "periodo": "2018-08",
+        "indice": 145.0923,
+        "mensual": 2.5,
+        "interanual": 28.5
+      },
+      {
+        "periodo": "2018-09",
+        "indice": 155.5604,
+        "mensual": 7.2,
+        "interanual": 35.5
+      },
+      {
+        "periodo": "2018-10",
+        "indice": 161.1613,
+        "mensual": 3.6,
+        "interanual": 37.4
+      },
+      {
+        "periodo": "2018-11",
+        "indice": 165.0404,
+        "mensual": 2.4,
+        "interanual": 39.7
+      },
+      {
+        "periodo": "2018-12",
+        "indice": 169.4739,
+        "mensual": 2.7,
+        "interanual": 42.9
+      }
+    ]
+  }
+}

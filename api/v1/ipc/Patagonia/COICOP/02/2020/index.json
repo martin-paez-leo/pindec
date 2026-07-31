@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "02",
+    "nombre": "Bebidas alcohólicas y tabaco",
+    "historico": [
+      {
+        "periodo": "2020-01",
+        "indice": 252.2101,
+        "mensual": 4.6,
+        "interanual": 54.1
+      },
+      {
+        "periodo": "2020-02",
+        "indice": 256.0541,
+        "mensual": 1.5,
+        "interanual": 52.9
+      },
+      {
+        "periodo": "2020-03",
+        "indice": 264.1838,
+        "mensual": 3.2,
+        "interanual": 51.0
+      },
+      {
+        "periodo": "2020-04",
+        "indice": 268.9391,
+        "mensual": 1.8,
+        "interanual": 52.1
+      },
+      {
+        "periodo": "2020-05",
+        "indice": 268.3262,
+        "mensual": -0.2,
+        "interanual": 48.5
+      },
+      {
+        "periodo": "2020-06",
+        "indice": 278.4546,
+        "mensual": 3.8,
+        "interanual": 49.9
+      },
+      {
+        "periodo": "2020-07",
+        "indice": 282.2182,
+        "mensual": 1.4,
+        "interanual": 51.0
+      },
+      {
+        "periodo": "2020-08",
+        "indice": 285.2349,
+        "mensual": 1.1,
+        "interanual": 45.7
+      },
+      {
+        "periodo": "2020-09",
+        "indice": 297.0005,
+        "mensual": 4.1,
+        "interanual": 42.8
+      },
+      {
+        "periodo": "2020-10",
+        "indice": 298.7982,
+        "mensual": 0.6,
+        "interanual": 35.1
+      },
+      {
+        "periodo": "2020-11",
+        "indice": 309.9157,
+        "mensual": 3.7,
+        "interanual": 32.5
+      },
+      {
+        "periodo": "2020-12",
+        "indice": 322.5887,
+        "mensual": 4.1,
+        "interanual": 33.7
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "codigo": "L",
+    "nombre": "Administración pública y defensa; planes de seguridad social de afiliación obligatoria",
+    "historico": [
+      {
+        "periodo": "2013-01",
+        "indice": 137.016835,
+        "interanual": 2.28282
+      },
+      {
+        "periodo": "2013-02",
+        "indice": 139.440343,
+        "interanual": 3.516077
+      },
+      {
+        "periodo": "2013-03",
+        "indice": 137.288709,
+        "interanual": 1.667404
+      },
+      {
+        "periodo": "2013-04",
+        "indice": 137.345696,
+        "interanual": 2.444836
+      },
+      {
+        "periodo": "2013-05",
+        "indice": 138.139259,
+        "interanual": 2.512801
+      },
+      {
+        "periodo": "2013-06",
+        "indice": 140.143396,
+        "interanual": 2.536625
+      },
+      {
+        "periodo": "2013-07",
+        "indice": 139.480248,
+        "interanual": 2.453126
+      },
+      {
+        "periodo": "2013-08",
+        "indice": 140.405748,
+        "interanual": 3.093104
+      },
+      {
+        "periodo": "2013-09",
+        "indice": 140.417361,
+        "interanual": 3.022283
+      },
+      {
+        "periodo": "2013-10",
+        "indice": 140.592162,
+        "interanual": 2.416612
+      },
+      {
+        "periodo": "2013-11",
+        "indice": 141.29174,
+        "interanual": 2.756891
+      },
+      {
+        "periodo": "2013-12",
+        "indice": 143.004805,
+        "interanual": 2.974196
+      }
+    ]
+  }
+}

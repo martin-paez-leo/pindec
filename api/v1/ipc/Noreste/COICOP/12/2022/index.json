@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "12",
+    "nombre": "Bienes y servicios varios",
+    "historico": [
+      {
+        "periodo": "2022-01",
+        "indice": 543.986,
+        "mensual": 3.0,
+        "interanual": 41.2
+      },
+      {
+        "periodo": "2022-02",
+        "indice": 566.0174,
+        "mensual": 4.0,
+        "interanual": 42.9
+      },
+      {
+        "periodo": "2022-03",
+        "indice": 596.0683,
+        "mensual": 5.3,
+        "interanual": 47.0
+      },
+      {
+        "periodo": "2022-04",
+        "indice": 629.2606,
+        "mensual": 5.6,
+        "interanual": 48.5
+      },
+      {
+        "periodo": "2022-05",
+        "indice": 661.4903,
+        "mensual": 5.1,
+        "interanual": 51.8
+      },
+      {
+        "periodo": "2022-06",
+        "indice": 696.5957,
+        "mensual": 5.3,
+        "interanual": 55.9
+      },
+      {
+        "periodo": "2022-07",
+        "indice": 763.888,
+        "mensual": 9.7,
+        "interanual": 66.4
+      },
+      {
+        "periodo": "2022-08",
+        "indice": 836.1936,
+        "mensual": 9.5,
+        "interanual": 76.2
+      },
+      {
+        "periodo": "2022-09",
+        "indice": 897.3017,
+        "mensual": 7.3,
+        "interanual": 83.0
+      },
+      {
+        "periodo": "2022-10",
+        "indice": 952.5839,
+        "mensual": 6.2,
+        "interanual": 89.9
+      },
+      {
+        "periodo": "2022-11",
+        "indice": 997.8151,
+        "mensual": 4.7,
+        "interanual": 94.6
+      },
+      {
+        "periodo": "2022-12",
+        "indice": 1042.8313,
+        "mensual": 4.5,
+        "interanual": 97.5
+      }
+    ]
+  }
+}

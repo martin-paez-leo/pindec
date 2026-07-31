@@ -1,0 +1,69 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "codigo": "J",
+    "nombre": "Intermediación financiera",
+    "historico": [
+      {
+        "periodo": "2021-01",
+        "indice": 165.468599,
+        "interanual": 2.437351
+      },
+      {
+        "periodo": "2021-02",
+        "indice": 159.704845,
+        "interanual": 3.398444
+      },
+      {
+        "periodo": "2021-03",
+        "indice": 179.512046,
+        "interanual": 4.862789
+      },
+      {
+        "periodo": "2021-04",
+        "indice": 170.83031,
+        "interanual": 3.240405
+      },
+      {
+        "periodo": "2021-05",
+        "indice": 156.550731,
+        "interanual": 0.589049
+      },
+      {
+        "periodo": "2021-06",
+        "indice": 163.700496,
+        "interanual": -1.896394
+      },
+      {
+        "periodo": "2021-07",
+        "indice": 162.430056,
+        "interanual": -2.461531
+      },
+      {
+        "periodo": "2021-08",
+        "indice": 169.161816,
+        "interanual": -1.178482
+      },
+      {
+        "periodo": "2021-09",
+        "indice": 165.70502,
+        "interanual": -0.932812
+      },
+      {
+        "periodo": "2021-10",
+        "indice": 168.893406,
+        "interanual": -2.176476
+      },
+      {
+        "periodo": "2021-11",
+        "indice": 172.138118,
+        "interanual": 1.743723
+      },
+      {
+        "periodo": "2021-12",
+        "indice": 174.983673,
+        "interanual": -0.551964
+      }
+    ]
+  }
+}

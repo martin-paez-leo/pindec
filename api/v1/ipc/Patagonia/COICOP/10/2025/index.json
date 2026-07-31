@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "10",
+    "nombre": "Educación",
+    "historico": [
+      {
+        "periodo": "2025-01",
+        "indice": 4728.4796,
+        "mensual": 0.4,
+        "interanual": 219.0
+      },
+      {
+        "periodo": "2025-02",
+        "indice": 5157.8097,
+        "mensual": 9.1,
+        "interanual": 221.6
+      },
+      {
+        "periodo": "2025-03",
+        "indice": 6738.4243,
+        "mensual": 30.6,
+        "interanual": 156.2
+      },
+      {
+        "periodo": "2025-04",
+        "indice": 6927.5938,
+        "mensual": 2.8,
+        "interanual": 134.6
+      },
+      {
+        "periodo": "2025-05",
+        "indice": 7251.7417,
+        "mensual": 4.7,
+        "interanual": 125.1
+      },
+      {
+        "periodo": "2025-06",
+        "indice": 7355.9599,
+        "mensual": 1.4,
+        "interanual": 112.3
+      },
+      {
+        "periodo": "2025-07",
+        "indice": 7510.7335,
+        "mensual": 2.1,
+        "interanual": 107.7
+      },
+      {
+        "periodo": "2025-08",
+        "indice": 8082.2038,
+        "mensual": 7.6,
+        "interanual": 99.9
+      },
+      {
+        "periodo": "2025-09",
+        "indice": 8215.7791,
+        "mensual": 1.7,
+        "interanual": 92.5
+      },
+      {
+        "periodo": "2025-10",
+        "indice": 8384.6395,
+        "mensual": 2.1,
+        "interanual": 89.0
+      },
+      {
+        "periodo": "2025-11",
+        "indice": 8553.2672,
+        "mensual": 2.0,
+        "interanual": 84.1
+      },
+      {
+        "periodo": "2025-12",
+        "indice": 8641.4408,
+        "mensual": 1.0,
+        "interanual": 83.4
+      }
+    ]
+  }
+}

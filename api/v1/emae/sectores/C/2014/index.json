@@ -1,0 +1,69 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "codigo": "C",
+    "nombre": "Explotación de minas y canteras",
+    "historico": [
+      {
+        "periodo": "2014-01",
+        "indice": 93.140548,
+        "interanual": 0.910064
+      },
+      {
+        "periodo": "2014-02",
+        "indice": 86.834863,
+        "interanual": 1.470192
+      },
+      {
+        "periodo": "2014-03",
+        "indice": 95.777559,
+        "interanual": 2.716249
+      },
+      {
+        "periodo": "2014-04",
+        "indice": 89.812931,
+        "interanual": -0.981177
+      },
+      {
+        "periodo": "2014-05",
+        "indice": 98.177064,
+        "interanual": 3.818376
+      },
+      {
+        "periodo": "2014-06",
+        "indice": 92.837941,
+        "interanual": 1.517912
+      },
+      {
+        "periodo": "2014-07",
+        "indice": 95.094532,
+        "interanual": 0.699371
+      },
+      {
+        "periodo": "2014-08",
+        "indice": 94.062364,
+        "interanual": -0.008273
+      },
+      {
+        "periodo": "2014-09",
+        "indice": 93.371738,
+        "interanual": 2.163523
+      },
+      {
+        "periodo": "2014-10",
+        "indice": 96.080914,
+        "interanual": 1.822467
+      },
+      {
+        "periodo": "2014-11",
+        "indice": 92.735215,
+        "interanual": 2.37872
+      },
+      {
+        "periodo": "2014-12",
+        "indice": 94.773137,
+        "interanual": 2.176156
+      }
+    ]
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": [
+    {
+      "periodo": "2020-01",
+      "original": {
+        "indice": 133.891086,
+        "interanual": -0.479539
+      },
+      "desestacionalizada": {
+        "indice": 140.930177,
+        "mensual": 0.573403
+      },
+      "tendencia_ciclo": {
+        "indice": 139.932376,
+        "mensual": -0.496372
+      }
+    },
+    {
+      "periodo": "2020-02",
+      "original": {
+        "indice": 128.973639,
+        "interanual": -2.490589
+      },
+      "desestacionalizada": {
+        "indice": 139.549761,
+        "mensual": -0.979503
+      },
+      "tendencia_ciclo": {
+        "indice": 139.224484,
+        "mensual": -0.505882
+      }
+    },
+    {
+      "periodo": "2020-03",
+      "original": {
+        "indice": 128.211061,
+        "interanual": -11.556166
+      },
+      "desestacionalizada": {
+        "indice": 125.960248,
+        "mensual": -9.738113
+      },
+      "tendencia_ciclo": {
+        "indice": 138.54271,
+        "mensual": -0.489693
+      }
+    },
+    {
+      "periodo": "2020-04",
+      "original": {
+        "indice": 113.295034,
+        "interanual": -24.427768
+      },
+      "desestacionalizada": {
+        "indice": 105.992279,
+        "mensual": -15.852596
+      },
+      "tendencia_ciclo": {
+        "indice": 137.922429,
+        "mensual": -0.447718
+      }
+    },
+    {
+      "periodo": "2020-05",
+      "original": {
+        "indice": 131.029569,
+        "interanual": -20.169975
+      },
+      "desestacionalizada": {
+        "indice": 117.209622,
+        "mensual": 10.58317
+      },
+      "tendencia_ciclo": {
+        "indice": 137.397127,
+        "mensual": -0.380868
+      }
+    },
+    {
+      "periodo": "2020-06",
+      "original": {
+        "indice": 132.521965,
+        "interanual": -12.155065
+      },
+      "desestacionalizada": {
+        "indice": 124.344973,
+        "mensual": 6.087684
+      },
+      "tendencia_ciclo": {
+        "indice": 136.991653,
+        "mensual": -0.295111
+      }
+    },
+    {
+      "periodo": "2020-07",
+      "original": {
+        "indice": 127.463689,
+        "interanual": -13.158285
+      },
+      "desestacionalizada": {
+        "indice": 126.158195,
+        "mensual": 1.458219
+      },
+      "tendencia_ciclo": {
+        "indice": 136.722091,
+        "mensual": -0.196772
+      }
+    },
+    {
+      "periodo": "2020-08",
+      "original": {
+        "indice": 125.183894,
+        "interanual": -11.391131
+      },
+      "desestacionalizada": {
+        "indice": 128.844158,
+        "mensual": 2.129044
+      },
+      "tendencia_ciclo": {
+        "indice": 136.596793,
+        "mensual": -0.091644
+      }
+    },
+    {
+      "periodo": "2020-09",
+      "original": {
+        "indice": 127.175076,
+        "interanual": -5.710378
+      },
+      "desestacionalizada": {
+        "indice": 130.796548,
+        "mensual": 1.515311
+      },
+      "tendencia_ciclo": {
+        "indice": 136.615366,
+        "mensual": 0.013597
+      }
+    },
+    {
+      "periodo": "2020-10",
+      "original": {
+        "indice": 131.345502,
+        "interanual": -7.267638
+      },
+      "desestacionalizada": {
+        "indice": 133.398661,
+        "mensual": 1.989436
+      },
+      "tendencia_ciclo": {
+        "indice": 136.771127,
+        "mensual": 0.114014
+      }
+    },
+    {
+      "periodo": "2020-11",
+      "original": {
+        "indice": 132.068655,
+        "interanual": -4.139579
+      },
+      "desestacionalizada": {
+        "indice": 134.871321,
+        "mensual": 1.103954
+      },
+      "tendencia_ciclo": {
+        "indice": 137.050768,
+        "mensual": 0.204459
+      }
+    },
+    {
+      "periodo": "2020-12",
+      "original": {
+        "indice": 133.854366,
+        "interanual": -1.407422
+      },
+      "desestacionalizada": {
+        "indice": 136.957594,
+        "mensual": 1.546862
+      },
+      "tendencia_ciclo": {
+        "indice": 137.437904,
+        "mensual": 0.282477
+      }
+    }
+  ]
+}

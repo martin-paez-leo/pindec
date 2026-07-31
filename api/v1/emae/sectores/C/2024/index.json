@@ -1,0 +1,69 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "codigo": "C",
+    "nombre": "Explotación de minas y canteras",
+    "historico": [
+      {
+        "periodo": "2024-01",
+        "indice": 112.661268,
+        "interanual": 7.280703
+      },
+      {
+        "periodo": "2024-02",
+        "indice": 104.884247,
+        "interanual": 11.325501
+      },
+      {
+        "periodo": "2024-03",
+        "indice": 110.602695,
+        "interanual": 6.487852
+      },
+      {
+        "periodo": "2024-04",
+        "indice": 110.953471,
+        "interanual": 8.71906
+      },
+      {
+        "periodo": "2024-05",
+        "indice": 119.345661,
+        "interanual": 7.523271
+      },
+      {
+        "periodo": "2024-06",
+        "indice": 109.350081,
+        "interanual": 3.689429
+      },
+      {
+        "periodo": "2024-07",
+        "indice": 113.303233,
+        "interanual": 5.831594
+      },
+      {
+        "periodo": "2024-08",
+        "indice": 116.315523,
+        "interanual": 6.54272
+      },
+      {
+        "periodo": "2024-09",
+        "indice": 115.837387,
+        "interanual": 8.439369
+      },
+      {
+        "periodo": "2024-10",
+        "indice": 118.515999,
+        "interanual": 8.592468
+      },
+      {
+        "periodo": "2024-11",
+        "indice": 113.801539,
+        "interanual": 7.907898
+      },
+      {
+        "periodo": "2024-12",
+        "indice": 118.677432,
+        "interanual": 7.450472
+      }
+    ]
+  }
+}

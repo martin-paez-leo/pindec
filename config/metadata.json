@@ -1,1 +1,17 @@
-{}
+{
+  "ipc": {
+    "last-modified": "Tue, 14 Jul 2026 19:05:01 GMT"
+  },
+  "cba-cbt": {
+    "last-modified": "Tue, 14 Jul 2026 19:06:04 GMT"
+  },
+  "emae": {
+    "last-modified": {
+      "activity": "Wed, 22 Jul 2026 18:51:55 GMT",
+      "monthly": "Wed, 22 Jul 2026 18:51:55 GMT"
+    }
+  },
+  "ica": {
+    "last-modified": "Mon, 20 Jul 2026 18:51:27 GMT"
+  }
+}

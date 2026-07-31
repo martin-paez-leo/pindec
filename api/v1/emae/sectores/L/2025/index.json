@@ -1,0 +1,69 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "codigo": "L",
+    "nombre": "Administración pública y defensa; planes de seguridad social de afiliación obligatoria",
+    "historico": [
+      {
+        "periodo": "2025-01",
+        "indice": 163.00531,
+        "interanual": -1.418661
+      },
+      {
+        "periodo": "2025-02",
+        "indice": 163.02173,
+        "interanual": -1.436036
+      },
+      {
+        "periodo": "2025-03",
+        "indice": 161.335382,
+        "interanual": -1.358584
+      },
+      {
+        "periodo": "2025-04",
+        "indice": 160.750401,
+        "interanual": -1.037077
+      },
+      {
+        "periodo": "2025-05",
+        "indice": 160.788389,
+        "interanual": -1.143215
+      },
+      {
+        "periodo": "2025-06",
+        "indice": 161.871983,
+        "interanual": -0.953728
+      },
+      {
+        "periodo": "2025-07",
+        "indice": 161.353629,
+        "interanual": -1.158784
+      },
+      {
+        "periodo": "2025-08",
+        "indice": 160.697716,
+        "interanual": -1.083605
+      },
+      {
+        "periodo": "2025-09",
+        "indice": 161.1297,
+        "interanual": -1.12214
+      },
+      {
+        "periodo": "2025-10",
+        "indice": 160.350639,
+        "interanual": -1.317988
+      },
+      {
+        "periodo": "2025-11",
+        "indice": 160.646469,
+        "interanual": -1.310844
+      },
+      {
+        "periodo": "2025-12",
+        "indice": 160.744963,
+        "interanual": -1.314151
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "02",
+    "nombre": "Bebidas alcohólicas y tabaco",
+    "historico": [
+      {
+        "periodo": "2026-01",
+        "indice": 7645.4722,
+        "mensual": 1.7,
+        "interanual": 18.8
+      },
+      {
+        "periodo": "2026-02",
+        "indice": 7801.6843,
+        "mensual": 2.0,
+        "interanual": 20.4
+      },
+      {
+        "periodo": "2026-03",
+        "indice": 7974.266,
+        "mensual": 2.2,
+        "interanual": 23.4
+      },
+      {
+        "periodo": "2026-04",
+        "indice": 8117.7346,
+        "mensual": 1.8,
+        "interanual": 22.6
+      },
+      {
+        "periodo": "2026-05",
+        "indice": 8143.7867,
+        "mensual": 0.3,
+        "interanual": 21.8
+      },
+      {
+        "periodo": "2026-06",
+        "indice": 8337.1402,
+        "mensual": 2.4,
+        "interanual": 22.3
+      }
+    ]
+  }
+}

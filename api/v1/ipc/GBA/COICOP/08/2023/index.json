@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "08",
+    "nombre": "Comunicación",
+    "historico": [
+      {
+        "periodo": "2023-01",
+        "indice": 892.9649,
+        "mensual": 8.1,
+        "interanual": 65.6
+      },
+      {
+        "periodo": "2023-02",
+        "indice": 962.197,
+        "mensual": 7.8,
+        "interanual": 75.6
+      },
+      {
+        "periodo": "2023-03",
+        "indice": 978.5935,
+        "mensual": 1.7,
+        "interanual": 75.2
+      },
+      {
+        "periodo": "2023-04",
+        "indice": 1044.5793,
+        "mensual": 6.7,
+        "interanual": 79.2
+      },
+      {
+        "periodo": "2023-05",
+        "indice": 1111.5159,
+        "mensual": 6.4,
+        "interanual": 85.0
+      },
+      {
+        "periodo": "2023-06",
+        "indice": 1234.0205,
+        "mensual": 11.0,
+        "interanual": 104.8
+      },
+      {
+        "periodo": "2023-07",
+        "indice": 1389.7398,
+        "mensual": 12.6,
+        "interanual": 120.4
+      },
+      {
+        "periodo": "2023-08",
+        "indice": 1459.8776,
+        "mensual": 5.0,
+        "interanual": 122.6
+      },
+      {
+        "periodo": "2023-09",
+        "indice": 1588.0854,
+        "mensual": 8.8,
+        "interanual": 137.0
+      },
+      {
+        "periodo": "2023-10",
+        "indice": 1798.6922,
+        "mensual": 13.3,
+        "interanual": 136.3
+      },
+      {
+        "periodo": "2023-11",
+        "indice": 2076.7951,
+        "mensual": 15.5,
+        "interanual": 158.1
+      },
+      {
+        "periodo": "2023-12",
+        "indice": 2407.9195,
+        "mensual": 15.9,
+        "interanual": 191.6
+      }
+    ]
+  }
+}

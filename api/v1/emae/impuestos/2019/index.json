@@ -1,0 +1,67 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "historico": [
+      {
+        "periodo": "2019-01",
+        "indice": 165.600375,
+        "interanual": -8.210253
+      },
+      {
+        "periodo": "2019-02",
+        "indice": 151.868692,
+        "interanual": -6.817989
+      },
+      {
+        "periodo": "2019-03",
+        "indice": 156.178802,
+        "interanual": -11.625991
+      },
+      {
+        "periodo": "2019-04",
+        "indice": 158.119894,
+        "interanual": -6.294172
+      },
+      {
+        "periodo": "2019-05",
+        "indice": 165.830068,
+        "interanual": -0.728443
+      },
+      {
+        "periodo": "2019-06",
+        "indice": 152.088779,
+        "interanual": -5.672812
+      },
+      {
+        "periodo": "2019-07",
+        "indice": 161.212551,
+        "interanual": 1.720494
+      },
+      {
+        "periodo": "2019-08",
+        "indice": 158.523092,
+        "interanual": -4.643327
+      },
+      {
+        "periodo": "2019-09",
+        "indice": 153.82151,
+        "interanual": -1.461862
+      },
+      {
+        "periodo": "2019-10",
+        "indice": 159.847449,
+        "interanual": 1.352446
+      },
+      {
+        "periodo": "2019-11",
+        "indice": 152.805965,
+        "interanual": -1.133646
+      },
+      {
+        "periodo": "2019-12",
+        "indice": 149.10402,
+        "interanual": -1.749911
+      }
+    ]
+  }
+}

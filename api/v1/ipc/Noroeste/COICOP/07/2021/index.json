@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "07",
+    "nombre": "Transporte",
+    "historico": [
+      {
+        "periodo": "2021-01",
+        "indice": 414.8095,
+        "mensual": 7.0,
+        "interanual": 35.5
+      },
+      {
+        "periodo": "2021-02",
+        "indice": 431.9724,
+        "mensual": 4.1,
+        "interanual": 39.7
+      },
+      {
+        "periodo": "2021-03",
+        "indice": 456.1015,
+        "mensual": 5.6,
+        "interanual": 46.7
+      },
+      {
+        "periodo": "2021-04",
+        "indice": 480.6597,
+        "mensual": 5.4,
+        "interanual": 51.9
+      },
+      {
+        "periodo": "2021-05",
+        "indice": 505.6883,
+        "mensual": 5.2,
+        "interanual": 58.2
+      },
+      {
+        "periodo": "2021-06",
+        "indice": 522.2847,
+        "mensual": 3.3,
+        "interanual": 62.7
+      },
+      {
+        "periodo": "2021-07",
+        "indice": 536.6061,
+        "mensual": 2.7,
+        "interanual": 63.6
+      },
+      {
+        "periodo": "2021-08",
+        "indice": 546.8015,
+        "mensual": 1.9,
+        "interanual": 62.5
+      },
+      {
+        "periodo": "2021-09",
+        "indice": 558.9006,
+        "mensual": 2.2,
+        "interanual": 62.2
+      },
+      {
+        "periodo": "2021-10",
+        "indice": 572.6187,
+        "mensual": 2.5,
+        "interanual": 60.3
+      },
+      {
+        "periodo": "2021-11",
+        "indice": 586.2348,
+        "mensual": 2.4,
+        "interanual": 58.3
+      },
+      {
+        "periodo": "2021-12",
+        "indice": 607.1622,
+        "mensual": 3.6,
+        "interanual": 56.7
+      }
+    ]
+  }
+}

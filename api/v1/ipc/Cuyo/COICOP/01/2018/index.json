@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "01",
+    "nombre": "Alimentos y bebidas no alcohólicas",
+    "historico": [
+      {
+        "periodo": "2018-01",
+        "indice": 122.1729,
+        "mensual": 0.6,
+        "interanual": 20.4
+      },
+      {
+        "periodo": "2018-02",
+        "indice": 124.8639,
+        "mensual": 2.2,
+        "interanual": 20.9
+      },
+      {
+        "periodo": "2018-03",
+        "indice": 128.3797,
+        "mensual": 2.8,
+        "interanual": 21.6
+      },
+      {
+        "periodo": "2018-04",
+        "indice": 130.6871,
+        "mensual": 1.8,
+        "interanual": 20.3
+      },
+      {
+        "periodo": "2018-05",
+        "indice": 134.4059,
+        "mensual": 2.8,
+        "interanual": 21.6
+      },
+      {
+        "periodo": "2018-06",
+        "indice": 142.5023,
+        "mensual": 6.0,
+        "interanual": 28.2
+      },
+      {
+        "periodo": "2018-07",
+        "indice": 148.5976,
+        "mensual": 4.3,
+        "interanual": 32.1
+      },
+      {
+        "periodo": "2018-08",
+        "indice": 154.9999,
+        "mensual": 4.3,
+        "interanual": 34.8
+      },
+      {
+        "periodo": "2018-09",
+        "indice": 167.8127,
+        "mensual": 8.3,
+        "interanual": 43.2
+      },
+      {
+        "periodo": "2018-10",
+        "indice": 177.5769,
+        "mensual": 5.8,
+        "interanual": 49.1
+      },
+      {
+        "periodo": "2018-11",
+        "indice": 183.2772,
+        "mensual": 3.2,
+        "interanual": 51.8
+      },
+      {
+        "periodo": "2018-12",
+        "indice": 184.8872,
+        "mensual": 0.9,
+        "interanual": 52.3
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "12",
+    "nombre": "Bienes y servicios varios",
+    "historico": [
+      {
+        "periodo": "2021-01",
+        "indice": 370.1955,
+        "mensual": 2.1,
+        "interanual": 29.0
+      },
+      {
+        "periodo": "2021-02",
+        "indice": 382.4193,
+        "mensual": 3.3,
+        "interanual": 29.8
+      },
+      {
+        "periodo": "2021-03",
+        "indice": 390.6556,
+        "mensual": 2.2,
+        "interanual": 29.7
+      },
+      {
+        "periodo": "2021-04",
+        "indice": 406.0666,
+        "mensual": 3.9,
+        "interanual": 35.3
+      },
+      {
+        "periodo": "2021-05",
+        "indice": 416.2814,
+        "mensual": 2.5,
+        "interanual": 35.4
+      },
+      {
+        "periodo": "2021-06",
+        "indice": 423.1317,
+        "mensual": 1.6,
+        "interanual": 38.3
+      },
+      {
+        "periodo": "2021-07",
+        "indice": 438.8603,
+        "mensual": 3.7,
+        "interanual": 39.3
+      },
+      {
+        "periodo": "2021-08",
+        "indice": 452.6267,
+        "mensual": 3.1,
+        "interanual": 36.9
+      },
+      {
+        "periodo": "2021-09",
+        "indice": 460.9736,
+        "mensual": 1.8,
+        "interanual": 35.6
+      },
+      {
+        "periodo": "2021-10",
+        "indice": 479.0735,
+        "mensual": 3.9,
+        "interanual": 38.3
+      },
+      {
+        "periodo": "2021-11",
+        "indice": 488.4307,
+        "mensual": 2.0,
+        "interanual": 36.5
+      },
+      {
+        "periodo": "2021-12",
+        "indice": 502.3516,
+        "mensual": 2.9,
+        "interanual": 38.5
+      }
+    ]
+  }
+}

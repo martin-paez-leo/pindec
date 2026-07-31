@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "06",
+    "nombre": "Salud",
+    "historico": [
+      {
+        "periodo": "2021-01",
+        "indice": 458.1655,
+        "mensual": 3.3,
+        "interanual": 38.0
+      },
+      {
+        "periodo": "2021-02",
+        "indice": 474.8498,
+        "mensual": 3.6,
+        "interanual": 42.1
+      },
+      {
+        "periodo": "2021-03",
+        "indice": 495.1857,
+        "mensual": 4.3,
+        "interanual": 44.4
+      },
+      {
+        "periodo": "2021-04",
+        "indice": 513.667,
+        "mensual": 3.7,
+        "interanual": 48.3
+      },
+      {
+        "periodo": "2021-05",
+        "indice": 535.7516,
+        "mensual": 4.3,
+        "interanual": 53.1
+      },
+      {
+        "periodo": "2021-06",
+        "indice": 556.9774,
+        "mensual": 4.0,
+        "interanual": 54.4
+      },
+      {
+        "periodo": "2021-07",
+        "indice": 582.3544,
+        "mensual": 4.6,
+        "interanual": 57.5
+      },
+      {
+        "periodo": "2021-08",
+        "indice": 605.2375,
+        "mensual": 3.9,
+        "interanual": 60.0
+      },
+      {
+        "periodo": "2021-09",
+        "indice": 630.8865,
+        "mensual": 4.2,
+        "interanual": 60.4
+      },
+      {
+        "periodo": "2021-10",
+        "indice": 657.7871,
+        "mensual": 4.3,
+        "interanual": 61.6
+      },
+      {
+        "periodo": "2021-11",
+        "indice": 674.0487,
+        "mensual": 2.5,
+        "interanual": 59.7
+      },
+      {
+        "periodo": "2021-12",
+        "indice": 676.9793,
+        "mensual": 0.4,
+        "interanual": 52.6
+      }
+    ]
+  }
+}

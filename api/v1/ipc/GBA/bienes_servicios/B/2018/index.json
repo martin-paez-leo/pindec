@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "B",
+    "nombre": null,
+    "historico": [
+      {
+        "periodo": "2018-01",
+        "indice": 122.2566,
+        "mensual": 1.9,
+        "interanual": 21.0
+      },
+      {
+        "periodo": "2018-02",
+        "indice": 124.5606,
+        "mensual": 1.9,
+        "interanual": 21.5
+      },
+      {
+        "periodo": "2018-03",
+        "indice": 127.2606,
+        "mensual": 2.2,
+        "interanual": 21.0
+      },
+      {
+        "periodo": "2018-04",
+        "indice": 129.7698,
+        "mensual": 2.0,
+        "interanual": 20.5
+      },
+      {
+        "periodo": "2018-05",
+        "indice": 133.5831,
+        "mensual": 2.9,
+        "interanual": 22.5
+      },
+      {
+        "periodo": "2018-06",
+        "indice": 139.1698,
+        "mensual": 4.2,
+        "interanual": 26.2
+      },
+      {
+        "periodo": "2018-07",
+        "indice": 144.3138,
+        "mensual": 3.7,
+        "interanual": 29.5
+      },
+      {
+        "periodo": "2018-08",
+        "indice": 148.4797,
+        "mensual": 2.9,
+        "interanual": 31.5
+      },
+      {
+        "periodo": "2018-09",
+        "indice": 162.5426,
+        "mensual": 9.5,
+        "interanual": 40.9
+      },
+      {
+        "periodo": "2018-10",
+        "indice": 171.8817,
+        "mensual": 5.7,
+        "interanual": 46.8
+      },
+      {
+        "periodo": "2018-11",
+        "indice": 177.9269,
+        "mensual": 3.5,
+        "interanual": 49.9
+      },
+      {
+        "periodo": "2018-12",
+        "indice": 181.2585,
+        "mensual": 1.9,
+        "interanual": 51.0
+      }
+    ]
+  }
+}

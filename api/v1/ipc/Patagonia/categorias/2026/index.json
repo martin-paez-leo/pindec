@@ -1,0 +1,131 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": [
+    {
+      "codigo": "Estacional",
+      "nombre": null,
+      "historico": [
+        {
+          "periodo": "2026-01",
+          "indice": 8671.9133,
+          "mensual": 2.9,
+          "interanual": 20.6
+        },
+        {
+          "periodo": "2026-02",
+          "indice": 8795.9152,
+          "mensual": 1.4,
+          "interanual": 23.0
+        },
+        {
+          "periodo": "2026-03",
+          "indice": 8838.9739,
+          "mensual": 0.5,
+          "interanual": 19.6
+        },
+        {
+          "periodo": "2026-04",
+          "indice": 8877.4258,
+          "mensual": 0.4,
+          "interanual": 14.5
+        },
+        {
+          "periodo": "2026-05",
+          "indice": 9136.2335,
+          "mensual": 2.9,
+          "interanual": 16.3
+        },
+        {
+          "periodo": "2026-06",
+          "indice": 9362.7737,
+          "mensual": 2.5,
+          "interanual": 19.8
+        }
+      ]
+    },
+    {
+      "codigo": "Núcleo",
+      "nombre": null,
+      "historico": [
+        {
+          "periodo": "2026-01",
+          "indice": 10436.7053,
+          "mensual": 2.8,
+          "interanual": 32.5
+        },
+        {
+          "periodo": "2026-02",
+          "indice": 10677.4595,
+          "mensual": 2.3,
+          "interanual": 30.9
+        },
+        {
+          "periodo": "2026-03",
+          "indice": 10921.2095,
+          "mensual": 2.3,
+          "interanual": 30.0
+        },
+        {
+          "periodo": "2026-04",
+          "indice": 11199.4543,
+          "mensual": 2.5,
+          "interanual": 29.8
+        },
+        {
+          "periodo": "2026-05",
+          "indice": 11417.8728,
+          "mensual": 2.0,
+          "interanual": 30.3
+        },
+        {
+          "periodo": "2026-06",
+          "indice": 11563.3487,
+          "mensual": 1.3,
+          "interanual": 29.3
+        }
+      ]
+    },
+    {
+      "codigo": "Regulados",
+      "nombre": null,
+      "historico": [
+        {
+          "periodo": "2026-01",
+          "indice": 12112.6604,
+          "mensual": 3.0,
+          "interanual": 43.1
+        },
+        {
+          "periodo": "2026-02",
+          "indice": 12794.0,
+          "mensual": 5.6,
+          "interanual": 45.2
+        },
+        {
+          "periodo": "2026-03",
+          "indice": 13289.0661,
+          "mensual": 3.9,
+          "interanual": 44.5
+        },
+        {
+          "periodo": "2026-04",
+          "indice": 13783.0804,
+          "mensual": 3.7,
+          "interanual": 47.8
+        },
+        {
+          "periodo": "2026-05",
+          "indice": 13850.3241,
+          "mensual": 0.5,
+          "interanual": 46.6
+        },
+        {
+          "periodo": "2026-06",
+          "indice": 14160.1172,
+          "mensual": 2.2,
+          "interanual": 46.3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "codigo": "O",
+    "nombre": "Otras actividades de servicios comunitarios, sociales y personales",
+    "historico": [
+      {
+        "periodo": "2008-01",
+        "indice": 135.597052,
+        "interanual": 3.606167
+      },
+      {
+        "periodo": "2008-02",
+        "indice": 134.305062,
+        "interanual": 4.607138
+      },
+      {
+        "periodo": "2008-03",
+        "indice": 134.574247,
+        "interanual": 4.237957
+      },
+      {
+        "periodo": "2008-04",
+        "indice": 136.273068,
+        "interanual": 9.293161
+      },
+      {
+        "periodo": "2008-05",
+        "indice": 139.589752,
+        "interanual": 6.718848
+      },
+      {
+        "periodo": "2008-06",
+        "indice": 141.667029,
+        "interanual": 7.558144
+      },
+      {
+        "periodo": "2008-07",
+        "indice": 150.495983,
+        "interanual": 2.009415
+      },
+      {
+        "periodo": "2008-08",
+        "indice": 143.815423,
+        "interanual": 4.251776
+      },
+      {
+        "periodo": "2008-09",
+        "indice": 135.833225,
+        "interanual": 4.973417
+      },
+      {
+        "periodo": "2008-10",
+        "indice": 136.540547,
+        "interanual": 7.137263
+      },
+      {
+        "periodo": "2008-11",
+        "indice": 131.025758,
+        "interanual": 2.764893
+      },
+      {
+        "periodo": "2008-12",
+        "indice": 134.152551,
+        "interanual": 3.899093
+      }
+    ]
+  }
+}

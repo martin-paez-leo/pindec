@@ -1,0 +1,995 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": [
+    {
+      "codigo": "A",
+      "nombre": "Agricultura, ganadería, caza y silvicultura",
+      "historico": [
+        {
+          "periodo": "2004-01",
+          "indice": 65.99535,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-02",
+          "indice": 64.926598,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-03",
+          "indice": 110.666559,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-04",
+          "indice": 150.06592,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-05",
+          "indice": 209.388076,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-06",
+          "indice": 144.661319,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-07",
+          "indice": 94.862464,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-08",
+          "indice": 64.861157,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-09",
+          "indice": 60.749898,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-10",
+          "indice": 62.669264,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-11",
+          "indice": 78.41525,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-12",
+          "indice": 92.738143,
+          "interanual": null
+        }
+      ]
+    },
+    {
+      "codigo": "B",
+      "nombre": "Pesca",
+      "historico": [
+        {
+          "periodo": "2004-01",
+          "indice": 42.547868,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-02",
+          "indice": 62.440771,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-03",
+          "indice": 174.084646,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-04",
+          "indice": 153.877638,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-05",
+          "indice": 132.357664,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-06",
+          "indice": 158.959858,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-07",
+          "indice": 77.403339,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-08",
+          "indice": 99.29888,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-09",
+          "indice": 68.15818,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-10",
+          "indice": 84.446417,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-11",
+          "indice": 70.435615,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-12",
+          "indice": 75.989123,
+          "interanual": null
+        }
+      ]
+    },
+    {
+      "codigo": "C",
+      "nombre": "Explotación de minas y canteras",
+      "historico": [
+        {
+          "periodo": "2004-01",
+          "indice": 100.704499,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-02",
+          "indice": 95.414186,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-03",
+          "indice": 100.251038,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-04",
+          "indice": 96.697547,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-05",
+          "indice": 104.100533,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-06",
+          "indice": 100.677853,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-07",
+          "indice": 100.801741,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-08",
+          "indice": 102.273513,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-09",
+          "indice": 100.584077,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-10",
+          "indice": 101.392728,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-11",
+          "indice": 96.383469,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-12",
+          "indice": 100.718814,
+          "interanual": null
+        }
+      ]
+    },
+    {
+      "codigo": "D",
+      "nombre": "Industria manufacturera",
+      "historico": [
+        {
+          "periodo": "2004-01",
+          "indice": 91.45461,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-02",
+          "indice": 89.424852,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-03",
+          "indice": 101.426433,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-04",
+          "indice": 98.437312,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-05",
+          "indice": 100.353138,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-06",
+          "indice": 100.666931,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-07",
+          "indice": 102.508534,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-08",
+          "indice": 101.01094,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-09",
+          "indice": 102.562718,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-10",
+          "indice": 105.905688,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-11",
+          "indice": 104.375107,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-12",
+          "indice": 101.873738,
+          "interanual": null
+        }
+      ]
+    },
+    {
+      "codigo": "E",
+      "nombre": "Electricidad, gas y agua",
+      "historico": [
+        {
+          "periodo": "2004-01",
+          "indice": 99.917983,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-02",
+          "indice": 92.89344,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-03",
+          "indice": 103.77021,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-04",
+          "indice": 97.009849,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-05",
+          "indice": 102.471825,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-06",
+          "indice": 101.911116,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-07",
+          "indice": 105.416539,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-08",
+          "indice": 103.977815,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-09",
+          "indice": 97.656315,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-10",
+          "indice": 96.187525,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-11",
+          "indice": 95.069633,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-12",
+          "indice": 103.717749,
+          "interanual": null
+        }
+      ]
+    },
+    {
+      "codigo": "F",
+      "nombre": "Construcción",
+      "historico": [
+        {
+          "periodo": "2004-01",
+          "indice": 95.938047,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-02",
+          "indice": 98.853388,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-03",
+          "indice": 103.124529,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-04",
+          "indice": 95.815492,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-05",
+          "indice": 97.994567,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-06",
+          "indice": 99.156784,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-07",
+          "indice": 98.905998,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-08",
+          "indice": 102.032812,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-09",
+          "indice": 106.815127,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-10",
+          "indice": 97.842113,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-11",
+          "indice": 101.655574,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-12",
+          "indice": 101.86557,
+          "interanual": null
+        }
+      ]
+    },
+    {
+      "codigo": "G",
+      "nombre": "Comercio mayorista, minorista y reparaciones",
+      "historico": [
+        {
+          "periodo": "2004-01",
+          "indice": 92.065338,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-02",
+          "indice": 91.464718,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-03",
+          "indice": 109.12778,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-04",
+          "indice": 99.420141,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-05",
+          "indice": 100.532744,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-06",
+          "indice": 104.342016,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-07",
+          "indice": 100.827222,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-08",
+          "indice": 99.552368,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-09",
+          "indice": 99.960316,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-10",
+          "indice": 101.162957,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-11",
+          "indice": 102.415983,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-12",
+          "indice": 99.128417,
+          "interanual": null
+        }
+      ]
+    },
+    {
+      "codigo": "H",
+      "nombre": "Hoteles y restaurantes",
+      "historico": [
+        {
+          "periodo": "2004-01",
+          "indice": 108.411682,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-02",
+          "indice": 103.448256,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-03",
+          "indice": 101.061842,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-04",
+          "indice": 93.242999,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-05",
+          "indice": 90.98526,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-06",
+          "indice": 90.556084,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-07",
+          "indice": 99.051119,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-08",
+          "indice": 98.170504,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-09",
+          "indice": 100.051045,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-10",
+          "indice": 102.939431,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-11",
+          "indice": 106.493111,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-12",
+          "indice": 105.588666,
+          "interanual": null
+        }
+      ]
+    },
+    {
+      "codigo": "I",
+      "nombre": "Transporte y comunicaciones",
+      "historico": [
+        {
+          "periodo": "2004-01",
+          "indice": 95.506726,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-02",
+          "indice": 90.736414,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-03",
+          "indice": 97.175809,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-04",
+          "indice": 99.706933,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-05",
+          "indice": 105.552437,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-06",
+          "indice": 101.675646,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-07",
+          "indice": 99.8302,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-08",
+          "indice": 99.223697,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-09",
+          "indice": 98.891145,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-10",
+          "indice": 101.572524,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-11",
+          "indice": 104.542721,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-12",
+          "indice": 105.58575,
+          "interanual": null
+        }
+      ]
+    },
+    {
+      "codigo": "J",
+      "nombre": "Intermediación financiera",
+      "historico": [
+        {
+          "periodo": "2004-01",
+          "indice": 103.890256,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-02",
+          "indice": 96.481464,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-03",
+          "indice": 98.304568,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-04",
+          "indice": 95.315896,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-05",
+          "indice": 97.004671,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-06",
+          "indice": 97.312153,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-07",
+          "indice": 99.019512,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-08",
+          "indice": 101.180311,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-09",
+          "indice": 100.808532,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-10",
+          "indice": 102.079305,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-11",
+          "indice": 102.962171,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-12",
+          "indice": 105.641162,
+          "interanual": null
+        }
+      ]
+    },
+    {
+      "codigo": "K",
+      "nombre": "Actividades inmobiliarias, empresariales y de alquiler",
+      "historico": [
+        {
+          "periodo": "2004-01",
+          "indice": 91.418382,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-02",
+          "indice": 94.046978,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-03",
+          "indice": 99.648725,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-04",
+          "indice": 97.602261,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-05",
+          "indice": 99.803493,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-06",
+          "indice": 101.712983,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-07",
+          "indice": 100.859592,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-08",
+          "indice": 101.57448,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-09",
+          "indice": 103.004337,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-10",
+          "indice": 100.691154,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-11",
+          "indice": 103.280281,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-12",
+          "indice": 106.357334,
+          "interanual": null
+        }
+      ]
+    },
+    {
+      "codigo": "L",
+      "nombre": "Administración pública y defensa; planes de seguridad social de afiliación obligatoria",
+      "historico": [
+        {
+          "periodo": "2004-01",
+          "indice": 97.261268,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-02",
+          "indice": 97.882285,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-03",
+          "indice": 97.718459,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-04",
+          "indice": 98.405542,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-05",
+          "indice": 99.208518,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-06",
+          "indice": 100.445405,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-07",
+          "indice": 100.165185,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-08",
+          "indice": 100.676228,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-09",
+          "indice": 101.526585,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-10",
+          "indice": 101.689806,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-11",
+          "indice": 102.036117,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-12",
+          "indice": 102.984603,
+          "interanual": null
+        }
+      ]
+    },
+    {
+      "codigo": "M",
+      "nombre": "Enseñanza",
+      "historico": [
+        {
+          "periodo": "2004-01",
+          "indice": 95.627695,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-02",
+          "indice": 96.084246,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-03",
+          "indice": 96.380304,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-04",
+          "indice": 97.711867,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-05",
+          "indice": 99.136888,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-06",
+          "indice": 102.209509,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-07",
+          "indice": 100.500092,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-08",
+          "indice": 101.393151,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-09",
+          "indice": 101.803283,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-10",
+          "indice": 102.212132,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-11",
+          "indice": 102.501373,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-12",
+          "indice": 104.439459,
+          "interanual": null
+        }
+      ]
+    },
+    {
+      "codigo": "N",
+      "nombre": "Servicios sociales y de salud",
+      "historico": [
+        {
+          "periodo": "2004-01",
+          "indice": 94.198394,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-02",
+          "indice": 90.313462,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-03",
+          "indice": 98.081488,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-04",
+          "indice": 102.184345,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-05",
+          "indice": 102.761265,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-06",
+          "indice": 104.264457,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-07",
+          "indice": 101.843972,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-08",
+          "indice": 104.493158,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-09",
+          "indice": 104.699938,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-10",
+          "indice": 100.220671,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-11",
+          "indice": 99.696562,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-12",
+          "indice": 97.242288,
+          "interanual": null
+        }
+      ]
+    },
+    {
+      "codigo": "O",
+      "nombre": "Otras actividades de servicios comunitarios, sociales y personales",
+      "historico": [
+        {
+          "periodo": "2004-01",
+          "indice": 97.006178,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-02",
+          "indice": 96.836135,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-03",
+          "indice": 96.155043,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-04",
+          "indice": 98.083137,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-05",
+          "indice": 98.054349,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-06",
+          "indice": 99.766583,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-07",
+          "indice": 108.730096,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-08",
+          "indice": 100.45682,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-09",
+          "indice": 99.924516,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-10",
+          "indice": 101.16164,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-11",
+          "indice": 100.026342,
+          "interanual": null
+        },
+        {
+          "periodo": "2004-12",
+          "indice": 103.799161,
+          "interanual": null
+        }
+      ]
+    }
+  ]
+}

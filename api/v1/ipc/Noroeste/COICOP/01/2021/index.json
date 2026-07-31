@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "01",
+    "nombre": "Alimentos y bebidas no alcohólicas",
+    "historico": [
+      {
+        "periodo": "2021-01",
+        "indice": 438.2746,
+        "mensual": 5.4,
+        "interanual": 49.1
+      },
+      {
+        "periodo": "2021-02",
+        "indice": 455.4186,
+        "mensual": 3.9,
+        "interanual": 49.5
+      },
+      {
+        "periodo": "2021-03",
+        "indice": 471.394,
+        "mensual": 3.5,
+        "interanual": 47.4
+      },
+      {
+        "periodo": "2021-04",
+        "indice": 489.8741,
+        "mensual": 3.9,
+        "interanual": 46.3
+      },
+      {
+        "periodo": "2021-05",
+        "indice": 505.7951,
+        "mensual": 3.3,
+        "interanual": 50.1
+      },
+      {
+        "periodo": "2021-06",
+        "indice": 522.8622,
+        "mensual": 3.4,
+        "interanual": 53.5
+      },
+      {
+        "periodo": "2021-07",
+        "indice": 537.4301,
+        "mensual": 2.8,
+        "interanual": 57.0
+      },
+      {
+        "periodo": "2021-08",
+        "indice": 545.2554,
+        "mensual": 1.5,
+        "interanual": 55.0
+      },
+      {
+        "periodo": "2021-09",
+        "indice": 559.6997,
+        "mensual": 2.6,
+        "interanual": 54.3
+      },
+      {
+        "periodo": "2021-10",
+        "indice": 579.6307,
+        "mensual": 3.6,
+        "interanual": 51.5
+      },
+      {
+        "periodo": "2021-11",
+        "indice": 593.6645,
+        "mensual": 2.4,
+        "interanual": 51.9
+      },
+      {
+        "periodo": "2021-12",
+        "indice": 621.3492,
+        "mensual": 4.7,
+        "interanual": 49.5
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "10",
+    "nombre": "Educación",
+    "historico": [
+      {
+        "periodo": "2022-01",
+        "indice": 482.7713,
+        "mensual": 0.8,
+        "interanual": 56.4
+      },
+      {
+        "periodo": "2022-02",
+        "indice": 495.5553,
+        "mensual": 2.6,
+        "interanual": 60.4
+      },
+      {
+        "periodo": "2022-03",
+        "indice": 612.6821,
+        "mensual": 23.6,
+        "interanual": 54.3
+      },
+      {
+        "periodo": "2022-04",
+        "indice": 635.5003,
+        "mensual": 3.7,
+        "interanual": 56.2
+      },
+      {
+        "periodo": "2022-05",
+        "indice": 656.1411,
+        "mensual": 3.2,
+        "interanual": 57.7
+      },
+      {
+        "periodo": "2022-06",
+        "indice": 669.445,
+        "mensual": 2.0,
+        "interanual": 59.0
+      },
+      {
+        "periodo": "2022-07",
+        "indice": 710.2816,
+        "mensual": 6.1,
+        "interanual": 64.6
+      },
+      {
+        "periodo": "2022-08",
+        "indice": 745.7268,
+        "mensual": 5.0,
+        "interanual": 65.8
+      },
+      {
+        "periodo": "2022-09",
+        "indice": 772.9974,
+        "mensual": 3.7,
+        "interanual": 66.6
+      },
+      {
+        "periodo": "2022-10",
+        "indice": 827.9004,
+        "mensual": 7.1,
+        "interanual": 76.0
+      },
+      {
+        "periodo": "2022-11",
+        "indice": 859.0553,
+        "mensual": 3.8,
+        "interanual": 81.1
+      },
+      {
+        "periodo": "2022-12",
+        "indice": 892.6222,
+        "mensual": 3.9,
+        "interanual": 86.3
+      }
+    ]
+  }
+}

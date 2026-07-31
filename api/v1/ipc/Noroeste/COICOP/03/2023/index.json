@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "03",
+    "nombre": "Prendas de vestir y calzado",
+    "historico": [
+      {
+        "periodo": "2023-01",
+        "indice": 1369.849,
+        "mensual": 2.5,
+        "interanual": 122.0
+      },
+      {
+        "periodo": "2023-02",
+        "indice": 1419.1828,
+        "mensual": 3.6,
+        "interanual": 122.6
+      },
+      {
+        "periodo": "2023-03",
+        "indice": 1500.2306,
+        "mensual": 5.7,
+        "interanual": 121.1
+      },
+      {
+        "periodo": "2023-04",
+        "indice": 1658.0142,
+        "mensual": 10.5,
+        "interanual": 120.4
+      },
+      {
+        "periodo": "2023-05",
+        "indice": 1781.3772,
+        "mensual": 7.4,
+        "interanual": 125.3
+      },
+      {
+        "periodo": "2023-06",
+        "indice": 1881.006,
+        "mensual": 5.6,
+        "interanual": 125.3
+      },
+      {
+        "periodo": "2023-07",
+        "indice": 1946.0836,
+        "mensual": 3.5,
+        "interanual": 111.7
+      },
+      {
+        "periodo": "2023-08",
+        "indice": 2139.2421,
+        "mensual": 9.9,
+        "interanual": 108.4
+      },
+      {
+        "periodo": "2023-09",
+        "indice": 2459.4641,
+        "mensual": 15.0,
+        "interanual": 115.6
+      },
+      {
+        "periodo": "2023-10",
+        "indice": 2702.426,
+        "mensual": 9.9,
+        "interanual": 120.8
+      },
+      {
+        "periodo": "2023-11",
+        "indice": 2974.3584,
+        "mensual": 10.1,
+        "interanual": 132.0
+      },
+      {
+        "periodo": "2023-12",
+        "indice": 3442.7901,
+        "mensual": 15.7,
+        "interanual": 157.7
+      }
+    ]
+  }
+}

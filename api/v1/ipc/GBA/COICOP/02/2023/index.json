@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "02",
+    "nombre": "Bebidas alcohólicas y tabaco",
+    "historico": [
+      {
+        "periodo": "2023-01",
+        "indice": 1012.1954,
+        "mensual": 7.6,
+        "interanual": 104.0
+      },
+      {
+        "periodo": "2023-02",
+        "indice": 1066.1418,
+        "mensual": 5.3,
+        "interanual": 109.2
+      },
+      {
+        "periodo": "2023-03",
+        "indice": 1153.9079,
+        "mensual": 8.2,
+        "interanual": 113.5
+      },
+      {
+        "periodo": "2023-04",
+        "indice": 1194.8185,
+        "mensual": 3.5,
+        "interanual": 113.8
+      },
+      {
+        "periodo": "2023-05",
+        "indice": 1290.3738,
+        "mensual": 8.0,
+        "interanual": 118.9
+      },
+      {
+        "periodo": "2023-06",
+        "indice": 1348.6302,
+        "mensual": 4.5,
+        "interanual": 113.8
+      },
+      {
+        "periodo": "2023-07",
+        "indice": 1465.7752,
+        "mensual": 8.7,
+        "interanual": 118.3
+      },
+      {
+        "periodo": "2023-08",
+        "indice": 1574.3594,
+        "mensual": 7.4,
+        "interanual": 118.4
+      },
+      {
+        "periodo": "2023-09",
+        "indice": 1752.8624,
+        "mensual": 11.3,
+        "interanual": 121.3
+      },
+      {
+        "periodo": "2023-10",
+        "indice": 1932.4716,
+        "mensual": 10.2,
+        "interanual": 131.6
+      },
+      {
+        "periodo": "2023-11",
+        "indice": 2157.0974,
+        "mensual": 11.6,
+        "interanual": 144.6
+      },
+      {
+        "periodo": "2023-12",
+        "indice": 2599.1672,
+        "mensual": 20.5,
+        "interanual": 176.2
+      }
+    ]
+  }
+}

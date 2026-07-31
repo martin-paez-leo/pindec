@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "08",
+    "nombre": "Comunicación",
+    "historico": [
+      {
+        "periodo": "2017-01",
+        "indice": 103.8174,
+        "mensual": 3.8,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-02",
+        "indice": 108.0484,
+        "mensual": 4.1,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-03",
+        "indice": 110.6652,
+        "mensual": 2.4,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-04",
+        "indice": 118.2386,
+        "mensual": 6.8,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-05",
+        "indice": 118.1821,
+        "mensual": 0.0,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-06",
+        "indice": 120.4465,
+        "mensual": 1.9,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-07",
+        "indice": 121.0689,
+        "mensual": 0.5,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-08",
+        "indice": 123.3833,
+        "mensual": 1.9,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-09",
+        "indice": 124.5391,
+        "mensual": 0.9,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-10",
+        "indice": 130.4597,
+        "mensual": 4.8,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-11",
+        "indice": 131.1853,
+        "mensual": 0.6,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-12",
+        "indice": 134.1889,
+        "mensual": 2.3,
+        "interanual": 34.2
+      }
+    ]
+  }
+}

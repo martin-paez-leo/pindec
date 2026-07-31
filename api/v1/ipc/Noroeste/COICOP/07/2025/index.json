@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "07",
+    "nombre": "Transporte",
+    "historico": [
+      {
+        "periodo": "2025-01",
+        "indice": 8083.1173,
+        "mensual": 2.1,
+        "interanual": 84.7
+      },
+      {
+        "periodo": "2025-02",
+        "indice": 8284.8901,
+        "mensual": 2.5,
+        "interanual": 61.4
+      },
+      {
+        "periodo": "2025-03",
+        "indice": 8444.4815,
+        "mensual": 1.9,
+        "interanual": 47.6
+      },
+      {
+        "periodo": "2025-04",
+        "indice": 8552.1743,
+        "mensual": 1.3,
+        "interanual": 39.8
+      },
+      {
+        "periodo": "2025-05",
+        "indice": 8527.4573,
+        "mensual": -0.3,
+        "interanual": 32.0
+      },
+      {
+        "periodo": "2025-06",
+        "indice": 8645.4916,
+        "mensual": 1.4,
+        "interanual": 27.9
+      },
+      {
+        "periodo": "2025-07",
+        "indice": 8902.3675,
+        "mensual": 3.0,
+        "interanual": 28.1
+      },
+      {
+        "periodo": "2025-08",
+        "indice": 9214.3701,
+        "mensual": 3.5,
+        "interanual": 28.9
+      },
+      {
+        "periodo": "2025-09",
+        "indice": 9542.6607,
+        "mensual": 3.6,
+        "interanual": 29.1
+      },
+      {
+        "periodo": "2025-10",
+        "indice": 9770.03,
+        "mensual": 2.4,
+        "interanual": 29.8
+      },
+      {
+        "periodo": "2025-11",
+        "indice": 10014.6799,
+        "mensual": 2.5,
+        "interanual": 29.5
+      },
+      {
+        "periodo": "2025-12",
+        "indice": 10475.8587,
+        "mensual": 4.6,
+        "interanual": 32.4
+      }
+    ]
+  }
+}

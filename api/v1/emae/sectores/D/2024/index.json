@@ -1,0 +1,69 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "codigo": "D",
+    "nombre": "Industria manufacturera",
+    "historico": [
+      {
+        "periodo": "2024-01",
+        "indice": 100.692471,
+        "interanual": -11.392954
+      },
+      {
+        "periodo": "2024-02",
+        "indice": 102.714944,
+        "interanual": -8.552997
+      },
+      {
+        "periodo": "2024-03",
+        "indice": 111.11519,
+        "interanual": -20.07124
+      },
+      {
+        "periodo": "2024-04",
+        "indice": 109.817008,
+        "interanual": -15.997416
+      },
+      {
+        "periodo": "2024-05",
+        "indice": 114.799329,
+        "interanual": -14.807011
+      },
+      {
+        "periodo": "2024-06",
+        "indice": 107.489062,
+        "interanual": -19.79804
+      },
+      {
+        "periodo": "2024-07",
+        "indice": 126.196688,
+        "interanual": -5.587582
+      },
+      {
+        "periodo": "2024-08",
+        "indice": 128.70143,
+        "interanual": -6.425242
+      },
+      {
+        "periodo": "2024-09",
+        "indice": 124.801366,
+        "interanual": -6.222018
+      },
+      {
+        "periodo": "2024-10",
+        "indice": 134.337101,
+        "interanual": -1.59913
+      },
+      {
+        "periodo": "2024-11",
+        "indice": 130.819059,
+        "interanual": -1.450903
+      },
+      {
+        "periodo": "2024-12",
+        "indice": 122.405862,
+        "interanual": 7.869129
+      }
+    ]
+  }
+}

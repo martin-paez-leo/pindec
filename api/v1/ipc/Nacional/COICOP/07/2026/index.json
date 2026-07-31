@@ -1,0 +1,45 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "07",
+    "nombre": "Transporte",
+    "historico": [
+      {
+        "periodo": "2026-01",
+        "indice": 10909.2325,
+        "mensual": 1.8,
+        "interanual": 32.8
+      },
+      {
+        "periodo": "2026-02",
+        "indice": 11124.8788,
+        "mensual": 2.0,
+        "interanual": 33.1
+      },
+      {
+        "periodo": "2026-03",
+        "indice": 11583.956,
+        "mensual": 4.1,
+        "interanual": 36.2
+      },
+      {
+        "periodo": "2026-04",
+        "indice": 12091.593,
+        "mensual": 4.4,
+        "interanual": 39.9
+      },
+      {
+        "periodo": "2026-05",
+        "indice": 12330.5017,
+        "mensual": 2.0,
+        "interanual": 42.1
+      },
+      {
+        "periodo": "2026-06",
+        "indice": 12531.7975,
+        "mensual": 1.6,
+        "interanual": 42.1
+      }
+    ]
+  }
+}

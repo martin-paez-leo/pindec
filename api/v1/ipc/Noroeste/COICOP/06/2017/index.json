@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "06",
+    "nombre": "Salud",
+    "historico": [
+      {
+        "periodo": "2017-01",
+        "indice": 102.7132,
+        "mensual": 2.7,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-02",
+        "indice": 104.0851,
+        "mensual": 1.3,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-03",
+        "indice": 107.044,
+        "mensual": 2.8,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-04",
+        "indice": 109.2143,
+        "mensual": 2.0,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-05",
+        "indice": 110.9083,
+        "mensual": 1.6,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-06",
+        "indice": 112.6816,
+        "mensual": 1.6,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-07",
+        "indice": 116.0536,
+        "mensual": 3.0,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-08",
+        "indice": 118.4669,
+        "mensual": 2.1,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-09",
+        "indice": 120.7606,
+        "mensual": 1.9,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-10",
+        "indice": 122.3932,
+        "mensual": 1.4,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-11",
+        "indice": 123.9231,
+        "mensual": 1.2,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-12",
+        "indice": 125.5999,
+        "mensual": 1.4,
+        "interanual": 25.6
+      }
+    ]
+  }
+}

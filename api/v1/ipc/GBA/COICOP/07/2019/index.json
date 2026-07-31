@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "07",
+    "nombre": "Transporte",
+    "historico": [
+      {
+        "periodo": "2019-01",
+        "indice": 203.4532,
+        "mensual": 3.3,
+        "interanual": 69.6
+      },
+      {
+        "periodo": "2019-02",
+        "indice": 208.7417,
+        "mensual": 2.6,
+        "interanual": 66.5
+      },
+      {
+        "periodo": "2019-03",
+        "indice": 217.7008,
+        "mensual": 4.3,
+        "interanual": 71.3
+      },
+      {
+        "periodo": "2019-04",
+        "indice": 226.1383,
+        "mensual": 3.9,
+        "interanual": 69.1
+      },
+      {
+        "periodo": "2019-05",
+        "indice": 232.7179,
+        "mensual": 2.9,
+        "interanual": 70.6
+      },
+      {
+        "periodo": "2019-06",
+        "indice": 237.3329,
+        "mensual": 2.0,
+        "interanual": 63.3
+      },
+      {
+        "periodo": "2019-07",
+        "indice": 237.3299,
+        "mensual": 0.0,
+        "interanual": 56.6
+      },
+      {
+        "periodo": "2019-08",
+        "indice": 247.2147,
+        "mensual": 4.2,
+        "interanual": 57.9
+      },
+      {
+        "periodo": "2019-09",
+        "indice": 258.2652,
+        "mensual": 4.5,
+        "interanual": 49.1
+      },
+      {
+        "periodo": "2019-10",
+        "indice": 264.6173,
+        "mensual": 2.5,
+        "interanual": 42.6
+      },
+      {
+        "periodo": "2019-11",
+        "indice": 274.2968,
+        "mensual": 3.7,
+        "interanual": 43.5
+      },
+      {
+        "periodo": "2019-12",
+        "indice": 286.4677,
+        "mensual": 4.4,
+        "interanual": 45.4
+      }
+    ]
+  }
+}

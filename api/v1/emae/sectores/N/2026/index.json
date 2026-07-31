@@ -1,0 +1,34 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "codigo": "N",
+    "nombre": "Servicios sociales y de salud",
+    "historico": [
+      {
+        "periodo": "2026-01",
+        "indice": 187.349437,
+        "interanual": 0.229171
+      },
+      {
+        "periodo": "2026-02",
+        "indice": 177.165795,
+        "interanual": 0.579884
+      },
+      {
+        "periodo": "2026-03",
+        "indice": 191.852686,
+        "interanual": 0.598268
+      },
+      {
+        "periodo": "2026-04",
+        "indice": 195.468744,
+        "interanual": 0.461954
+      },
+      {
+        "periodo": "2026-05",
+        "indice": 198.563656,
+        "interanual": 0.84947
+      }
+    ]
+  }
+}

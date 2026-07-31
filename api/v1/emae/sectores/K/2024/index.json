@@ -1,0 +1,69 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "codigo": "K",
+    "nombre": "Actividades inmobiliarias, empresariales y de alquiler",
+    "historico": [
+      {
+        "periodo": "2024-01",
+        "indice": 147.872116,
+        "interanual": -0.921014
+      },
+      {
+        "periodo": "2024-02",
+        "indice": 147.46238,
+        "interanual": -0.428548
+      },
+      {
+        "periodo": "2024-03",
+        "indice": 147.989588,
+        "interanual": -3.282743
+      },
+      {
+        "periodo": "2024-04",
+        "indice": 151.687276,
+        "interanual": -1.494647
+      },
+      {
+        "periodo": "2024-05",
+        "indice": 154.191265,
+        "interanual": -0.76596
+      },
+      {
+        "periodo": "2024-06",
+        "indice": 153.300848,
+        "interanual": -1.53779
+      },
+      {
+        "periodo": "2024-07",
+        "indice": 152.777137,
+        "interanual": 0.066053
+      },
+      {
+        "periodo": "2024-08",
+        "indice": 155.339155,
+        "interanual": -0.886474
+      },
+      {
+        "periodo": "2024-09",
+        "indice": 153.598474,
+        "interanual": -0.500101
+      },
+      {
+        "periodo": "2024-10",
+        "indice": 157.249337,
+        "interanual": 0.584304
+      },
+      {
+        "periodo": "2024-11",
+        "indice": 157.998061,
+        "interanual": 1.284628
+      },
+      {
+        "periodo": "2024-12",
+        "indice": 160.980591,
+        "interanual": 4.231865
+      }
+    ]
+  }
+}

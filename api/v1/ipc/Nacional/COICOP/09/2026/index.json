@@ -1,0 +1,45 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "09",
+    "nombre": "Recreación y cultura",
+    "historico": [
+      {
+        "periodo": "2026-01",
+        "indice": 9211.9913,
+        "mensual": 1.0,
+        "interanual": 28.6
+      },
+      {
+        "periodo": "2026-02",
+        "indice": 9427.9443,
+        "mensual": 2.3,
+        "interanual": 27.9
+      },
+      {
+        "periodo": "2026-03",
+        "indice": 9763.4636,
+        "mensual": 3.6,
+        "interanual": 32.3
+      },
+      {
+        "periodo": "2026-04",
+        "indice": 9860.2728,
+        "mensual": 1.0,
+        "interanual": 28.5
+      },
+      {
+        "periodo": "2026-05",
+        "indice": 10132.3705,
+        "mensual": 2.8,
+        "interanual": 29.8
+      },
+      {
+        "periodo": "2026-06",
+        "indice": 10556.461,
+        "mensual": 4.2,
+        "interanual": 32.0
+      }
+    ]
+  }
+}

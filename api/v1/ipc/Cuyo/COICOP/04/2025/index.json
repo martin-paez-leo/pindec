@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "04",
+    "nombre": "Vivienda, agua, electricidad, gas y otros combustibles",
+    "historico": [
+      {
+        "periodo": "2025-01",
+        "indice": 8680.1099,
+        "mensual": 3.1,
+        "interanual": 222.5
+      },
+      {
+        "periodo": "2025-02",
+        "indice": 9187.3829,
+        "mensual": 5.8,
+        "interanual": 165.0
+      },
+      {
+        "periodo": "2025-03",
+        "indice": 9472.1584,
+        "mensual": 3.1,
+        "interanual": 157.1
+      },
+      {
+        "periodo": "2025-04",
+        "indice": 9613.1629,
+        "mensual": 1.5,
+        "interanual": 100.4
+      },
+      {
+        "periodo": "2025-05",
+        "indice": 9700.2534,
+        "mensual": 0.9,
+        "interanual": 97.9
+      },
+      {
+        "periodo": "2025-06",
+        "indice": 9726.5169,
+        "mensual": 0.3,
+        "interanual": 63.3
+      },
+      {
+        "periodo": "2025-07",
+        "indice": 9967.3511,
+        "mensual": 2.5,
+        "interanual": 57.0
+      },
+      {
+        "periodo": "2025-08",
+        "indice": 10266.8611,
+        "mensual": 3.0,
+        "interanual": 51.7
+      },
+      {
+        "periodo": "2025-09",
+        "indice": 10656.5233,
+        "mensual": 3.8,
+        "interanual": 46.0
+      },
+      {
+        "periodo": "2025-10",
+        "indice": 11138.5067,
+        "mensual": 4.5,
+        "interanual": 43.0
+      },
+      {
+        "periodo": "2025-11",
+        "indice": 11660.065,
+        "mensual": 4.7,
+        "interanual": 42.5
+      },
+      {
+        "periodo": "2025-12",
+        "indice": 11952.6922,
+        "mensual": 2.5,
+        "interanual": 41.9
+      }
+    ]
+  }
+}

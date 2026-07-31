@@ -1,0 +1,45 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "01",
+    "nombre": "Alimentos y bebidas no alcohólicas",
+    "historico": [
+      {
+        "periodo": "2026-01",
+        "indice": 10853.2056,
+        "mensual": 3.4,
+        "interanual": 30.0
+      },
+      {
+        "periodo": "2026-02",
+        "indice": 11125.5091,
+        "mensual": 2.5,
+        "interanual": 27.6
+      },
+      {
+        "periodo": "2026-03",
+        "indice": 11478.6523,
+        "mensual": 3.2,
+        "interanual": 27.8
+      },
+      {
+        "periodo": "2026-04",
+        "indice": 11680.3425,
+        "mensual": 1.8,
+        "interanual": 26.2
+      },
+      {
+        "periodo": "2026-05",
+        "indice": 11919.3286,
+        "mensual": 2.0,
+        "interanual": 27.7
+      },
+      {
+        "periodo": "2026-06",
+        "indice": 12073.5134,
+        "mensual": 1.3,
+        "interanual": 28.2
+      }
+    ]
+  }
+}

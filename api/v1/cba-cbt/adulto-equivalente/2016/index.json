@@ -1,0 +1,131 @@
+{
+  "fuente": "INDEC - Canasta Básica Alimentaria y Canasta Básica Total",
+  "datos": [
+    {
+      "periodo": "2016-04",
+      "cba": {
+        "indice": 1514.53,
+        "mensual": null,
+        "interanual": null
+      },
+      "cbt": {
+        "indice": 3663.66,
+        "mensual": null,
+        "interanual": null
+      },
+      "coef_engel": 2.42
+    },
+    {
+      "periodo": "2016-05",
+      "cba": {
+        "indice": 1561.35,
+        "mensual": 3.1,
+        "interanual": null
+      },
+      "cbt": {
+        "indice": 3830.77,
+        "mensual": 4.6,
+        "interanual": null
+      },
+      "coef_engel": 2.45
+    },
+    {
+      "periodo": "2016-06",
+      "cba": {
+        "indice": 1614.32,
+        "mensual": 3.4,
+        "interanual": null
+      },
+      "cbt": {
+        "indice": 3942.67,
+        "mensual": 2.9,
+        "interanual": null
+      },
+      "coef_engel": 2.44
+    },
+    {
+      "periodo": "2016-07",
+      "cba": {
+        "indice": 1666.48,
+        "mensual": 3.2,
+        "interanual": null
+      },
+      "cbt": {
+        "indice": 4033.76,
+        "mensual": 2.3,
+        "interanual": null
+      },
+      "coef_engel": 2.42
+    },
+    {
+      "periodo": "2016-08",
+      "cba": {
+        "indice": 1675.05,
+        "mensual": 0.5,
+        "interanual": null
+      },
+      "cbt": {
+        "indice": 4041.87,
+        "mensual": 0.2,
+        "interanual": null
+      },
+      "coef_engel": 2.41
+    },
+    {
+      "periodo": "2016-09",
+      "cba": {
+        "indice": 1711.22,
+        "mensual": 2.2,
+        "interanual": null
+      },
+      "cbt": {
+        "indice": 4089.82,
+        "mensual": 1.2,
+        "interanual": null
+      },
+      "coef_engel": 2.39
+    },
+    {
+      "periodo": "2016-10",
+      "cba": {
+        "indice": 1739.34,
+        "mensual": 1.6,
+        "interanual": null
+      },
+      "cbt": {
+        "indice": 4191.81,
+        "mensual": 2.5,
+        "interanual": null
+      },
+      "coef_engel": 2.41
+    },
+    {
+      "periodo": "2016-11",
+      "cba": {
+        "indice": 1762.65,
+        "mensual": 1.3,
+        "interanual": null
+      },
+      "cbt": {
+        "indice": 4247.99,
+        "mensual": 1.3,
+        "interanual": null
+      },
+      "coef_engel": 2.41
+    },
+    {
+      "periodo": "2016-12",
+      "cba": {
+        "indice": 1766.62,
+        "mensual": 0.2,
+        "interanual": null
+      },
+      "cbt": {
+        "indice": 4257.55,
+        "mensual": 0.2,
+        "interanual": null
+      },
+      "coef_engel": 2.41
+    }
+  ]
+}

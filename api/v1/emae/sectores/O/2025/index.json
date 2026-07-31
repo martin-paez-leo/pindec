@@ -1,0 +1,69 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "codigo": "O",
+    "nombre": "Otras actividades de servicios comunitarios, sociales y personales",
+    "historico": [
+      {
+        "periodo": "2025-01",
+        "indice": 141.006141,
+        "interanual": -1.787104
+      },
+      {
+        "periodo": "2025-02",
+        "indice": 138.321195,
+        "interanual": -1.788687
+      },
+      {
+        "periodo": "2025-03",
+        "indice": 138.33567,
+        "interanual": -0.297743
+      },
+      {
+        "periodo": "2025-04",
+        "indice": 122.314627,
+        "interanual": 2.353103
+      },
+      {
+        "periodo": "2025-05",
+        "indice": 118.213748,
+        "interanual": 1.299185
+      },
+      {
+        "periodo": "2025-06",
+        "indice": 118.225744,
+        "interanual": -0.897166
+      },
+      {
+        "periodo": "2025-07",
+        "indice": 133.16786,
+        "interanual": -0.295599
+      },
+      {
+        "periodo": "2025-08",
+        "indice": 125.990294,
+        "interanual": 0.209941
+      },
+      {
+        "periodo": "2025-09",
+        "indice": 122.991237,
+        "interanual": 2.51265
+      },
+      {
+        "periodo": "2025-10",
+        "indice": 128.847296,
+        "interanual": 1.513165
+      },
+      {
+        "periodo": "2025-11",
+        "indice": 123.252847,
+        "interanual": 0.985543
+      },
+      {
+        "periodo": "2025-12",
+        "indice": 128.821126,
+        "interanual": 1.968849
+      }
+    ]
+  }
+}

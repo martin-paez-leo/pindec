@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "04",
+    "nombre": "Vivienda, agua, electricidad, gas y otros combustibles",
+    "historico": [
+      {
+        "periodo": "2021-01",
+        "indice": 355.0014,
+        "mensual": -1.0,
+        "interanual": 17.4
+      },
+      {
+        "periodo": "2021-02",
+        "indice": 362.9717,
+        "mensual": 2.2,
+        "interanual": 18.6
+      },
+      {
+        "periodo": "2021-03",
+        "indice": 366.4275,
+        "mensual": 1.0,
+        "interanual": 17.4
+      },
+      {
+        "periodo": "2021-04",
+        "indice": 381.5934,
+        "mensual": 4.1,
+        "interanual": 22.0
+      },
+      {
+        "periodo": "2021-05",
+        "indice": 391.89,
+        "mensual": 2.7,
+        "interanual": 25.0
+      },
+      {
+        "periodo": "2021-06",
+        "indice": 400.3266,
+        "mensual": 2.2,
+        "interanual": 26.8
+      },
+      {
+        "periodo": "2021-07",
+        "indice": 414.8198,
+        "mensual": 3.6,
+        "interanual": 30.8
+      },
+      {
+        "periodo": "2021-08",
+        "indice": 426.6639,
+        "mensual": 2.9,
+        "interanual": 31.2
+      },
+      {
+        "periodo": "2021-09",
+        "indice": 432.5079,
+        "mensual": 1.4,
+        "interanual": 31.6
+      },
+      {
+        "periodo": "2021-10",
+        "indice": 445.2315,
+        "mensual": 2.9,
+        "interanual": 32.5
+      },
+      {
+        "periodo": "2021-11",
+        "indice": 453.1519,
+        "mensual": 1.8,
+        "interanual": 31.6
+      },
+      {
+        "periodo": "2021-12",
+        "indice": 464.4451,
+        "mensual": 2.5,
+        "interanual": 29.6
+      }
+    ]
+  }
+}

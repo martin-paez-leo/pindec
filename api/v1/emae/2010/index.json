@@ -1,0 +1,1243 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "nivel_general": [
+      {
+        "periodo": "2010-01",
+        "original": {
+          "indice": 121.505679,
+          "interanual": 4.065882
+        },
+        "desestacionalizada": {
+          "indice": 131.720008,
+          "mensual": 2.848049
+        },
+        "tendencia_ciclo": {
+          "indice": 131.443386,
+          "mensual": 1.057513
+        }
+      },
+      {
+        "periodo": "2010-02",
+        "original": {
+          "indice": 119.822802,
+          "interanual": 4.321774
+        },
+        "desestacionalizada": {
+          "indice": 133.123264,
+          "mensual": 1.065332
+        },
+        "tendencia_ciclo": {
+          "indice": 132.812397,
+          "mensual": 1.041522
+        }
+      },
+      {
+        "periodo": "2010-03",
+        "original": {
+          "indice": 136.895502,
+          "interanual": 8.504615
+        },
+        "desestacionalizada": {
+          "indice": 133.970387,
+          "mensual": 0.636344
+        },
+        "tendencia_ciclo": {
+          "indice": 134.145339,
+          "mensual": 1.003628
+        }
+      },
+      {
+        "periodo": "2010-04",
+        "original": {
+          "indice": 145.774131,
+          "interanual": 13.894441
+        },
+        "desestacionalizada": {
+          "indice": 136.865318,
+          "mensual": 2.160874
+        },
+        "tendencia_ciclo": {
+          "indice": 135.418775,
+          "mensual": 0.949296
+        }
+      },
+      {
+        "periodo": "2010-05",
+        "original": {
+          "indice": 158.110632,
+          "interanual": 18.848299
+        },
+        "desestacionalizada": {
+          "indice": 139.191291,
+          "mensual": 1.699461
+        },
+        "tendencia_ciclo": {
+          "indice": 136.61501,
+          "mensual": 0.88336
+        }
+      },
+      {
+        "periodo": "2010-06",
+        "original": {
+          "indice": 149.861552,
+          "interanual": 15.89086
+        },
+        "desestacionalizada": {
+          "indice": 140.568712,
+          "mensual": 0.989589
+        },
+        "tendencia_ciclo": {
+          "indice": 137.723392,
+          "mensual": 0.811317
+        }
+      },
+      {
+        "periodo": "2010-07",
+        "original": {
+          "indice": 139.505687,
+          "interanual": 9.53387
+        },
+        "desestacionalizada": {
+          "indice": 139.396914,
+          "mensual": -0.833613
+        },
+        "tendencia_ciclo": {
+          "indice": 138.740274,
+          "mensual": 0.738351
+        }
+      },
+      {
+        "periodo": "2010-08",
+        "original": {
+          "indice": 137.245981,
+          "interanual": 10.679309
+        },
+        "desestacionalizada": {
+          "indice": 140.002332,
+          "mensual": 0.434313
+        },
+        "tendencia_ciclo": {
+          "indice": 139.669232,
+          "mensual": 0.669566
+        }
+      },
+      {
+        "periodo": "2010-09",
+        "original": {
+          "indice": 136.696427,
+          "interanual": 8.330061
+        },
+        "desestacionalizada": {
+          "indice": 139.38548,
+          "mensual": -0.440601
+        },
+        "tendencia_ciclo": {
+          "indice": 140.522168,
+          "mensual": 0.610682
+        }
+      },
+      {
+        "periodo": "2010-10",
+        "original": {
+          "indice": 135.138845,
+          "interanual": 6.341668
+        },
+        "desestacionalizada": {
+          "indice": 140.188639,
+          "mensual": 0.576214
+        },
+        "tendencia_ciclo": {
+          "indice": 141.31277,
+          "mensual": 0.562618
+        }
+      },
+      {
+        "periodo": "2010-11",
+        "original": {
+          "indice": 139.598823,
+          "interanual": 9.840598
+        },
+        "desestacionalizada": {
+          "indice": 142.241574,
+          "mensual": 1.464409
+        },
+        "tendencia_ciclo": {
+          "indice": 142.05411,
+          "mensual": 0.524609
+        }
+      },
+      {
+        "periodo": "2010-12",
+        "original": {
+          "indice": 138.47765,
+          "interanual": 9.65351
+        },
+        "desestacionalizada": {
+          "indice": 141.97979,
+          "mensual": -0.184041
+        },
+        "tendencia_ciclo": {
+          "indice": 142.75862,
+          "mensual": 0.495945
+        }
+      }
+    ],
+    "sectores": [
+      {
+        "codigo": "A",
+        "nombre": "Agricultura, ganadería, caza y silvicultura",
+        "historico": [
+          {
+            "periodo": "2010-01",
+            "indice": 56.018829,
+            "interanual": -4.323273
+          },
+          {
+            "periodo": "2010-02",
+            "indice": 64.676349,
+            "interanual": 3.14054
+          },
+          {
+            "periodo": "2010-03",
+            "indice": 132.683263,
+            "interanual": 23.895145
+          },
+          {
+            "periodo": "2010-04",
+            "indice": 232.448622,
+            "interanual": 77.343797
+          },
+          {
+            "periodo": "2010-05",
+            "indice": 351.018061,
+            "interanual": 87.696609
+          },
+          {
+            "periodo": "2010-06",
+            "indice": 231.311122,
+            "interanual": 78.708729
+          },
+          {
+            "periodo": "2010-07",
+            "indice": 108.799928,
+            "interanual": 21.86701
+          },
+          {
+            "periodo": "2010-08",
+            "indice": 65.883189,
+            "interanual": 1.804513
+          },
+          {
+            "periodo": "2010-09",
+            "indice": 62.244325,
+            "interanual": -1.287699
+          },
+          {
+            "periodo": "2010-10",
+            "indice": 66.216983,
+            "interanual": 6.361806
+          },
+          {
+            "periodo": "2010-11",
+            "indice": 85.841059,
+            "interanual": 12.502523
+          },
+          {
+            "periodo": "2010-12",
+            "indice": 101.362213,
+            "interanual": 39.851999
+          }
+        ]
+      },
+      {
+        "codigo": "B",
+        "nombre": "Pesca",
+        "historico": [
+          {
+            "periodo": "2010-01",
+            "indice": 21.875955,
+            "interanual": -37.219935
+          },
+          {
+            "periodo": "2010-02",
+            "indice": 57.003759,
+            "interanual": 7.183216
+          },
+          {
+            "periodo": "2010-03",
+            "indice": 107.623225,
+            "interanual": -17.258237
+          },
+          {
+            "periodo": "2010-04",
+            "indice": 92.057837,
+            "interanual": -40.279054
+          },
+          {
+            "periodo": "2010-05",
+            "indice": 165.264939,
+            "interanual": -7.889692
+          },
+          {
+            "periodo": "2010-06",
+            "indice": 165.136568,
+            "interanual": 32.020767
+          },
+          {
+            "periodo": "2010-07",
+            "indice": 182.149125,
+            "interanual": 88.942837
+          },
+          {
+            "periodo": "2010-08",
+            "indice": 164.523015,
+            "interanual": 11.078662
+          },
+          {
+            "periodo": "2010-09",
+            "indice": 181.355706,
+            "interanual": 22.036564
+          },
+          {
+            "periodo": "2010-10",
+            "indice": 93.291968,
+            "interanual": -19.745633
+          },
+          {
+            "periodo": "2010-11",
+            "indice": 72.753888,
+            "interanual": -10.017834
+          },
+          {
+            "periodo": "2010-12",
+            "indice": 76.785378,
+            "interanual": 0.801185
+          }
+        ]
+      },
+      {
+        "codigo": "C",
+        "nombre": "Explotación de minas y canteras",
+        "historico": [
+          {
+            "periodo": "2010-01",
+            "indice": 103.624148,
+            "interanual": -1.235293
+          },
+          {
+            "periodo": "2010-02",
+            "indice": 98.590747,
+            "interanual": 0.944327
+          },
+          {
+            "periodo": "2010-03",
+            "indice": 106.719955,
+            "interanual": -0.328887
+          },
+          {
+            "periodo": "2010-04",
+            "indice": 103.745032,
+            "interanual": 1.615637
+          },
+          {
+            "periodo": "2010-05",
+            "indice": 105.994945,
+            "interanual": 1.910913
+          },
+          {
+            "periodo": "2010-06",
+            "indice": 105.325563,
+            "interanual": 4.959648
+          },
+          {
+            "periodo": "2010-07",
+            "indice": 107.074002,
+            "interanual": 3.795205
+          },
+          {
+            "periodo": "2010-08",
+            "indice": 106.967077,
+            "interanual": 13.946638
+          },
+          {
+            "periodo": "2010-09",
+            "indice": 103.222629,
+            "interanual": 3.020742
+          },
+          {
+            "periodo": "2010-10",
+            "indice": 103.274302,
+            "interanual": -1.571252
+          },
+          {
+            "periodo": "2010-11",
+            "indice": 101.507278,
+            "interanual": 2.543118
+          },
+          {
+            "periodo": "2010-12",
+            "indice": 92.28962,
+            "interanual": -9.424214
+          }
+        ]
+      },
+      {
+        "codigo": "D",
+        "nombre": "Industria manufacturera",
+        "historico": [
+          {
+            "periodo": "2010-01",
+            "indice": 115.155032,
+            "interanual": 9.472088
+          },
+          {
+            "periodo": "2010-02",
+            "indice": 111.438713,
+            "interanual": 7.926495
+          },
+          {
+            "periodo": "2010-03",
+            "indice": 132.324168,
+            "interanual": 12.865405
+          },
+          {
+            "periodo": "2010-04",
+            "indice": 132.980493,
+            "interanual": 11.415819
+          },
+          {
+            "periodo": "2010-05",
+            "indice": 135.839944,
+            "interanual": 12.504253
+          },
+          {
+            "periodo": "2010-06",
+            "indice": 134.928838,
+            "interanual": 12.405747
+          },
+          {
+            "periodo": "2010-07",
+            "indice": 137.567576,
+            "interanual": 10.120358
+          },
+          {
+            "periodo": "2010-08",
+            "indice": 141.999856,
+            "interanual": 13.22849
+          },
+          {
+            "periodo": "2010-09",
+            "indice": 141.63377,
+            "interanual": 11.868007
+          },
+          {
+            "periodo": "2010-10",
+            "indice": 145.564676,
+            "interanual": 8.831869
+          },
+          {
+            "periodo": "2010-11",
+            "indice": 145.08496,
+            "interanual": 11.073603
+          },
+          {
+            "periodo": "2010-12",
+            "indice": 137.342638,
+            "interanual": 8.83258
+          }
+        ]
+      },
+      {
+        "codigo": "E",
+        "nombre": "Electricidad, gas y agua",
+        "historico": [
+          {
+            "periodo": "2010-01",
+            "indice": 124.131394,
+            "interanual": -0.142615
+          },
+          {
+            "periodo": "2010-02",
+            "indice": 114.996565,
+            "interanual": 1.326306
+          },
+          {
+            "periodo": "2010-03",
+            "indice": 125.045196,
+            "interanual": 1.218774
+          },
+          {
+            "periodo": "2010-04",
+            "indice": 114.698004,
+            "interanual": -0.684425
+          },
+          {
+            "periodo": "2010-05",
+            "indice": 122.226948,
+            "interanual": 0.239051
+          },
+          {
+            "periodo": "2010-06",
+            "indice": 123.262004,
+            "interanual": -5.07958
+          },
+          {
+            "periodo": "2010-07",
+            "indice": 130.712886,
+            "interanual": -0.08632
+          },
+          {
+            "periodo": "2010-08",
+            "indice": 127.946867,
+            "interanual": 6.0065
+          },
+          {
+            "periodo": "2010-09",
+            "indice": 118.09139,
+            "interanual": 1.489896
+          },
+          {
+            "periodo": "2010-10",
+            "indice": 118.442881,
+            "interanual": 2.762378
+          },
+          {
+            "periodo": "2010-11",
+            "indice": 117.000078,
+            "interanual": 2.304369
+          },
+          {
+            "periodo": "2010-12",
+            "indice": 130.330202,
+            "interanual": 12.696182
+          }
+        ]
+      },
+      {
+        "codigo": "F",
+        "nombre": "Construcción",
+        "historico": [
+          {
+            "periodo": "2010-01",
+            "indice": 133.228352,
+            "interanual": 5.742989
+          },
+          {
+            "periodo": "2010-02",
+            "indice": 135.490775,
+            "interanual": 7.054539
+          },
+          {
+            "periodo": "2010-03",
+            "indice": 138.568264,
+            "interanual": 8.692364
+          },
+          {
+            "periodo": "2010-04",
+            "indice": 139.778886,
+            "interanual": 14.510894
+          },
+          {
+            "periodo": "2010-05",
+            "indice": 139.172177,
+            "interanual": 14.411386
+          },
+          {
+            "periodo": "2010-06",
+            "indice": 139.208435,
+            "interanual": 14.342452
+          },
+          {
+            "periodo": "2010-07",
+            "indice": 143.703775,
+            "interanual": 7.939759
+          },
+          {
+            "periodo": "2010-08",
+            "indice": 146.366902,
+            "interanual": 10.161322
+          },
+          {
+            "periodo": "2010-09",
+            "indice": 148.742558,
+            "interanual": 11.581096
+          },
+          {
+            "periodo": "2010-10",
+            "indice": 138.739476,
+            "interanual": 5.574964
+          },
+          {
+            "periodo": "2010-11",
+            "indice": 142.071026,
+            "interanual": 8.093994
+          },
+          {
+            "periodo": "2010-12",
+            "indice": 140.028723,
+            "interanual": 9.940546
+          }
+        ]
+      },
+      {
+        "codigo": "G",
+        "nombre": "Comercio mayorista, minorista y reparaciones",
+        "historico": [
+          {
+            "periodo": "2010-01",
+            "indice": 126.139699,
+            "interanual": 4.883823
+          },
+          {
+            "periodo": "2010-02",
+            "indice": 125.503025,
+            "interanual": 6.673964
+          },
+          {
+            "periodo": "2010-03",
+            "indice": 152.801212,
+            "interanual": 11.206354
+          },
+          {
+            "periodo": "2010-04",
+            "indice": 145.213739,
+            "interanual": 12.13368
+          },
+          {
+            "periodo": "2010-05",
+            "indice": 147.20022,
+            "interanual": 14.42421
+          },
+          {
+            "periodo": "2010-06",
+            "indice": 151.045273,
+            "interanual": 13.665783
+          },
+          {
+            "periodo": "2010-07",
+            "indice": 150.819962,
+            "interanual": 11.379148
+          },
+          {
+            "periodo": "2010-08",
+            "indice": 155.692903,
+            "interanual": 17.893141
+          },
+          {
+            "periodo": "2010-09",
+            "indice": 156.717937,
+            "interanual": 13.275759
+          },
+          {
+            "periodo": "2010-10",
+            "indice": 155.408442,
+            "interanual": 11.385714
+          },
+          {
+            "periodo": "2010-11",
+            "indice": 164.913532,
+            "interanual": 19.140588
+          },
+          {
+            "periodo": "2010-12",
+            "indice": 150.694486,
+            "interanual": 14.543689
+          }
+        ]
+      },
+      {
+        "codigo": "H",
+        "nombre": "Hoteles y restaurantes",
+        "historico": [
+          {
+            "periodo": "2010-01",
+            "indice": 156.742857,
+            "interanual": 7.052531
+          },
+          {
+            "periodo": "2010-02",
+            "indice": 150.246169,
+            "interanual": 7.161564
+          },
+          {
+            "periodo": "2010-03",
+            "indice": 144.999731,
+            "interanual": 8.80063
+          },
+          {
+            "periodo": "2010-04",
+            "indice": 141.98045,
+            "interanual": 6.69413
+          },
+          {
+            "periodo": "2010-05",
+            "indice": 138.349201,
+            "interanual": 7.038444
+          },
+          {
+            "periodo": "2010-06",
+            "indice": 136.316635,
+            "interanual": 7.3876
+          },
+          {
+            "periodo": "2010-07",
+            "indice": 151.323979,
+            "interanual": 18.037177
+          },
+          {
+            "periodo": "2010-08",
+            "indice": 148.023749,
+            "interanual": 14.188915
+          },
+          {
+            "periodo": "2010-09",
+            "indice": 150.416022,
+            "interanual": 12.378115
+          },
+          {
+            "periodo": "2010-10",
+            "indice": 154.194305,
+            "interanual": 8.267052
+          },
+          {
+            "periodo": "2010-11",
+            "indice": 155.946384,
+            "interanual": 9.362069
+          },
+          {
+            "periodo": "2010-12",
+            "indice": 153.340175,
+            "interanual": 7.946798
+          }
+        ]
+      },
+      {
+        "codigo": "I",
+        "nombre": "Transporte y comunicaciones",
+        "historico": [
+          {
+            "periodo": "2010-01",
+            "indice": 156.112573,
+            "interanual": 6.327278
+          },
+          {
+            "periodo": "2010-02",
+            "indice": 150.3208,
+            "interanual": 5.491645
+          },
+          {
+            "periodo": "2010-03",
+            "indice": 162.377646,
+            "interanual": 7.609499
+          },
+          {
+            "periodo": "2010-04",
+            "indice": 169.652677,
+            "interanual": 9.611752
+          },
+          {
+            "periodo": "2010-05",
+            "indice": 181.205344,
+            "interanual": 13.492828
+          },
+          {
+            "periodo": "2010-06",
+            "indice": 174.171718,
+            "interanual": 11.089579
+          },
+          {
+            "periodo": "2010-07",
+            "indice": 168.864498,
+            "interanual": 10.412563
+          },
+          {
+            "periodo": "2010-08",
+            "indice": 167.609489,
+            "interanual": 10.831129
+          },
+          {
+            "periodo": "2010-09",
+            "indice": 165.70629,
+            "interanual": 9.159406
+          },
+          {
+            "periodo": "2010-10",
+            "indice": 166.715807,
+            "interanual": 7.690608
+          },
+          {
+            "periodo": "2010-11",
+            "indice": 166.712564,
+            "interanual": 7.991863
+          },
+          {
+            "periodo": "2010-12",
+            "indice": 165.720484,
+            "interanual": 6.468938
+          }
+        ]
+      },
+      {
+        "codigo": "J",
+        "nombre": "Intermediación financiera",
+        "historico": [
+          {
+            "periodo": "2010-01",
+            "indice": 148.764342,
+            "interanual": -2.398981
+          },
+          {
+            "periodo": "2010-02",
+            "indice": 143.887529,
+            "interanual": -1.290832
+          },
+          {
+            "periodo": "2010-03",
+            "indice": 151.165448,
+            "interanual": 0.780655
+          },
+          {
+            "periodo": "2010-04",
+            "indice": 149.261123,
+            "interanual": -0.007836
+          },
+          {
+            "periodo": "2010-05",
+            "indice": 151.078801,
+            "interanual": 1.361428
+          },
+          {
+            "periodo": "2010-06",
+            "indice": 157.593763,
+            "interanual": 2.417192
+          },
+          {
+            "periodo": "2010-07",
+            "indice": 146.252281,
+            "interanual": -1.381699
+          },
+          {
+            "periodo": "2010-08",
+            "indice": 151.199104,
+            "interanual": 0.612146
+          },
+          {
+            "periodo": "2010-09",
+            "indice": 150.784703,
+            "interanual": -1.514208
+          },
+          {
+            "periodo": "2010-10",
+            "indice": 149.239455,
+            "interanual": -0.122785
+          },
+          {
+            "periodo": "2010-11",
+            "indice": 154.380043,
+            "interanual": 3.290825
+          },
+          {
+            "periodo": "2010-12",
+            "indice": 157.788502,
+            "interanual": 4.225842
+          }
+        ]
+      },
+      {
+        "codigo": "K",
+        "nombre": "Actividades inmobiliarias, empresariales y de alquiler",
+        "historico": [
+          {
+            "periodo": "2010-01",
+            "indice": 120.263915,
+            "interanual": 3.468019
+          },
+          {
+            "periodo": "2010-02",
+            "indice": 122.31814,
+            "interanual": 4.183811
+          },
+          {
+            "periodo": "2010-03",
+            "indice": 126.804505,
+            "interanual": 4.67168
+          },
+          {
+            "periodo": "2010-04",
+            "indice": 126.398026,
+            "interanual": 4.954241
+          },
+          {
+            "periodo": "2010-05",
+            "indice": 126.85021,
+            "interanual": 4.718409
+          },
+          {
+            "periodo": "2010-06",
+            "indice": 129.776391,
+            "interanual": 4.705692
+          },
+          {
+            "periodo": "2010-07",
+            "indice": 128.121313,
+            "interanual": 5.414557
+          },
+          {
+            "periodo": "2010-08",
+            "indice": 129.646339,
+            "interanual": 5.643903
+          },
+          {
+            "periodo": "2010-09",
+            "indice": 131.044636,
+            "interanual": 5.912344
+          },
+          {
+            "periodo": "2010-10",
+            "indice": 129.693021,
+            "interanual": 5.063263
+          },
+          {
+            "periodo": "2010-11",
+            "indice": 133.558239,
+            "interanual": 7.183755
+          },
+          {
+            "periodo": "2010-12",
+            "indice": 137.152823,
+            "interanual": 6.467446
+          }
+        ]
+      },
+      {
+        "codigo": "L",
+        "nombre": "Administración pública y defensa; planes de seguridad social de afiliación obligatoria",
+        "historico": [
+          {
+            "periodo": "2010-01",
+            "indice": 126.622195,
+            "interanual": 6.415271
+          },
+          {
+            "periodo": "2010-02",
+            "indice": 127.299334,
+            "interanual": 5.309912
+          },
+          {
+            "periodo": "2010-03",
+            "indice": 126.927183,
+            "interanual": 4.745543
+          },
+          {
+            "periodo": "2010-04",
+            "indice": 126.60834,
+            "interanual": 6.299337
+          },
+          {
+            "periodo": "2010-05",
+            "indice": 127.45071,
+            "interanual": 5.326529
+          },
+          {
+            "periodo": "2010-06",
+            "indice": 129.149159,
+            "interanual": 5.276824
+          },
+          {
+            "periodo": "2010-07",
+            "indice": 127.37046,
+            "interanual": 1.66998
+          },
+          {
+            "periodo": "2010-08",
+            "indice": 127.516447,
+            "interanual": 1.586983
+          },
+          {
+            "periodo": "2010-09",
+            "indice": 127.884547,
+            "interanual": 0.732678
+          },
+          {
+            "periodo": "2010-10",
+            "indice": 128.246432,
+            "interanual": 1.523251
+          },
+          {
+            "periodo": "2010-11",
+            "indice": 129.239331,
+            "interanual": 1.551103
+          },
+          {
+            "periodo": "2010-12",
+            "indice": 130.697735,
+            "interanual": 1.633685
+          }
+        ]
+      },
+      {
+        "codigo": "M",
+        "nombre": "Enseñanza",
+        "historico": [
+          {
+            "periodo": "2010-01",
+            "indice": 127.587703,
+            "interanual": 5.247654
+          },
+          {
+            "periodo": "2010-02",
+            "indice": 128.305648,
+            "interanual": 5.795282
+          },
+          {
+            "periodo": "2010-03",
+            "indice": 128.851408,
+            "interanual": 5.897423
+          },
+          {
+            "periodo": "2010-04",
+            "indice": 129.329459,
+            "interanual": 7.030363
+          },
+          {
+            "periodo": "2010-05",
+            "indice": 130.678966,
+            "interanual": 6.116998
+          },
+          {
+            "periodo": "2010-06",
+            "indice": 133.629926,
+            "interanual": 5.845782
+          },
+          {
+            "periodo": "2010-07",
+            "indice": 131.466107,
+            "interanual": 2.643506
+          },
+          {
+            "periodo": "2010-08",
+            "indice": 131.625168,
+            "interanual": 2.396847
+          },
+          {
+            "periodo": "2010-09",
+            "indice": 131.756305,
+            "interanual": 0.98714
+          },
+          {
+            "periodo": "2010-10",
+            "indice": 131.515345,
+            "interanual": 1.027158
+          },
+          {
+            "periodo": "2010-11",
+            "indice": 132.377308,
+            "interanual": 1.044912
+          },
+          {
+            "periodo": "2010-12",
+            "indice": 133.86809,
+            "interanual": 1.25368
+          }
+        ]
+      },
+      {
+        "codigo": "N",
+        "nombre": "Servicios sociales y de salud",
+        "historico": [
+          {
+            "periodo": "2010-01",
+            "indice": 136.420439,
+            "interanual": 3.542344
+          },
+          {
+            "periodo": "2010-02",
+            "indice": 129.688569,
+            "interanual": 5.082956
+          },
+          {
+            "periodo": "2010-03",
+            "indice": 139.742389,
+            "interanual": 4.84993
+          },
+          {
+            "periodo": "2010-04",
+            "indice": 147.101042,
+            "interanual": 4.337286
+          },
+          {
+            "periodo": "2010-05",
+            "indice": 149.531819,
+            "interanual": 3.934966
+          },
+          {
+            "periodo": "2010-06",
+            "indice": 153.629136,
+            "interanual": 6.588214
+          },
+          {
+            "periodo": "2010-07",
+            "indice": 147.804748,
+            "interanual": 5.888572
+          },
+          {
+            "periodo": "2010-08",
+            "indice": 146.728693,
+            "interanual": 2.660286
+          },
+          {
+            "periodo": "2010-09",
+            "indice": 144.55641,
+            "interanual": 2.751062
+          },
+          {
+            "periodo": "2010-10",
+            "indice": 139.200608,
+            "interanual": 3.754085
+          },
+          {
+            "periodo": "2010-11",
+            "indice": 139.656272,
+            "interanual": 3.822809
+          },
+          {
+            "periodo": "2010-12",
+            "indice": 135.511009,
+            "interanual": 4.195782
+          }
+        ]
+      },
+      {
+        "codigo": "O",
+        "nombre": "Otras actividades de servicios comunitarios, sociales y personales",
+        "historico": [
+          {
+            "periodo": "2010-01",
+            "indice": 145.743264,
+            "interanual": 6.902791
+          },
+          {
+            "periodo": "2010-02",
+            "indice": 142.917281,
+            "interanual": 6.462991
+          },
+          {
+            "periodo": "2010-03",
+            "indice": 140.341969,
+            "interanual": 7.050277
+          },
+          {
+            "periodo": "2010-04",
+            "indice": 141.500411,
+            "interanual": 3.706119
+          },
+          {
+            "periodo": "2010-05",
+            "indice": 144.556292,
+            "interanual": 5.145349
+          },
+          {
+            "periodo": "2010-06",
+            "indice": 144.740096,
+            "interanual": 5.168807
+          },
+          {
+            "periodo": "2010-07",
+            "indice": 161.306009,
+            "interanual": 12.988095
+          },
+          {
+            "periodo": "2010-08",
+            "indice": 148.33672,
+            "interanual": 3.929545
+          },
+          {
+            "periodo": "2010-09",
+            "indice": 143.762558,
+            "interanual": 1.817604
+          },
+          {
+            "periodo": "2010-10",
+            "indice": 142.706867,
+            "interanual": 3.016322
+          },
+          {
+            "periodo": "2010-11",
+            "indice": 145.394446,
+            "interanual": 5.034883
+          },
+          {
+            "periodo": "2010-12",
+            "indice": 145.540546,
+            "interanual": 3.331606
+          }
+        ]
+      }
+    ],
+    "impuestos_netos_subsidios": {
+      "historico": [
+        {
+          "periodo": "2010-01",
+          "indice": 134.138654,
+          "interanual": 1.456063
+        },
+        {
+          "periodo": "2010-02",
+          "indice": 128.899032,
+          "interanual": -0.267382
+        },
+        {
+          "periodo": "2010-03",
+          "indice": 141.038143,
+          "interanual": 6.112097
+        },
+        {
+          "periodo": "2010-04",
+          "indice": 150.676386,
+          "interanual": 10.003608
+        },
+        {
+          "periodo": "2010-05",
+          "indice": 154.204027,
+          "interanual": 15.278905
+        },
+        {
+          "periodo": "2010-06",
+          "indice": 159.113756,
+          "interanual": 17.293898
+        },
+        {
+          "periodo": "2010-07",
+          "indice": 153.476448,
+          "interanual": 12.664324
+        },
+        {
+          "periodo": "2010-08",
+          "indice": 152.989378,
+          "interanual": 16.757145
+        },
+        {
+          "periodo": "2010-09",
+          "indice": 153.25452,
+          "interanual": 12.699586
+        },
+        {
+          "periodo": "2010-10",
+          "indice": 142.456746,
+          "interanual": 7.169537
+        },
+        {
+          "periodo": "2010-11",
+          "indice": 149.998311,
+          "interanual": 13.641704
+        },
+        {
+          "periodo": "2010-12",
+          "indice": 154.900981,
+          "interanual": 14.263324
+        }
+      ]
+    }
+  }
+}

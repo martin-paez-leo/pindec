@@ -1,0 +1,69 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "codigo": "K",
+    "nombre": "Actividades inmobiliarias, empresariales y de alquiler",
+    "historico": [
+      {
+        "periodo": "2022-01",
+        "indice": 144.673536,
+        "interanual": 4.240699
+      },
+      {
+        "periodo": "2022-02",
+        "indice": 145.843029,
+        "interanual": 5.913978
+      },
+      {
+        "periodo": "2022-03",
+        "indice": 148.873426,
+        "interanual": 4.416385
+      },
+      {
+        "periodo": "2022-04",
+        "indice": 151.538333,
+        "interanual": 5.284453
+      },
+      {
+        "periodo": "2022-05",
+        "indice": 153.247286,
+        "interanual": 7.83413
+      },
+      {
+        "periodo": "2022-06",
+        "indice": 153.120184,
+        "interanual": 5.793146
+      },
+      {
+        "periodo": "2022-07",
+        "indice": 152.559096,
+        "interanual": 6.076442
+      },
+      {
+        "periodo": "2022-08",
+        "indice": 154.613203,
+        "interanual": 6.576606
+      },
+      {
+        "periodo": "2022-09",
+        "indice": 152.551419,
+        "interanual": 4.214823
+      },
+      {
+        "periodo": "2022-10",
+        "indice": 151.907294,
+        "interanual": 3.788422
+      },
+      {
+        "periodo": "2022-11",
+        "indice": 154.206092,
+        "interanual": 3.288982
+      },
+      {
+        "periodo": "2022-12",
+        "indice": 154.539342,
+        "interanual": 2.226606
+      }
+    ]
+  }
+}

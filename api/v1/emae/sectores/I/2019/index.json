@@ -1,0 +1,69 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "codigo": "I",
+    "nombre": "Transporte y comunicaciones",
+    "historico": [
+      {
+        "periodo": "2019-01",
+        "indice": 186.725634,
+        "interanual": -5.553972
+      },
+      {
+        "periodo": "2019-02",
+        "indice": 179.081587,
+        "interanual": -3.979388
+      },
+      {
+        "periodo": "2019-03",
+        "indice": 191.480747,
+        "interanual": -3.895137
+      },
+      {
+        "periodo": "2019-04",
+        "indice": 193.796829,
+        "interanual": -0.86242
+      },
+      {
+        "periodo": "2019-05",
+        "indice": 205.177954,
+        "interanual": 2.14867
+      },
+      {
+        "periodo": "2019-06",
+        "indice": 196.715743,
+        "interanual": 2.150269
+      },
+      {
+        "periodo": "2019-07",
+        "indice": 196.246501,
+        "interanual": 1.144466
+      },
+      {
+        "periodo": "2019-08",
+        "indice": 190.169267,
+        "interanual": -0.616527
+      },
+      {
+        "periodo": "2019-09",
+        "indice": 187.028304,
+        "interanual": 0.960415
+      },
+      {
+        "periodo": "2019-10",
+        "indice": 188.755532,
+        "interanual": -0.118846
+      },
+      {
+        "periodo": "2019-11",
+        "indice": 185.712277,
+        "interanual": -0.049186
+      },
+      {
+        "periodo": "2019-12",
+        "indice": 184.604127,
+        "interanual": 0.386367
+      }
+    ]
+  }
+}

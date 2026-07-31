@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "09",
+    "nombre": "Recreación y cultura",
+    "historico": [
+      {
+        "periodo": "2020-01",
+        "indice": 279.8105,
+        "mensual": 3.3,
+        "interanual": 49.3
+      },
+      {
+        "periodo": "2020-02",
+        "indice": 287.2039,
+        "mensual": 2.6,
+        "interanual": 51.5
+      },
+      {
+        "periodo": "2020-03",
+        "indice": 290.9657,
+        "mensual": 1.3,
+        "interanual": 50.4
+      },
+      {
+        "periodo": "2020-04",
+        "indice": 298.6344,
+        "mensual": 2.6,
+        "interanual": 46.7
+      },
+      {
+        "periodo": "2020-05",
+        "indice": 315.9188,
+        "mensual": 5.8,
+        "interanual": 50.2
+      },
+      {
+        "periodo": "2020-06",
+        "indice": 313.4671,
+        "mensual": -0.8,
+        "interanual": 44.0
+      },
+      {
+        "periodo": "2020-07",
+        "indice": 333.0711,
+        "mensual": 6.3,
+        "interanual": 48.3
+      },
+      {
+        "periodo": "2020-08",
+        "indice": 350.6141,
+        "mensual": 5.3,
+        "interanual": 48.9
+      },
+      {
+        "periodo": "2020-09",
+        "indice": 349.936,
+        "mensual": -0.2,
+        "interanual": 39.2
+      },
+      {
+        "periodo": "2020-10",
+        "indice": 360.5184,
+        "mensual": 3.0,
+        "interanual": 40.8
+      },
+      {
+        "periodo": "2020-11",
+        "indice": 365.1697,
+        "mensual": 1.3,
+        "interanual": 37.8
+      },
+      {
+        "periodo": "2020-12",
+        "indice": 372.2316,
+        "mensual": 1.9,
+        "interanual": 37.4
+      }
+    ]
+  }
+}

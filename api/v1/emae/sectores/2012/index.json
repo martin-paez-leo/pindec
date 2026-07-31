@@ -1,0 +1,995 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": [
+    {
+      "codigo": "A",
+      "nombre": "Agricultura, ganadería, caza y silvicultura",
+      "historico": [
+        {
+          "periodo": "2012-01",
+          "indice": 70.398993,
+          "interanual": -0.747038
+        },
+        {
+          "periodo": "2012-02",
+          "indice": 68.387538,
+          "interanual": -4.217816
+        },
+        {
+          "periodo": "2012-03",
+          "indice": 124.360906,
+          "interanual": -11.021969
+        },
+        {
+          "periodo": "2012-04",
+          "indice": 166.146739,
+          "interanual": -22.809275
+        },
+        {
+          "periodo": "2012-05",
+          "indice": 239.349567,
+          "interanual": -24.199512
+        },
+        {
+          "periodo": "2012-06",
+          "indice": 162.020637,
+          "interanual": -23.287363
+        },
+        {
+          "periodo": "2012-07",
+          "indice": 101.720596,
+          "interanual": -4.388288
+        },
+        {
+          "periodo": "2012-08",
+          "indice": 73.195574,
+          "interanual": 5.743046
+        },
+        {
+          "periodo": "2012-09",
+          "indice": 70.830687,
+          "interanual": 7.305538
+        },
+        {
+          "periodo": "2012-10",
+          "indice": 71.873084,
+          "interanual": 5.252797
+        },
+        {
+          "periodo": "2012-11",
+          "indice": 84.909204,
+          "interanual": -1.266616
+        },
+        {
+          "periodo": "2012-12",
+          "indice": 81.0775,
+          "interanual": -16.033705
+        }
+      ]
+    },
+    {
+      "codigo": "B",
+      "nombre": "Pesca",
+      "historico": [
+        {
+          "periodo": "2012-01",
+          "indice": 39.720614,
+          "interanual": -1.670775
+        },
+        {
+          "periodo": "2012-02",
+          "indice": 79.54644,
+          "interanual": 11.880764
+        },
+        {
+          "periodo": "2012-03",
+          "indice": 148.772022,
+          "interanual": 18.072363
+        },
+        {
+          "periodo": "2012-04",
+          "indice": 117.441055,
+          "interanual": -3.671798
+        },
+        {
+          "periodo": "2012-05",
+          "indice": 128.074054,
+          "interanual": 12.190943
+        },
+        {
+          "periodo": "2012-06",
+          "indice": 108.747898,
+          "interanual": -43.969382
+        },
+        {
+          "periodo": "2012-07",
+          "indice": 150.828842,
+          "interanual": -1.864025
+        },
+        {
+          "periodo": "2012-08",
+          "indice": 177.714556,
+          "interanual": 0.043793
+        },
+        {
+          "periodo": "2012-09",
+          "indice": 182.746651,
+          "interanual": 20.683316
+        },
+        {
+          "periodo": "2012-10",
+          "indice": 147.773751,
+          "interanual": -1.175176
+        },
+        {
+          "periodo": "2012-11",
+          "indice": 110.389746,
+          "interanual": 33.685136
+        },
+        {
+          "periodo": "2012-12",
+          "indice": 68.673157,
+          "interanual": -0.949434
+        }
+      ]
+    },
+    {
+      "codigo": "C",
+      "nombre": "Explotación de minas y canteras",
+      "historico": [
+        {
+          "periodo": "2012-01",
+          "indice": 94.556144,
+          "interanual": -4.899178
+        },
+        {
+          "periodo": "2012-02",
+          "indice": 91.823646,
+          "interanual": -2.210051
+        },
+        {
+          "periodo": "2012-03",
+          "indice": 99.005972,
+          "interanual": -2.520884
+        },
+        {
+          "periodo": "2012-04",
+          "indice": 95.223098,
+          "interanual": 8.368963
+        },
+        {
+          "periodo": "2012-05",
+          "indice": 98.729749,
+          "interanual": 5.534094
+        },
+        {
+          "periodo": "2012-06",
+          "indice": 94.07845,
+          "interanual": 2.302209
+        },
+        {
+          "periodo": "2012-07",
+          "indice": 98.312484,
+          "interanual": 0.790433
+        },
+        {
+          "periodo": "2012-08",
+          "indice": 98.251896,
+          "interanual": -3.146255
+        },
+        {
+          "periodo": "2012-09",
+          "indice": 97.072387,
+          "interanual": -2.081507
+        },
+        {
+          "periodo": "2012-10",
+          "indice": 97.106242,
+          "interanual": -4.531363
+        },
+        {
+          "periodo": "2012-11",
+          "indice": 92.075965,
+          "interanual": -7.07447
+        },
+        {
+          "periodo": "2012-12",
+          "indice": 95.827659,
+          "interanual": -3.147867
+        }
+      ]
+    },
+    {
+      "codigo": "D",
+      "nombre": "Industria manufacturera",
+      "historico": [
+        {
+          "periodo": "2012-01",
+          "indice": 124.613429,
+          "interanual": -1.976755
+        },
+        {
+          "periodo": "2012-02",
+          "indice": 123.608767,
+          "interanual": -0.468674
+        },
+        {
+          "periodo": "2012-03",
+          "indice": 145.850525,
+          "interanual": 0.423412
+        },
+        {
+          "periodo": "2012-04",
+          "indice": 138.246635,
+          "interanual": -3.513344
+        },
+        {
+          "periodo": "2012-05",
+          "indice": 141.966392,
+          "interanual": -6.290711
+        },
+        {
+          "periodo": "2012-06",
+          "indice": 138.106914,
+          "interanual": -7.551741
+        },
+        {
+          "periodo": "2012-07",
+          "indice": 144.178305,
+          "interanual": -2.493853
+        },
+        {
+          "periodo": "2012-08",
+          "indice": 144.355469,
+          "interanual": -4.119168
+        },
+        {
+          "periodo": "2012-09",
+          "indice": 143.52223,
+          "interanual": -6.179759
+        },
+        {
+          "periodo": "2012-10",
+          "indice": 151.924635,
+          "interanual": -1.219266
+        },
+        {
+          "periodo": "2012-11",
+          "indice": 147.09261,
+          "interanual": -0.900776
+        },
+        {
+          "periodo": "2012-12",
+          "indice": 141.410906,
+          "interanual": 0.228078
+        }
+      ]
+    },
+    {
+      "codigo": "E",
+      "nombre": "Electricidad, gas y agua",
+      "historico": [
+        {
+          "periodo": "2012-01",
+          "indice": 144.089346,
+          "interanual": 8.667374
+        },
+        {
+          "periodo": "2012-02",
+          "indice": 131.632092,
+          "interanual": 8.885193
+        },
+        {
+          "periodo": "2012-03",
+          "indice": 134.941363,
+          "interanual": 3.943862
+        },
+        {
+          "periodo": "2012-04",
+          "indice": 127.495125,
+          "interanual": 8.088184
+        },
+        {
+          "periodo": "2012-05",
+          "indice": 131.407958,
+          "interanual": 3.043262
+        },
+        {
+          "periodo": "2012-06",
+          "indice": 135.042333,
+          "interanual": 3.557918
+        },
+        {
+          "periodo": "2012-07",
+          "indice": 142.591715,
+          "interanual": 5.201729
+        },
+        {
+          "periodo": "2012-08",
+          "indice": 138.213563,
+          "interanual": 3.302792
+        },
+        {
+          "periodo": "2012-09",
+          "indice": 124.899325,
+          "interanual": 4.070046
+        },
+        {
+          "periodo": "2012-10",
+          "indice": 127.117214,
+          "interanual": 3.105841
+        },
+        {
+          "periodo": "2012-11",
+          "indice": 132.37062,
+          "interanual": 3.36399
+        },
+        {
+          "periodo": "2012-12",
+          "indice": 138.294869,
+          "interanual": 1.282945
+        }
+      ]
+    },
+    {
+      "codigo": "F",
+      "nombre": "Construcción",
+      "historico": [
+        {
+          "periodo": "2012-01",
+          "indice": 153.104605,
+          "interanual": 2.556468
+        },
+        {
+          "periodo": "2012-02",
+          "indice": 152.774539,
+          "interanual": 0.657563
+        },
+        {
+          "periodo": "2012-03",
+          "indice": 155.524643,
+          "interanual": 0.545683
+        },
+        {
+          "periodo": "2012-04",
+          "indice": 149.255503,
+          "interanual": -0.584524
+        },
+        {
+          "periodo": "2012-05",
+          "indice": 150.010951,
+          "interanual": -1.907963
+        },
+        {
+          "periodo": "2012-06",
+          "indice": 147.782026,
+          "interanual": -3.07251
+        },
+        {
+          "periodo": "2012-07",
+          "indice": 151.941711,
+          "interanual": -4.105483
+        },
+        {
+          "periodo": "2012-08",
+          "indice": 151.174107,
+          "interanual": -5.685885
+        },
+        {
+          "periodo": "2012-09",
+          "indice": 149.816682,
+          "interanual": -7.866667
+        },
+        {
+          "periodo": "2012-10",
+          "indice": 148.118714,
+          "interanual": -2.291858
+        },
+        {
+          "periodo": "2012-11",
+          "indice": 148.605836,
+          "interanual": -3.252263
+        },
+        {
+          "periodo": "2012-12",
+          "indice": 142.889478,
+          "interanual": -3.544231
+        }
+      ]
+    },
+    {
+      "codigo": "G",
+      "nombre": "Comercio mayorista, minorista y reparaciones",
+      "historico": [
+        {
+          "periodo": "2012-01",
+          "indice": 148.060715,
+          "interanual": 1.699998
+        },
+        {
+          "periodo": "2012-02",
+          "indice": 142.068598,
+          "interanual": 0.648305
+        },
+        {
+          "periodo": "2012-03",
+          "indice": 168.58441,
+          "interanual": -1.634784
+        },
+        {
+          "periodo": "2012-04",
+          "indice": 150.703998,
+          "interanual": -6.382516
+        },
+        {
+          "periodo": "2012-05",
+          "indice": 160.467814,
+          "interanual": -5.393248
+        },
+        {
+          "periodo": "2012-06",
+          "indice": 158.87011,
+          "interanual": -6.9633
+        },
+        {
+          "periodo": "2012-07",
+          "indice": 164.006378,
+          "interanual": 0.058073
+        },
+        {
+          "periodo": "2012-08",
+          "indice": 167.155651,
+          "interanual": -3.758206
+        },
+        {
+          "periodo": "2012-09",
+          "indice": 161.023662,
+          "interanual": -8.944319
+        },
+        {
+          "periodo": "2012-10",
+          "indice": 171.397684,
+          "interanual": -0.136556
+        },
+        {
+          "periodo": "2012-11",
+          "indice": 168.86188,
+          "interanual": -0.550046
+        },
+        {
+          "periodo": "2012-12",
+          "indice": 156.605583,
+          "interanual": -0.374274
+        }
+      ]
+    },
+    {
+      "codigo": "H",
+      "nombre": "Hoteles y restaurantes",
+      "historico": [
+        {
+          "periodo": "2012-01",
+          "indice": 167.866839,
+          "interanual": 1.614694
+        },
+        {
+          "periodo": "2012-02",
+          "indice": 160.038624,
+          "interanual": 3.348178
+        },
+        {
+          "periodo": "2012-03",
+          "indice": 157.369203,
+          "interanual": 2.124815
+        },
+        {
+          "periodo": "2012-04",
+          "indice": 154.873571,
+          "interanual": 2.02837
+        },
+        {
+          "periodo": "2012-05",
+          "indice": 148.639904,
+          "interanual": 0.020081
+        },
+        {
+          "periodo": "2012-06",
+          "indice": 147.772395,
+          "interanual": 1.03333
+        },
+        {
+          "periodo": "2012-07",
+          "indice": 163.628204,
+          "interanual": 2.98854
+        },
+        {
+          "periodo": "2012-08",
+          "indice": 157.298508,
+          "interanual": 1.659736
+        },
+        {
+          "periodo": "2012-09",
+          "indice": 158.569082,
+          "interanual": -0.3797
+        },
+        {
+          "periodo": "2012-10",
+          "indice": 160.605666,
+          "interanual": 0.533756
+        },
+        {
+          "periodo": "2012-11",
+          "indice": 162.095315,
+          "interanual": 0.725655
+        },
+        {
+          "periodo": "2012-12",
+          "indice": 159.188923,
+          "interanual": 0.810685
+        }
+      ]
+    },
+    {
+      "codigo": "I",
+      "nombre": "Transporte y comunicaciones",
+      "historico": [
+        {
+          "periodo": "2012-01",
+          "indice": 172.664793,
+          "interanual": 2.056725
+        },
+        {
+          "periodo": "2012-02",
+          "indice": 166.111187,
+          "interanual": 2.759377
+        },
+        {
+          "periodo": "2012-03",
+          "indice": 175.498594,
+          "interanual": 0.684413
+        },
+        {
+          "periodo": "2012-04",
+          "indice": 176.902283,
+          "interanual": -0.851248
+        },
+        {
+          "periodo": "2012-05",
+          "indice": 187.461156,
+          "interanual": -0.798137
+        },
+        {
+          "periodo": "2012-06",
+          "indice": 180.9523,
+          "interanual": -0.129278
+        },
+        {
+          "periodo": "2012-07",
+          "indice": 181.743825,
+          "interanual": 3.349804
+        },
+        {
+          "periodo": "2012-08",
+          "indice": 177.497917,
+          "interanual": 0.488918
+        },
+        {
+          "periodo": "2012-09",
+          "indice": 172.075884,
+          "interanual": -2.070862
+        },
+        {
+          "periodo": "2012-10",
+          "indice": 175.891542,
+          "interanual": 0.722275
+        },
+        {
+          "periodo": "2012-11",
+          "indice": 175.329863,
+          "interanual": 1.296535
+        },
+        {
+          "periodo": "2012-12",
+          "indice": 173.278754,
+          "interanual": 0.045579
+        }
+      ]
+    },
+    {
+      "codigo": "J",
+      "nombre": "Intermediación financiera",
+      "historico": [
+        {
+          "periodo": "2012-01",
+          "indice": 172.896001,
+          "interanual": 8.57085
+        },
+        {
+          "periodo": "2012-02",
+          "indice": 167.485541,
+          "interanual": 7.400169
+        },
+        {
+          "periodo": "2012-03",
+          "indice": 176.617758,
+          "interanual": 10.264438
+        },
+        {
+          "periodo": "2012-04",
+          "indice": 169.926415,
+          "interanual": 6.954091
+        },
+        {
+          "periodo": "2012-05",
+          "indice": 174.751614,
+          "interanual": 6.655948
+        },
+        {
+          "periodo": "2012-06",
+          "indice": 176.639069,
+          "interanual": 4.517457
+        },
+        {
+          "periodo": "2012-07",
+          "indice": 176.655611,
+          "interanual": 8.514811
+        },
+        {
+          "periodo": "2012-08",
+          "indice": 184.82344,
+          "interanual": 7.345891
+        },
+        {
+          "periodo": "2012-09",
+          "indice": 178.832748,
+          "interanual": 3.675362
+        },
+        {
+          "periodo": "2012-10",
+          "indice": 184.484167,
+          "interanual": 8.10605
+        },
+        {
+          "periodo": "2012-11",
+          "indice": 183.360298,
+          "interanual": 7.85234
+        },
+        {
+          "periodo": "2012-12",
+          "indice": 189.100295,
+          "interanual": 8.540766
+        }
+      ]
+    },
+    {
+      "codigo": "K",
+      "nombre": "Actividades inmobiliarias, empresariales y de alquiler",
+      "historico": [
+        {
+          "periodo": "2012-01",
+          "indice": 128.015283,
+          "interanual": 3.158617
+        },
+        {
+          "periodo": "2012-02",
+          "indice": 127.890188,
+          "interanual": 1.884814
+        },
+        {
+          "periodo": "2012-03",
+          "indice": 133.568738,
+          "interanual": 3.633664
+        },
+        {
+          "periodo": "2012-04",
+          "indice": 130.390973,
+          "interanual": -0.509514
+        },
+        {
+          "periodo": "2012-05",
+          "indice": 135.366799,
+          "interanual": 0.638817
+        },
+        {
+          "periodo": "2012-06",
+          "indice": 135.963572,
+          "interanual": -1.447602
+        },
+        {
+          "periodo": "2012-07",
+          "indice": 131.618657,
+          "interanual": -2.555459
+        },
+        {
+          "periodo": "2012-08",
+          "indice": 135.79918,
+          "interanual": -0.44497
+        },
+        {
+          "periodo": "2012-09",
+          "indice": 132.050574,
+          "interanual": -3.426424
+        },
+        {
+          "periodo": "2012-10",
+          "indice": 134.911538,
+          "interanual": -1.852973
+        },
+        {
+          "periodo": "2012-11",
+          "indice": 135.817515,
+          "interanual": -3.27136
+        },
+        {
+          "periodo": "2012-12",
+          "indice": 139.274107,
+          "interanual": -1.998937
+        }
+      ]
+    },
+    {
+      "codigo": "L",
+      "nombre": "Administración pública y defensa; planes de seguridad social de afiliación obligatoria",
+      "historico": [
+        {
+          "periodo": "2012-01",
+          "indice": 133.958797,
+          "interanual": 3.53352
+        },
+        {
+          "periodo": "2012-02",
+          "indice": 134.704045,
+          "interanual": 3.621166
+        },
+        {
+          "periodo": "2012-03",
+          "indice": 135.037094,
+          "interanual": 4.028952
+        },
+        {
+          "periodo": "2012-04",
+          "indice": 134.067954,
+          "interanual": 3.45314
+        },
+        {
+          "periodo": "2012-05",
+          "indice": 134.753179,
+          "interanual": 3.53028
+        },
+        {
+          "periodo": "2012-06",
+          "indice": 136.676428,
+          "interanual": 3.341424
+        },
+        {
+          "periodo": "2012-07",
+          "indice": 136.14055,
+          "interanual": 2.571362
+        },
+        {
+          "periodo": "2012-08",
+          "indice": 136.193152,
+          "interanual": 2.085539
+        },
+        {
+          "periodo": "2012-09",
+          "indice": 136.298047,
+          "interanual": 1.80605
+        },
+        {
+          "periodo": "2012-10",
+          "indice": 137.274763,
+          "interanual": 2.965905
+        },
+        {
+          "periodo": "2012-11",
+          "indice": 137.500987,
+          "interanual": 2.791624
+        },
+        {
+          "periodo": "2012-12",
+          "indice": 138.874408,
+          "interanual": 2.479206
+        }
+      ]
+    },
+    {
+      "codigo": "M",
+      "nombre": "Enseñanza",
+      "historico": [
+        {
+          "periodo": "2012-01",
+          "indice": 134.930861,
+          "interanual": 3.676814
+        },
+        {
+          "periodo": "2012-02",
+          "indice": 135.87786,
+          "interanual": 3.680672
+        },
+        {
+          "periodo": "2012-03",
+          "indice": 136.871013,
+          "interanual": 4.101245
+        },
+        {
+          "periodo": "2012-04",
+          "indice": 136.572667,
+          "interanual": 3.678301
+        },
+        {
+          "periodo": "2012-05",
+          "indice": 138.027579,
+          "interanual": 3.904991
+        },
+        {
+          "periodo": "2012-06",
+          "indice": 141.334111,
+          "interanual": 3.794569
+        },
+        {
+          "periodo": "2012-07",
+          "indice": 139.860305,
+          "interanual": 2.7954
+        },
+        {
+          "periodo": "2012-08",
+          "indice": 140.370357,
+          "interanual": 2.482834
+        },
+        {
+          "periodo": "2012-09",
+          "indice": 140.400281,
+          "interanual": 2.113264
+        },
+        {
+          "periodo": "2012-10",
+          "indice": 142.141504,
+          "interanual": 3.451948
+        },
+        {
+          "periodo": "2012-11",
+          "indice": 142.21987,
+          "interanual": 3.22475
+        },
+        {
+          "periodo": "2012-12",
+          "indice": 143.661751,
+          "interanual": 3.007427
+        }
+      ]
+    },
+    {
+      "codigo": "N",
+      "nombre": "Servicios sociales y de salud",
+      "historico": [
+        {
+          "periodo": "2012-01",
+          "indice": 155.910897,
+          "interanual": 7.231656
+        },
+        {
+          "periodo": "2012-02",
+          "indice": 147.823447,
+          "interanual": 7.031816
+        },
+        {
+          "periodo": "2012-03",
+          "indice": 160.574177,
+          "interanual": 7.417245
+        },
+        {
+          "periodo": "2012-04",
+          "indice": 165.33209,
+          "interanual": 5.120512
+        },
+        {
+          "periodo": "2012-05",
+          "indice": 168.051731,
+          "interanual": 4.728556
+        },
+        {
+          "periodo": "2012-06",
+          "indice": 172.656232,
+          "interanual": 5.018293
+        },
+        {
+          "periodo": "2012-07",
+          "indice": 158.995997,
+          "interanual": 4.264164
+        },
+        {
+          "periodo": "2012-08",
+          "indice": 159.466242,
+          "interanual": 4.433352
+        },
+        {
+          "periodo": "2012-09",
+          "indice": 156.577946,
+          "interanual": 4.145929
+        },
+        {
+          "periodo": "2012-10",
+          "indice": 153.034847,
+          "interanual": 5.921259
+        },
+        {
+          "periodo": "2012-11",
+          "indice": 152.780981,
+          "interanual": 5.771579
+        },
+        {
+          "periodo": "2012-12",
+          "indice": 147.879777,
+          "interanual": 5.392432
+        }
+      ]
+    },
+    {
+      "codigo": "O",
+      "nombre": "Otras actividades de servicios comunitarios, sociales y personales",
+      "historico": [
+        {
+          "periodo": "2012-01",
+          "indice": 150.960072,
+          "interanual": -1.374337
+        },
+        {
+          "periodo": "2012-02",
+          "indice": 152.577456,
+          "interanual": 2.827466
+        },
+        {
+          "periodo": "2012-03",
+          "indice": 147.947379,
+          "interanual": 0.337524
+        },
+        {
+          "periodo": "2012-04",
+          "indice": 152.334659,
+          "interanual": 0.055076
+        },
+        {
+          "periodo": "2012-05",
+          "indice": 153.550247,
+          "interanual": -1.432846
+        },
+        {
+          "periodo": "2012-06",
+          "indice": 155.850365,
+          "interanual": 1.756582
+        },
+        {
+          "periodo": "2012-07",
+          "indice": 170.866566,
+          "interanual": 4.70001
+        },
+        {
+          "periodo": "2012-08",
+          "indice": 154.991025,
+          "interanual": 3.15716
+        },
+        {
+          "periodo": "2012-09",
+          "indice": 149.627855,
+          "interanual": 4.187929
+        },
+        {
+          "periodo": "2012-10",
+          "indice": 156.110071,
+          "interanual": 3.723169
+        },
+        {
+          "periodo": "2012-11",
+          "indice": 152.959693,
+          "interanual": 2.86019
+        },
+        {
+          "periodo": "2012-12",
+          "indice": 150.524574,
+          "interanual": 0.330124
+        }
+      ]
+    }
+  ]
+}

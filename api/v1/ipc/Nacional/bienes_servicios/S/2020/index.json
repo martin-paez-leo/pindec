@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "S",
+    "nombre": null,
+    "historico": [
+      {
+        "periodo": "2020-01",
+        "indice": 283.5081,
+        "mensual": 1.6,
+        "interanual": 42.9
+      },
+      {
+        "periodo": "2020-02",
+        "indice": 288.3802,
+        "mensual": 1.7,
+        "interanual": 40.0
+      },
+      {
+        "periodo": "2020-03",
+        "indice": 298.5626,
+        "mensual": 3.5,
+        "interanual": 39.2
+      },
+      {
+        "periodo": "2020-04",
+        "indice": 298.0086,
+        "mensual": -0.2,
+        "interanual": 35.1
+      },
+      {
+        "periodo": "2020-05",
+        "indice": 299.877,
+        "mensual": 0.6,
+        "interanual": 32.0
+      },
+      {
+        "periodo": "2020-06",
+        "indice": 302.644,
+        "mensual": 0.9,
+        "interanual": 29.7
+      },
+      {
+        "periodo": "2020-07",
+        "indice": 305.866,
+        "mensual": 1.1,
+        "interanual": 27.8
+      },
+      {
+        "periodo": "2020-08",
+        "indice": 310.4773,
+        "mensual": 1.5,
+        "interanual": 26.9
+      },
+      {
+        "periodo": "2020-09",
+        "indice": 314.0154,
+        "mensual": 1.1,
+        "interanual": 23.8
+      },
+      {
+        "periodo": "2020-10",
+        "indice": 319.9093,
+        "mensual": 1.9,
+        "interanual": 22.6
+      },
+      {
+        "periodo": "2020-11",
+        "indice": 328.1032,
+        "mensual": 2.6,
+        "interanual": 22.8
+      },
+      {
+        "periodo": "2020-12",
+        "indice": 341.2656,
+        "mensual": 4.0,
+        "interanual": 22.2
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "codigo": "J",
+    "nombre": "Intermediación financiera",
+    "historico": [
+      {
+        "periodo": "2016-01",
+        "indice": 179.471117,
+        "interanual": 1.896931
+      },
+      {
+        "periodo": "2016-02",
+        "indice": 172.675602,
+        "interanual": 0.18131
+      },
+      {
+        "periodo": "2016-03",
+        "indice": 177.281146,
+        "interanual": 0.180211
+      },
+      {
+        "periodo": "2016-04",
+        "indice": 172.469246,
+        "interanual": -2.176591
+      },
+      {
+        "periodo": "2016-05",
+        "indice": 169.106394,
+        "interanual": -2.132508
+      },
+      {
+        "periodo": "2016-06",
+        "indice": 170.477579,
+        "interanual": -7.789949
+      },
+      {
+        "periodo": "2016-07",
+        "indice": 169.510224,
+        "interanual": -7.282413
+      },
+      {
+        "periodo": "2016-08",
+        "indice": 177.642754,
+        "interanual": -2.720425
+      },
+      {
+        "periodo": "2016-09",
+        "indice": 171.425179,
+        "interanual": -5.703655
+      },
+      {
+        "periodo": "2016-10",
+        "indice": 173.774768,
+        "interanual": -6.085086
+      },
+      {
+        "periodo": "2016-11",
+        "indice": 174.417347,
+        "interanual": -5.012775
+      },
+      {
+        "periodo": "2016-12",
+        "indice": 186.226544,
+        "interanual": -0.728647
+      }
+    ]
+  }
+}

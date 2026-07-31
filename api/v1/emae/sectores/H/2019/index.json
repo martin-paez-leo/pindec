@@ -1,0 +1,69 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "codigo": "H",
+    "nombre": "Hoteles y restaurantes",
+    "historico": [
+      {
+        "periodo": "2019-01",
+        "indice": 174.113618,
+        "interanual": -1.814453
+      },
+      {
+        "periodo": "2019-02",
+        "indice": 164.176412,
+        "interanual": -3.144578
+      },
+      {
+        "periodo": "2019-03",
+        "indice": 160.536876,
+        "interanual": -3.518297
+      },
+      {
+        "periodo": "2019-04",
+        "indice": 156.294595,
+        "interanual": -1.73681
+      },
+      {
+        "periodo": "2019-05",
+        "indice": 153.389383,
+        "interanual": 0.059184
+      },
+      {
+        "periodo": "2019-06",
+        "indice": 152.470856,
+        "interanual": 1.834763
+      },
+      {
+        "periodo": "2019-07",
+        "indice": 174.452058,
+        "interanual": 3.870032
+      },
+      {
+        "periodo": "2019-08",
+        "indice": 167.042004,
+        "interanual": 0.967082
+      },
+      {
+        "periodo": "2019-09",
+        "indice": 162.677836,
+        "interanual": 1.255453
+      },
+      {
+        "periodo": "2019-10",
+        "indice": 172.538619,
+        "interanual": 1.073749
+      },
+      {
+        "periodo": "2019-11",
+        "indice": 173.147303,
+        "interanual": 0.806984
+      },
+      {
+        "periodo": "2019-12",
+        "indice": 175.417731,
+        "interanual": 1.330902
+      }
+    ]
+  }
+}

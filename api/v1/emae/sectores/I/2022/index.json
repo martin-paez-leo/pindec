@@ -1,0 +1,69 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "codigo": "I",
+    "nombre": "Transporte y comunicaciones",
+    "historico": [
+      {
+        "periodo": "2022-01",
+        "indice": 171.124803,
+        "interanual": 8.299968
+      },
+      {
+        "periodo": "2022-02",
+        "indice": 172.234328,
+        "interanual": 12.157926
+      },
+      {
+        "periodo": "2022-03",
+        "indice": 184.853071,
+        "interanual": 10.219863
+      },
+      {
+        "periodo": "2022-04",
+        "indice": 189.222754,
+        "interanual": 11.097292
+      },
+      {
+        "periodo": "2022-05",
+        "indice": 195.640572,
+        "interanual": 11.559872
+      },
+      {
+        "periodo": "2022-06",
+        "indice": 191.15997,
+        "interanual": 9.794744
+      },
+      {
+        "periodo": "2022-07",
+        "indice": 185.740711,
+        "interanual": 10.04497
+      },
+      {
+        "periodo": "2022-08",
+        "indice": 182.303274,
+        "interanual": 7.144259
+      },
+      {
+        "periodo": "2022-09",
+        "indice": 180.45654,
+        "interanual": 5.600902
+      },
+      {
+        "periodo": "2022-10",
+        "indice": 181.466005,
+        "interanual": 6.156574
+      },
+      {
+        "periodo": "2022-11",
+        "indice": 179.811321,
+        "interanual": 2.942397
+      },
+      {
+        "periodo": "2022-12",
+        "indice": 177.718353,
+        "interanual": 0.795873
+      }
+    ]
+  }
+}

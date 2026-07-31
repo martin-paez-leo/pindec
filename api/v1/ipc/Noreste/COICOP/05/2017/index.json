@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "05",
+    "nombre": "Equipamiento y mantenimiento del hogar",
+    "historico": [
+      {
+        "periodo": "2017-01",
+        "indice": 101.4132,
+        "mensual": 1.4,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-02",
+        "indice": 101.7747,
+        "mensual": 0.4,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-03",
+        "indice": 103.1742,
+        "mensual": 1.4,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-04",
+        "indice": 104.9504,
+        "mensual": 1.7,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-05",
+        "indice": 106.8457,
+        "mensual": 1.8,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-06",
+        "indice": 107.4653,
+        "mensual": 0.6,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-07",
+        "indice": 109.8963,
+        "mensual": 2.3,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-08",
+        "indice": 110.2027,
+        "mensual": 0.3,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-09",
+        "indice": 111.002,
+        "mensual": 0.7,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-10",
+        "indice": 112.0223,
+        "mensual": 0.9,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-11",
+        "indice": 112.8144,
+        "mensual": 0.7,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-12",
+        "indice": 115.0816,
+        "mensual": 2.0,
+        "interanual": 15.1
+      }
+    ]
+  }
+}

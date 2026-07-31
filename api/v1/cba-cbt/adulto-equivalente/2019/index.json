@@ -1,0 +1,173 @@
+{
+  "fuente": "INDEC - Canasta Básica Alimentaria y Canasta Básica Total",
+  "datos": [
+    {
+      "periodo": "2019-01",
+      "cba": {
+        "indice": 3423.03,
+        "mensual": 3.7,
+        "interanual": 55.8
+      },
+      "cbt": {
+        "indice": 8557.58,
+        "mensual": 3.7,
+        "interanual": 55.8
+      },
+      "coef_engel": 2.5
+    },
+    {
+      "periodo": "2019-02",
+      "cba": {
+        "indice": 3597.77,
+        "mensual": 5.1,
+        "interanual": 59.1
+      },
+      "cbt": {
+        "indice": 8922.47,
+        "mensual": 4.3,
+        "interanual": 57.2
+      },
+      "coef_engel": 2.48
+    },
+    {
+      "periodo": "2019-03",
+      "cba": {
+        "indice": 3767.01,
+        "mensual": 4.7,
+        "interanual": 64.2
+      },
+      "cbt": {
+        "indice": 9304.51,
+        "mensual": 4.3,
+        "interanual": 60.9
+      },
+      "coef_engel": 2.47
+    },
+    {
+      "periodo": "2019-04",
+      "cba": {
+        "indice": 3833.28,
+        "mensual": 1.8,
+        "interanual": 66.1
+      },
+      "cbt": {
+        "indice": 9544.87,
+        "mensual": 2.6,
+        "interanual": 61.5
+      },
+      "coef_engel": 2.49
+    },
+    {
+      "periodo": "2019-05",
+      "cba": {
+        "indice": 3911.58,
+        "mensual": 2.0,
+        "interanual": 61.7
+      },
+      "cbt": {
+        "indice": 9818.07,
+        "mensual": 2.9,
+        "interanual": 61.1
+      },
+      "coef_engel": 2.51
+    },
+    {
+      "periodo": "2019-06",
+      "cba": {
+        "indice": 4016.09,
+        "mensual": 2.7,
+        "interanual": 58.3
+      },
+      "cbt": {
+        "indice": 10080.39,
+        "mensual": 2.7,
+        "interanual": 58.9
+      },
+      "coef_engel": 2.51
+    },
+    {
+      "periodo": "2019-07",
+      "cba": {
+        "indice": 4133.91,
+        "mensual": 2.9,
+        "interanual": 57.3
+      },
+      "cbt": {
+        "indice": 10334.77,
+        "mensual": 2.5,
+        "interanual": 58.6
+      },
+      "coef_engel": 2.5
+    },
+    {
+      "periodo": "2019-08",
+      "cba": {
+        "indice": 4290.72,
+        "mensual": 3.8,
+        "interanual": 58.8
+      },
+      "cbt": {
+        "indice": 10683.89,
+        "mensual": 3.4,
+        "interanual": 58.2
+      },
+      "coef_engel": 2.49
+    },
+    {
+      "periodo": "2019-09",
+      "cba": {
+        "indice": 4502.88,
+        "mensual": 4.9,
+        "interanual": 53.6
+      },
+      "cbt": {
+        "indice": 11257.2,
+        "mensual": 5.4,
+        "interanual": 54.2
+      },
+      "coef_engel": 2.5
+    },
+    {
+      "periodo": "2019-10",
+      "cba": {
+        "indice": 4596.2,
+        "mensual": 2.1,
+        "interanual": 45.9
+      },
+      "cbt": {
+        "indice": 11536.46,
+        "mensual": 2.5,
+        "interanual": 47.1
+      },
+      "coef_engel": 2.51
+    },
+    {
+      "periodo": "2019-11",
+      "cba": {
+        "indice": 4886.34,
+        "mensual": 6.3,
+        "interanual": 49.2
+      },
+      "cbt": {
+        "indice": 12166.99,
+        "mensual": 5.5,
+        "interanual": 49.2
+      },
+      "coef_engel": 2.49
+    },
+    {
+      "periodo": "2019-12",
+      "cba": {
+        "indice": 5043.41,
+        "mensual": 3.2,
+        "interanual": 52.8
+      },
+      "cbt": {
+        "indice": 12608.52,
+        "mensual": 3.6,
+        "interanual": 52.8
+      },
+      "coef_engel": 2.5
+    }
+  ]
+}

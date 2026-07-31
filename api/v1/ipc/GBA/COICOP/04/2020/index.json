@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "04",
+    "nombre": "Vivienda, agua, electricidad, gas y otros combustibles",
+    "historico": [
+      {
+        "periodo": "2020-01",
+        "indice": 302.4597,
+        "mensual": -0.6,
+        "interanual": 36.3
+      },
+      {
+        "periodo": "2020-02",
+        "indice": 305.987,
+        "mensual": 1.2,
+        "interanual": 28.7
+      },
+      {
+        "periodo": "2020-03",
+        "indice": 312.0891,
+        "mensual": 2.0,
+        "interanual": 26.7
+      },
+      {
+        "periodo": "2020-04",
+        "indice": 312.7519,
+        "mensual": 0.2,
+        "interanual": 22.8
+      },
+      {
+        "periodo": "2020-05",
+        "indice": 313.5388,
+        "mensual": 0.3,
+        "interanual": 18.9
+      },
+      {
+        "periodo": "2020-06",
+        "indice": 315.6588,
+        "mensual": 0.7,
+        "interanual": 16.7
+      },
+      {
+        "periodo": "2020-07",
+        "indice": 317.1731,
+        "mensual": 0.5,
+        "interanual": 14.5
+      },
+      {
+        "periodo": "2020-08",
+        "indice": 325.1627,
+        "mensual": 2.5,
+        "interanual": 15.6
+      },
+      {
+        "periodo": "2020-09",
+        "indice": 328.7368,
+        "mensual": 1.1,
+        "interanual": 15.0
+      },
+      {
+        "periodo": "2020-10",
+        "indice": 335.9612,
+        "mensual": 2.2,
+        "interanual": 15.3
+      },
+      {
+        "periodo": "2020-11",
+        "indice": 344.243,
+        "mensual": 2.5,
+        "interanual": 16.2
+      },
+      {
+        "periodo": "2020-12",
+        "indice": 358.4496,
+        "mensual": 4.1,
+        "interanual": 17.8
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "Regulados",
+    "nombre": null,
+    "historico": [
+      {
+        "periodo": "2026-01",
+        "indice": 12112.6604,
+        "mensual": 3.0,
+        "interanual": 43.1
+      },
+      {
+        "periodo": "2026-02",
+        "indice": 12794.0,
+        "mensual": 5.6,
+        "interanual": 45.2
+      },
+      {
+        "periodo": "2026-03",
+        "indice": 13289.0661,
+        "mensual": 3.9,
+        "interanual": 44.5
+      },
+      {
+        "periodo": "2026-04",
+        "indice": 13783.0804,
+        "mensual": 3.7,
+        "interanual": 47.8
+      },
+      {
+        "periodo": "2026-05",
+        "indice": 13850.3241,
+        "mensual": 0.5,
+        "interanual": 46.6
+      },
+      {
+        "periodo": "2026-06",
+        "indice": 14160.1172,
+        "mensual": 2.2,
+        "interanual": 46.3
+      }
+    ]
+  }
+}

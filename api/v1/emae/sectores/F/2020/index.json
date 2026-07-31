@@ -1,0 +1,69 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "codigo": "F",
+    "nombre": "Construcción",
+    "historico": [
+      {
+        "periodo": "2020-01",
+        "indice": 129.904806,
+        "interanual": -9.187863
+      },
+      {
+        "periodo": "2020-02",
+        "indice": 125.267519,
+        "interanual": -15.092872
+      },
+      {
+        "periodo": "2020-03",
+        "indice": 97.69679,
+        "interanual": -34.021307
+      },
+      {
+        "periodo": "2020-04",
+        "indice": 43.886063,
+        "interanual": -68.869285
+      },
+      {
+        "periodo": "2020-05",
+        "indice": 75.02261,
+        "interanual": -49.890003
+      },
+      {
+        "periodo": "2020-06",
+        "indice": 95.340611,
+        "interanual": -31.018405
+      },
+      {
+        "periodo": "2020-07",
+        "indice": 114.835269,
+        "interanual": -21.865875
+      },
+      {
+        "periodo": "2020-08",
+        "indice": 117.71328,
+        "interanual": -24.472667
+      },
+      {
+        "periodo": "2020-09",
+        "indice": 116.465788,
+        "interanual": -18.344848
+      },
+      {
+        "periodo": "2020-10",
+        "indice": 133.119653,
+        "interanual": -2.038229
+      },
+      {
+        "periodo": "2020-11",
+        "indice": 137.349453,
+        "interanual": 2.63801
+      },
+      {
+        "periodo": "2020-12",
+        "indice": 136.607522,
+        "interanual": 11.959968
+      }
+    ]
+  }
+}

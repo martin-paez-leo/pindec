@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "04",
+    "nombre": "Vivienda, agua, electricidad, gas y otros combustibles",
+    "historico": [
+      {
+        "periodo": "2023-01",
+        "indice": 917.578,
+        "mensual": 7.8,
+        "interanual": 95.6
+      },
+      {
+        "periodo": "2023-02",
+        "indice": 960.1565,
+        "mensual": 4.6,
+        "interanual": 99.7
+      },
+      {
+        "periodo": "2023-03",
+        "indice": 1020.4746,
+        "mensual": 6.3,
+        "interanual": 95.8
+      },
+      {
+        "periodo": "2023-04",
+        "indice": 1093.6606,
+        "mensual": 7.2,
+        "interanual": 100.3
+      },
+      {
+        "periodo": "2023-05",
+        "indice": 1223.1349,
+        "mensual": 11.8,
+        "interanual": 117.8
+      },
+      {
+        "periodo": "2023-06",
+        "indice": 1312.2864,
+        "mensual": 7.3,
+        "interanual": 117.4
+      },
+      {
+        "periodo": "2023-07",
+        "indice": 1359.47,
+        "mensual": 3.6,
+        "interanual": 115.0
+      },
+      {
+        "periodo": "2023-08",
+        "indice": 1520.058,
+        "mensual": 11.8,
+        "interanual": 128.0
+      },
+      {
+        "periodo": "2023-09",
+        "indice": 1626.3733,
+        "mensual": 7.0,
+        "interanual": 138.4
+      },
+      {
+        "periodo": "2023-10",
+        "indice": 1771.8731,
+        "mensual": 8.9,
+        "interanual": 140.3
+      },
+      {
+        "periodo": "2023-11",
+        "indice": 1872.1498,
+        "mensual": 5.7,
+        "interanual": 129.3
+      },
+      {
+        "periodo": "2023-12",
+        "indice": 2144.0192,
+        "mensual": 14.5,
+        "interanual": 152.0
+      }
+    ]
+  }
+}

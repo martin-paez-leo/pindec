@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "11",
+    "nombre": "Restaurantes y hoteles",
+    "historico": [
+      {
+        "periodo": "2021-01",
+        "indice": 362.4122,
+        "mensual": 5.8,
+        "interanual": 38.0
+      },
+      {
+        "periodo": "2021-02",
+        "indice": 383.4441,
+        "mensual": 5.8,
+        "interanual": 41.4
+      },
+      {
+        "periodo": "2021-03",
+        "indice": 393.6314,
+        "mensual": 2.7,
+        "interanual": 42.4
+      },
+      {
+        "periodo": "2021-04",
+        "indice": 406.2058,
+        "mensual": 3.2,
+        "interanual": 44.9
+      },
+      {
+        "periodo": "2021-05",
+        "indice": 424.6215,
+        "mensual": 4.5,
+        "interanual": 49.2
+      },
+      {
+        "periodo": "2021-06",
+        "indice": 436.5722,
+        "mensual": 2.8,
+        "interanual": 50.4
+      },
+      {
+        "periodo": "2021-07",
+        "indice": 460.7445,
+        "mensual": 5.5,
+        "interanual": 56.1
+      },
+      {
+        "periodo": "2021-08",
+        "indice": 470.135,
+        "mensual": 2.0,
+        "interanual": 56.9
+      },
+      {
+        "periodo": "2021-09",
+        "indice": 491.3744,
+        "mensual": 4.5,
+        "interanual": 61.9
+      },
+      {
+        "periodo": "2021-10",
+        "indice": 511.343,
+        "mensual": 4.1,
+        "interanual": 63.0
+      },
+      {
+        "periodo": "2021-11",
+        "indice": 541.9437,
+        "mensual": 6.0,
+        "interanual": 67.0
+      },
+      {
+        "periodo": "2021-12",
+        "indice": 575.9063,
+        "mensual": 6.3,
+        "interanual": 68.1
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "12",
+    "nombre": "Bienes y servicios varios",
+    "historico": [
+      {
+        "periodo": "2017-01",
+        "indice": 102.4839,
+        "mensual": 2.5,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-02",
+        "indice": 104.2815,
+        "mensual": 1.8,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-03",
+        "indice": 106.397,
+        "mensual": 2.0,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-04",
+        "indice": 108.838,
+        "mensual": 2.3,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-05",
+        "indice": 109.8555,
+        "mensual": 0.9,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-06",
+        "indice": 111.9854,
+        "mensual": 1.9,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-07",
+        "indice": 112.7634,
+        "mensual": 0.7,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-08",
+        "indice": 114.9677,
+        "mensual": 2.0,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-09",
+        "indice": 116.989,
+        "mensual": 1.8,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-10",
+        "indice": 117.4246,
+        "mensual": 0.4,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-11",
+        "indice": 118.7065,
+        "mensual": 1.1,
+        "interanual": null
+      },
+      {
+        "periodo": "2017-12",
+        "indice": 120.8962,
+        "mensual": 1.8,
+        "interanual": 20.9
+      }
+    ]
+  }
+}

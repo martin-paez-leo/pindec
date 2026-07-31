@@ -12,12 +12,17 @@
     "sheets": [
       {
         "name": "CBA-CBT",
-        "skiprows": 7,
-        "columns": ["fecha", "cba", "coef_engel", "cbt"]
+        "skiprows": 130,
+        "columns": [
+          "fecha",
+          "cba",
+          "coef_engel",
+          "cbt"
+        ]
       },
       {
         "name": "Variaciones",
-        "skiprows": 8,
+        "skiprows": 131,
         "columns": [
           "fecha",
           "cba_mensual",
@@ -28,7 +33,7 @@
       },
       {
         "name": "Hogares",
-        "skiprows": 7,
+        "skiprows": 130,
         "columns": [
           "fecha",
           "cba_h1",
@@ -51,7 +56,7 @@
       "activity": [
         {
           "name": "Tabla Letras",
-          "skiprows": 5,
+          "skiprows": 274,
           "columns": [
             "anio",
             "mes",
@@ -75,7 +80,7 @@
         },
         {
           "name": "Tabla Var Letras",
-          "skiprows": 5,
+          "skiprows": 262,
           "columns": [
             "anio",
             "mes",
@@ -101,7 +106,7 @@
       "monthly": [
         {
           "name": "Tabla",
-          "skiprows": 5,
+          "skiprows": 274,
           "columns": [
             "anio",
             "mes",
@@ -122,7 +127,7 @@
     "sheets": [
       {
         "name": "FOB-CIF",
-        "skiprows": 6,
+        "skiprows": 480,
         "columns": [
           "anio",
           "mes",

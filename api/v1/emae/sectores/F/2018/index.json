@@ -1,0 +1,69 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "codigo": "F",
+    "nombre": "Construcción",
+    "historico": [
+      {
+        "periodo": "2018-01",
+        "indice": 157.054813,
+        "interanual": 11.179398
+      },
+      {
+        "periodo": "2018-02",
+        "indice": 151.269914,
+        "interanual": 9.968866
+      },
+      {
+        "periodo": "2018-03",
+        "indice": 158.423841,
+        "interanual": 4.918484
+      },
+      {
+        "periodo": "2018-04",
+        "indice": 147.527475,
+        "interanual": 9.163927
+      },
+      {
+        "periodo": "2018-05",
+        "indice": 153.417229,
+        "interanual": 5.22588
+      },
+      {
+        "periodo": "2018-06",
+        "indice": 148.593073,
+        "interanual": 1.825778
+      },
+      {
+        "periodo": "2018-07",
+        "indice": 147.468815,
+        "interanual": 0.722109
+      },
+      {
+        "periodo": "2018-08",
+        "indice": 159.870465,
+        "interanual": 0.326849
+      },
+      {
+        "periodo": "2018-09",
+        "indice": 147.831848,
+        "interanual": -2.262786
+      },
+      {
+        "periodo": "2018-10",
+        "indice": 143.655066,
+        "interanual": -3.970898
+      },
+      {
+        "periodo": "2018-11",
+        "indice": 138.575186,
+        "interanual": -9.859543
+      },
+      {
+        "periodo": "2018-12",
+        "indice": 126.296855,
+        "interanual": -11.817054
+      }
+    ]
+  }
+}

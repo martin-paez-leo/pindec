@@ -1,0 +1,45 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "04",
+    "nombre": "Vivienda, agua, electricidad, gas y otros combustibles",
+    "historico": [
+      {
+        "periodo": "2026-01",
+        "indice": 13851.3152,
+        "mensual": 9.4,
+        "interanual": 42.1
+      },
+      {
+        "periodo": "2026-02",
+        "indice": 14324.551,
+        "mensual": 3.4,
+        "interanual": 43.1
+      },
+      {
+        "periodo": "2026-03",
+        "indice": 15708.6565,
+        "mensual": 9.7,
+        "interanual": 54.1
+      },
+      {
+        "periodo": "2026-04",
+        "indice": 16228.3825,
+        "mensual": 3.3,
+        "interanual": 56.4
+      },
+      {
+        "periodo": "2026-05",
+        "indice": 17594.6391,
+        "mensual": 8.4,
+        "interanual": 67.4
+      },
+      {
+        "periodo": "2026-06",
+        "indice": 18479.3349,
+        "mensual": 5.0,
+        "interanual": 70.7
+      }
+    ]
+  }
+}

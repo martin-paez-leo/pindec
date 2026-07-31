@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "10",
+    "nombre": "Educación",
+    "historico": [
+      {
+        "periodo": "2020-01",
+        "indice": 267.8939,
+        "mensual": 0.0,
+        "interanual": 42.8
+      },
+      {
+        "periodo": "2020-02",
+        "indice": 272.9482,
+        "mensual": 1.9,
+        "interanual": 43.0
+      },
+      {
+        "periodo": "2020-03",
+        "indice": 319.9231,
+        "mensual": 17.2,
+        "interanual": 33.8
+      },
+      {
+        "periodo": "2020-04",
+        "indice": 322.1358,
+        "mensual": 0.7,
+        "interanual": 32.7
+      },
+      {
+        "periodo": "2020-05",
+        "indice": 320.8887,
+        "mensual": -0.4,
+        "interanual": 32.0
+      },
+      {
+        "periodo": "2020-06",
+        "indice": 334.2588,
+        "mensual": 4.2,
+        "interanual": 36.8
+      },
+      {
+        "periodo": "2020-07",
+        "indice": 339.4693,
+        "mensual": 1.6,
+        "interanual": 34.8
+      },
+      {
+        "periodo": "2020-08",
+        "indice": 342.2903,
+        "mensual": 0.8,
+        "interanual": 32.0
+      },
+      {
+        "periodo": "2020-09",
+        "indice": 343.2758,
+        "mensual": 0.3,
+        "interanual": 31.8
+      },
+      {
+        "periodo": "2020-10",
+        "indice": 343.8786,
+        "mensual": 0.2,
+        "interanual": 30.4
+      },
+      {
+        "periodo": "2020-11",
+        "indice": 343.9654,
+        "mensual": 0.0,
+        "interanual": 28.7
+      },
+      {
+        "periodo": "2020-12",
+        "indice": 345.0549,
+        "mensual": 0.3,
+        "interanual": 28.8
+      }
+    ]
+  }
+}

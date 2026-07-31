@@ -1,0 +1,67 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "historico": [
+      {
+        "periodo": "2024-01",
+        "indice": 161.74992,
+        "interanual": -5.139786
+      },
+      {
+        "periodo": "2024-02",
+        "indice": 151.045701,
+        "interanual": -2.973396
+      },
+      {
+        "periodo": "2024-03",
+        "indice": 156.002977,
+        "interanual": -9.78079
+      },
+      {
+        "periodo": "2024-04",
+        "indice": 163.139277,
+        "interanual": -4.268643
+      },
+      {
+        "periodo": "2024-05",
+        "indice": 164.264008,
+        "interanual": -1.967968
+      },
+      {
+        "periodo": "2024-06",
+        "indice": 160.999574,
+        "interanual": -4.197619
+      },
+      {
+        "periodo": "2024-07",
+        "indice": 172.384255,
+        "interanual": 0.762159
+      },
+      {
+        "periodo": "2024-08",
+        "indice": 170.806885,
+        "interanual": -4.063927
+      },
+      {
+        "periodo": "2024-09",
+        "indice": 172.72666,
+        "interanual": -0.851032
+      },
+      {
+        "periodo": "2024-10",
+        "indice": 175.771288,
+        "interanual": 3.109753
+      },
+      {
+        "periodo": "2024-11",
+        "indice": 173.949073,
+        "interanual": 4.896982
+      },
+      {
+        "periodo": "2024-12",
+        "indice": 174.58644,
+        "interanual": 14.170976
+      }
+    ]
+  }
+}

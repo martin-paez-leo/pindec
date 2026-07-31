@@ -1,0 +1,81 @@
+{
+  "fuente": "INDEC - Índice de Precios al Consumidor",
+  "datos": {
+    "codigo": "07",
+    "nombre": "Transporte",
+    "historico": [
+      {
+        "periodo": "2022-01",
+        "indice": 700.9185,
+        "mensual": 3.1,
+        "interanual": 54.5
+      },
+      {
+        "periodo": "2022-02",
+        "indice": 741.5623,
+        "mensual": 5.8,
+        "interanual": 55.9
+      },
+      {
+        "periodo": "2022-03",
+        "indice": 801.0692,
+        "mensual": 8.0,
+        "interanual": 61.8
+      },
+      {
+        "periodo": "2022-04",
+        "indice": 834.0788,
+        "mensual": 4.1,
+        "interanual": 58.8
+      },
+      {
+        "periodo": "2022-05",
+        "indice": 881.5351,
+        "mensual": 5.7,
+        "interanual": 60.6
+      },
+      {
+        "periodo": "2022-06",
+        "indice": 940.2797,
+        "mensual": 6.7,
+        "interanual": 66.8
+      },
+      {
+        "periodo": "2022-07",
+        "indice": 988.6105,
+        "mensual": 5.1,
+        "interanual": 70.4
+      },
+      {
+        "periodo": "2022-08",
+        "indice": 1066.0541,
+        "mensual": 7.8,
+        "interanual": 78.3
+      },
+      {
+        "periodo": "2022-09",
+        "indice": 1118.115,
+        "mensual": 4.9,
+        "interanual": 83.0
+      },
+      {
+        "periodo": "2022-10",
+        "indice": 1188.1101,
+        "mensual": 6.3,
+        "interanual": 87.0
+      },
+      {
+        "periodo": "2022-11",
+        "indice": 1242.965,
+        "mensual": 4.6,
+        "interanual": 88.6
+      },
+      {
+        "periodo": "2022-12",
+        "indice": 1320.8494,
+        "mensual": 6.3,
+        "interanual": 94.2
+      }
+    ]
+  }
+}

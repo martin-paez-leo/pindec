@@ -1,0 +1,67 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "historico": [
+      {
+        "periodo": "2022-01",
+        "indice": 170.215307,
+        "interanual": 7.651875
+      },
+      {
+        "periodo": "2022-02",
+        "indice": 161.464514,
+        "interanual": 12.624485
+      },
+      {
+        "periodo": "2022-03",
+        "indice": 174.203672,
+        "interanual": 6.893945
+      },
+      {
+        "periodo": "2022-04",
+        "indice": 180.419992,
+        "interanual": 13.294612
+      },
+      {
+        "periodo": "2022-05",
+        "indice": 172.057688,
+        "interanual": 15.96118
+      },
+      {
+        "periodo": "2022-06",
+        "indice": 177.266104,
+        "interanual": 15.929127
+      },
+      {
+        "periodo": "2022-07",
+        "indice": 178.387578,
+        "interanual": 14.023996
+      },
+      {
+        "periodo": "2022-08",
+        "indice": 177.773548,
+        "interanual": 11.867054
+      },
+      {
+        "periodo": "2022-09",
+        "indice": 180.975651,
+        "interanual": 10.827536
+      },
+      {
+        "periodo": "2022-10",
+        "indice": 173.767928,
+        "interanual": 13.88926
+      },
+      {
+        "periodo": "2022-11",
+        "indice": 172.817846,
+        "interanual": 11.601829
+      },
+      {
+        "periodo": "2022-12",
+        "indice": 169.457316,
+        "interanual": 3.570454
+      }
+    ]
+  }
+}

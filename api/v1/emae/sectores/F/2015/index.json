@@ -1,0 +1,69 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "codigo": "F",
+    "nombre": "Construcción",
+    "historico": [
+      {
+        "periodo": "2015-01",
+        "indice": 146.689712,
+        "interanual": -2.409236
+      },
+      {
+        "periodo": "2015-02",
+        "indice": 147.782989,
+        "interanual": -1.095297
+      },
+      {
+        "periodo": "2015-03",
+        "indice": 151.920156,
+        "interanual": 0.695514
+      },
+      {
+        "periodo": "2015-04",
+        "indice": 151.984589,
+        "interanual": 3.703734
+      },
+      {
+        "periodo": "2015-05",
+        "indice": 153.409565,
+        "interanual": 3.500795
+      },
+      {
+        "periodo": "2015-06",
+        "indice": 155.646539,
+        "interanual": 4.982951
+      },
+      {
+        "periodo": "2015-07",
+        "indice": 158.10424,
+        "interanual": 7.53713
+      },
+      {
+        "periodo": "2015-08",
+        "indice": 156.447176,
+        "interanual": 6.278113
+      },
+      {
+        "periodo": "2015-09",
+        "indice": 157.310011,
+        "interanual": 5.205578
+      },
+      {
+        "periodo": "2015-10",
+        "indice": 150.135527,
+        "interanual": 5.406494
+      },
+      {
+        "periodo": "2015-11",
+        "indice": 147.617851,
+        "interanual": 3.221918
+      },
+      {
+        "periodo": "2015-12",
+        "indice": 138.777608,
+        "interanual": -0.847961
+      }
+    ]
+  }
+}

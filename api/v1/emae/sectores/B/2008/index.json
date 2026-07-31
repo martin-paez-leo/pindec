@@ -1,0 +1,69 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "codigo": "B",
+    "nombre": "Pesca",
+    "historico": [
+      {
+        "periodo": "2008-01",
+        "indice": 34.155497,
+        "interanual": -32.880414
+      },
+      {
+        "periodo": "2008-02",
+        "indice": 58.973009,
+        "interanual": -18.102518
+      },
+      {
+        "periodo": "2008-03",
+        "indice": 157.054045,
+        "interanual": -36.58711
+      },
+      {
+        "periodo": "2008-04",
+        "indice": 239.913345,
+        "interanual": -6.020421
+      },
+      {
+        "periodo": "2008-05",
+        "indice": 276.528246,
+        "interanual": 9.027255
+      },
+      {
+        "periodo": "2008-06",
+        "indice": 225.78967,
+        "interanual": 25.235553
+      },
+      {
+        "periodo": "2008-07",
+        "indice": 172.390821,
+        "interanual": 8.824257
+      },
+      {
+        "periodo": "2008-08",
+        "indice": 176.428052,
+        "interanual": 67.589921
+      },
+      {
+        "periodo": "2008-09",
+        "indice": 86.882746,
+        "interanual": 7.838833
+      },
+      {
+        "periodo": "2008-10",
+        "indice": 107.598518,
+        "interanual": 60.084201
+      },
+      {
+        "periodo": "2008-11",
+        "indice": 62.395208,
+        "interanual": 17.361307
+      },
+      {
+        "periodo": "2008-12",
+        "indice": 79.542911,
+        "interanual": 15.926086
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "codigo": "M",
+    "nombre": "Enseñanza",
+    "historico": [
+      {
+        "periodo": "2012-01",
+        "indice": 134.930861,
+        "interanual": 3.676814
+      },
+      {
+        "periodo": "2012-02",
+        "indice": 135.87786,
+        "interanual": 3.680672
+      },
+      {
+        "periodo": "2012-03",
+        "indice": 136.871013,
+        "interanual": 4.101245
+      },
+      {
+        "periodo": "2012-04",
+        "indice": 136.572667,
+        "interanual": 3.678301
+      },
+      {
+        "periodo": "2012-05",
+        "indice": 138.027579,
+        "interanual": 3.904991
+      },
+      {
+        "periodo": "2012-06",
+        "indice": 141.334111,
+        "interanual": 3.794569
+      },
+      {
+        "periodo": "2012-07",
+        "indice": 139.860305,
+        "interanual": 2.7954
+      },
+      {
+        "periodo": "2012-08",
+        "indice": 140.370357,
+        "interanual": 2.482834
+      },
+      {
+        "periodo": "2012-09",
+        "indice": 140.400281,
+        "interanual": 2.113264
+      },
+      {
+        "periodo": "2012-10",
+        "indice": 142.141504,
+        "interanual": 3.451948
+      },
+      {
+        "periodo": "2012-11",
+        "indice": 142.21987,
+        "interanual": 3.22475
+      },
+      {
+        "periodo": "2012-12",
+        "indice": 143.661751,
+        "interanual": 3.007427
+      }
+    ]
+  }
+}

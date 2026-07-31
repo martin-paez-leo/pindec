@@ -1,0 +1,69 @@
+{
+  "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "datos": {
+    "codigo": "I",
+    "nombre": "Transporte y comunicaciones",
+    "historico": [
+      {
+        "periodo": "2012-01",
+        "indice": 172.664793,
+        "interanual": 2.056725
+      },
+      {
+        "periodo": "2012-02",
+        "indice": 166.111187,
+        "interanual": 2.759377
+      },
+      {
+        "periodo": "2012-03",
+        "indice": 175.498594,
+        "interanual": 0.684413
+      },
+      {
+        "periodo": "2012-04",
+        "indice": 176.902283,
+        "interanual": -0.851248
+      },
+      {
+        "periodo": "2012-05",
+        "indice": 187.461156,
+        "interanual": -0.798137
+      },
+      {
+        "periodo": "2012-06",
+        "indice": 180.9523,
+        "interanual": -0.129278
+      },
+      {
+        "periodo": "2012-07",
+        "indice": 181.743825,
+        "interanual": 3.349804
+      },
+      {
+        "periodo": "2012-08",
+        "indice": 177.497917,
+        "interanual": 0.488918
+      },
+      {
+        "periodo": "2012-09",
+        "indice": 172.075884,
+        "interanual": -2.070862
+      },
+      {
+        "periodo": "2012-10",
+        "indice": 175.891542,
+        "interanual": 0.722275
+      },
+      {
+        "periodo": "2012-11",
+        "indice": 175.329863,
+        "interanual": 1.296535
+      },
+      {
+        "periodo": "2012-12",
+        "indice": 173.278754,
+        "interanual": 0.045579
+      }
+    ]
+  }
+}
