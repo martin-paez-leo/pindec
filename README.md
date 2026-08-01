@@ -40,6 +40,7 @@ Toda ruta admite el sufijo `index.json`. Las URLs limpias (`/v1/ipc/Nacional/202
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+python -m pytest tests/ -q
 ```
 
 Para extraer los datos desde las fuentes del INDEC y regenerar `api/`:
@@ -61,10 +62,14 @@ python3 -m http.server 8090 --directory api
 
 ```
 api/                  # Salida estática desplegada a Cloudflare Pages
-  assets/             # Landing: HTML, CSS, JS
+  assets/             # Landing: HTML, CSS, JS, favicon y og-image
   v1/                 # Datos JSON generados (base /v1)
-  _headers            # CORS + control de caché
+  404.html            # Página de error 404
+  _headers            # Seguridad, CORS y control de caché
   _redirects          # Rewrites de URLs limpias (/v1/*/ → index.json)
+.github/
+  workflows/          # update.yml (semanal) + ci.yml (tests en PRs)
+  dependabot.yml      # Actualizaciones automáticas de dependencias
 config/
   config.json         # URLs y configuración de cada fuente
   metadata.json       # Último Last-Modified visto por indicador
@@ -84,9 +89,11 @@ tests/                # Suite de tests (pytest)
 Un workflow de GitHub Actions (`Update indicators`) corre semanalmente (lunes 12:00 UTC) y se puede disparar manualmente:
 
 1. Descarga las fuentes del INDEC si cambiaron.
-2. Actualiza `api/v1/` y commitea los cambios.
+2. Actualiza `api/v1/` y commitea los cambios (el push usa una deploy key con bypass en las reglas de la rama).
 3. Despliega a Cloudflare Pages.
 4. Pre-calienta la caché del edge para los endpoints principales.
+
+Además, un workflow de CI (`ci.yml`) corre los tests en cada pull request, y Dependabot abre PRs para mantener al día las dependencias (`pip` y GitHub Actions) — validados por ese mismo CI.
 
 ## Legal
 
