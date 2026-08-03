@@ -1,10 +1,8 @@
 # Clean URL rewrites — serve index.json for directory paths
 /v1/ /v1/index.json 200
+/v1/*.json /v1/:splat.json 200
 /v1/*/ /v1/:splat/index.json 200
 
 # Trailing slash normalization — no-slash variants redirect to canonical URL
 /v1 /v1/ 308
-/v1/ipc /v1/ipc/ 308
-/v1/cba-cbt /v1/cba-cbt/ 308
-/v1/emae /v1/emae/ 308
-/v1/ica /v1/ica/ 308
+/v1/* /v1/:splat/ 308
