@@ -89,7 +89,7 @@ tests/                # Suite de tests (pytest)
 Un workflow de GitHub Actions (`Update indicators`) corre semanalmente (lunes 12:00 UTC) y se puede disparar manualmente:
 
 1. Descarga las fuentes del INDEC si cambiaron.
-2. Actualiza `api/v1/` y commitea los cambios (el push usa una deploy key con bypass en las reglas de la rama).
+2. Actualiza `api/v1/` y commitea los cambios en `main`.
 3. Despliega a Cloudflare Pages.
 4. Pre-calienta la caché del edge para los endpoints principales.
 
