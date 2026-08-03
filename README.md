@@ -32,7 +32,7 @@ curl https://pindec.pages.dev/v1/ica/2026/
 curl https://pindec.pages.dev/v1/ipc/Nacional/COICOP/0/2026/
 ```
 
-Toda ruta admite el sufijo `index.json`. Las URLs limpias (`/v1/ipc/Nacional/2026/`) se resuelven por rewrites en el edge.
+Toda ruta admite el sufijo `index.json`. Las URLs limpias (`/v1/ipc/Nacional/2026/`) se resuelven por rewrites en el edge, y las variantes sin barra final (ej. `/v1/ipc/2020`) redirigen automáticamente (308) a la URL canónica.
 
 ## Uso local
 
@@ -66,9 +66,9 @@ api/                  # Salida estática desplegada a Cloudflare Pages
   v1/                 # Datos JSON generados (base /v1)
   404.html            # Página de error 404
   _headers            # Seguridad, CORS y control de caché
-  _redirects          # Rewrites de URLs limpias (/v1/*/ → index.json)
+  _redirects          # Rewrites de URLs limpias (/v1/*/ → index.json) y redirects 308 sin barra final
 .github/
-  workflows/          # update.yml (semanal) + ci.yml (tests en PRs)
+  workflows/          # update.yml (semanal) + ci.yml (tests en PRs) + dependabot-auto-merge.yml
   dependabot.yml      # Actualizaciones automáticas de dependencias
 config/
   config.json         # URLs y configuración de cada fuente
@@ -93,7 +93,7 @@ Un workflow de GitHub Actions (`Update indicators`) corre semanalmente (lunes 12
 3. Despliega a Cloudflare Pages.
 4. Pre-calienta la caché del edge para los endpoints principales.
 
-Además, un workflow de CI (`ci.yml`) corre los tests en cada pull request, y Dependabot abre PRs para mantener al día las dependencias (`pip` y GitHub Actions) — validados por ese mismo CI.
+Además, un workflow de CI (`ci.yml`) corre los tests en cada pull request, y Dependabot abre PRs para mantener al día las dependencias (`pip` y GitHub Actions) — validados por ese mismo CI y auto-mergeados por `dependabot-auto-merge.yml`.
 
 ## Legal
 
