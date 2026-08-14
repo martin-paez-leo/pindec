@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aviso Legal de PINDEC API — condiciones de uso, responsabilidad, licencia y privacidad del servicio no oficial de datos del INDEC.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#0b1020">
+  <title>Aviso Legal — PINDEC API</title>
+
+  <link rel="canonical" href="https://pindec.pages.dev/legal">
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <link rel="stylesheet" href="/assets/style.css">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="PINDEC API">
+  <meta property="og:title" content="Aviso Legal — PINDEC API">
+  <meta property="og:description" content="Condiciones de uso, exclusión de responsabilidad, fuente y privacidad del servicio.">
+  <meta property="og:url" content="https://pindec.pages.dev/legal">
+  <meta property="og:locale" content="es_AR">
+
+  <style>
+    .legal-hero { padding: 56px 0 28px; }
+    .legal-meta { display: flex; gap: 18px; flex-wrap: wrap; margin-top: 18px; color: var(--muted); font-size: 0.88rem; }
+    .legal-meta span { display: inline-flex; align-items: center; gap: 7px; }
+    .legal-meta svg { width: 15px; height: 15px; flex: none; }
+
+    .legal-layout { display: grid; grid-template-columns: 230px 1fr; gap: 44px; align-items: start; padding: 4px 0 28px; }
+
+    .legal-toc { position: sticky; top: 84px; display: flex; flex-direction: column; gap: 2px; border-left: 1px solid var(--border); }
+    .legal-toc .toc-label { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--muted); margin-bottom: 8px; padding-left: 16px; }
+    .legal-toc a { color: var(--muted); text-decoration: none; font-size: 0.88rem; padding: 5px 16px; border-left: 2px solid transparent; margin-left: -1px; transition: color 0.2s, border-color 0.2s; line-height: 1.35; }
+    .legal-toc a:hover { color: var(--text); }
+    .legal-toc a.active { color: var(--accent); border-left-color: var(--accent); }
+
+    .legal-article { min-width: 0; display: flex; flex-direction: column; gap: 14px; }
+
+    .legal-notice { display: flex; gap: 14px; padding: 16px 20px; border-radius: var(--radius); background: rgba(251, 191, 36, 0.08); border: 1px solid rgba(251, 191, 36, 0.35); color: var(--text); font-size: 0.96rem; }
+    .legal-notice svg { width: 20px; height: 20px; flex: none; margin-top: 2px; color: var(--amber); }
+    .legal-notice strong { color: var(--amber); }
+
+    .legal-sec { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 24px 28px; scroll-margin-top: 96px; }
+    .legal-sec .sec-head { display: flex; align-items: center; gap: 14px; margin-bottom: 10px; }
+    .legal-sec .sec-num { font-family: var(--mono); font-size: 0.75rem; color: var(--accent); background: rgba(79, 140, 255, 0.1); border: 1px solid rgba(79, 140, 255, 0.3); padding: 3px 10px; border-radius: 999px; flex: none; letter-spacing: 0.06em; }
+    .legal-sec h2 { font-size: 1.12rem; letter-spacing: -0.01em; }
+    .legal-sec p { color: var(--text); font-size: 0.95rem; line-height: 1.75; margin-top: 6px; }
+    .legal-sec p + p { margin-top: 10px; }
+    .legal-sec a { color: var(--accent); text-decoration: none; }
+    .legal-sec a:hover { text-decoration: underline; }
+    .legal-sec strong { color: var(--amber); }
+    .legal-sec ol { margin: 10px 0 0 4px; padding-left: 22px; list-style: none; counter-reset: li; }
+    .legal-sec ol li { counter-increment: li; position: relative; padding-left: 28px; color: var(--text); font-size: 0.95rem; line-height: 1.7; margin-top: 8px; }
+    .legal-sec ol li::before { content: counter(li); position: absolute; left: 0; top: 2px; width: 20px; height: 20px; border-radius: 50%; font-size: 0.68rem; font-weight: 600; display: flex; align-items: center; justify-content: center; background: rgba(79, 140, 255, 0.12); color: var(--accent); border: 1px solid rgba(79, 140, 255, 0.3); }
+
+    .legal-foot { border-top: 1px solid var(--border); padding-top: 24px; display: flex; justify-content: space-between; gap: 14px; flex-wrap: wrap; color: var(--muted); font-size: 0.82rem; }
+    .legal-foot a { color: var(--accent); text-decoration: none; }
+    .legal-foot a:hover { text-decoration: underline; }
+
+    @media (max-width: 860px) {
+      .legal-layout { grid-template-columns: 1fr; gap: 6px; }
+      .legal-toc { position: static; flex-direction: row; flex-wrap: wrap; border-left: 0; border-bottom: 1px solid var(--border); padding-bottom: 10px; margin-bottom: 6px; }
+      .legal-toc .toc-label { width: 100%; }
+      .legal-toc a { border-left: 0; margin-left: 0; padding: 5px 14px 5px 0; border-bottom: 2px solid transparent; }
+      .legal-toc a.active { border-bottom-color: var(--accent); }
+      .legal-sec { padding: 20px; }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="container">
+      <a class="logo" href="/"><svg class="logo-icon" viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="lg-p" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4f8cff"/><stop offset="1" stop-color="#7c5cff"/></linearGradient></defs><path d="M22 54 V10 H34 C44 10 48 16 48 24 C48 32 44 38 34 38 H30 V54 Z" fill="url(#lg-p)"/><circle cx="54" cy="12" r="6" fill="#34d399"/></svg> PINDEC API</a>
+      <div>
+        <a href="/">Inicio</a>
+        <a href="/#indicadores">Indicadores</a>
+        <a href="/#playground">Probá la API</a>
+        <a href="/#endpoints">Endpoints</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero legal-hero">
+    <div class="grid-lines" aria-hidden="true"></div>
+    <div class="container">
+      <div class="badge-row">
+        <span class="badge">Información legal</span>
+      </div>
+      <h1>Aviso Legal</h1>
+      <p class="sub">Condiciones de uso, exclusión de responsabilidad, atribución de fuente y privacidad del servicio.</p>
+      <div class="legal-meta">
+        <span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          Última actualización: 13 de agosto de 2026
+        </span>
+        <span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          Vigente desde su publicación
+        </span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="legal-layout">
+
+        <aside class="legal-toc">
+          <span class="toc-label">Contenido</span>
+          <a href="#naturaleza">1. Naturaleza del servicio</a>
+          <a href="#afiliacion">2. No afiliación oficial</a>
+          <a href="#fuente">3. Fuente y derechos</a>
+          <a href="#garantias">4. Exclusión de garantías</a>
+          <a href="#responsabilidad">5. Limitación de responsabilidad</a>
+          <a href="#uso">6. Condiciones de uso de la API</a>
+          <a href="#marcas">7. Marcas y propiedad intelectual</a>
+          <a href="#privacidad">8. Privacidad</a>
+          <a href="#modificaciones">9. Modificaciones y vigencia</a>
+          <a href="#jurisdiccion">10. Ley aplicable</a>
+        </aside>
+
+        <div class="legal-article">
+
+          <div class="legal-notice">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+            <p><strong>Servicio no oficial.</strong> PINDEC API no es un sitio del INDEC ni del Estado Argentino. Los datos son informativos y pueden contener errores; ante cualquier decisión, consultá siempre la fuente oficial.</p>
+          </div>
+
+          <section class="legal-sec" id="naturaleza">
+            <div class="sec-head">
+              <span class="sec-num">01</span>
+              <h2>Naturaleza del servicio</h2>
+            </div>
+            <p>PINDEC API (en adelante, "el servicio") pone a disposición indicadores económicos y sociales de la República Argentina —entre ellos IPC, canastas básicas (CBA-CBT), EMAE e intercambio comercial (ICA)— reproducidos a partir de publicaciones oficiales del Instituto Nacional de Estadística y Censos (INDEC), con fines informativos, educativos y de investigación. El servicio es gratuito, provisto sin API key y sin garantía de disponibilidad.</p>
+          </section>
+
+          <section class="legal-sec" id="afiliacion">
+            <div class="sec-head">
+              <span class="sec-num">02</span>
+              <h2>No afiliación oficial</h2>
+            </div>
+            <p>Este proyecto <strong>no es un sitio oficial del INDEC ni del Estado Argentino</strong>, y no está avalado, patrocinado ni verificado por ellos. El nombre "PINDEC API" y las referencias al INDEC son de carácter puramente descriptivo (uso nominativo de la denominación, conforme al art. 2° inc. b) de la Ley 22.362), a los solos efectos de identificar la fuente pública de los datos.</p>
+          </section>
+
+          <section class="legal-sec" id="fuente">
+            <div class="sec-head">
+              <span class="sec-num">03</span>
+              <h2>Fuente y derechos sobre los datos</h2>
+            </div>
+            <p>Los datos provienen de publicaciones del <a href="https://www.indec.gob.ar" target="_blank" rel="noopener">INDEC</a>, organismo rector del Sistema Estadístico Nacional regido por la Ley 17.622 y su reglamentación. Conforme a la Ley 27.275 (Derecho de Acceso a la Información Pública) y su reglamentación, la información pública puede ser reutilizada libremente, incluso con fines comerciales, cumpliendo las condiciones de citar la fuente, no desnaturalizar los datos e indicar la fecha de actualización. Los hechos y datos en sí mismos no son objeto de protección por derecho de autor (Ley 11.723); los derechos sobre los contenidos originales del INDEC pertenecen a sus titulares.</p>
+            <p>El código fuente de este proyecto se distribuye bajo la <a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank" rel="noopener">Apache License 2.0</a>.</p>
+          </section>
+
+          <section class="legal-sec" id="garantias">
+            <div class="sec-head">
+              <span class="sec-num">04</span>
+              <h2>Carácter informativo y exclusión de garantías</h2>
+            </div>
+            <p>El servicio y sus datos se proveen <strong>"tal cual"</strong> (as-is) y <strong>"según disponibilidad"</strong>, sin garantía alguna —expresa o implícita— de exactitud, integridad, actualidad, idoneidad para un fin determinado o ausencia de errores. Los datos pueden contener errores de extracción, demoras de actualización o diferencias con los valores oficiales. Los valores oficiales y vigentes deben consultarse siempre en la fuente pública (<a href="https://www.indec.gob.ar" target="_blank" rel="noopener">indec.gob.ar</a>).</p>
+            <p>Este servicio no constituye asesoramiento financiero, contable, legal ni de ninguna otra índole, y no debe utilizarse como base exclusiva para tomar decisiones de esa naturaleza.</p>
+          </section>
+
+          <section class="legal-sec" id="responsabilidad">
+            <div class="sec-head">
+              <span class="sec-num">05</span>
+              <h2>Limitación de responsabilidad</h2>
+            </div>
+            <p>Al tratarse de un servicio de acceso gratuito y carácter meramente informativo, y conforme a los arts. 1742 y concordantes del Código Civil y Comercial de la Nación, la responsabilidad del proyecto se limita a los supuestos de dolo o culpa grave. En ningún caso el proyecto, sus colaboradores o contribuyentes responderán por daños directos, indirectos, incidentales, consecuentes o lucro cesante —incluidos los derivados de decisiones tomadas con base en los datos— aun cuando se hubiera advertido la posibilidad de tales daños.</p>
+          </section>
+
+          <section class="legal-sec" id="uso">
+            <div class="sec-head">
+              <span class="sec-num">06</span>
+              <h2>Condiciones de uso de la API</h2>
+            </div>
+            <p>El acceso al sitio y a la API implica la aceptación del presente aviso. Al utilizarlos, el usuario se obliga a:</p>
+            <ol>
+              <li>citar la fuente al republicar los datos (p. ej.: "Fuente: INDEC, vía PINDEC API") e indicar la fecha de actualización consultada;</li>
+              <li>no desnaturalizar, tergiversar ni presentar los datos como propia producción, ni atribuir su autoría al INDEC o al Estado en forma indebida;</li>
+              <li>no presentar este servicio como oficial, patrocinado o respaldado por el INDEC o por el Estado Argentino;</li>
+              <li>no utilizar el servicio de forma automatizada en exceso, abusiva o que comprometa su disponibilidad para otros usuarios;</li>
+              <li>no utilizar los datos para identificar, vincular o vulnerar el secreto estadístico amparado por la Ley 17.622 ni datos personales de ningún tipo.</li>
+            </ol>
+          </section>
+
+          <section class="legal-sec" id="marcas">
+            <div class="sec-head">
+              <span class="sec-num">07</span>
+              <h2>Marcas y propiedad intelectual</h2>
+            </div>
+            <p>"INDEC" y la denominación "Instituto Nacional de Estadística y Censos" son marcas y/o denominaciones del Estado Argentino y del INDEC. Se utilizan en este proyecto únicamente para identificar la fuente de los datos. Los derechos sobre las mismas pertenecen a sus titulares.</p>
+          </section>
+
+          <section class="legal-sec" id="privacidad">
+            <div class="sec-head">
+              <span class="sec-num">08</span>
+              <h2>Privacidad</h2>
+            </div>
+            <p>El servicio no registra, almacena ni comparte datos personales (Ley 25.326). Para la medición anónima de tráfico se utiliza Cloudflare Web Analytics, que opera sin cookies y no identifica a los usuarios. No se utilizan rastreadores de terceros ni publicidad.</p>
+          </section>
+
+          <section class="legal-sec" id="modificaciones">
+            <div class="sec-head">
+              <span class="sec-num">09</span>
+              <h2>Modificaciones y vigencia</h2>
+            </div>
+            <p>El presente aviso puede ser actualizado sin previo aviso. El uso continuado del servicio tras una modificación implica la aceptación de la versión vigente. La versión vigente es siempre la publicada en esta página.</p>
+          </section>
+
+          <section class="legal-sec" id="jurisdiccion">
+            <div class="sec-head">
+              <span class="sec-num">10</span>
+              <h2>Ley aplicable y jurisdicción</h2>
+            </div>
+            <p>Estas condiciones se rigen por las leyes de la República Argentina. Cualquier controversia derivada de su interpretación o aplicación será resuelta por los tribunales ordinarios de la Ciudad Autónoma de Buenos Aires, salvo norma imperativa aplicable en contrario.</p>
+          </section>
+
+          <div class="legal-foot">
+            <span>Dudas o reclamos: escribí a través del <a href="https://github.com/martin-paez-leo/pindec" target="_blank" rel="noopener">repositorio del proyecto</a>.</span>
+            <span>Licencia del código: <a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank" rel="noopener">Apache License 2.0</a></span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <span>
+        Datos oficiales del <a href="https://www.indec.gob.ar" target="_blank" rel="noopener">Instituto Nacional de Estadística y Censos (INDEC)</a> · indec.gob.ar
+      </span>
+      <span>Proyecto de código abierto, sin afiliación oficial con el INDEC</span>
+      <span><a href="/legal">Aviso Legal</a></span>
+    </div>
+  </footer>
+
+  <script>
+    const links = document.querySelectorAll('.legal-toc a');
+    const secs = document.querySelectorAll('.legal-sec');
+    const setActive = () => {
+      let current = links[0];
+      for (const sec of secs) {
+        if (sec.getBoundingClientRect().top <= 120) {
+          current = document.querySelector('.legal-toc a[href="#' + sec.id + '"]');
+        }
+      }
+      links.forEach(l => l.classList.toggle('active', l === current));
+    };
+    setActive();
+    document.addEventListener('scroll', setActive, { passive: true });
+  </script>
+</body>
+</html>
