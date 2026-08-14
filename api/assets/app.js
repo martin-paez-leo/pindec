@@ -5,10 +5,21 @@ let builderData = {};   // { ipc: {estructura, años}, cba-cbt: {subcategorias},
 let currentMode = 'guide';
 
 function fetchJSON(url) {
-  return fetch(url, { cache: 'no-cache', headers: { Accept: 'application/json' } }).then(r => {
+  return fetch(url, { headers: { Accept: 'application/json' } }).then(r => {
     if (!r.ok) throw new Error('HTTP ' + r.status);
     return r.json();
   });
+}
+
+const indexFetches = {};
+function fetchIndex(ind) {
+  if (!indexFetches[ind]) {
+    indexFetches[ind] = fetchJSON('/v1/' + ind + '/index.json').then(
+      idx => { builderData[ind] = idx; indexFetches[ind] = null; return idx; },
+      err => { indexFetches[ind] = null; throw err; }
+    );
+  }
+  return indexFetches[ind];
 }
 
 /* ---------- URL building ---------- */
@@ -57,8 +68,7 @@ async function loadBuilder() {
 
   if (!builderData[ind]) {
     try {
-      const index = await fetchJSON('/v1/' + ind + '/index.json');
-      builderData[ind] = index;
+      await fetchIndex(ind);
     } catch (e) {
       builderData[ind] = null;
     }
@@ -203,8 +213,8 @@ function animateValue(el, end, { prefix = '', suffix = '', decimals = 0, duratio
 
 /* ---------- Live stats ---------- */
 async function loadStats() {
-  try {
-    const years = await fetchJSON('/v1/ipc/index.json');
+  async function ipcStat() {
+    const years = await fetchIndex('ipc');
     const lastYear = Math.max(...years.anos_disponibles);
     const ipc = await fetchJSON('/v1/ipc/Nacional/' + lastYear + '/');
     const nivel = ipc.datos.COICOP.find(c => c.codigo === '0');
@@ -214,16 +224,16 @@ async function loadStats() {
       document.getElementById('stat-ipc-hint').textContent = last.periodo;
       document.getElementById('foot-update').textContent = last.periodo;
     }
-  } catch (e) { console.warn('stats IPC:', e); }
-  try {
-    const years = await fetchJSON('/v1/cba-cbt/index.json');
+  }
+  async function cbaStat() {
+    const years = await fetchIndex('cba-cbt');
     const lastYear = Math.max(...years.anos_disponibles);
     const cba = await fetchJSON('/v1/cba-cbt/' + lastYear + '/');
     const last = cba.adulto_equivalente[cba.adulto_equivalente.length - 1];
     if (last) animateValue(document.getElementById('stat-cba'), last.cba.indice, { prefix: '$', decimals: 2 });
-  } catch (e) { console.warn('stats CBA:', e); }
-  try {
-    const years = await fetchJSON('/v1/emae/index.json');
+  }
+  async function emaeStat() {
+    const years = await fetchIndex('emae');
     const lastYear = Math.max(...years.anos_disponibles);
     const emae = await fetchJSON('/v1/emae/' + lastYear + '/');
     const nivel = emae.datos.nivel_general[emae.datos.nivel_general.length - 1];
@@ -231,14 +241,19 @@ async function loadStats() {
       animateValue(document.getElementById('stat-emae'), nivel.original.indice, { decimals: 2 });
       document.getElementById('stat-emae-hint').textContent = nivel.periodo;
     }
-  } catch (e) { console.warn('stats EMAE:', e); }
-  try {
-    const years = await fetchJSON('/v1/ica/index.json');
+  }
+  async function icaStat() {
+    const years = await fetchIndex('ica');
     const lastYear = Math.max(...years.anos_disponibles);
     const ica = await fetchJSON('/v1/ica/' + lastYear + '/');
     const last = ica.datos[ica.datos.length - 1];
     if (last) animateValue(document.getElementById('stat-ica'), last.saldo, { decimals: 1 });
-  } catch (e) { console.warn('stats ICA:', e); }
+  }
+
+  const results = await Promise.allSettled([ipcStat(), cbaStat(), emaeStat(), icaStat()]);
+  results.forEach((r, i) => {
+    if (r.status === 'rejected') console.warn('stats task ' + i + ' failed:', r.reason);
+  });
 }
 
 /* ---------- Reveal on scroll ---------- */
