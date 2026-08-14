@@ -103,4 +103,4 @@ Además, un workflow de CI (`ci.yml`) corre los tests en cada pull request, y De
 
 ## Licencia
 
-[MIT](LICENSE)
+[Apache 2.0](LICENSE)
