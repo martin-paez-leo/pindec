@@ -12,7 +12,7 @@
     "sheets": [
       {
         "name": "CBA-CBT",
-        "skiprows": 130,
+        "skiprows": 131,
         "columns": [
           "fecha",
           "cba",
@@ -22,7 +22,7 @@
       },
       {
         "name": "Variaciones",
-        "skiprows": 131,
+        "skiprows": 132,
         "columns": [
           "fecha",
           "cba_mensual",
@@ -33,7 +33,7 @@
       },
       {
         "name": "Hogares",
-        "skiprows": 130,
+        "skiprows": 131,
         "columns": [
           "fecha",
           "cba_h1",

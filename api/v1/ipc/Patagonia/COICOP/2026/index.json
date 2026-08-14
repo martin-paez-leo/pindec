@@ -40,6 +40,12 @@
           "indice": 11811.1393,
           "mensual": 1.6,
           "interanual": 32.0
+        },
+        {
+          "periodo": "2026-07",
+          "indice": 12051.1073,
+          "mensual": 2.0,
+          "interanual": 31.8
         }
       ]
     },
@@ -82,6 +88,12 @@
           "indice": 12073.5134,
           "mensual": 1.3,
           "interanual": 28.2
+        },
+        {
+          "periodo": "2026-07",
+          "indice": 12275.6711,
+          "mensual": 1.7,
+          "interanual": 28.7
         }
       ]
     },
@@ -124,6 +136,12 @@
           "indice": 8341.9599,
           "mensual": 2.2,
           "interanual": 25.3
+        },
+        {
+          "periodo": "2026-07",
+          "indice": 8469.3701,
+          "mensual": 1.5,
+          "interanual": 26.8
         }
       ]
     },
@@ -166,6 +184,12 @@
           "indice": 8484.8172,
           "mensual": 0.9,
           "interanual": 14.0
+        },
+        {
+          "periodo": "2026-07",
+          "indice": 8551.5638,
+          "mensual": 0.8,
+          "interanual": 13.7
         }
       ]
     },
@@ -208,6 +232,12 @@
           "indice": 16287.3709,
           "mensual": 2.9,
           "interanual": 52.9
+        },
+        {
+          "periodo": "2026-07",
+          "indice": 16698.0345,
+          "mensual": 2.5,
+          "interanual": 53.1
         }
       ]
     },
@@ -250,6 +280,12 @@
           "indice": 9903.758,
           "mensual": 1.4,
           "interanual": 20.2
+        },
+        {
+          "periodo": "2026-07",
+          "indice": 10041.7448,
+          "mensual": 1.4,
+          "interanual": 20.4
         }
       ]
     },
@@ -292,6 +328,12 @@
           "indice": 13638.3732,
           "mensual": 2.7,
           "interanual": 32.9
+        },
+        {
+          "periodo": "2026-07",
+          "indice": 13973.7421,
+          "mensual": 2.5,
+          "interanual": 33.5
         }
       ]
     },
@@ -334,6 +376,12 @@
           "indice": 13499.0961,
           "mensual": 0.7,
           "interanual": 45.2
+        },
+        {
+          "periodo": "2026-07",
+          "indice": 13732.9972,
+          "mensual": 1.7,
+          "interanual": 41.1
         }
       ]
     },
@@ -375,6 +423,12 @@
           "periodo": "2026-06",
           "indice": 9390.2227,
           "mensual": 0.3,
+          "interanual": 34.5
+        },
+        {
+          "periodo": "2026-07",
+          "indice": 9606.8637,
+          "mensual": 2.3,
           "interanual": 34.5
         }
       ]
@@ -418,6 +472,12 @@
           "indice": 9290.3322,
           "mensual": 3.2,
           "interanual": 24.8
+        },
+        {
+          "periodo": "2026-07",
+          "indice": 9554.1886,
+          "mensual": 2.8,
+          "interanual": 24.8
         }
       ]
     },
@@ -460,6 +520,12 @@
           "indice": 10622.8039,
           "mensual": 1.8,
           "interanual": 44.4
+        },
+        {
+          "periodo": "2026-07",
+          "indice": 10855.0667,
+          "mensual": 2.2,
+          "interanual": 44.5
         }
       ]
     },
@@ -502,6 +568,12 @@
           "indice": 14307.4479,
           "mensual": 1.1,
           "interanual": 27.6
+        },
+        {
+          "periodo": "2026-07",
+          "indice": 14999.1883,
+          "mensual": 4.8,
+          "interanual": 30.4
         }
       ]
     },
@@ -544,6 +616,12 @@
           "indice": 11966.5646,
           "mensual": 2.5,
           "interanual": 30.4
+        },
+        {
+          "periodo": "2026-07",
+          "indice": 12150.4692,
+          "mensual": 1.5,
+          "interanual": 29.5
         }
       ]
     }

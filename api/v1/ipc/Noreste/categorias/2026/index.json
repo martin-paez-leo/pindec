@@ -40,6 +40,12 @@
           "indice": 9151.9897,
           "mensual": 2.0,
           "interanual": 30.9
+        },
+        {
+          "periodo": "2026-07",
+          "indice": 9478.1563,
+          "mensual": 3.6,
+          "interanual": 32.8
         }
       ]
     },
@@ -82,6 +88,12 @@
           "indice": 11655.1996,
           "mensual": 1.6,
           "interanual": 32.8
+        },
+        {
+          "periodo": "2026-07",
+          "indice": 11829.3596,
+          "mensual": 1.5,
+          "interanual": 32.7
         }
       ]
     },
@@ -124,6 +136,12 @@
           "indice": 15102.7155,
           "mensual": 2.9,
           "interanual": 52.5
+        },
+        {
+          "periodo": "2026-07",
+          "indice": 15536.6888,
+          "mensual": 2.9,
+          "interanual": 53.5
         }
       ]
     }
