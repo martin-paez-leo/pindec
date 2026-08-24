@@ -80,7 +80,7 @@
         },
         {
           "name": "Tabla Var Letras",
-          "skiprows": 262,
+          "skiprows": 263,
           "columns": [
             "anio",
             "mes",
@@ -106,7 +106,7 @@
       "monthly": [
         {
           "name": "Tabla",
-          "skiprows": 274,
+          "skiprows": 275,
           "columns": [
             "anio",
             "mes",
@@ -127,7 +127,7 @@
     "sheets": [
       {
         "name": "FOB-CIF",
-        "skiprows": 480,
+        "skiprows": 481,
         "columns": [
           "anio",
           "mes",

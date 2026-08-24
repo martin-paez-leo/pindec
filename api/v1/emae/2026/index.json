@@ -76,6 +76,21 @@
           "indice": 154.655613,
           "mensual": 0.185056
         }
+      },
+      {
+        "periodo": "2026-06",
+        "original": {
+          "indice": 161.013319,
+          "interanual": 2.69413
+        },
+        "desestacionalizada": {
+          "indice": 154.117264,
+          "mensual": 0.754936
+        },
+        "tendencia_ciclo": {
+          "indice": 155.310274,
+          "mensual": 0.246159
+        }
       }
     ],
     "sectores": [
