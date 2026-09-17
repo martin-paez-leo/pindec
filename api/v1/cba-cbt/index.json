@@ -1,21 +1,3667 @@
 {
-  "indicador": "cba-cbt",
-  "nombre": "Canasta Básica Alimentaria y Canasta Básica Total",
-  "subcategorias": [
-    "adulto-equivalente",
-    "hogares"
-  ],
-  "anos_disponibles": [
-    2016,
-    2017,
-    2018,
-    2019,
-    2020,
-    2021,
-    2022,
-    2023,
-    2024,
-    2025,
-    2026
-  ]
+  "fuente": "INDEC - Canasta Básica Alimentaria y Canasta Básica Total",
+  "datos": {
+    "2016": {
+      "adulto_equivalente": [
+        {
+          "periodo": "2016-04",
+          "cba": {
+            "indice": 1514.53,
+            "mensual": null,
+            "interanual": null
+          },
+          "cbt": {
+            "indice": 3663.66,
+            "mensual": null,
+            "interanual": null
+          },
+          "coef_engel": 2.42
+        },
+        {
+          "periodo": "2016-05",
+          "cba": {
+            "indice": 1561.35,
+            "mensual": 3.1,
+            "interanual": null
+          },
+          "cbt": {
+            "indice": 3830.77,
+            "mensual": 4.6,
+            "interanual": null
+          },
+          "coef_engel": 2.45
+        },
+        {
+          "periodo": "2016-06",
+          "cba": {
+            "indice": 1614.32,
+            "mensual": 3.4,
+            "interanual": null
+          },
+          "cbt": {
+            "indice": 3942.67,
+            "mensual": 2.9,
+            "interanual": null
+          },
+          "coef_engel": 2.44
+        },
+        {
+          "periodo": "2016-07",
+          "cba": {
+            "indice": 1666.48,
+            "mensual": 3.2,
+            "interanual": null
+          },
+          "cbt": {
+            "indice": 4033.76,
+            "mensual": 2.3,
+            "interanual": null
+          },
+          "coef_engel": 2.42
+        },
+        {
+          "periodo": "2016-08",
+          "cba": {
+            "indice": 1675.05,
+            "mensual": 0.5,
+            "interanual": null
+          },
+          "cbt": {
+            "indice": 4041.87,
+            "mensual": 0.2,
+            "interanual": null
+          },
+          "coef_engel": 2.41
+        },
+        {
+          "periodo": "2016-09",
+          "cba": {
+            "indice": 1711.22,
+            "mensual": 2.2,
+            "interanual": null
+          },
+          "cbt": {
+            "indice": 4089.82,
+            "mensual": 1.2,
+            "interanual": null
+          },
+          "coef_engel": 2.39
+        },
+        {
+          "periodo": "2016-10",
+          "cba": {
+            "indice": 1739.34,
+            "mensual": 1.6,
+            "interanual": null
+          },
+          "cbt": {
+            "indice": 4191.81,
+            "mensual": 2.5,
+            "interanual": null
+          },
+          "coef_engel": 2.41
+        },
+        {
+          "periodo": "2016-11",
+          "cba": {
+            "indice": 1762.65,
+            "mensual": 1.3,
+            "interanual": null
+          },
+          "cbt": {
+            "indice": 4247.99,
+            "mensual": 1.3,
+            "interanual": null
+          },
+          "coef_engel": 2.41
+        },
+        {
+          "periodo": "2016-12",
+          "cba": {
+            "indice": 1766.62,
+            "mensual": 0.2,
+            "interanual": null
+          },
+          "cbt": {
+            "indice": 4257.55,
+            "mensual": 0.2,
+            "interanual": null
+          },
+          "coef_engel": 2.41
+        }
+      ],
+      "hogares": [
+        {
+          "periodo": "2016-04",
+          "hogar_1": {
+            "cba": 3725.76,
+            "cbt": 9012.61
+          },
+          "hogar_2": {
+            "cba": 4679.91,
+            "cbt": 11320.71
+          },
+          "hogar_3": {
+            "cba": 4922.24,
+            "cbt": 11906.9
+          }
+        },
+        {
+          "periodo": "2016-05",
+          "hogar_1": {
+            "cba": 3840.91,
+            "cbt": 9423.7
+          },
+          "hogar_2": {
+            "cba": 4824.56,
+            "cbt": 11837.08
+          },
+          "hogar_3": {
+            "cba": 5074.38,
+            "cbt": 12450.0
+          }
+        },
+        {
+          "periodo": "2016-06",
+          "hogar_1": {
+            "cba": 3971.23,
+            "cbt": 9698.96
+          },
+          "hogar_2": {
+            "cba": 4988.25,
+            "cbt": 12182.84
+          },
+          "hogar_3": {
+            "cba": 5246.54,
+            "cbt": 12813.66
+          }
+        },
+        {
+          "periodo": "2016-07",
+          "hogar_1": {
+            "cba": 4099.53,
+            "cbt": 9923.06
+          },
+          "hogar_2": {
+            "cba": 5149.41,
+            "cbt": 12464.33
+          },
+          "hogar_3": {
+            "cba": 5416.05,
+            "cbt": 13109.73
+          }
+        },
+        {
+          "periodo": "2016-08",
+          "hogar_1": {
+            "cba": 4120.63,
+            "cbt": 9942.99
+          },
+          "hogar_2": {
+            "cba": 5175.92,
+            "cbt": 12489.37
+          },
+          "hogar_3": {
+            "cba": 5443.93,
+            "cbt": 13136.06
+          }
+        },
+        {
+          "periodo": "2016-09",
+          "hogar_1": {
+            "cba": 4209.6,
+            "cbt": 10060.95
+          },
+          "hogar_2": {
+            "cba": 5287.67,
+            "cbt": 12637.53
+          },
+          "hogar_3": {
+            "cba": 5561.47,
+            "cbt": 13291.9
+          }
+        },
+        {
+          "periodo": "2016-10",
+          "hogar_1": {
+            "cba": 4278.78,
+            "cbt": 10311.86
+          },
+          "hogar_2": {
+            "cba": 5374.56,
+            "cbt": 12952.69
+          },
+          "hogar_3": {
+            "cba": 5652.86,
+            "cbt": 13623.39
+          }
+        },
+        {
+          "periodo": "2016-11",
+          "hogar_1": {
+            "cba": 4336.12,
+            "cbt": 10450.06
+          },
+          "hogar_2": {
+            "cba": 5446.59,
+            "cbt": 13126.29
+          },
+          "hogar_3": {
+            "cba": 5728.61,
+            "cbt": 13805.97
+          }
+        },
+        {
+          "periodo": "2016-12",
+          "hogar_1": {
+            "cba": 4345.89,
+            "cbt": 10473.57
+          },
+          "hogar_2": {
+            "cba": 5458.86,
+            "cbt": 13155.83
+          },
+          "hogar_3": {
+            "cba": 5741.52,
+            "cbt": 13837.04
+          }
+        }
+      ]
+    },
+    "2017": {
+      "adulto_equivalente": [
+        {
+          "periodo": "2017-01",
+          "cba": {
+            "indice": 1789.15,
+            "mensual": 1.3,
+            "interanual": null
+          },
+          "cbt": {
+            "indice": 4311.85,
+            "mensual": 1.3,
+            "interanual": null
+          },
+          "coef_engel": 2.41
+        },
+        {
+          "periodo": "2017-02",
+          "cba": {
+            "indice": 1821.02,
+            "mensual": 1.8,
+            "interanual": null
+          },
+          "cbt": {
+            "indice": 4425.08,
+            "mensual": 2.6,
+            "interanual": null
+          },
+          "coef_engel": 2.43
+        },
+        {
+          "periodo": "2017-03",
+          "cba": {
+            "indice": 1876.56,
+            "mensual": 3.0,
+            "interanual": null
+          },
+          "cbt": {
+            "indice": 4560.04,
+            "mensual": 3.0,
+            "interanual": null
+          },
+          "coef_engel": 2.43
+        },
+        {
+          "periodo": "2017-04",
+          "cba": {
+            "indice": 1915.47,
+            "mensual": 2.1,
+            "interanual": 26.5
+          },
+          "cbt": {
+            "indice": 4692.9,
+            "mensual": 2.9,
+            "interanual": 28.1
+          },
+          "coef_engel": 2.45
+        },
+        {
+          "periodo": "2017-05",
+          "cba": {
+            "indice": 1937.24,
+            "mensual": 1.1,
+            "interanual": 24.1
+          },
+          "cbt": {
+            "indice": 4746.24,
+            "mensual": 1.1,
+            "interanual": 23.9
+          },
+          "coef_engel": 2.45
+        },
+        {
+          "periodo": "2017-06",
+          "cba": {
+            "indice": 1956.42,
+            "mensual": 1.0,
+            "interanual": 21.2
+          },
+          "cbt": {
+            "indice": 4793.23,
+            "mensual": 1.0,
+            "interanual": 21.6
+          },
+          "coef_engel": 2.45
+        },
+        {
+          "periodo": "2017-07",
+          "cba": {
+            "indice": 1984.64,
+            "mensual": 1.4,
+            "interanual": 19.1
+          },
+          "cbt": {
+            "indice": 4862.37,
+            "mensual": 1.4,
+            "interanual": 20.5
+          },
+          "coef_engel": 2.45
+        },
+        {
+          "periodo": "2017-08",
+          "cba": {
+            "indice": 2021.98,
+            "mensual": 1.9,
+            "interanual": 20.7
+          },
+          "cbt": {
+            "indice": 4933.63,
+            "mensual": 1.5,
+            "interanual": 22.1
+          },
+          "coef_engel": 2.44
+        },
+        {
+          "periodo": "2017-09",
+          "cba": {
+            "indice": 2049.39,
+            "mensual": 1.4,
+            "interanual": 19.8
+          },
+          "cbt": {
+            "indice": 5000.51,
+            "mensual": 1.4,
+            "interanual": 22.3
+          },
+          "coef_engel": 2.44
+        },
+        {
+          "periodo": "2017-10",
+          "cba": {
+            "indice": 2079.23,
+            "mensual": 1.5,
+            "interanual": 19.5
+          },
+          "cbt": {
+            "indice": 5073.32,
+            "mensual": 1.5,
+            "interanual": 21.0
+          },
+          "coef_engel": 2.44
+        },
+        {
+          "periodo": "2017-11",
+          "cba": {
+            "indice": 2125.84,
+            "mensual": 2.2,
+            "interanual": 20.6
+          },
+          "cbt": {
+            "indice": 5187.05,
+            "mensual": 2.2,
+            "interanual": 22.1
+          },
+          "coef_engel": 2.44
+        },
+        {
+          "periodo": "2017-12",
+          "cba": {
+            "indice": 2150.29,
+            "mensual": 1.2,
+            "interanual": 21.7
+          },
+          "cbt": {
+            "indice": 5397.23,
+            "mensual": 4.1,
+            "interanual": 26.8
+          },
+          "coef_engel": 2.51
+        }
+      ],
+      "hogares": [
+        {
+          "periodo": "2017-01",
+          "hogar_1": {
+            "cba": 4401.31,
+            "cbt": 10607.15
+          },
+          "hogar_2": {
+            "cba": 5528.47,
+            "cbt": 13323.62
+          },
+          "hogar_3": {
+            "cba": 5814.74,
+            "cbt": 14013.51
+          }
+        },
+        {
+          "periodo": "2017-02",
+          "hogar_1": {
+            "cba": 4479.71,
+            "cbt": 10885.7
+          },
+          "hogar_2": {
+            "cba": 5626.95,
+            "cbt": 13673.5
+          },
+          "hogar_3": {
+            "cba": 5918.32,
+            "cbt": 14381.51
+          }
+        },
+        {
+          "periodo": "2017-03",
+          "hogar_1": {
+            "cba": 4616.34,
+            "cbt": 11217.7
+          },
+          "hogar_2": {
+            "cba": 5798.57,
+            "cbt": 14090.52
+          },
+          "hogar_3": {
+            "cba": 6098.82,
+            "cbt": 14820.13
+          }
+        },
+        {
+          "periodo": "2017-04",
+          "hogar_1": {
+            "cba": 4712.06,
+            "cbt": 11544.53
+          },
+          "hogar_2": {
+            "cba": 5918.8,
+            "cbt": 14501.06
+          },
+          "hogar_3": {
+            "cba": 6225.28,
+            "cbt": 15251.93
+          }
+        },
+        {
+          "periodo": "2017-05",
+          "hogar_1": {
+            "cba": 4765.61,
+            "cbt": 11675.75
+          },
+          "hogar_2": {
+            "cba": 5986.07,
+            "cbt": 14665.88
+          },
+          "hogar_3": {
+            "cba": 6296.03,
+            "cbt": 15425.28
+          }
+        },
+        {
+          "periodo": "2017-06",
+          "hogar_1": {
+            "cba": 4812.79,
+            "cbt": 11791.35
+          },
+          "hogar_2": {
+            "cba": 6045.34,
+            "cbt": 14811.08
+          },
+          "hogar_3": {
+            "cba": 6358.37,
+            "cbt": 15578.0
+          }
+        },
+        {
+          "periodo": "2017-07",
+          "hogar_1": {
+            "cba": 4882.21,
+            "cbt": 11961.43
+          },
+          "hogar_2": {
+            "cba": 6132.54,
+            "cbt": 15024.72
+          },
+          "hogar_3": {
+            "cba": 6450.08,
+            "cbt": 15802.7
+          }
+        },
+        {
+          "periodo": "2017-08",
+          "hogar_1": {
+            "cba": 4974.07,
+            "cbt": 12136.73
+          },
+          "hogar_2": {
+            "cba": 6247.92,
+            "cbt": 15244.92
+          },
+          "hogar_3": {
+            "cba": 6571.44,
+            "cbt": 16034.3
+          }
+        },
+        {
+          "periodo": "2017-09",
+          "hogar_1": {
+            "cba": 5041.5,
+            "cbt": 12301.25
+          },
+          "hogar_2": {
+            "cba": 6332.62,
+            "cbt": 15451.58
+          },
+          "hogar_3": {
+            "cba": 6660.52,
+            "cbt": 16251.66
+          }
+        },
+        {
+          "periodo": "2017-10",
+          "hogar_1": {
+            "cba": 5114.91,
+            "cbt": 12480.37
+          },
+          "hogar_2": {
+            "cba": 6424.82,
+            "cbt": 15676.56
+          },
+          "hogar_3": {
+            "cba": 6757.5,
+            "cbt": 16488.29
+          }
+        },
+        {
+          "periodo": "2017-11",
+          "hogar_1": {
+            "cba": 5229.57,
+            "cbt": 12760.14
+          },
+          "hogar_2": {
+            "cba": 6568.85,
+            "cbt": 16027.98
+          },
+          "hogar_3": {
+            "cba": 6908.98,
+            "cbt": 16857.91
+          }
+        },
+        {
+          "periodo": "2017-12",
+          "hogar_1": {
+            "cba": 5289.71,
+            "cbt": 13277.19
+          },
+          "hogar_2": {
+            "cba": 6644.4,
+            "cbt": 16677.44
+          },
+          "hogar_3": {
+            "cba": 6988.44,
+            "cbt": 17541.0
+          }
+        }
+      ]
+    },
+    "2018": {
+      "adulto_equivalente": [
+        {
+          "periodo": "2018-01",
+          "cba": {
+            "indice": 2197.26,
+            "mensual": 2.2,
+            "interanual": 22.8
+          },
+          "cbt": {
+            "indice": 5493.15,
+            "mensual": 1.8,
+            "interanual": 27.4
+          },
+          "coef_engel": 2.5
+        },
+        {
+          "periodo": "2018-02",
+          "cba": {
+            "indice": 2261.23,
+            "mensual": 2.9,
+            "interanual": 24.2
+          },
+          "cbt": {
+            "indice": 5675.69,
+            "mensual": 3.3,
+            "interanual": 28.3
+          },
+          "coef_engel": 2.51
+        },
+        {
+          "periodo": "2018-03",
+          "cba": {
+            "indice": 2294.56,
+            "mensual": 1.5,
+            "interanual": 22.3
+          },
+          "cbt": {
+            "indice": 5782.29,
+            "mensual": 1.9,
+            "interanual": 26.8
+          },
+          "coef_engel": 2.52
+        },
+        {
+          "periodo": "2018-04",
+          "cba": {
+            "indice": 2308.11,
+            "mensual": 0.6,
+            "interanual": 20.5
+          },
+          "cbt": {
+            "indice": 5908.76,
+            "mensual": 2.2,
+            "interanual": 25.9
+          },
+          "coef_engel": 2.56
+        },
+        {
+          "periodo": "2018-05",
+          "cba": {
+            "indice": 2418.65,
+            "mensual": 4.8,
+            "interanual": 24.9
+          },
+          "cbt": {
+            "indice": 6095.0,
+            "mensual": 3.2,
+            "interanual": 28.4
+          },
+          "coef_engel": 2.52
+        },
+        {
+          "periodo": "2018-06",
+          "cba": {
+            "indice": 2537.45,
+            "mensual": 4.9,
+            "interanual": 29.7
+          },
+          "cbt": {
+            "indice": 6343.62,
+            "mensual": 4.1,
+            "interanual": 32.3
+          },
+          "coef_engel": 2.5
+        },
+        {
+          "periodo": "2018-07",
+          "cba": {
+            "indice": 2627.37,
+            "mensual": 3.5,
+            "interanual": 32.4
+          },
+          "cbt": {
+            "indice": 6515.88,
+            "mensual": 2.7,
+            "interanual": 34.0
+          },
+          "coef_engel": 2.48
+        },
+        {
+          "periodo": "2018-08",
+          "cba": {
+            "indice": 2701.48,
+            "mensual": 2.8,
+            "interanual": 33.6
+          },
+          "cbt": {
+            "indice": 6753.7,
+            "mensual": 3.6,
+            "interanual": 36.9
+          },
+          "coef_engel": 2.5
+        },
+        {
+          "periodo": "2018-09",
+          "cba": {
+            "indice": 2931.88,
+            "mensual": 8.5,
+            "interanual": 43.1
+          },
+          "cbt": {
+            "indice": 7300.38,
+            "mensual": 8.1,
+            "interanual": 46.0
+          },
+          "coef_engel": 2.49
+        },
+        {
+          "periodo": "2018-10",
+          "cba": {
+            "indice": 3150.62,
+            "mensual": 7.5,
+            "interanual": 51.5
+          },
+          "cbt": {
+            "indice": 7845.04,
+            "mensual": 7.5,
+            "interanual": 54.6
+          },
+          "coef_engel": 2.49
+        },
+        {
+          "periodo": "2018-11",
+          "cba": {
+            "indice": 3276.02,
+            "mensual": 4.0,
+            "interanual": 54.1
+          },
+          "cbt": {
+            "indice": 8157.29,
+            "mensual": 4.0,
+            "interanual": 57.3
+          },
+          "coef_engel": 2.49
+        },
+        {
+          "periodo": "2018-12",
+          "cba": {
+            "indice": 3300.17,
+            "mensual": 0.7,
+            "interanual": 53.5
+          },
+          "cbt": {
+            "indice": 8250.42,
+            "mensual": 1.1,
+            "interanual": 52.9
+          },
+          "coef_engel": 2.5
+        }
+      ],
+      "hogares": [
+        {
+          "periodo": "2018-01",
+          "hogar_1": {
+            "cba": 5405.26,
+            "cbt": 13513.15
+          },
+          "hogar_2": {
+            "cba": 6789.53,
+            "cbt": 16973.83
+          },
+          "hogar_3": {
+            "cba": 7141.1,
+            "cbt": 17852.74
+          }
+        },
+        {
+          "periodo": "2018-02",
+          "hogar_1": {
+            "cba": 5562.63,
+            "cbt": 13962.2
+          },
+          "hogar_2": {
+            "cba": 6987.2,
+            "cbt": 17537.88
+          },
+          "hogar_3": {
+            "cba": 7349.0,
+            "cbt": 18445.99
+          }
+        },
+        {
+          "periodo": "2018-03",
+          "hogar_1": {
+            "cba": 5644.62,
+            "cbt": 14224.43
+          },
+          "hogar_2": {
+            "cba": 7090.19,
+            "cbt": 17867.28
+          },
+          "hogar_3": {
+            "cba": 7457.32,
+            "cbt": 18792.44
+          }
+        },
+        {
+          "periodo": "2018-04",
+          "hogar_1": {
+            "cba": 5677.95,
+            "cbt": 14535.55
+          },
+          "hogar_2": {
+            "cba": 7132.06,
+            "cbt": 18258.07
+          },
+          "hogar_3": {
+            "cba": 7501.36,
+            "cbt": 19203.47
+          }
+        },
+        {
+          "periodo": "2018-05",
+          "hogar_1": {
+            "cba": 5949.88,
+            "cbt": 14993.7
+          },
+          "hogar_2": {
+            "cba": 7473.63,
+            "cbt": 18833.55
+          },
+          "hogar_3": {
+            "cba": 7860.61,
+            "cbt": 19808.75
+          }
+        },
+        {
+          "periodo": "2018-06",
+          "hogar_1": {
+            "cba": 6242.13,
+            "cbt": 15605.31
+          },
+          "hogar_2": {
+            "cba": 7840.72,
+            "cbt": 19601.79
+          },
+          "hogar_3": {
+            "cba": 8246.71,
+            "cbt": 20616.77
+          }
+        },
+        {
+          "periodo": "2018-07",
+          "hogar_1": {
+            "cba": 6463.33,
+            "cbt": 16029.06
+          },
+          "hogar_2": {
+            "cba": 8118.57,
+            "cbt": 20134.07
+          },
+          "hogar_3": {
+            "cba": 8538.95,
+            "cbt": 21176.61
+          }
+        },
+        {
+          "periodo": "2018-08",
+          "hogar_1": {
+            "cba": 6645.64,
+            "cbt": 16614.1
+          },
+          "hogar_2": {
+            "cba": 8347.57,
+            "cbt": 20868.93
+          },
+          "hogar_3": {
+            "cba": 8779.81,
+            "cbt": 21949.53
+          }
+        },
+        {
+          "periodo": "2018-09",
+          "hogar_1": {
+            "cba": 7212.42,
+            "cbt": 17958.93
+          },
+          "hogar_2": {
+            "cba": 9059.51,
+            "cbt": 22558.17
+          },
+          "hogar_3": {
+            "cba": 9528.61,
+            "cbt": 23726.24
+          }
+        },
+        {
+          "periodo": "2018-10",
+          "hogar_1": {
+            "cba": 7750.53,
+            "cbt": 19298.8
+          },
+          "hogar_2": {
+            "cba": 9735.42,
+            "cbt": 24241.17
+          },
+          "hogar_3": {
+            "cba": 10239.52,
+            "cbt": 25496.38
+          }
+        },
+        {
+          "periodo": "2018-11",
+          "hogar_1": {
+            "cba": 8059.01,
+            "cbt": 20066.93
+          },
+          "hogar_2": {
+            "cba": 10122.9,
+            "cbt": 25206.03
+          },
+          "hogar_3": {
+            "cba": 10647.07,
+            "cbt": 26511.19
+          }
+        },
+        {
+          "periodo": "2018-12",
+          "hogar_1": {
+            "cba": 8118.42,
+            "cbt": 20296.03
+          },
+          "hogar_2": {
+            "cba": 10197.53,
+            "cbt": 25493.8
+          },
+          "hogar_3": {
+            "cba": 10725.55,
+            "cbt": 26813.87
+          }
+        }
+      ]
+    },
+    "2019": {
+      "adulto_equivalente": [
+        {
+          "periodo": "2019-01",
+          "cba": {
+            "indice": 3423.03,
+            "mensual": 3.7,
+            "interanual": 55.8
+          },
+          "cbt": {
+            "indice": 8557.58,
+            "mensual": 3.7,
+            "interanual": 55.8
+          },
+          "coef_engel": 2.5
+        },
+        {
+          "periodo": "2019-02",
+          "cba": {
+            "indice": 3597.77,
+            "mensual": 5.1,
+            "interanual": 59.1
+          },
+          "cbt": {
+            "indice": 8922.47,
+            "mensual": 4.3,
+            "interanual": 57.2
+          },
+          "coef_engel": 2.48
+        },
+        {
+          "periodo": "2019-03",
+          "cba": {
+            "indice": 3767.01,
+            "mensual": 4.7,
+            "interanual": 64.2
+          },
+          "cbt": {
+            "indice": 9304.51,
+            "mensual": 4.3,
+            "interanual": 60.9
+          },
+          "coef_engel": 2.47
+        },
+        {
+          "periodo": "2019-04",
+          "cba": {
+            "indice": 3833.28,
+            "mensual": 1.8,
+            "interanual": 66.1
+          },
+          "cbt": {
+            "indice": 9544.87,
+            "mensual": 2.6,
+            "interanual": 61.5
+          },
+          "coef_engel": 2.49
+        },
+        {
+          "periodo": "2019-05",
+          "cba": {
+            "indice": 3911.58,
+            "mensual": 2.0,
+            "interanual": 61.7
+          },
+          "cbt": {
+            "indice": 9818.07,
+            "mensual": 2.9,
+            "interanual": 61.1
+          },
+          "coef_engel": 2.51
+        },
+        {
+          "periodo": "2019-06",
+          "cba": {
+            "indice": 4016.09,
+            "mensual": 2.7,
+            "interanual": 58.3
+          },
+          "cbt": {
+            "indice": 10080.39,
+            "mensual": 2.7,
+            "interanual": 58.9
+          },
+          "coef_engel": 2.51
+        },
+        {
+          "periodo": "2019-07",
+          "cba": {
+            "indice": 4133.91,
+            "mensual": 2.9,
+            "interanual": 57.3
+          },
+          "cbt": {
+            "indice": 10334.77,
+            "mensual": 2.5,
+            "interanual": 58.6
+          },
+          "coef_engel": 2.5
+        },
+        {
+          "periodo": "2019-08",
+          "cba": {
+            "indice": 4290.72,
+            "mensual": 3.8,
+            "interanual": 58.8
+          },
+          "cbt": {
+            "indice": 10683.89,
+            "mensual": 3.4,
+            "interanual": 58.2
+          },
+          "coef_engel": 2.49
+        },
+        {
+          "periodo": "2019-09",
+          "cba": {
+            "indice": 4502.88,
+            "mensual": 4.9,
+            "interanual": 53.6
+          },
+          "cbt": {
+            "indice": 11257.2,
+            "mensual": 5.4,
+            "interanual": 54.2
+          },
+          "coef_engel": 2.5
+        },
+        {
+          "periodo": "2019-10",
+          "cba": {
+            "indice": 4596.2,
+            "mensual": 2.1,
+            "interanual": 45.9
+          },
+          "cbt": {
+            "indice": 11536.46,
+            "mensual": 2.5,
+            "interanual": 47.1
+          },
+          "coef_engel": 2.51
+        },
+        {
+          "periodo": "2019-11",
+          "cba": {
+            "indice": 4886.34,
+            "mensual": 6.3,
+            "interanual": 49.2
+          },
+          "cbt": {
+            "indice": 12166.99,
+            "mensual": 5.5,
+            "interanual": 49.2
+          },
+          "coef_engel": 2.49
+        },
+        {
+          "periodo": "2019-12",
+          "cba": {
+            "indice": 5043.41,
+            "mensual": 3.2,
+            "interanual": 52.8
+          },
+          "cbt": {
+            "indice": 12608.52,
+            "mensual": 3.6,
+            "interanual": 52.8
+          },
+          "coef_engel": 2.5
+        }
+      ],
+      "hogares": [
+        {
+          "periodo": "2019-01",
+          "hogar_1": {
+            "cba": 8420.65,
+            "cbt": 21051.65
+          },
+          "hogar_2": {
+            "cba": 10577.16,
+            "cbt": 26442.92
+          },
+          "hogar_3": {
+            "cba": 11124.85,
+            "cbt": 27812.14
+          }
+        },
+        {
+          "periodo": "2019-02",
+          "hogar_1": {
+            "cba": 8850.51,
+            "cbt": 21949.28
+          },
+          "hogar_2": {
+            "cba": 11117.11,
+            "cbt": 27570.43
+          },
+          "hogar_3": {
+            "cba": 11692.75,
+            "cbt": 28998.03
+          }
+        },
+        {
+          "periodo": "2019-03",
+          "hogar_1": {
+            "cba": 9266.84,
+            "cbt": 22889.09
+          },
+          "hogar_2": {
+            "cba": 11640.06,
+            "cbt": 28750.94
+          },
+          "hogar_3": {
+            "cba": 12242.78,
+            "cbt": 30239.66
+          }
+        },
+        {
+          "periodo": "2019-04",
+          "hogar_1": {
+            "cba": 9429.87,
+            "cbt": 23480.38
+          },
+          "hogar_2": {
+            "cba": 11844.84,
+            "cbt": 29493.65
+          },
+          "hogar_3": {
+            "cba": 12458.16,
+            "cbt": 31020.83
+          }
+        },
+        {
+          "periodo": "2019-05",
+          "hogar_1": {
+            "cba": 9622.49,
+            "cbt": 24152.45
+          },
+          "hogar_2": {
+            "cba": 12086.78,
+            "cbt": 30337.84
+          },
+          "hogar_3": {
+            "cba": 12712.64,
+            "cbt": 31908.73
+          }
+        },
+        {
+          "periodo": "2019-06",
+          "hogar_1": {
+            "cba": 9879.58,
+            "cbt": 24797.76
+          },
+          "hogar_2": {
+            "cba": 12409.72,
+            "cbt": 31148.41
+          },
+          "hogar_3": {
+            "cba": 13052.29,
+            "cbt": 32761.27
+          }
+        },
+        {
+          "periodo": "2019-07",
+          "hogar_1": {
+            "cba": 10169.42,
+            "cbt": 25423.53
+          },
+          "hogar_2": {
+            "cba": 12773.78,
+            "cbt": 31934.44
+          },
+          "hogar_3": {
+            "cba": 13435.21,
+            "cbt": 33588.0
+          }
+        },
+        {
+          "periodo": "2019-08",
+          "hogar_1": {
+            "cba": 10555.17,
+            "cbt": 26282.37
+          },
+          "hogar_2": {
+            "cba": 13258.32,
+            "cbt": 33013.22
+          },
+          "hogar_3": {
+            "cba": 13944.84,
+            "cbt": 34722.64
+          }
+        },
+        {
+          "periodo": "2019-09",
+          "hogar_1": {
+            "cba": 11077.08,
+            "cbt": 27692.71
+          },
+          "hogar_2": {
+            "cba": 13913.9,
+            "cbt": 34784.75
+          },
+          "hogar_3": {
+            "cba": 14634.36,
+            "cbt": 36585.9
+          }
+        },
+        {
+          "periodo": "2019-10",
+          "hogar_1": {
+            "cba": 11306.65,
+            "cbt": 28379.69
+          },
+          "hogar_2": {
+            "cba": 14202.26,
+            "cbt": 35647.66
+          },
+          "hogar_3": {
+            "cba": 14937.65,
+            "cbt": 37493.5
+          }
+        },
+        {
+          "periodo": "2019-11",
+          "hogar_1": {
+            "cba": 12020.4,
+            "cbt": 29930.8
+          },
+          "hogar_2": {
+            "cba": 15098.79,
+            "cbt": 37596.0
+          },
+          "hogar_3": {
+            "cba": 15880.61,
+            "cbt": 39542.72
+          }
+        },
+        {
+          "periodo": "2019-12",
+          "hogar_1": {
+            "cba": 12406.79,
+            "cbt": 31016.96
+          },
+          "hogar_2": {
+            "cba": 15584.14,
+            "cbt": 38960.33
+          },
+          "hogar_3": {
+            "cba": 16391.08,
+            "cbt": 40977.69
+          }
+        }
+      ]
+    },
+    "2020": {
+      "adulto_equivalente": [
+        {
+          "periodo": "2020-01",
+          "cba": {
+            "indice": 5332.94,
+            "mensual": 5.7,
+            "interanual": 55.8
+          },
+          "cbt": {
+            "indice": 13065.7,
+            "mensual": 3.6,
+            "interanual": 52.7
+          },
+          "coef_engel": 2.45
+        },
+        {
+          "periodo": "2020-02",
+          "cba": {
+            "indice": 5432.32,
+            "mensual": 1.9,
+            "interanual": 51.0
+          },
+          "cbt": {
+            "indice": 13200.54,
+            "mensual": 1.0,
+            "interanual": 47.9
+          },
+          "coef_engel": 2.43
+        },
+        {
+          "periodo": "2020-03",
+          "cba": {
+            "indice": 5615.94,
+            "mensual": 3.4,
+            "interanual": 49.1
+          },
+          "cbt": {
+            "indice": 13590.57,
+            "mensual": 3.0,
+            "interanual": 46.1
+          },
+          "coef_engel": 2.42
+        },
+        {
+          "periodo": "2020-04",
+          "cba": {
+            "indice": 5791.79,
+            "mensual": 3.1,
+            "interanual": 51.1
+          },
+          "cbt": {
+            "indice": 13784.46,
+            "mensual": 1.4,
+            "interanual": 44.4
+          },
+          "coef_engel": 2.38
+        },
+        {
+          "periodo": "2020-05",
+          "cba": {
+            "indice": 5785.01,
+            "mensual": -0.1,
+            "interanual": 47.9
+          },
+          "cbt": {
+            "indice": 13941.87,
+            "mensual": 1.1,
+            "interanual": 42.0
+          },
+          "coef_engel": 2.41
+        },
+        {
+          "periodo": "2020-06",
+          "cba": {
+            "indice": 5834.66,
+            "mensual": 0.9,
+            "interanual": 45.3
+          },
+          "cbt": {
+            "indice": 14178.22,
+            "mensual": 1.7,
+            "interanual": 40.7
+          },
+          "coef_engel": 2.43
+        },
+        {
+          "periodo": "2020-07",
+          "cba": {
+            "indice": 5929.29,
+            "mensual": 1.6,
+            "interanual": 43.4
+          },
+          "cbt": {
+            "indice": 14408.17,
+            "mensual": 1.6,
+            "interanual": 39.4
+          },
+          "coef_engel": 2.43
+        },
+        {
+          "periodo": "2020-08",
+          "cba": {
+            "indice": 6081.69,
+            "mensual": 2.6,
+            "interanual": 41.7
+          },
+          "cbt": {
+            "indice": 14717.69,
+            "mensual": 2.1,
+            "interanual": 37.8
+          },
+          "coef_engel": 2.42
+        },
+        {
+          "periodo": "2020-09",
+          "cba": {
+            "indice": 6288.17,
+            "mensual": 3.4,
+            "interanual": 39.6
+          },
+          "cbt": {
+            "indice": 15280.25,
+            "mensual": 3.8,
+            "interanual": 35.7
+          },
+          "coef_engel": 2.43
+        },
+        {
+          "periodo": "2020-10",
+          "cba": {
+            "indice": 6702.33,
+            "mensual": 6.6,
+            "interanual": 45.8
+          },
+          "cbt": {
+            "indice": 16152.62,
+            "mensual": 5.7,
+            "interanual": 40.0
+          },
+          "coef_engel": 2.41
+        },
+        {
+          "periodo": "2020-11",
+          "cba": {
+            "indice": 6981.61,
+            "mensual": 4.2,
+            "interanual": 42.9
+          },
+          "cbt": {
+            "indice": 16755.86,
+            "mensual": 3.7,
+            "interanual": 37.7
+          },
+          "coef_engel": 2.4
+        },
+        {
+          "periodo": "2020-12",
+          "cba": {
+            "indice": 7340.12,
+            "mensual": 5.1,
+            "interanual": 45.5
+          },
+          "cbt": {
+            "indice": 17542.89,
+            "mensual": 4.7,
+            "interanual": 39.1
+          },
+          "coef_engel": 2.39
+        }
+      ],
+      "hogares": [
+        {
+          "periodo": "2020-01",
+          "hogar_1": {
+            "cba": 13119.03,
+            "cbt": 32141.62
+          },
+          "hogar_2": {
+            "cba": 16478.78,
+            "cbt": 40373.01
+          },
+          "hogar_3": {
+            "cba": 17332.06,
+            "cbt": 42463.53
+          }
+        },
+        {
+          "periodo": "2020-02",
+          "hogar_1": {
+            "cba": 13363.51,
+            "cbt": 32473.33
+          },
+          "hogar_2": {
+            "cba": 16785.87,
+            "cbt": 40789.67
+          },
+          "hogar_3": {
+            "cba": 17655.04,
+            "cbt": 42901.76
+          }
+        },
+        {
+          "periodo": "2020-03",
+          "hogar_1": {
+            "cba": 13815.21,
+            "cbt": 33432.8
+          },
+          "hogar_2": {
+            "cba": 17353.25,
+            "cbt": 41994.86
+          },
+          "hogar_3": {
+            "cba": 18251.81,
+            "cbt": 44169.35
+          }
+        },
+        {
+          "periodo": "2020-04",
+          "hogar_1": {
+            "cba": 14247.8,
+            "cbt": 33909.77
+          },
+          "hogar_2": {
+            "cba": 17896.63,
+            "cbt": 42593.98
+          },
+          "hogar_3": {
+            "cba": 18823.32,
+            "cbt": 44799.5
+          }
+        },
+        {
+          "periodo": "2020-05",
+          "hogar_1": {
+            "cba": 14231.12,
+            "cbt": 34297.0
+          },
+          "hogar_2": {
+            "cba": 17875.68,
+            "cbt": 43080.38
+          },
+          "hogar_3": {
+            "cba": 18801.28,
+            "cbt": 45311.08
+          }
+        },
+        {
+          "periodo": "2020-06",
+          "hogar_1": {
+            "cba": 14353.26,
+            "cbt": 34878.42
+          },
+          "hogar_2": {
+            "cba": 18029.1,
+            "cbt": 43810.7
+          },
+          "hogar_3": {
+            "cba": 18962.65,
+            "cbt": 46079.22
+          }
+        },
+        {
+          "periodo": "2020-07",
+          "hogar_1": {
+            "cba": 14586.05,
+            "cbt": 35444.1
+          },
+          "hogar_2": {
+            "cba": 18321.51,
+            "cbt": 44521.25
+          },
+          "hogar_3": {
+            "cba": 19270.19,
+            "cbt": 46826.55
+          }
+        },
+        {
+          "periodo": "2020-08",
+          "hogar_1": {
+            "cba": 14960.96,
+            "cbt": 36205.52
+          },
+          "hogar_2": {
+            "cba": 18792.42,
+            "cbt": 45477.66
+          },
+          "hogar_3": {
+            "cba": 19765.49,
+            "cbt": 47832.49
+          }
+        },
+        {
+          "periodo": "2020-09",
+          "hogar_1": {
+            "cba": 15468.9,
+            "cbt": 37589.42
+          },
+          "hogar_2": {
+            "cba": 19430.45,
+            "cbt": 47215.97
+          },
+          "hogar_3": {
+            "cba": 20436.55,
+            "cbt": 49660.81
+          }
+        },
+        {
+          "periodo": "2020-10",
+          "hogar_1": {
+            "cba": 16487.73,
+            "cbt": 39735.45
+          },
+          "hogar_2": {
+            "cba": 20710.2,
+            "cbt": 49911.6
+          },
+          "hogar_3": {
+            "cba": 21782.57,
+            "cbt": 52496.02
+          }
+        },
+        {
+          "periodo": "2020-11",
+          "hogar_1": {
+            "cba": 17174.7606,
+            "cbt": 41219.4156
+          },
+          "hogar_2": {
+            "cba": 21573.1749,
+            "cbt": 51775.6074
+          },
+          "hogar_3": {
+            "cba": 22690.2325,
+            "cbt": 54456.545
+          }
+        },
+        {
+          "periodo": "2020-12",
+          "hogar_1": {
+            "cba": 18056.6952,
+            "cbt": 43155.5094
+          },
+          "hogar_2": {
+            "cba": 22680.9708,
+            "cbt": 54207.5301
+          },
+          "hogar_3": {
+            "cba": 23855.39,
+            "cbt": 57014.3925
+          }
+        }
+      ]
+    },
+    "2021": {
+      "adulto_equivalente": [
+        {
+          "periodo": "2021-01",
+          "cba": {
+            "indice": 7677.09,
+            "mensual": 4.6,
+            "interanual": 44.0
+          },
+          "cbt": {
+            "indice": 18271.47,
+            "mensual": 4.2,
+            "interanual": 39.8
+          },
+          "coef_engel": 2.38
+        },
+        {
+          "periodo": "2021-02",
+          "cba": {
+            "indice": 7953.14,
+            "mensual": 3.6,
+            "interanual": 46.4
+          },
+          "cbt": {
+            "indice": 18769.41,
+            "mensual": 2.7,
+            "interanual": 42.2
+          },
+          "coef_engel": 2.36
+        },
+        {
+          "periodo": "2021-03",
+          "cba": {
+            "indice": 8312.33,
+            "mensual": 4.5,
+            "interanual": 48.0
+          },
+          "cbt": {
+            "indice": 19700.22,
+            "mensual": 5.0,
+            "interanual": 45.0
+          },
+          "coef_engel": 2.37
+        },
+        {
+          "periodo": "2021-04",
+          "cba": {
+            "indice": 8633.31,
+            "mensual": 3.9,
+            "interanual": 49.1
+          },
+          "cbt": {
+            "indice": 20374.61,
+            "mensual": 3.4,
+            "interanual": 47.8
+          },
+          "coef_engel": 2.36
+        },
+        {
+          "periodo": "2021-05",
+          "cba": {
+            "indice": 8874.89,
+            "mensual": 2.8,
+            "interanual": 53.4
+          },
+          "cbt": {
+            "indice": 20855.99,
+            "mensual": 2.4,
+            "interanual": 49.6
+          },
+          "coef_engel": 2.35
+        },
+        {
+          "periodo": "2021-06",
+          "cba": {
+            "indice": 9195.41,
+            "mensual": 3.6,
+            "interanual": 57.6
+          },
+          "cbt": {
+            "indice": 21517.26,
+            "mensual": 3.2,
+            "interanual": 51.8
+          },
+          "coef_engel": 2.34
+        },
+        {
+          "periodo": "2021-07",
+          "cba": {
+            "indice": 9386.04,
+            "mensual": 2.1,
+            "interanual": 58.3
+          },
+          "cbt": {
+            "indice": 21869.47,
+            "mensual": 1.6,
+            "interanual": 51.8
+          },
+          "coef_engel": 2.33
+        },
+        {
+          "periodo": "2021-08",
+          "cba": {
+            "indice": 9454.13,
+            "mensual": 0.7,
+            "interanual": 55.5
+          },
+          "cbt": {
+            "indice": 22122.66,
+            "mensual": 1.2,
+            "interanual": 50.3
+          },
+          "coef_engel": 2.34
+        },
+        {
+          "periodo": "2021-09",
+          "cba": {
+            "indice": 9713.21,
+            "mensual": 2.7,
+            "interanual": 54.5
+          },
+          "cbt": {
+            "indice": 22826.04,
+            "mensual": 3.2,
+            "interanual": 49.4
+          },
+          "coef_engel": 2.35
+        },
+        {
+          "periodo": "2021-10",
+          "cba": {
+            "indice": 10008.2,
+            "mensual": 3.0,
+            "interanual": 49.3
+          },
+          "cbt": {
+            "indice": 23419.19,
+            "mensual": 2.6,
+            "interanual": 45.0
+          },
+          "coef_engel": 2.34
+        },
+        {
+          "periodo": "2021-11",
+          "cba": {
+            "indice": 10266.79,
+            "mensual": 2.6,
+            "interanual": 47.1
+          },
+          "cbt": {
+            "indice": 23921.62,
+            "mensual": 2.1,
+            "interanual": 42.8
+          },
+          "coef_engel": 2.33
+        },
+        {
+          "periodo": "2021-12",
+          "cba": {
+            "indice": 10667.86,
+            "mensual": 3.9,
+            "interanual": 45.3
+          },
+          "cbt": {
+            "indice": 24642.76,
+            "mensual": 3.0,
+            "interanual": 40.5
+          },
+          "coef_engel": 2.31
+        }
+      ],
+      "hogares": [
+        {
+          "periodo": "2021-01",
+          "hogar_1": {
+            "cba": 18885.6414,
+            "cbt": 44947.8162
+          },
+          "hogar_2": {
+            "cba": 23722.2081,
+            "cbt": 56458.8423
+          },
+          "hogar_3": {
+            "cba": 24950.5425,
+            "cbt": 59382.2775
+          }
+        },
+        {
+          "periodo": "2021-02",
+          "hogar_1": {
+            "cba": 19564.72,
+            "cbt": 46172.75
+          },
+          "hogar_2": {
+            "cba": 24575.2,
+            "cbt": 57997.48
+          },
+          "hogar_3": {
+            "cba": 25847.71,
+            "cbt": 61000.58
+          }
+        },
+        {
+          "periodo": "2021-03",
+          "hogar_1": {
+            "cba": 20448.3318,
+            "cbt": 48462.5412
+          },
+          "hogar_2": {
+            "cba": 25685.0997,
+            "cbt": 60873.6798
+          },
+          "hogar_3": {
+            "cba": 27015.0725,
+            "cbt": 64025.715
+          }
+        },
+        {
+          "periodo": "2021-04",
+          "hogar_1": {
+            "cba": 21237.9426,
+            "cbt": 50121.5406
+          },
+          "hogar_2": {
+            "cba": 26676.9279,
+            "cbt": 62957.5449
+          },
+          "hogar_3": {
+            "cba": 28058.2575,
+            "cbt": 66217.4825
+          }
+        },
+        {
+          "periodo": "2021-05",
+          "hogar_1": {
+            "cba": 21832.23,
+            "cbt": 51305.7354
+          },
+          "hogar_2": {
+            "cba": 27423.41,
+            "cbt": 64445.0091
+          },
+          "hogar_3": {
+            "cba": 28843.39,
+            "cbt": 67781.9675
+          }
+        },
+        {
+          "periodo": "2021-06",
+          "hogar_1": {
+            "cba": 22620.7086,
+            "cbt": 52932.4596
+          },
+          "hogar_2": {
+            "cba": 28413.8169,
+            "cbt": 66488.3334
+          },
+          "hogar_3": {
+            "cba": 29885.0825,
+            "cbt": 69931.095
+          }
+        },
+        {
+          "periodo": "2021-07",
+          "hogar_1": {
+            "cba": 23089.6584,
+            "cbt": 53798.8962
+          },
+          "hogar_2": {
+            "cba": 29002.8636,
+            "cbt": 67576.6623
+          },
+          "hogar_3": {
+            "cba": 30504.63,
+            "cbt": 71075.7775
+          }
+        },
+        {
+          "periodo": "2021-08",
+          "hogar_1": {
+            "cba": 23257.1598,
+            "cbt": 54421.7436
+          },
+          "hogar_2": {
+            "cba": 29213.2617,
+            "cbt": 68359.0194
+          },
+          "hogar_3": {
+            "cba": 30725.9225,
+            "cbt": 71898.645
+          }
+        },
+        {
+          "periodo": "2021-09",
+          "hogar_1": {
+            "cba": 23894.4966,
+            "cbt": 56152.0584
+          },
+          "hogar_2": {
+            "cba": 30013.8189,
+            "cbt": 70532.4636
+          },
+          "hogar_3": {
+            "cba": 31567.9325,
+            "cbt": 74184.63
+          }
+        },
+        {
+          "periodo": "2021-10",
+          "hogar_1": {
+            "cba": 24620.172,
+            "cbt": 57611.2074
+          },
+          "hogar_2": {
+            "cba": 30925.338,
+            "cbt": 72365.2971
+          },
+          "hogar_3": {
+            "cba": 32526.65,
+            "cbt": 76112.3675
+          }
+        },
+        {
+          "periodo": "2021-11",
+          "hogar_1": {
+            "cba": 25256.3034,
+            "cbt": 58847.1852
+          },
+          "hogar_2": {
+            "cba": 31724.3811,
+            "cbt": 73917.8058
+          },
+          "hogar_3": {
+            "cba": 33367.0675,
+            "cbt": 77745.265
+          }
+        },
+        {
+          "periodo": "2021-12",
+          "hogar_1": {
+            "cba": 26242.9356,
+            "cbt": 60621.1896
+          },
+          "hogar_2": {
+            "cba": 32963.6874,
+            "cbt": 76146.1284
+          },
+          "hogar_3": {
+            "cba": 34670.545,
+            "cbt": 80088.97
+          }
+        }
+      ]
+    },
+    "2022": {
+      "adulto_equivalente": [
+        {
+          "periodo": "2022-01",
+          "cba": {
+            "indice": 11111.27,
+            "mensual": 4.2,
+            "interanual": 44.7
+          },
+          "cbt": {
+            "indice": 25444.81,
+            "mensual": 3.3,
+            "interanual": 39.3
+          },
+          "coef_engel": 2.29
+        },
+        {
+          "periodo": "2022-02",
+          "cba": {
+            "indice": 12108.08,
+            "mensual": 9.0,
+            "interanual": 52.2
+          },
+          "cbt": {
+            "indice": 27122.1,
+            "mensual": 6.6,
+            "interanual": 44.5
+          },
+          "coef_engel": 2.24
+        },
+        {
+          "periodo": "2022-03",
+          "cba": {
+            "indice": 12900.45,
+            "mensual": 6.5,
+            "interanual": 55.2
+          },
+          "cbt": {
+            "indice": 29026.01,
+            "mensual": 7.0,
+            "interanual": 47.3
+          },
+          "coef_engel": 2.25
+        },
+        {
+          "periodo": "2022-04",
+          "cba": {
+            "indice": 13762.77,
+            "mensual": 6.7,
+            "interanual": 59.4
+          },
+          "cbt": {
+            "indice": 30828.6,
+            "mensual": 6.2,
+            "interanual": 51.3
+          },
+          "coef_engel": 2.24
+        },
+        {
+          "periodo": "2022-05",
+          "cba": {
+            "indice": 14400.84,
+            "mensual": 4.6,
+            "interanual": 62.3
+          },
+          "cbt": {
+            "indice": 32257.88,
+            "mensual": 4.6,
+            "interanual": 54.7
+          },
+          "coef_engel": 2.24
+        },
+        {
+          "periodo": "2022-06",
+          "cba": {
+            "indice": 15056.75,
+            "mensual": 4.6,
+            "interanual": 63.7
+          },
+          "cbt": {
+            "indice": 33727.12,
+            "mensual": 4.6,
+            "interanual": 56.7
+          },
+          "coef_engel": 2.24
+        },
+        {
+          "periodo": "2022-07",
+          "cba": {
+            "indice": 16008.28,
+            "mensual": 6.3,
+            "interanual": 70.6
+          },
+          "cbt": {
+            "indice": 36018.63,
+            "mensual": 6.8,
+            "interanual": 64.7
+          },
+          "coef_engel": 2.25
+        },
+        {
+          "periodo": "2022-08",
+          "cba": {
+            "indice": 17148.8,
+            "mensual": 7.1,
+            "interanual": 81.4
+          },
+          "cbt": {
+            "indice": 38756.29,
+            "mensual": 7.6,
+            "interanual": 75.2
+          },
+          "coef_engel": 2.26
+        },
+        {
+          "periodo": "2022-09",
+          "cba": {
+            "indice": 18359.84,
+            "mensual": 7.1,
+            "interanual": 89.0
+          },
+          "cbt": {
+            "indice": 41493.24,
+            "mensual": 7.1,
+            "interanual": 81.8
+          },
+          "coef_engel": 2.26
+        },
+        {
+          "periodo": "2022-10",
+          "cba": {
+            "indice": 20098.92,
+            "mensual": 9.5,
+            "interanual": 100.8
+          },
+          "cbt": {
+            "indice": 45222.57,
+            "mensual": 9.0,
+            "interanual": 93.1
+          },
+          "coef_engel": 2.25
+        },
+        {
+          "periodo": "2022-11",
+          "cba": {
+            "indice": 20715.93,
+            "mensual": 3.1,
+            "interanual": 101.8
+          },
+          "cbt": {
+            "indice": 47232.32,
+            "mensual": 4.4,
+            "interanual": 97.4
+          },
+          "coef_engel": 2.28
+        },
+        {
+          "periodo": "2022-12",
+          "cba": {
+            "indice": 21743.48,
+            "mensual": 5.0,
+            "interanual": 103.8
+          },
+          "cbt": {
+            "indice": 49357.7,
+            "mensual": 4.5,
+            "interanual": 100.3
+          },
+          "coef_engel": 2.27
+        }
+      ],
+      "hogares": [
+        {
+          "periodo": "2022-01",
+          "hogar_1": {
+            "cba": 27333.7242,
+            "cbt": 62594.2326
+          },
+          "hogar_2": {
+            "cba": 34333.8243,
+            "cbt": 78624.4629
+          },
+          "hogar_3": {
+            "cba": 36111.6275,
+            "cbt": 82695.6325
+          }
+        },
+        {
+          "periodo": "2022-02",
+          "hogar_1": {
+            "cba": 29785.88,
+            "cbt": 66720.37
+          },
+          "hogar_2": {
+            "cba": 37413.97,
+            "cbt": 83807.29
+          },
+          "hogar_3": {
+            "cba": 39351.26,
+            "cbt": 88146.83
+          }
+        },
+        {
+          "periodo": "2022-03",
+          "hogar_1": {
+            "cba": 31735.11,
+            "cbt": 71403.98
+          },
+          "hogar_2": {
+            "cba": 39862.39,
+            "cbt": 89690.37
+          },
+          "hogar_3": {
+            "cba": 41926.46,
+            "cbt": 94334.53
+          }
+        },
+        {
+          "periodo": "2022-04",
+          "hogar_1": {
+            "cba": 33856.4142,
+            "cbt": 75838.356
+          },
+          "hogar_2": {
+            "cba": 42526.9593,
+            "cbt": 95260.374
+          },
+          "hogar_3": {
+            "cba": 44729.0025,
+            "cbt": 100192.95
+          }
+        },
+        {
+          "periodo": "2022-05",
+          "hogar_1": {
+            "cba": 35426.0664,
+            "cbt": 79354.3848
+          },
+          "hogar_2": {
+            "cba": 44498.5956,
+            "cbt": 99676.8492
+          },
+          "hogar_3": {
+            "cba": 46802.73,
+            "cbt": 104838.11
+          }
+        },
+        {
+          "periodo": "2022-06",
+          "hogar_1": {
+            "cba": 37039.605,
+            "cbt": 82968.7152
+          },
+          "hogar_2": {
+            "cba": 46525.3575,
+            "cbt": 104216.8008
+          },
+          "hogar_3": {
+            "cba": 48934.4375,
+            "cbt": 109613.14
+          }
+        },
+        {
+          "periodo": "2022-07",
+          "hogar_1": {
+            "cba": 39380.3688,
+            "cbt": 88605.8298
+          },
+          "hogar_2": {
+            "cba": 49465.5852,
+            "cbt": 111297.5667
+          },
+          "hogar_3": {
+            "cba": 52026.91,
+            "cbt": 117060.5475
+          }
+        },
+        {
+          "periodo": "2022-08",
+          "hogar_1": {
+            "cba": 42186.048,
+            "cbt": 95340.4734
+          },
+          "hogar_2": {
+            "cba": 52989.792,
+            "cbt": 119756.9361
+          },
+          "hogar_3": {
+            "cba": 55733.6,
+            "cbt": 125957.9425
+          }
+        },
+        {
+          "periodo": "2022-09",
+          "hogar_1": {
+            "cba": 45165.2064,
+            "cbt": 102073.3704
+          },
+          "hogar_2": {
+            "cba": 56731.9056,
+            "cbt": 128214.1116
+          },
+          "hogar_3": {
+            "cba": 59669.48,
+            "cbt": 134853.03
+          }
+        },
+        {
+          "periodo": "2022-10",
+          "hogar_1": {
+            "cba": 49443.3432,
+            "cbt": 111247.5222
+          },
+          "hogar_2": {
+            "cba": 62105.6628,
+            "cbt": 139737.7413
+          },
+          "hogar_3": {
+            "cba": 65321.4899,
+            "cbt": 146973.3525
+          }
+        },
+        {
+          "periodo": "2022-11",
+          "hogar_1": {
+            "cba": 50961.1878,
+            "cbt": 116191.5072
+          },
+          "hogar_2": {
+            "cba": 64012.2237,
+            "cbt": 145947.8688
+          },
+          "hogar_3": {
+            "cba": 67326.7725,
+            "cbt": 153505.04
+          }
+        },
+        {
+          "periodo": "2022-12",
+          "hogar_1": {
+            "cba": 53488.9608,
+            "cbt": 121419.942
+          },
+          "hogar_2": {
+            "cba": 67187.3532,
+            "cbt": 152515.293
+          },
+          "hogar_3": {
+            "cba": 70666.31,
+            "cbt": 160412.525
+          }
+        }
+      ]
+    },
+    "2023": {
+      "adulto_equivalente": [
+        {
+          "periodo": "2023-01",
+          "cba": {
+            "indice": 23315.04,
+            "mensual": 7.2,
+            "interanual": 109.8
+          },
+          "cbt": {
+            "indice": 52925.14,
+            "mensual": 7.2,
+            "interanual": 108.0
+          },
+          "coef_engel": 2.27
+        },
+        {
+          "periodo": "2023-02",
+          "cba": {
+            "indice": 26046.32,
+            "mensual": 11.7,
+            "interanual": 115.1
+          },
+          "cbt": {
+            "indice": 57301.9,
+            "mensual": 8.3,
+            "interanual": 111.3
+          },
+          "coef_engel": 2.2
+        },
+        {
+          "periodo": "2023-03",
+          "cba": {
+            "indice": 28388.12,
+            "mensual": 9.0,
+            "interanual": 120.1
+          },
+          "cbt": {
+            "indice": 61886.1,
+            "mensual": 8.0,
+            "interanual": 113.2
+          },
+          "coef_engel": 2.18
+        },
+        {
+          "periodo": "2023-04",
+          "cba": {
+            "indice": 30468.76,
+            "mensual": 7.3,
+            "interanual": 121.4
+          },
+          "cbt": {
+            "indice": 65812.52,
+            "mensual": 6.3,
+            "interanual": 113.5
+          },
+          "coef_engel": 2.16
+        },
+        {
+          "periodo": "2023-05",
+          "cba": {
+            "indice": 32055.87,
+            "mensual": 5.2,
+            "interanual": 122.6
+          },
+          "cbt": {
+            "indice": 70522.91,
+            "mensual": 7.2,
+            "interanual": 118.6
+          },
+          "coef_engel": 2.2
+        },
+        {
+          "periodo": "2023-06",
+          "cba": {
+            "indice": 33730.51,
+            "mensual": 5.2,
+            "interanual": 124.0
+          },
+          "cbt": {
+            "indice": 75219.04,
+            "mensual": 6.7,
+            "interanual": 123.0
+          },
+          "coef_engel": 2.23
+        },
+        {
+          "periodo": "2023-07",
+          "cba": {
+            "indice": 36130.15,
+            "mensual": 7.1,
+            "interanual": 125.7
+          },
+          "cbt": {
+            "indice": 80570.23,
+            "mensual": 7.1,
+            "interanual": 123.7
+          },
+          "coef_engel": 2.23
+        },
+        {
+          "periodo": "2023-08",
+          "cba": {
+            "indice": 42262.25,
+            "mensual": 17.0,
+            "interanual": 146.4
+          },
+          "cbt": {
+            "indice": 92131.7,
+            "mensual": 14.3,
+            "interanual": 137.7
+          },
+          "coef_engel": 2.18
+        },
+        {
+          "periodo": "2023-09",
+          "cba": {
+            "indice": 47857.79,
+            "mensual": 13.2,
+            "interanual": 160.7
+          },
+          "cbt": {
+            "indice": 103372.83,
+            "mensual": 12.2,
+            "interanual": 149.1
+          },
+          "coef_engel": 2.16
+        },
+        {
+          "periodo": "2023-10",
+          "cba": {
+            "indice": 51974.93,
+            "mensual": 8.6,
+            "interanual": 158.6
+          },
+          "cbt": {
+            "indice": 111746.1,
+            "mensual": 8.1,
+            "interanual": 147.1
+          },
+          "coef_engel": 2.15
+        },
+        {
+          "periodo": "2023-11",
+          "cba": {
+            "indice": 59886.86,
+            "mensual": 15.2,
+            "interanual": 189.1
+          },
+          "cbt": {
+            "indice": 126361.27,
+            "mensual": 13.1,
+            "interanual": 167.5
+          },
+          "coef_engel": 2.11
+        },
+        {
+          "periodo": "2023-12",
+          "cba": {
+            "indice": 77889.58,
+            "mensual": 30.1,
+            "interanual": 258.2
+          },
+          "cbt": {
+            "indice": 160452.53,
+            "mensual": 27.0,
+            "interanual": 225.1
+          },
+          "coef_engel": 2.06
+        }
+      ],
+      "hogares": [
+        {
+          "periodo": "2023-01",
+          "hogar_1": {
+            "cba": 57354.9984,
+            "cbt": 130195.8444
+          },
+          "hogar_2": {
+            "cba": 72043.4736,
+            "cbt": 163538.6826
+          },
+          "hogar_3": {
+            "cba": 75773.88,
+            "cbt": 172006.705
+          }
+        },
+        {
+          "periodo": "2023-02",
+          "hogar_1": {
+            "cba": 64073.9472,
+            "cbt": 140962.674
+          },
+          "hogar_2": {
+            "cba": 80483.1288,
+            "cbt": 177062.871
+          },
+          "hogar_3": {
+            "cba": 84650.54,
+            "cbt": 186231.175
+          }
+        },
+        {
+          "periodo": "2023-03",
+          "hogar_1": {
+            "cba": 69834.7752,
+            "cbt": 152239.806
+          },
+          "hogar_2": {
+            "cba": 87719.2908,
+            "cbt": 191228.049
+          },
+          "hogar_3": {
+            "cba": 92261.39,
+            "cbt": 201129.825
+          }
+        },
+        {
+          "periodo": "2023-04",
+          "hogar_1": {
+            "cba": 74953.1496,
+            "cbt": 161898.7992
+          },
+          "hogar_2": {
+            "cba": 94148.4684,
+            "cbt": 203360.6868
+          },
+          "hogar_3": {
+            "cba": 99023.47,
+            "cbt": 213890.69
+          }
+        },
+        {
+          "periodo": "2023-05",
+          "hogar_1": {
+            "cba": 78857.4402,
+            "cbt": 173486.3586
+          },
+          "hogar_2": {
+            "cba": 99052.6383,
+            "cbt": 217915.7919
+          },
+          "hogar_3": {
+            "cba": 104181.5775,
+            "cbt": 229199.46
+          }
+        },
+        {
+          "periodo": "2023-06",
+          "hogar_1": {
+            "cba": 82977.0546,
+            "cbt": 185038.8384
+          },
+          "hogar_2": {
+            "cba": 104227.2759,
+            "cbt": 232426.8336
+          },
+          "hogar_3": {
+            "cba": 109624.1575,
+            "cbt": 244461.88
+          }
+        },
+        {
+          "periodo": "2023-07",
+          "hogar_1": {
+            "cba": 88880.169,
+            "cbt": 198202.7658
+          },
+          "hogar_2": {
+            "cba": 111642.1635,
+            "cbt": 248962.0107
+          },
+          "hogar_3": {
+            "cba": 117422.9875,
+            "cbt": 261853.2475
+          }
+        },
+        {
+          "periodo": "2023-08",
+          "hogar_1": {
+            "cba": 103965.135,
+            "cbt": 226643.982
+          },
+          "hogar_2": {
+            "cba": 130590.3525,
+            "cbt": 284686.953
+          },
+          "hogar_3": {
+            "cba": 137352.3125,
+            "cbt": 299428.025
+          }
+        },
+        {
+          "periodo": "2023-09",
+          "hogar_1": {
+            "cba": 117730.1634,
+            "cbt": 254297.1618
+          },
+          "hogar_2": {
+            "cba": 147880.5711,
+            "cbt": 319422.0447
+          },
+          "hogar_3": {
+            "cba": 155537.8175,
+            "cbt": 335961.6975
+          }
+        },
+        {
+          "periodo": "2023-10",
+          "hogar_1": {
+            "cba": 127858.3278,
+            "cbt": 274895.406
+          },
+          "hogar_2": {
+            "cba": 160602.5337,
+            "cbt": 345295.449
+          },
+          "hogar_3": {
+            "cba": 168918.5225,
+            "cbt": 363174.825
+          }
+        },
+        {
+          "periodo": "2023-11",
+          "hogar_1": {
+            "cba": 147321.6756,
+            "cbt": 310848.7242
+          },
+          "hogar_2": {
+            "cba": 185050.3974,
+            "cbt": 390456.3243
+          },
+          "hogar_3": {
+            "cba": 194632.295,
+            "cbt": 410674.1275
+          }
+        },
+        {
+          "periodo": "2023-12",
+          "hogar_1": {
+            "cba": 191608.3668,
+            "cbt": 394713.2238
+          },
+          "hogar_2": {
+            "cba": 240678.8022,
+            "cbt": 495798.3177
+          },
+          "hogar_3": {
+            "cba": 253141.135,
+            "cbt": 521470.7225
+          }
+        }
+      ]
+    },
+    "2024": {
+      "adulto_equivalente": [
+        {
+          "periodo": "2024-01",
+          "cba": {
+            "indice": 92414.67,
+            "mensual": 18.6,
+            "interanual": 296.4
+          },
+          "cbt": {
+            "indice": 193146.66,
+            "mensual": 20.4,
+            "interanual": 264.9
+          },
+          "coef_engel": 2.09
+        },
+        {
+          "periodo": "2024-02",
+          "cba": {
+            "indice": 104482.59,
+            "mensual": 13.1,
+            "interanual": 301.1
+          },
+          "cbt": {
+            "indice": 223592.74,
+            "mensual": 15.8,
+            "interanual": 290.2
+          },
+          "coef_engel": 2.14
+        },
+        {
+          "periodo": "2024-03",
+          "cba": {
+            "indice": 115873.35,
+            "mensual": 10.9,
+            "interanual": 308.2
+          },
+          "cbt": {
+            "indice": 250286.44,
+            "mensual": 11.9,
+            "interanual": 304.4
+          },
+          "coef_engel": 2.16
+        },
+        {
+          "periodo": "2024-04",
+          "cba": {
+            "indice": 120726.29,
+            "mensual": 4.2,
+            "interanual": 296.2
+          },
+          "cbt": {
+            "indice": 268012.36,
+            "mensual": 7.1,
+            "interanual": 307.2
+          },
+          "coef_engel": 2.22
+        },
+        {
+          "periodo": "2024-05",
+          "cba": {
+            "indice": 125235.49,
+            "mensual": 3.7,
+            "interanual": 290.7
+          },
+          "cbt": {
+            "indice": 275518.08,
+            "mensual": 2.8,
+            "interanual": 290.7
+          },
+          "coef_engel": 2.2
+        },
+        {
+          "periodo": "2024-06",
+          "cba": {
+            "indice": 127287.79,
+            "mensual": 1.6,
+            "interanual": 277.4
+          },
+          "cbt": {
+            "indice": 282578.89,
+            "mensual": 2.6,
+            "interanual": 275.7
+          },
+          "coef_engel": 2.22
+        },
+        {
+          "periodo": "2024-07",
+          "cba": {
+            "indice": 131293.57,
+            "mensual": 3.1,
+            "interanual": 263.4
+          },
+          "cbt": {
+            "indice": 291471.73,
+            "mensual": 3.1,
+            "interanual": 261.8
+          },
+          "coef_engel": 2.22
+        },
+        {
+          "periodo": "2024-08",
+          "cba": {
+            "indice": 136399.3,
+            "mensual": 3.9,
+            "interanual": 222.7
+          },
+          "cbt": {
+            "indice": 304170.44,
+            "mensual": 4.4,
+            "interanual": 230.1
+          },
+          "coef_engel": 2.23
+        },
+        {
+          "periodo": "2024-09",
+          "cba": {
+            "indice": 138744.31,
+            "mensual": 1.7,
+            "interanual": 189.9
+          },
+          "cbt": {
+            "indice": 312174.7,
+            "mensual": 2.6,
+            "interanual": 202.0
+          },
+          "coef_engel": 2.25
+        },
+        {
+          "periodo": "2024-10",
+          "cba": {
+            "indice": 140653.57,
+            "mensual": 1.4,
+            "interanual": 170.6
+          },
+          "cbt": {
+            "indice": 319283.6,
+            "mensual": 2.3,
+            "interanual": 185.7
+          },
+          "coef_engel": 2.27
+        },
+        {
+          "periodo": "2024-11",
+          "cba": {
+            "indice": 142148.73,
+            "mensual": 1.1,
+            "interanual": 137.4
+          },
+          "cbt": {
+            "indice": 324099.1,
+            "mensual": 1.5,
+            "interanual": 156.5
+          },
+          "coef_engel": 2.28
+        },
+        {
+          "periodo": "2024-12",
+          "cba": {
+            "indice": 145408.96,
+            "mensual": 2.3,
+            "interanual": 86.7
+          },
+          "cbt": {
+            "indice": 331532.43,
+            "mensual": 2.3,
+            "interanual": 106.6
+          },
+          "coef_engel": 2.28
+        }
+      ],
+      "hogares": [
+        {
+          "periodo": "2024-01",
+          "hogar_1": {
+            "cba": 227340.0882,
+            "cbt": 475140.7836
+          },
+          "hogar_2": {
+            "cba": 285561.3303,
+            "cbt": 596823.1794
+          },
+          "hogar_3": {
+            "cba": 300347.6775,
+            "cbt": 627726.645
+          }
+        },
+        {
+          "periodo": "2024-02",
+          "hogar_1": {
+            "cba": 257027.1714,
+            "cbt": 550038.1404
+          },
+          "hogar_2": {
+            "cba": 322851.2031,
+            "cbt": 690901.5666
+          },
+          "hogar_3": {
+            "cba": 339568.4175,
+            "cbt": 726676.405
+          }
+        },
+        {
+          "periodo": "2024-03",
+          "hogar_1": {
+            "cba": 285048.441,
+            "cbt": 615704.6424
+          },
+          "hogar_2": {
+            "cba": 358048.6515,
+            "cbt": 773385.0996
+          },
+          "hogar_3": {
+            "cba": 376588.3875,
+            "cbt": 813430.93
+          }
+        },
+        {
+          "periodo": "2024-04",
+          "hogar_1": {
+            "cba": 296986.6734,
+            "cbt": 659310.4056
+          },
+          "hogar_2": {
+            "cba": 373044.2361,
+            "cbt": 828158.1924
+          },
+          "hogar_3": {
+            "cba": 392360.4425,
+            "cbt": 871040.17
+          }
+        },
+        {
+          "periodo": "2024-05",
+          "hogar_1": {
+            "cba": 308079.3054,
+            "cbt": 677774.4768
+          },
+          "hogar_2": {
+            "cba": 386977.6641,
+            "cbt": 851350.8672
+          },
+          "hogar_3": {
+            "cba": 407015.3425,
+            "cbt": 895433.76
+          }
+        },
+        {
+          "periodo": "2024-06",
+          "hogar_1": {
+            "cba": 313127.9634,
+            "cbt": 695144.0694
+          },
+          "hogar_2": {
+            "cba": 393319.2711,
+            "cbt": 873168.7701
+          },
+          "hogar_3": {
+            "cba": 413685.3175,
+            "cbt": 918381.3925
+          }
+        },
+        {
+          "periodo": "2024-07",
+          "hogar_1": {
+            "cba": 322982.1822,
+            "cbt": 717020.4558
+          },
+          "hogar_2": {
+            "cba": 405697.1313,
+            "cbt": 900647.6457
+          },
+          "hogar_3": {
+            "cba": 426704.1025,
+            "cbt": 947283.1225
+          }
+        },
+        {
+          "periodo": "2024-08",
+          "hogar_1": {
+            "cba": 335542.278,
+            "cbt": 748259.2824
+          },
+          "hogar_2": {
+            "cba": 421473.837,
+            "cbt": 939886.6596
+          },
+          "hogar_3": {
+            "cba": 443297.725,
+            "cbt": 988553.93
+          }
+        },
+        {
+          "periodo": "2024-09",
+          "hogar_1": {
+            "cba": 341311.0,
+            "cbt": 767949.76
+          },
+          "hogar_2": {
+            "cba": 428719.92,
+            "cbt": 964619.82
+          },
+          "hogar_3": {
+            "cba": 450919.01,
+            "cbt": 1014567.78
+          }
+        },
+        {
+          "periodo": "2024-10",
+          "hogar_1": {
+            "cba": 346007.7822,
+            "cbt": 785437.656
+          },
+          "hogar_2": {
+            "cba": 434619.5313,
+            "cbt": 986586.324
+          },
+          "hogar_3": {
+            "cba": 457124.1025,
+            "cbt": 1037671.7
+          }
+        },
+        {
+          "periodo": "2024-11",
+          "hogar_1": {
+            "cba": 349685.8758,
+            "cbt": 797283.786
+          },
+          "hogar_2": {
+            "cba": 439239.5757,
+            "cbt": 1001466.219
+          },
+          "hogar_3": {
+            "cba": 461983.3725,
+            "cbt": 1053322.075
+          }
+        },
+        {
+          "periodo": "2024-12",
+          "hogar_1": {
+            "cba": 357706.0416,
+            "cbt": 815569.7778
+          },
+          "hogar_2": {
+            "cba": 449313.6864,
+            "cbt": 1024435.2087
+          },
+          "hogar_3": {
+            "cba": 472579.12,
+            "cbt": 1077480.3975
+          }
+        }
+      ]
+    },
+    "2025": {
+      "adulto_equivalente": [
+        {
+          "periodo": "2025-01",
+          "cba": {
+            "indice": 146726.23,
+            "mensual": 0.9,
+            "interanual": 58.8
+          },
+          "cbt": {
+            "indice": 334535.8,
+            "mensual": 0.9,
+            "interanual": 73.2
+          },
+          "coef_engel": 2.28
+        },
+        {
+          "periodo": "2025-02",
+          "cba": {
+            "indice": 151491.17,
+            "mensual": 3.2,
+            "interanual": 45.0
+          },
+          "cbt": {
+            "indice": 342370.04,
+            "mensual": 2.3,
+            "interanual": 53.1
+          },
+          "coef_engel": 2.26
+        },
+        {
+          "periodo": "2025-03",
+          "cba": {
+            "indice": 160393.45,
+            "mensual": 5.9,
+            "interanual": 38.4
+          },
+          "cbt": {
+            "indice": 356073.46,
+            "mensual": 4.0,
+            "interanual": 42.3
+          },
+          "coef_engel": 2.22
+        },
+        {
+          "periodo": "2025-04",
+          "cba": {
+            "indice": 162553.77,
+            "mensual": 1.3,
+            "interanual": 34.6
+          },
+          "cbt": {
+            "indice": 359243.83,
+            "mensual": 0.9,
+            "interanual": 34.0
+          },
+          "coef_engel": 2.21
+        },
+        {
+          "periodo": "2025-05",
+          "cba": {
+            "indice": 161903.21,
+            "mensual": -0.4,
+            "interanual": 29.3
+          },
+          "cbt": {
+            "indice": 359425.13,
+            "mensual": 0.1,
+            "interanual": 30.5
+          },
+          "coef_engel": 2.22
+        },
+        {
+          "periodo": "2025-06",
+          "cba": {
+            "indice": 163756.66,
+            "mensual": 1.1,
+            "interanual": 28.7
+          },
+          "cbt": {
+            "indice": 365177.35,
+            "mensual": 1.6,
+            "interanual": 29.2
+          },
+          "coef_engel": 2.23
+        },
+        {
+          "periodo": "2025-07",
+          "cba": {
+            "indice": 166797.7,
+            "mensual": 1.9,
+            "interanual": 27.0
+          },
+          "cbt": {
+            "indice": 371958.87,
+            "mensual": 1.9,
+            "interanual": 27.6
+          },
+          "coef_engel": 2.23
+        },
+        {
+          "periodo": "2025-08",
+          "cba": {
+            "indice": 168456.04,
+            "mensual": 1.0,
+            "interanual": 23.5
+          },
+          "cbt": {
+            "indice": 375656.97,
+            "mensual": 1.0,
+            "interanual": 23.5
+          },
+          "coef_engel": 2.23
+        },
+        {
+          "periodo": "2025-09",
+          "cba": {
+            "indice": 170788.46,
+            "mensual": 1.4,
+            "interanual": 23.1
+          },
+          "cbt": {
+            "indice": 380858.27,
+            "mensual": 1.4,
+            "interanual": 22.0
+          },
+          "coef_engel": 2.23
+        },
+        {
+          "periodo": "2025-10",
+          "cba": {
+            "indice": 176150.29,
+            "mensual": 3.1,
+            "interanual": 25.2
+          },
+          "cbt": {
+            "indice": 392815.15,
+            "mensual": 3.1,
+            "interanual": 23.0
+          },
+          "coef_engel": 2.23
+        },
+        {
+          "periodo": "2025-11",
+          "cba": {
+            "indice": 183289.46,
+            "mensual": 4.1,
+            "interanual": 28.9
+          },
+          "cbt": {
+            "indice": 406902.6,
+            "mensual": 3.6,
+            "interanual": 25.5
+          },
+          "coef_engel": 2.22
+        },
+        {
+          "periodo": "2025-12",
+          "cba": {
+            "indice": 190780.09,
+            "mensual": 4.1,
+            "interanual": 31.2
+          },
+          "cbt": {
+            "indice": 423531.8,
+            "mensual": 4.1,
+            "interanual": 27.7
+          },
+          "coef_engel": 2.22
+        }
+      ],
+      "hogares": [
+        {
+          "periodo": "2025-01",
+          "hogar_1": {
+            "cba": 360946.5258,
+            "cbt": 822958.068
+          },
+          "hogar_2": {
+            "cba": 453384.0507,
+            "cbt": 1033715.622
+          },
+          "hogar_3": {
+            "cba": 476860.2475,
+            "cbt": 1087241.35
+          }
+        },
+        {
+          "periodo": "2025-02",
+          "hogar_1": {
+            "cba": 372668.2782,
+            "cbt": 842230.2984
+          },
+          "hogar_2": {
+            "cba": 468107.7153,
+            "cbt": 1057923.4236
+          },
+          "hogar_3": {
+            "cba": 492346.3025,
+            "cbt": 1112702.63
+          }
+        },
+        {
+          "periodo": "2025-03",
+          "hogar_1": {
+            "cba": 394567.887,
+            "cbt": 875940.7116
+          },
+          "hogar_2": {
+            "cba": 495615.7605,
+            "cbt": 1100266.9914
+          },
+          "hogar_3": {
+            "cba": 521278.7125,
+            "cbt": 1157238.745
+          }
+        },
+        {
+          "periodo": "2025-04",
+          "hogar_1": {
+            "cba": 399882.2742,
+            "cbt": 883739.8218
+          },
+          "hogar_2": {
+            "cba": 502291.1493,
+            "cbt": 1110063.4347
+          },
+          "hogar_3": {
+            "cba": 528299.7525,
+            "cbt": 1167542.4475
+          }
+        },
+        {
+          "periodo": "2025-05",
+          "hogar_1": {
+            "cba": 398281.8966,
+            "cbt": 884185.8198
+          },
+          "hogar_2": {
+            "cba": 500280.9189,
+            "cbt": 1110623.6517
+          },
+          "hogar_3": {
+            "cba": 526185.4325,
+            "cbt": 1168131.6725
+          }
+        },
+        {
+          "periodo": "2025-06",
+          "hogar_1": {
+            "cba": 402841.3836,
+            "cbt": 898336.281
+          },
+          "hogar_2": {
+            "cba": 506008.0794,
+            "cbt": 1128398.0115
+          },
+          "hogar_3": {
+            "cba": 532209.145,
+            "cbt": 1186826.3875
+          }
+        },
+        {
+          "periodo": "2025-07",
+          "hogar_1": {
+            "cba": 410322.342,
+            "cbt": 915018.8202
+          },
+          "hogar_2": {
+            "cba": 515404.893,
+            "cbt": 1149352.9083
+          },
+          "hogar_3": {
+            "cba": 542092.525,
+            "cbt": 1208866.3275
+          }
+        },
+        {
+          "periodo": "2025-08",
+          "hogar_1": {
+            "cba": 414401.8584,
+            "cbt": 924116.1462
+          },
+          "hogar_2": {
+            "cba": 520529.1636,
+            "cbt": 1160780.0373
+          },
+          "hogar_3": {
+            "cba": 547482.13,
+            "cbt": 1220885.1525
+          }
+        },
+        {
+          "periodo": "2025-09",
+          "hogar_1": {
+            "cba": 420139.6116,
+            "cbt": 936911.3442
+          },
+          "hogar_2": {
+            "cba": 527736.3414,
+            "cbt": 1176852.0543
+          },
+          "hogar_3": {
+            "cba": 555062.495,
+            "cbt": 1237789.3775
+          }
+        },
+        {
+          "periodo": "2025-10",
+          "hogar_1": {
+            "cba": 433329.7134,
+            "cbt": 966325.269
+          },
+          "hogar_2": {
+            "cba": 544304.3961,
+            "cbt": 1213798.8135
+          },
+          "hogar_3": {
+            "cba": 572488.4425,
+            "cbt": 1276649.2375
+          }
+        },
+        {
+          "periodo": "2025-11",
+          "hogar_1": {
+            "cba": 450892.0716,
+            "cbt": 1000980.396
+          },
+          "hogar_2": {
+            "cba": 566364.4314,
+            "cbt": 1257329.034
+          },
+          "hogar_3": {
+            "cba": 595690.745,
+            "cbt": 1322433.45
+          }
+        },
+        {
+          "periodo": "2025-12",
+          "hogar_1": {
+            "cba": 469319.0214,
+            "cbt": 1041888.228
+          },
+          "hogar_2": {
+            "cba": 589510.4781,
+            "cbt": 1308713.262
+          },
+          "hogar_3": {
+            "cba": 620035.2925,
+            "cbt": 1376478.35
+          }
+        }
+      ]
+    },
+    "2026": {
+      "adulto_equivalente": [
+        {
+          "periodo": "2026-01",
+          "cba": {
+            "indice": 201938.62,
+            "mensual": 5.8,
+            "interanual": 37.6
+          },
+          "cbt": {
+            "indice": 440226.19,
+            "mensual": 3.9,
+            "interanual": 31.6
+          },
+          "coef_engel": 2.18
+        },
+        {
+          "periodo": "2026-02",
+          "cba": {
+            "indice": 208442.85,
+            "mensual": 3.2,
+            "interanual": 37.6
+          },
+          "cbt": {
+            "indice": 452320.98,
+            "mensual": 2.7,
+            "interanual": 32.1
+          },
+          "coef_engel": 2.17
+        },
+        {
+          "periodo": "2026-03",
+          "cba": {
+            "indice": 212948.52,
+            "mensual": 2.2,
+            "interanual": 32.8
+          },
+          "cbt": {
+            "indice": 464227.77,
+            "mensual": 2.6,
+            "interanual": 30.4
+          },
+          "coef_engel": 2.18
+        },
+        {
+          "periodo": "2026-04",
+          "cba": {
+            "indice": 215227.62,
+            "mensual": 1.1,
+            "interanual": 32.4
+          },
+          "cbt": {
+            "indice": 475653.04,
+            "mensual": 2.5,
+            "interanual": 32.4
+          },
+          "coef_engel": 2.21
+        },
+        {
+          "periodo": "2026-05",
+          "cba": {
+            "indice": 220467.99,
+            "mensual": 2.4,
+            "interanual": 36.2
+          },
+          "cbt": {
+            "indice": 485029.58,
+            "mensual": 2.0,
+            "interanual": 34.9
+          },
+          "coef_engel": 2.2
+        },
+        {
+          "periodo": "2026-06",
+          "cba": {
+            "indice": 223253.29,
+            "mensual": 1.3,
+            "interanual": 36.3
+          },
+          "cbt": {
+            "indice": 495622.3,
+            "mensual": 2.2,
+            "interanual": 35.7
+          },
+          "coef_engel": 2.22
+        },
+        {
+          "periodo": "2026-07",
+          "cba": {
+            "indice": 229131.47,
+            "mensual": 2.6,
+            "interanual": 37.4
+          },
+          "cbt": {
+            "indice": 506380.55,
+            "mensual": 2.2,
+            "interanual": 36.1
+          },
+          "coef_engel": 2.21
+        }
+      ],
+      "hogares": [
+        {
+          "periodo": "2026-01",
+          "hogar_1": {
+            "cba": 496769.0052,
+            "cbt": 1082956.4274
+          },
+          "hogar_2": {
+            "cba": 623990.3358,
+            "cbt": 1360298.9271
+          },
+          "hogar_3": {
+            "cba": 656300.515,
+            "cbt": 1430735.1175
+          }
+        },
+        {
+          "periodo": "2026-02",
+          "hogar_1": {
+            "cba": 512769.411,
+            "cbt": 1112709.6108
+          },
+          "hogar_2": {
+            "cba": 644088.4065,
+            "cbt": 1397671.8282
+          },
+          "hogar_3": {
+            "cba": 677439.2625,
+            "cbt": 1470043.185
+          }
+        },
+        {
+          "periodo": "2026-03",
+          "hogar_1": {
+            "cba": 523853.3592,
+            "cbt": 1142000.3142
+          },
+          "hogar_2": {
+            "cba": 658010.9268,
+            "cbt": 1434463.8093
+          },
+          "hogar_3": {
+            "cba": 692082.69,
+            "cbt": 1508740.2525
+          }
+        },
+        {
+          "periodo": "2026-04",
+          "hogar_1": {
+            "cba": 529459.9452,
+            "cbt": 1170106.4784
+          },
+          "hogar_2": {
+            "cba": 665053.3458,
+            "cbt": 1469767.8936
+          },
+          "hogar_3": {
+            "cba": 699489.765,
+            "cbt": 1545872.38
+          }
+        },
+        {
+          "periodo": "2026-05",
+          "hogar_1": {
+            "cba": 542351.2554,
+            "cbt": 1193172.7668
+          },
+          "hogar_2": {
+            "cba": 681246.0891,
+            "cbt": 1498741.4022
+          },
+          "hogar_3": {
+            "cba": 716520.9675,
+            "cbt": 1576346.135
+          }
+        },
+        {
+          "periodo": "2026-06",
+          "hogar_1": {
+            "cba": 549203.0934,
+            "cbt": 1219230.858
+          },
+          "hogar_2": {
+            "cba": 689852.6661,
+            "cbt": 1531472.907
+          },
+          "hogar_3": {
+            "cba": 725573.1925,
+            "cbt": 1610772.475
+          }
+        },
+        {
+          "periodo": "2026-07",
+          "hogar_1": {
+            "cba": 563663.4162,
+            "cbt": 1245696.153
+          },
+          "hogar_2": {
+            "cba": 708016.2423,
+            "cbt": 1564715.8995
+          },
+          "hogar_3": {
+            "cba": 744677.2775,
+            "cbt": 1645736.7875
+          }
+        }
+      ]
+    }
+  }
 }
