@@ -1,4 +1,5 @@
-from utils import write_json, API_DIR
+from utils import load_json, write_json, API_DIR
+from constants import FUENTES
 
 def _is_year(name: str) -> bool:
   return name.isdigit() and len(name) == 4
@@ -48,23 +49,21 @@ def generate_ipc_index():
   if not ipc_dir.exists():
     return
 
-  regions = []
-  structure = {}
-  for d in sorted(ipc_dir.iterdir()):
-    if d.is_dir() and not _is_year(d.name):
-      regions.append(d.name)
-      clasifs = {}
-      for c in sorted(d.iterdir()):
-        if c.is_dir() and not _is_year(c.name):
-          clasifs[c.name] = [p.name for p in sorted(c.iterdir()) if p.is_dir() and not _is_year(p.name)]
-      structure[d.name] = clasifs
+  data = {}
+
+  for year_dir in sorted(ipc_dir.iterdir()):
+    if not year_dir.is_dir() or not _is_year(year_dir.name):
+      continue
+
+    year_data = load_json(year_dir / "index.json")
+    if not year_data:
+      continue
+    
+    data[year_dir.name] = year_data.get("datos", {})
 
   write_json(ipc_dir / "index.json", {
-    "indicador": "ipc",
-    "nombre": "Índice de Precios al Consumidor",
-    "regiones": regions,
-    "anos_disponibles": _get_years("ipc"),
-    "estructura": structure,
+    "fuente": FUENTES["ipc"],
+    "datos": data,
   })
 
 def generate_cba_cbt_filters(year_data: dict, year: int):
@@ -85,11 +84,28 @@ def generate_cba_cbt_filters(year_data: dict, year: int):
     })
 
 def generate_cba_cbt_index():
-  write_json(API_DIR / "cba-cbt" / "index.json", {
-    "indicador": "cba-cbt",
-    "nombre": "Canasta Básica Alimentaria y Canasta Básica Total",
-    "subcategorias": ["adulto-equivalente", "hogares"],
-    "anos_disponibles": _get_years("cba-cbt"),
+  cba_cbt_dir = API_DIR / "cba-cbt"
+  if not cba_cbt_dir.exists():
+    return
+  
+  data = {}
+
+  for year_dir in sorted(cba_cbt_dir.iterdir()):
+    if not year_dir.is_dir() or not _is_year(year_dir.name):
+      continue
+
+    year_data = load_json(year_dir / "index.json")
+    if not year_data:
+      continue
+    
+    data[year_dir.name] = {
+      "adulto_equivalente": year_data.get("adulto_equivalente", []),
+      "hogares": year_data.get("hogares", []),
+    }
+
+  write_json(cba_cbt_dir / "index.json", {
+    "fuente": FUENTES["cba-cbt"],
+    "datos": data,
   })
 
 def generate_emae_filters(year_data: dict, year: int):
@@ -125,35 +141,47 @@ def generate_emae_filters(year_data: dict, year: int):
 
 def generate_emae_index():
   emae_dir = API_DIR / "emae"
-  sectores_dir = emae_dir / "sectores"
-  sectores_codes = []
-  if sectores_dir.exists():
-    for d in sorted(sectores_dir.iterdir()):
-      if d.is_dir() and not _is_year(d.name):
-        sectores_codes.append(d.name)
+  if not emae_dir.exists():
+    return
+  
+  data = {}
+
+  for year_dir in sorted(emae_dir.iterdir()):
+    if not year_dir.is_dir() or not _is_year(year_dir.name):
+      continue
+
+    year_data = load_json(year_dir / "index.json")
+    if not year_data:
+      continue
+    
+    data[year_dir.name] = year_data.get("datos", {})
 
   write_json(emae_dir / "index.json", {
-    "indicador": "emae",
-    "nombre": "Estimador Mensual de Actividad Económica (EMAE)",
-    "subcategorias": ["nivel-general", "sectores", "impuestos"],
-    "sectores": sectores_codes,
-    "anos_disponibles": _get_years("emae"),
+    "fuente": FUENTES["emae"],
+    "datos": data,
   })
 
-  if sectores_dir.exists():
-    write_json(sectores_dir / "index.json", {
-      "indicador": "emae",
-      "subcategoria": "sectores",
-      "codigos": sectores_codes,
-      "anos_disponibles": _get_years("emae"),
-    })
-
 def generate_ica_index():
-  write_json(API_DIR / "ica" / "index.json", {
-    "indicador": "ica",
-    "nombre": "Intercambio Comercial Argentino (Balanza Comercial)",
+  ica_dir = API_DIR / "ica"
+  if not ica_dir.exists():
+    return
+  
+  data = {}
+
+  for year_dir in sorted(ica_dir.iterdir()):
+    if not year_dir.is_dir() or not _is_year(year_dir.name):
+      continue
+
+    year_data = load_json(year_dir / "index.json")
+    if not year_data:
+      continue
+    
+    data[year_dir.name] = year_data.get("datos", {})
+    
+  write_json(ica_dir / "index.json", {
+    "fuente": FUENTES["ica"],
     "unidad_medida": "Millones de dólares",
-    "anos_disponibles": _get_years("ica"),
+    "datos": data,
   })
 
 _FILTER_GENERATORS = {
