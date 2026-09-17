@@ -87,22 +87,22 @@
           <h2>Cuatro indicadores clave del INDEC</h2>
         </div>
         <div class="ind-grid" id="ind-grid" data-stagger>
-          <button class="ind-card reveal" data-tab="ipc">
+          <button class="ind-card reveal" data-tab="ipc" aria-label="Ver documentación del IPC">
             <span class="arrow">→</span><div class="icon">📈</div>
             <h4>IPC — Índice de Precios al Consumidor</h4>
             <p>Precios por región y clasificación COICOP con variación mensual e interanual.</p>
           </button>
-          <button class="ind-card reveal" data-tab="cba-cbt">
+          <button class="ind-card reveal" data-tab="cba-cbt" aria-label="Ver documentación de CBA-CBT">
             <span class="arrow">→</span><div class="icon">🛒</div>
             <h4>CBA-CBT — Canastas Básicas</h4>
             <p>Canasta Básica Alimentaria y Total para adulto equivalente y hogares.</p>
           </button>
-          <button class="ind-card reveal" data-tab="emae">
+          <button class="ind-card reveal" data-tab="emae" aria-label="Ver documentación del EMAE">
             <span class="arrow">→</span><div class="icon">🏭</div>
             <h4>EMAE — Actividad Económica</h4>
             <p>Nivel general, desestacionalizado y por sector, base 2004.</p>
           </button>
-          <button class="ind-card reveal" data-tab="ica">
+          <button class="ind-card reveal" data-tab="ica" aria-label="Ver documentación del ICA">
             <span class="arrow">→</span><div class="icon">🌎</div>
             <h4>ICA — Intercambio Comercial</h4>
             <p>Exportaciones, importaciones y saldo en millones de dólares.</p>
@@ -145,10 +145,10 @@
               <select id="pg-f3" disabled><option value="">—</option></select>
             </div>
             <div class="field">
-              <label for="pg-year">Año (opcional)</label>
+              <label for="pg-year">Año</label>
               <input id="pg-year" type="number" min="1990" max="2030" placeholder="vacío = índice">
             </div>
-            <button class="run-btn" id="pg-run">Ejecutar</button>
+            <button class="run-btn" id="pg-run" aria-label="Ejecutar consulta">Ejecutar</button>
           </div>
 
           <div class="mode-row">
@@ -166,7 +166,7 @@
 
           <div class="raw-input" id="raw-row" style="display:none">
             <input id="raw-path" placeholder="/v1/ipc/Pampeana/COICOP/04/2024/" spellcheck="false">
-            <button class="run-btn" id="raw-run">Ejecutar</button>
+            <button class="run-btn" id="raw-run" aria-label="Ejecutar ruta personalizada">Ejecutar</button>
           </div>
 
           <pre id="pg-output">// Elegí una combinación y hacé clic en "Ejecutar".\n// Dejá el año vacío para obtener el índice de esa sección.</pre>

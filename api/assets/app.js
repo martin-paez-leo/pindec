@@ -1,7 +1,7 @@
 const fmt = new Intl.NumberFormat('es-AR');
 const BASE = 'https://pindec.pages.dev';
 let history = [];
-let builderData = {};   // { ipc: {estructura, años}, cba-cbt: {subcategorias}, emae: {...} }
+let builderData = {};   // index.json data keyed by indicator name
 let currentMode = 'guide';
 
 function fetchJSON(url) {
@@ -60,11 +60,18 @@ function hideField(id) {
   document.getElementById(id + '-wrap').style.display = 'none';
 }
 
+function setLabel(id, text) {
+  const label = document.querySelector('label[for="' + id + '"]');
+  if (label) label.textContent = text;
+}
+
 async function loadBuilder() {
   const ind = document.getElementById('pg-ind').value;
   const f1 = document.getElementById('pg-f1');
   const f2 = document.getElementById('pg-f2');
   const f3 = document.getElementById('pg-f3');
+  const yearInput = document.getElementById('pg-year');
+  const yearWrap = document.getElementById('pg-year').parentElement;
 
   if (!builderData[ind]) {
     try {
@@ -78,18 +85,41 @@ async function loadBuilder() {
   f1.value = ''; f2.value = ''; f3.value = '';
   hideField('pg-f1'); hideField('pg-f2'); hideField('pg-f3');
 
-  if (!data) return;
+  if (!data) { updateUrlBar(); return; }
+
+  const datos = data.datos || {};
+  const allYears = Object.keys(datos).filter(k => /^\d{4}$/.test(k)).sort();
 
   if (ind === 'ipc') {
-    const regions = data.regiones || [];
+    setLabel('pg-f1', 'Región');
+    setLabel('pg-f2', 'Clasificación');
+    const regions = Object.keys(datos);
     if (regions.length) setField('pg-f1', regions, f1.dataset.last);
   } else if (ind === 'cba-cbt') {
-    const subs = data.subcategorias || [];
+    setLabel('pg-f1', 'Subcategoría');
+    const subs = [];
+    if (datos[allYears[0]]?.adulto_equivalente) subs.push('adulto-equivalente');
+    if (datos[allYears[0]]?.hogares) subs.push('hogares');
     if (subs.length) setField('pg-f1', subs, f1.dataset.last);
   } else if (ind === 'emae') {
-    const subs = data.subcategorias || [];
+    setLabel('pg-f1', 'Subcategoría');
+    const firstYearData = datos[allYears[0]] || {};
+    const subs = [];
+    if (firstYearData.nivel_general) subs.push('nivel-general');
+    if (firstYearData.sectores) subs.push('sectores');
+    if (firstYearData.impuestos_netos_subsidios) subs.push('impuestos');
     if (subs.length) setField('pg-f1', subs, f1.dataset.last);
   }
+
+  if (allYears.length) {
+    yearWrap.style.display = 'flex';
+    yearInput.disabled = false;
+    yearInput.value = '';
+    yearInput.placeholder = allYears[0] + '–' + allYears[allYears.length - 1];
+  } else {
+    yearWrap.style.display = 'none';
+  }
+
   updateUrlBar();
 }
 
@@ -100,21 +130,49 @@ async function onF1Change() {
   const f3 = document.getElementById('pg-f3');
   f2.value = ''; f3.value = '';
   hideField('pg-f2'); hideField('pg-f3');
-  if (!f1) return;
+  if (!f1) { updateUrlBar(); return; }
 
   const data = builderData[ind];
-  if (!data) return;
+  if (!data) { updateUrlBar(); return; }
+
+  const datos = data.datos || {};
 
   if (ind === 'ipc') {
-    const estructura = data.estructura || {};
-    const clasifs = estructura[f1] ? Object.keys(estructura[f1]) : [];
-    if (clasifs.length) setField('pg-f2', clasifs, f2.dataset.last);
+    const regionClasifs = {};
+    for (const [year, yearData] of Object.entries(datos)) {
+      if (!/^\d{4}$/.test(year)) continue;
+      const regionData = yearData[f1];
+      if (!regionData) continue;
+      for (const clasif of Object.keys(regionData)) {
+        if (!regionClasifs[clasif]) regionClasifs[clasif] = new Set();
+        for (const codeObj of regionData[clasif]) {
+          regionClasifs[clasif].add(codeObj.codigo);
+        }
+      }
+    }
+    const clasifs = Object.keys(regionClasifs);
+    if (clasifs.length) {
+      setLabel('pg-f2', 'Clasificación');
+      setField('pg-f2', clasifs, f2.dataset.last);
+      window._ipcRegionClasifs = regionClasifs;
+    }
   } else if (ind === 'emae') {
     if (f1 === 'sectores') {
-      const codes = data.sectores || [];
-      if (codes.length) setField('pg-f2', codes, f2.dataset.last);
+      const allCodes = [];
+      const seen = new Set();
+      for (const [year, yearData] of Object.entries(datos)) {
+        if (!/^\d{4}$/.test(year) || !yearData.sectores) continue;
+        for (const s of yearData.sectores) {
+          if (!seen.has(s.codigo)) { seen.add(s.codigo); allCodes.push(s.codigo); }
+        }
+      }
+      if (allCodes.length) {
+        setLabel('pg-f2', 'Sector');
+        setField('pg-f2', allCodes, f2.dataset.last);
+      }
     }
   }
+
   updateUrlBar();
 }
 
@@ -125,16 +183,20 @@ async function onF2Change() {
   const f3 = document.getElementById('pg-f3');
   f3.value = '';
   hideField('pg-f3');
-  if (!f2) return;
+  if (!f2) { updateUrlBar(); return; }
 
   const data = builderData[ind];
-  if (!data) return;
+  if (!data) { updateUrlBar(); return; }
 
   if (ind === 'ipc') {
-    const estructura = data.estructura || {};
-    const codes = (estructura[f1] || {})[f2] || [];
-    if (codes.length) setField('pg-f3', codes, f3.dataset.last);
+    const regionClasifs = window._ipcRegionClasifs || {};
+    const codes = Array.from(regionClasifs[f2] || []);
+    if (codes.length) {
+      setLabel('pg-f3', 'Código');
+      setField('pg-f3', codes, f3.dataset.last);
+    }
   }
+
   updateUrlBar();
 }
 
@@ -214,8 +276,9 @@ function animateValue(el, end, { prefix = '', suffix = '', decimals = 0, duratio
 /* ---------- Live stats ---------- */
 async function loadStats() {
   async function ipcStat() {
-    const years = await fetchIndex('ipc');
-    const lastYear = Math.max(...years.anos_disponibles);
+    const index = await fetchIndex('ipc');
+    const allYears = Object.keys(index.datos || {}).filter(k => /^\d{4}$/.test(k));
+    const lastYear = Math.max(...allYears.map(Number));
     const ipc = await fetchJSON('/v1/ipc/Nacional/' + lastYear + '/');
     const nivel = ipc.datos.COICOP.find(c => c.codigo === '0');
     if (nivel && nivel.historico.length) {
@@ -226,15 +289,17 @@ async function loadStats() {
     }
   }
   async function cbaStat() {
-    const years = await fetchIndex('cba-cbt');
-    const lastYear = Math.max(...years.anos_disponibles);
+    const index = await fetchIndex('cba-cbt');
+    const allYears = Object.keys(index.datos || {}).filter(k => /^\d{4}$/.test(k));
+    const lastYear = Math.max(...allYears.map(Number));
     const cba = await fetchJSON('/v1/cba-cbt/' + lastYear + '/');
     const last = cba.adulto_equivalente[cba.adulto_equivalente.length - 1];
     if (last) animateValue(document.getElementById('stat-cba'), last.cba.indice, { prefix: '$', decimals: 2 });
   }
   async function emaeStat() {
-    const years = await fetchIndex('emae');
-    const lastYear = Math.max(...years.anos_disponibles);
+    const index = await fetchIndex('emae');
+    const allYears = Object.keys(index.datos || {}).filter(k => /^\d{4}$/.test(k));
+    const lastYear = Math.max(...allYears.map(Number));
     const emae = await fetchJSON('/v1/emae/' + lastYear + '/');
     const nivel = emae.datos.nivel_general[emae.datos.nivel_general.length - 1];
     if (nivel) {
@@ -243,8 +308,9 @@ async function loadStats() {
     }
   }
   async function icaStat() {
-    const years = await fetchIndex('ica');
-    const lastYear = Math.max(...years.anos_disponibles);
+    const index = await fetchIndex('ica');
+    const allYears = Object.keys(index.datos || {}).filter(k => /^\d{4}$/.test(k));
+    const lastYear = Math.max(...allYears.map(Number));
     const ica = await fetchJSON('/v1/ica/' + lastYear + '/');
     const last = ica.datos[ica.datos.length - 1];
     if (last) animateValue(document.getElementById('stat-ica'), last.saldo, { decimals: 1 });
