@@ -127,7 +127,7 @@
     "sheets": [
       {
         "name": "FOB-CIF",
-        "skiprows": 481,
+        "skiprows": 482,
         "columns": [
           "anio",
           "mes",
