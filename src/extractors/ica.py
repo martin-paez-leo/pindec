@@ -1,14 +1,10 @@
 import pandas as pd
-from .common import to_float
+from .common import to_float, MONTHS
 
-_MONTHS = {
-  "Enero": "01", "Febrero": "02", "Marzo": "03", "Abril": "04",
-  "Mayo": "05", "Junio": "06", "Julio": "07", "Agosto": "08",
-  "Septiembre": "09", "Octubre": "10", "Noviembre": "11", "Diciembre": "12"
-}
+_FALLBACK_MONTHS = 3
 
 def _build_periodo(row):
-  month = _MONTHS.get(str(row["mes"]), "01")
+  month = MONTHS.get(str(row["mes"]), "01")
   year = str(row["anio"]).replace("*", "")
   return f"{int(year)}-{month}"
 
@@ -28,7 +24,10 @@ def extract(config: dict) -> tuple[dict, dict]:
   df["anio"] = df["anio"].ffill()
   df = df.dropna(subset=["mes", "anio"])
 
-  last_index = df.index[-1] + 1
+  cursor = df.index[-1] + 1
+
+  if skiprows >= cursor:
+    skiprows = max(df.index[0], cursor - _FALLBACK_MONTHS)
 
   df = df.loc[skiprows:]
 
@@ -51,6 +50,6 @@ def extract(config: dict) -> tuple[dict, dict]:
       "saldo": to_float(row["saldo"])
     })
 
-  new_skiprows = {"sheets": [{"name": "FOB-CIF", "skiprows": last_index, "columns": columns}]}
+  new_skiprows = {"sheets": [{"name": "FOB-CIF", "skiprows": cursor, "columns": columns}]}
 
   return records, new_skiprows

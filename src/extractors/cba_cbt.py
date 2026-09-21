@@ -1,6 +1,8 @@
 import pandas as pd
 from .common import to_float
 
+_SOURCE_OFFSET = 8
+
 def extract(config: dict) -> tuple[dict, dict]:
   url = config["url"]
   sheets = config["sheets"]
@@ -13,10 +15,13 @@ def extract(config: dict) -> tuple[dict, dict]:
 
   for sc in sheets:
     name = sc["name"]
-    skiprows = sc["skiprows"]
     columns = sc["columns"]
 
-    df = all_sheets[name].iloc[skiprows:]
+    raw = all_sheets[name]
+    total = len(raw)
+    skiprows = total - _SOURCE_OFFSET
+
+    df = raw.iloc[skiprows:]
     df = df.dropna(how="all", axis=1)
 
     if len(df.columns) != len(columns):

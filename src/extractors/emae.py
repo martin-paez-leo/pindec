@@ -1,11 +1,7 @@
 import pandas as pd
-from .common import to_float
+from .common import to_float, MONTHS
 
-_MONTHS = {
-  "Enero": "01", "Febrero": "02", "Marzo": "03", "Abril": "04",
-  "Mayo": "05", "Junio": "06", "Julio": "07", "Agosto": "08",
-  "Septiembre": "09", "Octubre": "10", "Noviembre": "11", "Diciembre": "12"
-}
+_FALLBACK_MONTHS = 3
 
 _SECTORS = {
   "A": "Agricultura, ganadería, caza y silvicultura",
@@ -30,7 +26,7 @@ _SECTOR_CODES = list(_SECTORS.keys())
 def _build_period(row):
   month_str = str(row["mes"])
   year = int(row["anio"])
-  month = _MONTHS.get(month_str, "01")
+  month = MONTHS.get(month_str, "01")
   return f"{year}-{month}"
 
 def _extract_sheet(url, sheet_name, skiprows, columns):
@@ -45,6 +41,10 @@ def _extract_sheet(url, sheet_name, skiprows, columns):
   df = df.dropna(subset=["mes", "anio"])
 
   last_index = df.index[-1] + 1
+
+  if skiprows >= last_index:
+    skiprows = max(df.index[0], last_index - _FALLBACK_MONTHS)
+
   df = df.loc[skiprows:]
 
   return df, last_index
