@@ -29,8 +29,7 @@ def _build_period(row):
   month = MONTHS.get(month_str, "01")
   return f"{year}-{month}"
 
-def _extract_sheet(url, sheet_name, skiprows, columns):
-  df = pd.read_excel(url, sheet_name=sheet_name, header=None)
+def _process_sheet(df, skiprows, columns):
   df = df.dropna(how="all", axis=1)
 
   if len(df.columns) != len(columns):
@@ -40,17 +39,18 @@ def _extract_sheet(url, sheet_name, skiprows, columns):
   df["anio"] = df["anio"].ffill()
   df = df.dropna(subset=["mes", "anio"])
 
-  last_index = df.index[-1] + 1
+  cursor = df.index[-1] + 1
 
-  if skiprows >= last_index:
-    skiprows = max(df.index[0], last_index - _FALLBACK_MONTHS)
+  if skiprows >= cursor:
+    skiprows = max(df.index[0], cursor - _FALLBACK_MONTHS)
 
   df = df.loc[skiprows:]
 
-  return df, last_index
+  return df, cursor
 
 def _extract_monthly(url, skiprows, columns):
-  df, last_index = _extract_sheet(url, "Tabla", skiprows, columns)
+  raw = pd.read_excel(url, sheet_name="Tabla", header=None)
+  df, cursor = _process_sheet(raw, skiprows, columns)
 
   records = []
   for _, row in df.iterrows():
@@ -70,14 +70,14 @@ def _extract_monthly(url, skiprows, columns):
       }
     })
 
-  return records, last_index
+  return records, cursor
 
-def _extract_sectors(url, skiprows_indices, skiprows_var, columns_indices, columns_var):
-  df_indices, last_index_indices = _extract_sheet(url, "Tabla Letras", skiprows_indices, columns_indices)
-  df_var, last_index_var = _extract_sheet(url, "Tabla Var Letras", skiprows_var, columns_var)
+def _extract_sectors(raw, skiprows_indices, skiprows_var, columns_indices, columns_var):
+  df_indices, cursor_indices = _process_sheet(raw["Tabla Letras"], skiprows_indices, columns_indices)
+  df_var, cursor_var = _process_sheet(raw["Tabla Var Letras"], skiprows_var, columns_var)
 
   if df_indices.empty or df_var.empty:
-    return [], {"historico": []}, last_index_indices, last_index_var
+    return [], {"historico": []}, cursor_indices, cursor_var
 
   df_indices["periodo"] = df_indices.apply(_build_period, axis=1)
   df_var["periodo"] = df_var.apply(_build_period, axis=1)
@@ -113,7 +113,7 @@ def _extract_sectors(url, skiprows_indices, skiprows_var, columns_indices, colum
     for code in _SECTOR_CODES
   ]
 
-  return sectores_list, impuestos, last_index_indices, last_index_var
+  return sectores_list, impuestos, cursor_indices, cursor_var
 
 def extract(config: dict) -> tuple[dict, dict]:
   urls = config["urls"]
@@ -124,10 +124,12 @@ def extract(config: dict) -> tuple[dict, dict]:
     urls["monthly"], monthly_cfg["skiprows"], monthly_cfg["columns"]
   )
 
+  raw_activity = pd.read_excel(urls["activity"], sheet_name=None, header=None)
+
   activity_indices_cfg = sheets["activity"][0]
   activity_var_cfg = sheets["activity"][1]
   sectores, impuestos, new_skiprows_indices, new_skiprows_var = _extract_sectors(
-    urls["activity"],
+    raw_activity,
     activity_indices_cfg["skiprows"],
     activity_var_cfg["skiprows"],
     activity_indices_cfg["columns"],
