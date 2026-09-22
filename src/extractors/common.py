@@ -2,6 +2,13 @@ import pandas as pd
 
 _PLACEHOLDERS_NA = {"..", "...", "///", "na", "n/a", "-", ""}
 
+FUENTES = {
+  "ipc": "INDEC - Índice de Precios al Consumidor",
+  "cba-cbt": "INDEC - Canasta Básica Alimentaria y Canasta Básica Total",
+  "emae": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+  "ica": "INDEC - Intercambio Comercial Argentino (Balanza Comercial)",
+}
+
 MONTHS = {
   "Enero": "01", "Febrero": "02", "Marzo": "03", "Abril": "04",
   "Mayo": "05", "Junio": "06", "Julio": "07", "Agosto": "08",

@@ -3,7 +3,7 @@ from checker import load_metadata, save_metadata, needs_update
 from extractors import ipc, cba_cbt, emae, ica
 from utils import to_native, load_json, write_json, extract_year, group_by_year, merge, API_DIR, ROOT
 from api import generate_all_filters, generate_all_indexes
-from constants import FUENTES
+from extractors.common import FUENTES
 
 CONFIG_PATH = ROOT / "config" / "config.json"
 METADATA_PATH = ROOT / "config" / "metadata.json"

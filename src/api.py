@@ -1,5 +1,5 @@
 from utils import load_json, write_json, API_DIR
-from constants import FUENTES
+from extractors.common import FUENTES
 
 def _is_year(name: str) -> bool:
   return name.isdigit() and len(name) == 4
