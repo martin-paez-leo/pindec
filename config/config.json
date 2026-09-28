@@ -56,7 +56,7 @@
       "activity": [
         {
           "name": "Tabla Letras",
-          "skiprows": 273,
+          "skiprows": 276,
           "columns": [
             "anio",
             "mes",
@@ -80,7 +80,7 @@
         },
         {
           "name": "Tabla Var Letras",
-          "skiprows": 262,
+          "skiprows": 264,
           "columns": [
             "anio",
             "mes",
@@ -106,7 +106,7 @@
       "monthly": [
         {
           "name": "Tabla",
-          "skiprows": 274,
+          "skiprows": 276,
           "columns": [
             "anio",
             "mes",

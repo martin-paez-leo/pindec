@@ -90,6 +90,21 @@
         "indice": 155.310274,
         "mensual": 0.246159
       }
+    },
+    {
+      "periodo": "2026-07",
+      "original": {
+        "indice": 151.554151,
+        "interanual": -1.441765
+      },
+      "desestacionalizada": {
+        "indice": 149.647923,
+        "mensual": -2.899961
+      },
+      "tendencia_ciclo": {
+        "indice": 155.764855,
+        "mensual": 0.199628
+      }
     }
   ]
 }
