@@ -179,6 +179,16 @@ class TestGenerateParentIndexes:
     generate_cba_cbt_parent_indexes()
     generate_emae_parent_indexes()
 
+  def test_ipc_year_dirs_are_not_treated_as_clasificaciones(self, tmp_path, monkeypatch):
+    """Las carpetas de anios viven junto a las clasificaciones y no deben sobrescribirse."""
+    monkeypatch.setattr("api.API_DIR", tmp_path)
+    self._seed(tmp_path, [
+      "ipc/2016", "ipc/Nacional/2016", "ipc/Nacional/COICOP/0/2016",
+    ])
+    generate_ipc_parent_indexes()
+    assert not (tmp_path / "ipc" / "Nacional" / "2016" / "index.json").exists()
+    assert (tmp_path / "ipc" / "Nacional" / "COICOP" / "index.json").exists()
+
 
 class TestGenerateIpcIndex:
   def test_generate_index(self, tmp_path, monkeypatch):

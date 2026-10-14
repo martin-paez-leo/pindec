@@ -35,7 +35,7 @@ def generate_ipc_parent_indexes():
     return
 
   for region_dir in (d for d in ipc_dir.iterdir() if d.is_dir() and not _is_year(d.name)):
-    for clas_dir in (d for d in region_dir.iterdir() if d.is_dir()):
+    for clas_dir in (d for d in region_dir.iterdir() if d.is_dir() and not _is_year(d.name)):
       write_json(clas_dir / "index.json", {
         "indicador": "ipc",
         "region": region_dir.name,
