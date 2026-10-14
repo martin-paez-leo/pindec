@@ -7,7 +7,7 @@ let currentMode = 'guide';
 function fetchJSON(url) {
   return fetch(url, { headers: { Accept: 'application/json' } }).then(r => {
     if (!r.ok) throw new Error('HTTP ' + r.status);
-    return r.json();
+    return r.text().then(body => ({ data: JSON.parse(body), bytes: body.length }));
   });
 }
 
@@ -266,11 +266,11 @@ async function run(url) {
   const start = performance.now();
 
   try {
-    const data = await fetchJSON(url);
+    const res = await fetchJSON(url);
     const ms = Math.round(performance.now() - start);
-    out.innerHTML = syntaxHighlight(JSON.stringify(data, null, 2));
+    out.innerHTML = syntaxHighlight(JSON.stringify(res.data, null, 2));
     status.className = 'status-line';
-    status.textContent = '200 OK · ' + ms + ' ms · ' + out.textContent.length + ' bytes';
+    status.textContent = '200 OK · ' + ms + ' ms · ' + fmtBytes(res.bytes);
     pushHistory(url);
   } catch (err) {
     out.innerHTML = '<span class="err">Error: ' + escapeHtml(err.message) + '</span>';
@@ -279,6 +279,12 @@ async function run(url) {
   } finally {
     btn.disabled = false; btn.textContent = 'Ejecutar';
   }
+}
+
+function fmtBytes(n) {
+  if (n < 1024) return n + ' B';
+  if (n < 1024 * 1024) return (n / 1024).toFixed(1) + ' KB';
+  return (n / 1024 / 1024).toFixed(2) + ' MB';
 }
 
 function pushHistory(url) {
@@ -333,7 +339,7 @@ async function loadStats() {
     const index = await fetchIndex('ipc');
     const allYears = Object.keys(index.datos || {}).filter(k => /^\d{4}$/.test(k));
     const lastYear = Math.max(...allYears.map(Number));
-    const ipc = await fetchJSON('/v1/ipc/Nacional/' + lastYear + '/');
+    const { data: ipc } = await fetchJSON('/v1/ipc/Nacional/' + lastYear + '/');
     const nivel = ipc.datos.COICOP.find(c => c.codigo === '0');
     if (nivel && nivel.historico.length) {
       const last = nivel.historico[nivel.historico.length - 1];
@@ -346,7 +352,7 @@ async function loadStats() {
     const index = await fetchIndex('cba-cbt');
     const allYears = Object.keys(index.datos || {}).filter(k => /^\d{4}$/.test(k));
     const lastYear = Math.max(...allYears.map(Number));
-    const cba = await fetchJSON('/v1/cba-cbt/' + lastYear + '/');
+    const { data: cba } = await fetchJSON('/v1/cba-cbt/' + lastYear + '/');
     const last = cba.adulto_equivalente[cba.adulto_equivalente.length - 1];
     if (last) animateValue(document.getElementById('stat-cba'), last.cba.indice, { prefix: '$', decimals: 2 });
   }
@@ -354,7 +360,7 @@ async function loadStats() {
     const index = await fetchIndex('emae');
     const allYears = Object.keys(index.datos || {}).filter(k => /^\d{4}$/.test(k));
     const lastYear = Math.max(...allYears.map(Number));
-    const emae = await fetchJSON('/v1/emae/' + lastYear + '/');
+    const { data: emae } = await fetchJSON('/v1/emae/' + lastYear + '/');
     const nivel = emae.datos.nivel_general[emae.datos.nivel_general.length - 1];
     if (nivel) {
       animateValue(document.getElementById('stat-emae'), nivel.original.indice, { decimals: 2 });
@@ -365,7 +371,7 @@ async function loadStats() {
     const index = await fetchIndex('ica');
     const allYears = Object.keys(index.datos || {}).filter(k => /^\d{4}$/.test(k));
     const lastYear = Math.max(...allYears.map(Number));
-    const ica = await fetchJSON('/v1/ica/' + lastYear + '/');
+    const { data: ica } = await fetchJSON('/v1/ica/' + lastYear + '/');
     const last = ica.datos[ica.datos.length - 1];
     if (last) animateValue(document.getElementById('stat-ica'), last.saldo, { decimals: 1 });
   }
