@@ -15,7 +15,11 @@ const indexFetches = {};
 function fetchIndex(ind) {
   if (!indexFetches[ind]) {
     indexFetches[ind] = fetchJSON('/v1/' + ind + '/index.json').then(
-      idx => { builderData[ind] = idx; indexFetches[ind] = idx; return idx; },
+      res => {
+        builderData[ind] = res.data;
+        indexFetches[ind] = res.data;
+        return res.data;
+      },
       err => { indexFetches[ind] = null; throw err; }
     );
   }
