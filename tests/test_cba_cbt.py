@@ -4,13 +4,11 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
 import pandas as pd
-import pytest
 
 from extractors.cba_cbt import _data_window
 
 
 def _sheet(dates, values, footnotes):
-  """Reconstruye una hoja: cabecera, filas de datos y pie de notas."""
   rows = [["Fuente de prueba", None, None, None]]
   for date, value in zip(dates, values):
     rows.append([pd.Timestamp(date), value, value * 2, None])
@@ -29,7 +27,6 @@ class TestDataWindow:
     assert window.iloc[:, 0].tolist() == [pd.Timestamp("2026-01-01"), pd.Timestamp("2026-02-01")]
 
   def test_excludes_footnote_block(self):
-    """El pie de notas no es una fecha, asi que nunca debe entrar."""
     df = _sheet(
       ["2026-01-01", "2026-02-01"],
       [100.0, 110.0],
@@ -73,7 +70,6 @@ class TestDataWindow:
     assert _data_window(pd.DataFrame(), 8).empty
 
   def test_drops_all_empty_columns(self):
-    """La columna fantasma entre cba y cbt debe caer antes de mapear."""
     df = pd.DataFrame(
       [
         ["2026-01-01", 100.0, None, 200.0],

@@ -82,7 +82,6 @@ class TestNeedsUpdateMultipleUrls:
     assert changed is True
 
   def test_one_changed_is_enough(self, monkeypatch):
-    """Si cambia una sola de las dos fuentes, el indicador debe reprocesarse."""
     remote = {"http://x/m.xls": "Mon, 01 Jan 2026 00:00:00 GMT", "http://x/a.xls": "Tue, 02 Jan 2026 00:00:00 GMT"}
     monkeypatch.setattr(checker, "check_update", lambda url: remote[url])
     local = {"last-modified": {"monthly": "Mon, 01 Jan 2026 00:00:00 GMT", "activity": "Mon, 01 Jan 2026 00:00:00 GMT"}}
@@ -103,8 +102,6 @@ class TestNeedsUpdateMultipleUrls:
 
 
 class TestNeedsUpdateMissingHeader:
-  """Sin Last-Modified no hay nada con que comparar, asi que se reintenta siempre."""
-
   def test_missing_header_is_stale(self, monkeypatch):
     monkeypatch.setattr(checker, "check_update", lambda url: None)
     changed, remote = needs_update({"last-modified": None}, "http://x/a.xls")

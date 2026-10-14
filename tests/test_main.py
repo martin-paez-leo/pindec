@@ -4,8 +4,6 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
-import pytest
-
 from main import _save_ipc, _save_cba_cbt, _save_ica, _save_emae, _merge_into_existing, _merge_sectores, _update_emae_skiprows, _update_cba_cbt_skiprows, _update_default_skiprows
 
 
@@ -363,7 +361,6 @@ class TestRunEndToEnd:
     }
 
   def test_does_not_advance_metadata_when_no_rows(self, tmp_path, monkeypatch):
-    """Un extractor que no logra parsear nada no debe marcar la fuente como leida."""
     def extract_empty(config):
       return [], None
 
@@ -375,7 +372,6 @@ class TestRunEndToEnd:
     assert saved_metadata == {}
 
   def test_partial_empty_subcategory_keeps_metadata(self, tmp_path, monkeypatch):
-    """Con filas en una subcategoria, la metadata si avanza."""
     def extract_partial(config):
       return {"adulto_equivalente": [], "hogares": []}, {"CBA-CBT": 131, "Variaciones": 132, "Hogares": 131}
 
@@ -403,6 +399,7 @@ class TestRunEndToEnd:
     }
     run = self._setup(tmp_path, monkeypatch, extractors)
 
+    import pytest
     with pytest.raises(SystemExit) as exc:
       run()
 
@@ -433,6 +430,7 @@ class TestRunEndToEnd:
     run = self._setup(tmp_path, monkeypatch, extractors)
     monkeypatch.setattr(checker, "check_update", fake_check_update)
 
+    import pytest
     with pytest.raises(SystemExit):
       run()
 

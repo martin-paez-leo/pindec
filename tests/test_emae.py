@@ -3,8 +3,6 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
-import pytest
-
 from extractors.emae import _build_period
 
 
@@ -22,9 +20,11 @@ class TestBuildPeriod:
     assert _build_period({"mes": "Mayoe", "anio": 2026}) == "2026-05"
 
   def test_unknown_month_raises(self):
+    import pytest
     with pytest.raises(ValueError):
       _build_period({"mes": "Foo", "anio": 2026})
 
   def test_non_numeric_year_raises(self):
+    import pytest
     with pytest.raises(ValueError):
       _build_period({"mes": "Mayo", "anio": "N/D"})

@@ -16,7 +16,6 @@ def save_metadata(path: Path, metadata: dict):
     json.dump(metadata, f, indent=2)
 
 def _is_stale(local, remote) -> bool:
-  """Sin Last-Modified no hay forma de comparar: hay que reintentar siempre."""
   if remote is None:
     return True
   return local != remote
