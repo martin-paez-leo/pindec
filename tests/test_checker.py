@@ -42,6 +42,11 @@ class TestSaveMetadata:
     loaded = load_metadata(file)
     assert loaded == {"b": 2}
 
+  def test_creates_parent_directory(self, tmp_path):
+    file = tmp_path / "config" / "metadata.json"
+    save_metadata(file, {"a": 1})
+    assert file.exists()
+
 
 class TestNeedsUpdateSingleUrl:
   def test_unchanged(self, monkeypatch):
@@ -95,3 +100,31 @@ class TestNeedsUpdateMultipleUrls:
     import pytest
     with pytest.raises(ValueError):
       needs_update({}, ["http://x/a.xls"])
+
+
+class TestNeedsUpdateMissingHeader:
+  """Sin Last-Modified no hay nada con que comparar, asi que se reintenta siempre."""
+
+  def test_missing_header_is_stale(self, monkeypatch):
+    monkeypatch.setattr(checker, "check_update", lambda url: None)
+    changed, remote = needs_update({"last-modified": None}, "http://x/a.xls")
+    assert changed is True
+    assert remote is None
+
+  def test_missing_header_stays_stale_after_first_run(self, monkeypatch):
+    monkeypatch.setattr(checker, "check_update", lambda url: None)
+    first, _ = needs_update({}, "http://x/a.xls")
+    second, _ = needs_update({"last-modified": None}, "http://x/a.xls")
+    assert first is True
+    assert second is True
+
+  def test_missing_header_in_multipart_is_stale(self, monkeypatch):
+    monkeypatch.setattr(checker, "check_update", lambda url: None)
+    local = {"last-modified": {"monthly": None, "activity": None}}
+    changed, _ = needs_update(local, TestNeedsUpdateMultipleUrls.URLS)
+    assert changed is True
+
+  def test_present_header_still_compares(self, monkeypatch):
+    monkeypatch.setattr(checker, "check_update", lambda url: "Mon, 01 Jan 2026 00:00:00 GMT")
+    changed, _ = needs_update({"last-modified": "Mon, 01 Jan 2026 00:00:00 GMT"}, "http://x/a.xls")
+    assert changed is False
