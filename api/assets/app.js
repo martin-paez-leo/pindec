@@ -15,11 +15,22 @@ const indexFetches = {};
 function fetchIndex(ind) {
   if (!indexFetches[ind]) {
     indexFetches[ind] = fetchJSON('/v1/' + ind + '/index.json').then(
-      idx => { builderData[ind] = idx; indexFetches[ind] = null; return idx; },
+      idx => { builderData[ind] = idx; indexFetches[ind] = idx; return idx; },
       err => { indexFetches[ind] = null; throw err; }
     );
   }
   return indexFetches[ind];
+}
+
+const resourceFetches = {};
+function fetchResource(url) {
+  if (!resourceFetches[url]) {
+    resourceFetches[url] = fetchJSON(url).then(
+      data => { resourceFetches[url] = data; return data; },
+      err => { resourceFetches[url] = null; throw err; }
+    );
+  }
+  return resourceFetches[url];
 }
 
 /* ---------- URL building ---------- */
@@ -65,6 +76,109 @@ function setLabel(id, text) {
   if (label) label.textContent = text;
 }
 
+/* ---------- Indicator metadata (lightweight, per-directory indexes) ---------- */
+const builderMeta = {};
+
+const META_SPEC = {
+  ipc: {
+    nivel1Label: 'Región',
+    nivel2Label: 'Clasificación',
+    nivel3Label: 'Código',
+    load: async () => {
+      const idx = await fetchIndex('ipc');
+      const years = Object.keys(idx.datos || {}).filter(k => /^\d{4}$/.test(k)).sort();
+      const regions = [];
+      if (years.length) {
+        for (const region of Object.keys(idx.datos[years[years.length - 1]] || {})) {
+          regions.push(region);
+        }
+      }
+      return {
+        years,
+        subcategorias: regions.sort(),
+        detail: region => {
+          const clasifs = new Set();
+          for (const year of years) {
+            for (const c of Object.keys((idx.datos[year] || {})[region] || {})) clasifs.add(c);
+          }
+          const list = Array.from(clasifs).sort();
+          return {
+            codigos: list,
+            nivel3: clasif => {
+              const codes = new Set();
+              for (const year of years) {
+                const clasifData = ((idx.datos[year] || {})[region] || {})[clasif] || [];
+                for (const c of clasifData) codes.add(String(c.codigo));
+              }
+              return Array.from(codes);
+            }
+          };
+        }
+      };
+    }
+  },
+  'cba-cbt': {
+    subcategoriaLabel: 'Subcategoría',
+    load: async () => {
+      const idx = await fetchIndex('cba-cbt');
+      const years = Object.keys(idx.datos || {}).filter(k => /^\d{4}$/.test(k)).sort();
+      const subs = [];
+      if (years.length) {
+        const last = idx.datos[years[years.length - 1]] || {};
+        if (last.adulto_equivalente) subs.push('adulto-equivalente');
+        if (last.hogares) subs.push('hogares');
+      }
+      return { years, subcategorias: subs, detail: () => ({}) };
+    }
+  },
+  emae: {
+    subcategoriaLabel: 'Subcategoría',
+    nivel2Label: 'Sector',
+    load: async () => {
+      const idx = await fetchIndex('emae');
+      const years = Object.keys(idx.datos || {}).filter(k => /^\d{4}$/.test(k)).sort();
+      const subs = [];
+      let sectorIdx = null;
+      if (years.length) {
+        const last = idx.datos[years[years.length - 1]] || {};
+        if (last.nivel_general) subs.push('nivel-general');
+        if (last.sectores) subs.push('sectores');
+        if (last.impuestos_netos_subsidios) subs.push('impuestos');
+      }
+      if (subs.includes('sectores')) {
+        try {
+          sectorIdx = await fetchResource('/v1/emae/sectores/index.json');
+        } catch (e) { sectorIdx = null; }
+      }
+      return {
+        years,
+        subcategorias: subs,
+        detail: sub => (sub === 'sectores' && sectorIdx
+          ? { codigos: sectorIdx.codigos || [] }
+          : {})
+      };
+    }
+  },
+  ica: {
+    load: async () => {
+      const idx = await fetchIndex('ica');
+      const years = Object.keys(idx.datos || {}).filter(k => /^\d{4}$/.test(k)).sort();
+      return { years, subcategorias: [], detail: () => ({}) };
+    }
+  }
+};
+
+async function loadIndicatorMeta(ind) {
+  const spec = META_SPEC[ind];
+  if (!spec) return null;
+  try {
+    builderMeta[ind] = await spec.load();
+  } catch (e) {
+    builderMeta[ind] = null;
+  }
+  return builderMeta[ind];
+}
+
 async function loadBuilder() {
   const ind = document.getElementById('pg-ind').value;
   const f1 = document.getElementById('pg-f1');
@@ -73,49 +187,23 @@ async function loadBuilder() {
   const yearInput = document.getElementById('pg-year');
   const yearWrap = document.getElementById('pg-year').parentElement;
 
-  if (!builderData[ind]) {
-    try {
-      await fetchIndex(ind);
-    } catch (e) {
-      builderData[ind] = null;
-    }
-  }
-  const data = builderData[ind];
-
   f1.value = ''; f2.value = ''; f3.value = '';
   hideField('pg-f1'); hideField('pg-f2'); hideField('pg-f3');
+  builderMeta[ind] = null;
 
-  if (!data) { updateUrlBar(); return; }
+  const meta = await loadIndicatorMeta(ind);
+  if (!meta) { updateUrlBar(); return; }
 
-  const datos = data.datos || {};
-  const allYears = Object.keys(datos).filter(k => /^\d{4}$/.test(k)).sort();
-
-  if (ind === 'ipc') {
-    setLabel('pg-f1', 'Región');
-    setLabel('pg-f2', 'Clasificación');
-    const regions = Object.keys(datos);
-    if (regions.length) setField('pg-f1', regions, f1.dataset.last);
-  } else if (ind === 'cba-cbt') {
-    setLabel('pg-f1', 'Subcategoría');
-    const subs = [];
-    if (datos[allYears[0]]?.adulto_equivalente) subs.push('adulto-equivalente');
-    if (datos[allYears[0]]?.hogares) subs.push('hogares');
-    if (subs.length) setField('pg-f1', subs, f1.dataset.last);
-  } else if (ind === 'emae') {
-    setLabel('pg-f1', 'Subcategoría');
-    const firstYearData = datos[allYears[0]] || {};
-    const subs = [];
-    if (firstYearData.nivel_general) subs.push('nivel-general');
-    if (firstYearData.sectores) subs.push('sectores');
-    if (firstYearData.impuestos_netos_subsidios) subs.push('impuestos');
-    if (subs.length) setField('pg-f1', subs, f1.dataset.last);
+  if (meta.subcategorias) {
+    setLabel('pg-f1', meta.subcategoriaLabel || 'Subcategoría');
+    if (meta.subcategorias.length) setField('pg-f1', meta.subcategorias, f1.value);
   }
 
-  if (allYears.length) {
+  if (meta.years.length) {
     yearWrap.style.display = 'flex';
     yearInput.disabled = false;
     yearInput.value = '';
-    yearInput.placeholder = allYears[0] + '–' + allYears[allYears.length - 1];
+    yearInput.placeholder = meta.years[0] + '–' + meta.years[meta.years.length - 1];
   } else {
     yearWrap.style.display = 'none';
   }
@@ -130,47 +218,16 @@ async function onF1Change() {
   const f3 = document.getElementById('pg-f3');
   f2.value = ''; f3.value = '';
   hideField('pg-f2'); hideField('pg-f3');
-  if (!f1) { updateUrlBar(); return; }
 
-  const data = builderData[ind];
-  if (!data) { updateUrlBar(); return; }
+  const meta = builderMeta[ind];
+  if (!f1 || !meta) { updateUrlBar(); return; }
 
-  const datos = data.datos || {};
+  const detail = meta.detail(f1);
+  if (!detail) { updateUrlBar(); return; }
 
-  if (ind === 'ipc') {
-    const regionClasifs = {};
-    for (const [year, yearData] of Object.entries(datos)) {
-      if (!/^\d{4}$/.test(year)) continue;
-      const regionData = yearData[f1];
-      if (!regionData) continue;
-      for (const clasif of Object.keys(regionData)) {
-        if (!regionClasifs[clasif]) regionClasifs[clasif] = new Set();
-        for (const codeObj of regionData[clasif]) {
-          regionClasifs[clasif].add(codeObj.codigo);
-        }
-      }
-    }
-    const clasifs = Object.keys(regionClasifs);
-    if (clasifs.length) {
-      setLabel('pg-f2', 'Clasificación');
-      setField('pg-f2', clasifs, f2.dataset.last);
-      window._ipcRegionClasifs = regionClasifs;
-    }
-  } else if (ind === 'emae') {
-    if (f1 === 'sectores') {
-      const allCodes = [];
-      const seen = new Set();
-      for (const [year, yearData] of Object.entries(datos)) {
-        if (!/^\d{4}$/.test(year) || !yearData.sectores) continue;
-        for (const s of yearData.sectores) {
-          if (!seen.has(s.codigo)) { seen.add(s.codigo); allCodes.push(s.codigo); }
-        }
-      }
-      if (allCodes.length) {
-        setLabel('pg-f2', 'Sector');
-        setField('pg-f2', allCodes, f2.dataset.last);
-      }
-    }
+  if (detail.codigos) {
+    setLabel('pg-f2', meta.nivel2Label || 'Clasificación');
+    setField('pg-f2', detail.codigos, f2.value);
   }
 
   updateUrlBar();
@@ -185,16 +242,13 @@ async function onF2Change() {
   hideField('pg-f3');
   if (!f2) { updateUrlBar(); return; }
 
-  const data = builderData[ind];
-  if (!data) { updateUrlBar(); return; }
+  const meta = builderMeta[ind];
+  if (!meta) { updateUrlBar(); return; }
 
-  if (ind === 'ipc') {
-    const regionClasifs = window._ipcRegionClasifs || {};
-    const codes = Array.from(regionClasifs[f2] || []);
-    if (codes.length) {
-      setLabel('pg-f3', 'Código');
-      setField('pg-f3', codes, f3.dataset.last);
-    }
+  const detail = meta.detail(f1);
+  if (detail && detail.nivel3) {
+    setLabel('pg-f3', meta.nivel3Label || 'Código');
+    setField('pg-f3', detail.nivel3(f2), f3.value);
   }
 
   updateUrlBar();
