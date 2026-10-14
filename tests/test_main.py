@@ -297,8 +297,9 @@ class TestMergeSectoresComplete:
 
 
 class TestRunEndToEnd:
-  def test_extracts_and_saves_all_indicators(self, tmp_path, monkeypatch):
-    monkeypatch.setattr("main.API_DIR", tmp_path)
+  def _setup(self, tmp_path, monkeypatch, extractors):
+    monkeypatch.setattr("main.API_DIR", tmp_path / "v1")
+    monkeypatch.setattr("api.API_DIR", tmp_path / "v1")
     monkeypatch.setattr("main.CONFIG_PATH", tmp_path / "config.json")
     monkeypatch.setattr("main.METADATA_PATH", tmp_path / "metadata.json")
 
@@ -311,42 +312,74 @@ class TestRunEndToEnd:
     (tmp_path / "config.json").write_text(json.dumps(config))
     (tmp_path / "metadata.json").write_text("{}")
 
+    monkeypatch.setattr("checker.check_update", lambda url: "Mon, 01 Sep 2026 00:00:00 GMT")
+    monkeypatch.setattr("main.EXTRACTORS", extractors)
+
+    from main import run
+    return run
+
+  def test_extracts_and_saves_all_indicators(self, tmp_path, monkeypatch):
     calls = {"ipc": 0, "cba-cbt": 0, "emae": 0, "ica": 0}
 
     def extract_ipc(config):
       calls["ipc"] += 1
-      return [], None
+      return [{"periodo": "2026-08", "region": "Nacional", "clasificacion": "COICOP", "codigo": "0", "nombre": "Nivel general", "indice": 100.0, "mensual": 1.0, "interanual": 30.0}], None
 
     def extract_cba(config):
       calls["cba-cbt"] += 1
-      return {"adulto_equivalente": [], "hogares": []}, {"CBA-CBT": 131, "Variaciones": 132, "Hogares": 131}
+      return {"adulto_equivalente": [{"fecha": "2026-08", "cba": 235103.36, "coef_engel": 2.21, "cbt": 519578.43, "cba_mensual": 2.6, "cba_interanual": 39.6, "cbt_mensual": 2.6, "cbt_interanual": 38.3}], "hogares": [{"fecha": "2026-08", "cba_h1": 1.0, "cba_h2": 2.0, "cba_h3": 3.0, "cbt_h1": 4.0, "cbt_h2": 5.0, "cbt_h3": 6.0}]}, {"CBA-CBT": 131, "Variaciones": 132, "Hogares": 131}
 
     def extract_emae(config):
       calls["emae"] += 1
-      return {"nivel_general": [], "sectores": [], "impuestos_netos_subsidios": {"historico": []}}, {"monthly": [{"name": "Tabla", "skiprows": 275, "columns": []}], "activity": [{"name": "Tabla Letras", "skiprows": 274, "columns": []}, {"name": "Tabla Var Letras", "skiprows": 263, "columns": []}]}
+      return {"nivel_general": [{"periodo": "2026-07", "original": {"indice": 161.0, "interanual": 2.7}, "desestacionalizada": {"indice": 1.0, "mensual": 0.1}, "tendencia_ciclo": {"indice": 1.0, "mensual": 0.1}}], "sectores": [{"codigo": "A", "nombre": "Agricultura", "historico": [{"periodo": "2026-07", "indice": 1.0, "interanual": 1.0}]}], "impuestos_netos_subsidios": {"historico": [{"periodo": "2026-07", "indice": 1.0, "interanual": 1.0}]}}, {"monthly": [{"name": "Tabla", "skiprows": 275, "columns": []}], "activity": [{"name": "Tabla Letras", "skiprows": 274, "columns": []}, {"name": "Tabla Var Letras", "skiprows": 263, "columns": []}]}
 
     def extract_ica(config):
       calls["ica"] += 1
-      return [], {"sheets": [{"name": "FOB-CIF", "skiprows": 481, "columns": []}]}
+      return [{"periodo": "2026-07", "exportaciones": {"mensual": 1.0, "acumulado": 1.0, "var_interanual_mensual": 1.0, "var_interanual_acumulada": 1.0}, "importaciones": {"mensual": 1.0, "acumulado": 1.0, "var_interanual_mensual": 1.0, "var_interanual_acumulada": 1.0}, "saldo": 1.0}], {"sheets": [{"name": "FOB-CIF", "skiprows": 481, "columns": []}]}
 
-    monkeypatch.setattr("checker.check_update", lambda url: "Mon, 01 Sep 2026 00:00:00 GMT")
-    monkeypatch.setattr("main.EXTRACTORS", {
+    extractors = {
       "ipc": type("E", (), {"extract": staticmethod(extract_ipc)})(),
       "cba-cbt": type("E", (), {"extract": staticmethod(extract_cba)})(),
       "emae": type("E", (), {"extract": staticmethod(extract_emae)})(),
       "ica": type("E", (), {"extract": staticmethod(extract_ica)})(),
-    })
+    }
 
-    from main import run
+    run = self._setup(tmp_path, monkeypatch, extractors)
     run()
 
-    assert calls["ipc"] == 1
-    assert calls["cba-cbt"] == 1
-    assert calls["emae"] == 1
-    assert calls["ica"] == 1
+    assert calls == {"ipc": 1, "cba-cbt": 1, "emae": 1, "ica": 1}
 
     saved_config = json.loads((tmp_path / "config.json").read_text())
     assert saved_config["cba-cbt"]["sheets"][0]["skiprows"] == 131
 
     saved_metadata = json.loads((tmp_path / "metadata.json").read_text())
-    assert saved_metadata["ipc"]["last-modified"] == "Mon, 01 Sep 2026 00:00:00 GMT"
+    for name in ("ipc", "cba-cbt", "ica"):
+      assert saved_metadata[name]["last-modified"] == "Mon, 01 Sep 2026 00:00:00 GMT"
+    assert saved_metadata["emae"]["last-modified"] == {
+      "monthly": "Mon, 01 Sep 2026 00:00:00 GMT",
+      "activity": "Mon, 01 Sep 2026 00:00:00 GMT",
+    }
+
+  def test_does_not_advance_metadata_when_no_rows(self, tmp_path, monkeypatch):
+    """Un extractor que no logra parsear nada no debe marcar la fuente como leida."""
+    def extract_empty(config):
+      return [], None
+
+    extractors = {"ipc": type("E", (), {"extract": staticmethod(extract_empty)})()}
+    run = self._setup(tmp_path, monkeypatch, extractors)
+    run()
+
+    saved_metadata = json.loads((tmp_path / "metadata.json").read_text())
+    assert saved_metadata == {}
+
+  def test_partial_empty_subcategory_keeps_metadata(self, tmp_path, monkeypatch):
+    """Con filas en una subcategoria, la metadata si avanza."""
+    def extract_partial(config):
+      return {"adulto_equivalente": [], "hogares": []}, {"CBA-CBT": 131, "Variaciones": 132, "Hogares": 131}
+
+    extractors = {"cba-cbt": type("E", (), {"extract": staticmethod(extract_partial)})()}
+    run = self._setup(tmp_path, monkeypatch, extractors)
+    run()
+
+    saved_metadata = json.loads((tmp_path / "metadata.json").read_text())
+    assert saved_metadata == {}

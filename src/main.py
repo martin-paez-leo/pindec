@@ -182,6 +182,13 @@ _SAVERS = {
   "ica": _save_ica,
 }
 
+def _row_count(data) -> int:
+  if isinstance(data, list):
+    return len(data)
+  if isinstance(data, dict):
+    return sum(_row_count(v) for v in data.values())
+  return 0
+
 def _update_emae_skiprows(sheets, new_skiprows):
   for key in ("monthly", "activity"):
     if key in new_skiprows and key in sheets:
@@ -231,6 +238,11 @@ def run():
 
     print(f"{name}: extracting...")
     data, new_skiprows = extractor.extract(indicator_config)
+
+    if _row_count(data) == 0:
+      print(f"{name}: skipped (no rows extracted, metadata not advanced)")
+      continue
+
     _SAVERS[name](data)
 
     metadata[name] = {"last-modified": last_modified}
