@@ -255,12 +255,25 @@ async function onF2Change() {
 }
 
 /* ---------- Request execution ---------- */
+function setBusy(busy) {
+  for (const id of ['pg-run', 'raw-run']) {
+    const btn = document.getElementById(id);
+    if (!btn) continue;
+    btn.disabled = busy;
+    if (busy) {
+      if (!btn.dataset.label) btn.dataset.label = btn.textContent;
+      btn.textContent = 'Cargando…';
+    } else if (btn.dataset.label) {
+      btn.textContent = btn.dataset.label;
+    }
+  }
+}
+
 async function run(url) {
   const out = document.getElementById('pg-output');
   const status = document.getElementById('pg-status');
-  const btn = document.getElementById('pg-run');
 
-  btn.disabled = true; btn.textContent = 'Cargando…';
+  setBusy(true);
   status.className = 'status-line waiting loading';
   status.textContent = 'Solicitando ' + url + '…';
   const start = performance.now();
@@ -277,7 +290,7 @@ async function run(url) {
     status.className = 'status-line fail';
     status.textContent = 'Solicitud fallida';
   } finally {
-    btn.disabled = false; btn.textContent = 'Ejecutar';
+    setBusy(false);
   }
 }
 
