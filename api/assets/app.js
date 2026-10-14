@@ -30,7 +30,10 @@ const resourceFetches = {};
 function fetchResource(url) {
   if (!resourceFetches[url]) {
     resourceFetches[url] = fetchJSON(url).then(
-      data => { resourceFetches[url] = data; return data; },
+      res => {
+        resourceFetches[url] = res.data;
+        return res.data;
+      },
       err => { resourceFetches[url] = null; throw err; }
     );
   }
@@ -122,7 +125,7 @@ const META_SPEC = {
     }
   },
   'cba-cbt': {
-    subcategoriaLabel: 'Subcategoría',
+    nivel1Label: 'Subcategoría',
     load: async () => {
       const idx = await fetchIndex('cba-cbt');
       const years = Object.keys(idx.datos || {}).filter(k => /^\d{4}$/.test(k)).sort();
@@ -136,7 +139,7 @@ const META_SPEC = {
     }
   },
   emae: {
-    subcategoriaLabel: 'Subcategoría',
+    nivel1Label: 'Subcategoría',
     nivel2Label: 'Sector',
     load: async () => {
       const idx = await fetchIndex('emae');
@@ -176,7 +179,11 @@ async function loadIndicatorMeta(ind) {
   const spec = META_SPEC[ind];
   if (!spec) return null;
   try {
-    builderMeta[ind] = await spec.load();
+    const meta = await spec.load();
+    meta.nivel1Label = spec.nivel1Label;
+    meta.nivel2Label = spec.nivel2Label;
+    meta.nivel3Label = spec.nivel3Label;
+    builderMeta[ind] = meta;
   } catch (e) {
     builderMeta[ind] = null;
   }
@@ -199,7 +206,7 @@ async function loadBuilder() {
   if (!meta) { updateUrlBar(); return; }
 
   if (meta.subcategorias) {
-    setLabel('pg-f1', meta.subcategoriaLabel || 'Subcategoría');
+    setLabel('pg-f1', meta.nivel1Label || 'Subcategoría');
     if (meta.subcategorias.length) setField('pg-f1', meta.subcategorias, f1.value);
   }
 
