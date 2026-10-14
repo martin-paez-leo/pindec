@@ -4,6 +4,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
+import pytest
+
 from main import _save_ipc, _save_cba_cbt, _save_ica, _save_emae, _merge_into_existing, _merge_sectores, _update_emae_skiprows, _update_cba_cbt_skiprows, _update_default_skiprows
 
 
@@ -383,3 +385,57 @@ class TestRunEndToEnd:
 
     saved_metadata = json.loads((tmp_path / "metadata.json").read_text())
     assert saved_metadata == {}
+
+  def test_one_failure_does_not_stop_the_others(self, tmp_path, monkeypatch):
+    calls = {"ipc": 0, "ica": 0}
+
+    def extract_ipc(config):
+      calls["ipc"] += 1
+      raise ValueError("csv corrupto")
+
+    def extract_ica(config):
+      calls["ica"] += 1
+      return [{"periodo": "2026-07", "exportaciones": {"mensual": 1.0, "acumulado": 1.0, "var_interanual_mensual": 1.0, "var_interanual_acumulada": 1.0}, "importaciones": {"mensual": 1.0, "acumulado": 1.0, "var_interanual_mensual": 1.0, "var_interanual_acumulada": 1.0}, "saldo": 1.0}], {"sheets": [{"name": "FOB-CIF", "skiprows": 481, "columns": []}]}
+
+    extractors = {
+      "ipc": type("E", (), {"extract": staticmethod(extract_ipc)})(),
+      "ica": type("E", (), {"extract": staticmethod(extract_ica)})(),
+    }
+    run = self._setup(tmp_path, monkeypatch, extractors)
+
+    with pytest.raises(SystemExit) as exc:
+      run()
+
+    assert "ipc" in str(exc.value)
+    assert calls == {"ipc": 1, "ica": 1}
+
+    saved_metadata = json.loads((tmp_path / "metadata.json").read_text())
+    assert "ipc" not in saved_metadata
+    assert saved_metadata["ica"]["last-modified"] == "Mon, 01 Sep 2026 00:00:00 GMT"
+    assert (tmp_path / "v1" / "ica" / "2026" / "index.json").exists()
+
+  def test_failure_in_check_update_does_not_stop_the_others(self, tmp_path, monkeypatch):
+    import checker
+
+    def extract_ica(config):
+      return [{"periodo": "2026-07", "exportaciones": {"mensual": 1.0, "acumulado": 1.0, "var_interanual_mensual": 1.0, "var_interanual_acumulada": 1.0}, "importaciones": {"mensual": 1.0, "acumulado": 1.0, "var_interanual_mensual": 1.0, "var_interanual_acumulada": 1.0}, "saldo": 1.0}], {"sheets": [{"name": "FOB-CIF", "skiprows": 481, "columns": []}]}
+
+    extractors = {
+      "ipc": type("E", (), {"extract": staticmethod(lambda c: ([], None))})(),
+      "ica": type("E", (), {"extract": staticmethod(extract_ica)})(),
+    }
+
+    def fake_check_update(url):
+      if url.endswith(".csv"):
+        raise ConnectionError("INDEC no responde")
+      return "Mon, 01 Sep 2026 00:00:00 GMT"
+
+    run = self._setup(tmp_path, monkeypatch, extractors)
+    monkeypatch.setattr(checker, "check_update", fake_check_update)
+
+    with pytest.raises(SystemExit):
+      run()
+
+    saved_metadata = json.loads((tmp_path / "metadata.json").read_text())
+    assert "ipc" not in saved_metadata
+    assert "ica" in saved_metadata

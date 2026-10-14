@@ -1,4 +1,6 @@
 import json
+import sys
+
 from checker import load_metadata, save_metadata, needs_update
 from extractors import ipc, cba_cbt, emae, ica
 from utils import to_native, load_json, write_json, extract_year, group_by_year, merge, API_DIR, ROOT
@@ -220,34 +222,43 @@ def update_skiprows(config, name, new_skiprows):
   elif "sheets" in config[name]:
     _update_default_skiprows(config[name]["sheets"], new_skiprows)
 
+def process_indicator(name, extractor, indicator_config, metadata, config):
+  url = indicator_config.get("urls") or indicator_config.get("url")
+  changed, last_modified = needs_update(metadata.get(name, {}), url)
+
+  if not changed:
+    print(f"{name}: no updates")
+    return
+
+  print(f"{name}: extracting...")
+  data, new_skiprows = extractor.extract(indicator_config)
+
+  if _row_count(data) == 0:
+    print(f"{name}: skipped (no rows extracted, metadata not advanced)")
+    return
+
+  _SAVERS[name](data)
+
+  metadata[name] = {"last-modified": last_modified}
+  update_skiprows(config, name, new_skiprows)
+  print(f"{name}: done")
+
 def run():
   config = load_config()
   metadata = load_metadata(METADATA_PATH)
+
+  failures = []
 
   for name, extractor in EXTRACTORS.items():
     indicator_config = config.get(name)
     if not indicator_config:
       continue
 
-    url = indicator_config.get("urls") or indicator_config.get("url")
-    changed, last_modified = needs_update(metadata.get(name, {}), url)
-
-    if not changed:
-      print(f"{name}: no updates")
-      continue
-
-    print(f"{name}: extracting...")
-    data, new_skiprows = extractor.extract(indicator_config)
-
-    if _row_count(data) == 0:
-      print(f"{name}: skipped (no rows extracted, metadata not advanced)")
-      continue
-
-    _SAVERS[name](data)
-
-    metadata[name] = {"last-modified": last_modified}
-    update_skiprows(config, name, new_skiprows)
-    print(f"{name}: done")
+    try:
+      process_indicator(name, extractor, indicator_config, metadata, config)
+    except Exception as exc:
+      failures.append(name)
+      print(f"{name}: FAILED ({type(exc).__name__}: {exc})", file=sys.stderr)
 
   save_metadata(METADATA_PATH, metadata)
   save_config(config)
@@ -264,6 +275,9 @@ def run():
 
   generate_all_indexes()
   print("API structure generated")
+
+  if failures:
+    raise SystemExit(f"{len(failures)} indicator(s) failed: {', '.join(failures)}")
 
 if __name__ == "__main__":
   run()
