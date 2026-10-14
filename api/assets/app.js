@@ -448,11 +448,7 @@ function initTabs() {
 function initCopy() {
   document.querySelectorAll('.copy-btn').forEach(btn => {
     btn.addEventListener('click', () => {
-      const url = BASE + (btn.dataset.copy || '');
-      navigator.clipboard.writeText(url).then(() => {
-        btn.textContent = '✓ copiado';
-        setTimeout(() => btn.textContent = 'copiar', 1500);
-      });
+      copyText(BASE + (btn.dataset.copy || ''), btn, '✓ copiado', 'copiar');
     });
   });
 }
@@ -472,6 +468,25 @@ function setMode(mode) {
 }
 
 /* ---------- Init ---------- */
+function normalizePath(raw) {
+  let path = raw.trim();
+  if (!path) return null;
+  if (!path.startsWith('/')) path = '/' + path;
+  if (path.startsWith('//')) return null;
+  if (!path.startsWith('/v1/') && path !== '/v1') return null;
+  return path;
+}
+
+function copyText(text, btn, ok, reset) {
+  navigator.clipboard.writeText(text).then(() => {
+    btn.textContent = ok;
+    setTimeout(() => btn.textContent = reset, 1500);
+  }).catch(() => {
+    btn.textContent = 'no se pudo copiar';
+    setTimeout(() => btn.textContent = reset, 1500);
+  });
+}
+
 function init() {
   document.getElementById('pg-ind').addEventListener('change', () => { loadBuilder(); updateUrlBar(); });
   document.getElementById('pg-f1').addEventListener('change', onF1Change);
@@ -480,9 +495,13 @@ function init() {
   document.getElementById('pg-year').addEventListener('input', updateUrlBar);
   document.getElementById('pg-run').addEventListener('click', () => run(buildUrl()));
   document.getElementById('raw-run').addEventListener('click', () => {
-    const raw = document.getElementById('raw-path').value.trim();
-    if (!raw) return;
-    const url = raw.startsWith('/') ? raw : '/' + raw;
+    const url = normalizePath(document.getElementById('raw-path').value);
+    if (!url) {
+      const status = document.getElementById('pg-status');
+      status.className = 'status-line fail';
+      status.textContent = 'Ruta inválida: debe empezar por /v1/';
+      return;
+    }
     run(url);
   });
   document.getElementById('raw-path').addEventListener('keydown', e => {
@@ -491,13 +510,10 @@ function init() {
   document.getElementById('mode-guide').addEventListener('click', () => setMode('guide'));
   document.getElementById('mode-raw').addEventListener('click', () => setMode('raw'));
   document.getElementById('pg-open').addEventListener('click', () => {
-    window.open(BASE + buildUrl(), '_blank');
+    window.open(BASE + buildUrl(), '_blank', 'noopener');
   });
   document.getElementById('pg-copy').addEventListener('click', () => {
-    navigator.clipboard.writeText(BASE + buildUrl()).then(() => {
-      document.getElementById('pg-copy').textContent = '✓ copiado';
-      setTimeout(() => document.getElementById('pg-copy').textContent = '⧉ copiar', 1500);
-    });
+    copyText(BASE + buildUrl(), document.getElementById('pg-copy'), '✓ copiado', '⧉ copiar');
   });
 
   initTabs();
