@@ -320,7 +320,7 @@ function syntaxHighlight(json) {
     .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
     .replace(/("(\\u[a-zA-Z0-9]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+-]?\d+)?)/g, m => {
       let cls;
-      if (/^"/.test(m)) cls = /:$/.test(m) ? 'string' : 'num';
+      if (/^"/.test(m)) cls = /:$/.test(m) ? 'string' : 'val';
       else if (/true|false/.test(m)) cls = 'bool';
       else if (/null/.test(m)) cls = 'null';
       else cls = 'num';

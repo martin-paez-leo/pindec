@@ -226,6 +226,7 @@ section { padding: 56px 0; }
 }
 .playground pre .err { color: var(--red); }
 .playground pre .string { color: #8fd48f; }
+.playground pre .val { color: #b7c6e8; }
 .playground pre .num { color: #6fc3ff; }
 .playground pre .bool { color: #ffb86b; }
 .playground pre .null { color: #ff7ab8; }
