@@ -29,6 +29,23 @@ def _write_ipc_clasif_filters(region_dir, year, fuente, clasifs):
     _write_ipc_code_filters(clas_dir, year, fuente, codes)
   return clasificacion_codes
 
+def generate_ipc_parent_indexes():
+  ipc_dir = API_DIR / "ipc"
+  if not ipc_dir.exists():
+    return
+
+  for region_dir in (d for d in ipc_dir.iterdir() if d.is_dir() and not _is_year(d.name)):
+    for clas_dir in (d for d in region_dir.iterdir() if d.is_dir()):
+      write_json(clas_dir / "index.json", {
+        "indicador": "ipc",
+        "region": region_dir.name,
+        "clasificacion": clas_dir.name,
+        "codigos": sorted(
+          d.name for d in clas_dir.iterdir() if d.is_dir() and not _is_year(d.name)
+        ),
+        "anos_disponibles": _get_years("ipc"),
+      })
+
 def generate_ipc_filters(year_data: dict, year: int):
   datos = year_data.get("datos", {})
   fuente = year_data.get("fuente", "")
@@ -81,6 +98,17 @@ def generate_cba_cbt_filters(year_data: dict, year: int):
     write_json(API_DIR / "cba-cbt" / "hogares" / str(year) / "index.json", {
       "fuente": fuente,
       "datos": hogares,
+    })
+
+def generate_cba_cbt_parent_indexes():
+  for subcategoria in ("adulto-equivalente", "hogares"):
+    sub_dir = API_DIR / "cba-cbt" / subcategoria
+    if not sub_dir.exists():
+      continue
+    write_json(sub_dir / "index.json", {
+      "indicador": "cba-cbt",
+      "subcategoria": subcategoria,
+      "anos_disponibles": _get_years("cba-cbt"),
     })
 
 def generate_cba_cbt_index():
@@ -137,6 +165,41 @@ def generate_emae_filters(year_data: dict, year: int):
     write_json(API_DIR / "emae" / "impuestos" / str(year) / "index.json", {
       "fuente": fuente,
       "datos": impuestos,
+    })
+
+def generate_emae_parent_indexes():
+  for subcategoria in ("nivel-general", "impuestos"):
+    sub_dir = API_DIR / "emae" / subcategoria
+    if not sub_dir.exists():
+      continue
+    write_json(sub_dir / "index.json", {
+      "indicador": "emae",
+      "subcategoria": subcategoria,
+      "anos_disponibles": _get_years("emae"),
+    })
+
+  sectores_dir = API_DIR / "emae" / "sectores"
+  if not sectores_dir.exists():
+    return
+
+  codigos = sorted(
+    d.name for d in sectores_dir.iterdir()
+    if d.is_dir() and not _is_year(d.name)
+  )
+
+  write_json(sectores_dir / "index.json", {
+    "indicador": "emae",
+    "subcategoria": "sectores",
+    "codigos": codigos,
+    "anos_disponibles": _get_years("emae"),
+  })
+
+  for codigo in codigos:
+    write_json(sectores_dir / codigo / "index.json", {
+      "indicador": "emae",
+      "subcategoria": "sectores",
+      "codigo": codigo,
+      "anos_disponibles": _get_years("emae"),
     })
 
 def generate_emae_index():
@@ -200,6 +263,10 @@ def generate_all_indexes():
   generate_cba_cbt_index()
   generate_emae_index()
   generate_ica_index()
+
+  generate_ipc_parent_indexes()
+  generate_cba_cbt_parent_indexes()
+  generate_emae_parent_indexes()
 
   write_json(API_DIR / "index.json", {
     "nombre": "PINDEC API",

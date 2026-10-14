@@ -8,10 +8,13 @@ from utils import write_json
 from api import (
   generate_ipc_filters,
   generate_ipc_index,
+  generate_ipc_parent_indexes,
   generate_cba_cbt_filters,
   generate_cba_cbt_index,
+  generate_cba_cbt_parent_indexes,
   generate_emae_filters,
   generate_emae_index,
+  generate_emae_parent_indexes,
   generate_ica_index,
   generate_all_filters,
   generate_all_indexes,
@@ -115,6 +118,66 @@ class TestGenerateEmaeFilters:
     assert (tmp_path / "emae" / "sectores" / "2004" / "index.json").exists()
     assert (tmp_path / "emae" / "sectores" / "A" / "2004" / "index.json").exists()
     assert (tmp_path / "emae" / "impuestos" / "2004" / "index.json").exists()
+
+
+class TestGenerateParentIndexes:
+  def _seed(self, tmp_path, dirs):
+    for rel in dirs:
+      (tmp_path / rel).mkdir(parents=True, exist_ok=True)
+
+  def test_ipc_clasificacion_parent(self, tmp_path, monkeypatch):
+    monkeypatch.setattr("api.API_DIR", tmp_path)
+    self._seed(tmp_path, [
+      "ipc/2016", "ipc/2026",
+      "ipc/Nacional/COICOP/0/2026",
+      "ipc/Pampeana/COICOP/04/2026",
+    ])
+    generate_ipc_parent_indexes()
+    data = json.loads((tmp_path / "ipc" / "Nacional" / "COICOP" / "index.json").read_text())
+    assert data["region"] == "Nacional"
+    assert data["clasificacion"] == "COICOP"
+    assert data["codigos"] == ["0"]
+    assert data["anos_disponibles"] == [2016, 2026]
+
+  def test_cba_cbt_parents(self, tmp_path, monkeypatch):
+    monkeypatch.setattr("api.API_DIR", tmp_path)
+    self._seed(tmp_path, ["cba-cbt/2026", "cba-cbt/adulto-equivalente/2026", "cba-cbt/hogares/2026"])
+    generate_cba_cbt_parent_indexes()
+    for subcategoria in ("adulto-equivalente", "hogares"):
+      data = json.loads((tmp_path / "cba-cbt" / subcategoria / "index.json").read_text())
+      assert data["indicador"] == "cba-cbt"
+      assert data["subcategoria"] == subcategoria
+      assert data["anos_disponibles"] == [2026]
+
+  def test_emae_parents(self, tmp_path, monkeypatch):
+    monkeypatch.setattr("api.API_DIR", tmp_path)
+    self._seed(tmp_path, [
+      "emae/2026", "emae/nivel-general/2026", "emae/impuestos/2026",
+      "emae/sectores/2026", "emae/sectores/A/2026", "emae/sectores/B/2026",
+    ])
+    generate_emae_parent_indexes()
+
+    nivel = json.loads((tmp_path / "emae" / "nivel-general" / "index.json").read_text())
+    assert nivel["subcategoria"] == "nivel-general"
+
+    sectores = json.loads((tmp_path / "emae" / "sectores" / "index.json").read_text())
+    assert sectores["codigos"] == ["A", "B"]
+
+    sector = json.loads((tmp_path / "emae" / "sectores" / "A" / "index.json").read_text())
+    assert sector["codigo"] == "A"
+    assert sector["anos_disponibles"] == [2026]
+
+  def test_missing_subcategory_is_skipped(self, tmp_path, monkeypatch):
+    monkeypatch.setattr("api.API_DIR", tmp_path)
+    self._seed(tmp_path, ["emae/2026"])
+    generate_emae_parent_indexes()
+    assert not (tmp_path / "emae" / "nivel-general").exists()
+
+  def test_empty_api_dir_is_safe(self, tmp_path, monkeypatch):
+    monkeypatch.setattr("api.API_DIR", tmp_path)
+    generate_ipc_parent_indexes()
+    generate_cba_cbt_parent_indexes()
+    generate_emae_parent_indexes()
 
 
 class TestGenerateIpcIndex:
