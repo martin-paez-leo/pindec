@@ -333,15 +333,23 @@ function escapeHtml(s) {
 }
 
 /* ---------- Animated counters ---------- */
+const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+
 function animateValue(el, end, { prefix = '', suffix = '', decimals = 0, duration = 900 } = {}) {
+  const render = v => prefix + fmt.format(Number(v.toFixed(decimals))) + suffix;
+
+  if (reduceMotion.matches) {
+    el.textContent = render(end);
+    return;
+  }
+
   const start = performance.now();
   function frame(now) {
     const t = Math.min((now - start) / duration, 1);
     const eased = 1 - Math.pow(1 - t, 3);
-    const val = end * eased;
-    el.textContent = prefix + fmt.format(Number(val.toFixed(decimals))) + suffix;
+    el.textContent = render(end * eased);
     if (t < 1) requestAnimationFrame(frame);
-    else el.textContent = prefix + fmt.format(end) + suffix;
+    else el.textContent = render(end);
   }
   requestAnimationFrame(frame);
 }
