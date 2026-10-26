@@ -56,7 +56,7 @@
       "activity": [
         {
           "name": "Tabla Letras",
-          "skiprows": 276,
+          "skiprows": 277,
           "columns": [
             "anio",
             "mes",
@@ -80,7 +80,7 @@
         },
         {
           "name": "Tabla Var Letras",
-          "skiprows": 264,
+          "skiprows": 265,
           "columns": [
             "anio",
             "mes",
@@ -106,7 +106,7 @@
       "monthly": [
         {
           "name": "Tabla",
-          "skiprows": 276,
+          "skiprows": 277,
           "columns": [
             "anio",
             "mes",
@@ -127,7 +127,7 @@
     "sheets": [
       {
         "name": "FOB-CIF",
-        "skiprows": 479,
+        "skiprows": 483,
         "columns": [
           "anio",
           "mes",
