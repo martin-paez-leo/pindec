@@ -482,6 +482,34 @@ function setMode(mode) {
   }
 }
 
+/* ---------- Quickstart: code tabs + copy ---------- */
+const QS_SNIPPETS = {
+  curl: "curl https://pindec.dev/v1/ipc/Nacional/2026/",
+  js: "const res = await fetch('https://pindec.dev/v1/ipc/Nacional/2026/');\nconst data = await res.json();\nconsole.log(data.datos.COICOP[0].historico.at(-1));",
+  py: "import requests\n\ndata = requests.get(\"https://pindec.dev/v1/ipc/Nacional/2026/\").json()\nprint(data[\"datos\"][\"COICOP\"][0][\"historico\"][-1])"
+};
+
+function initQuickstart() {
+  const tabs = document.querySelectorAll('.qs-tab');
+  const code = document.getElementById('qs-code');
+  const copy = document.getElementById('qs-copy');
+
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      tabs.forEach(t => { t.classList.remove('active'); t.setAttribute('aria-selected', 'false'); });
+      tab.classList.add('active');
+      tab.setAttribute('aria-selected', 'true');
+      code.textContent = QS_SNIPPETS[tab.dataset.lang];
+    });
+  });
+
+  if (copy) {
+    copy.addEventListener('click', () => {
+      copyText(code.textContent, copy, '✓ copiado', 'Copiar');
+    });
+  }
+}
+
 /* ---------- Metadata: última actualización real ---------- */
 async function loadMeta() {
   let meta;
@@ -565,6 +593,7 @@ function init() {
   initTabs();
   initCopy();
   initReveal();
+  initQuickstart();
   loadBuilder();
   loadStats();
   loadMeta();

@@ -81,6 +81,37 @@
   </header>
 
   <main>
+    <section id="quickstart">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="kicker">Primeros 30 segundos</div>
+          <h2>Tu primera consulta</h2>
+          <p>Una sola llamada. Sin registro, sin API key, sin headers especiales.</p>
+        </div>
+        <div class="qs-grid">
+          <div class="qs-code reveal">
+            <div class="qs-tabs" role="tablist">
+              <button class="qs-tab active" role="tab" data-lang="curl" aria-selected="true">cURL</button>
+              <button class="qs-tab" role="tab" data-lang="js" aria-selected="false">JavaScript</button>
+              <button class="qs-tab" role="tab" data-lang="py" aria-selected="false">Python</button>
+            </div>
+            <pre class="qs-pre"><code id="qs-code">curl https://pindec.dev/v1/ipc/Nacional/2026/</code></pre>
+            <button class="qs-copy" id="qs-copy">Copiar</button>
+          </div>
+          <div class="qs-side reveal">
+            <h3>Qué recibís</h3>
+            <ul>
+              <li>JSON plano, sin envoltorio ni paginación</li>
+              <li>Un archivo estático por ruta</li>
+              <li>Cacheable en la CDN de Cloudflare</li>
+              <li>Los mismos datos que publica el INDEC</li>
+            </ul>
+            <a class="qs-link" href="https://github.com/martin-paez-leo/pindec" target="_blank" rel="noopener">Ver el código en GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section id="indicadores">
       <div class="container">
         <div class="section-head reveal">
