@@ -8,6 +8,9 @@
   <title>PINDEC API: Indicadores económicos de Argentina</title>
 
   <link rel="canonical" href="https://pindec.dev/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap">
   <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
   <link rel="stylesheet" href="/assets/style.css">
 
@@ -49,7 +52,7 @@
         <a href="#indicadores">Indicadores</a>
         <a href="#playground">Probá la API</a>
         <a href="#endpoints">Endpoints</a>
-        <a class="nav-ext" href="https://github.com/martin-paez-leo/pindec" target="_blank" rel="noopener">GitHub<span aria-hidden="true">↗</span></a>
+        <a class="nav-gh" href="https://github.com/martin-paez-leo/pindec" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 16 16" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.03 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.06-1.86 3.75-3.64 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg></a>
       </div>
     </div>
   </nav>
@@ -120,22 +123,22 @@
         </div>
         <div class="ind-grid" id="ind-grid" data-stagger>
           <button class="ind-card reveal" data-tab="ipc" aria-label="Ver documentación del IPC">
-            <span class="arrow">→</span><div class="icon">📈</div>
+            <span class="arrow">→</span><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 20h18"/><path d="M4 16l4.5-5 3.5 3L20 6"/></svg></div>
             <h4>IPC: Índice de Precios al Consumidor</h4>
             <p>Precios por región y clasificación COICOP con variación mensual e interanual.</p>
           </button>
           <button class="ind-card reveal" data-tab="cba-cbt" aria-label="Ver documentación de CBA-CBT">
-            <span class="arrow">→</span><div class="icon">🛒</div>
+            <span class="arrow">→</span><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="20" r="1.4"/><circle cx="17" cy="20" r="1.4"/><path d="M3 4h2l2.4 10.2a1.5 1.5 0 0 0 1.46 1.15h7.9a1.5 1.5 0 0 0 1.45-1.12L20.3 8H6"/></svg></div>
             <h4>CBA-CBT: Canastas Básicas</h4>
             <p>Canasta Básica Alimentaria y Total para adulto equivalente y hogares.</p>
           </button>
           <button class="ind-card reveal" data-tab="emae" aria-label="Ver documentación del EMAE">
-            <span class="arrow">→</span><div class="icon">🏭</div>
+            <span class="arrow">→</span><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12h4l2.5-7 5 14 2.5-7H21"/></svg></div>
             <h4>EMAE: Actividad Económica</h4>
             <p>Nivel general, desestacionalizado y por sector, base 2004.</p>
           </button>
           <button class="ind-card reveal" data-tab="ica" aria-label="Ver documentación del ICA">
-            <span class="arrow">→</span><div class="icon">🌎</div>
+            <span class="arrow">→</span><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 21V6l7-3v18"/><path d="M11 10h6a1 1 0 0 1 1 1v10"/><path d="M3 21h18"/><path d="M7.5 9v.01M7.5 13v.01M15 14v.01M15 17v.01"/></svg></div>
             <h4>ICA: Intercambio Comercial</h4>
             <p>Exportaciones, importaciones y saldo en millones de dólares.</p>
           </button>
@@ -191,7 +194,7 @@
           <div class="url-bar">
             <b>GET</b> https://pindec.dev<span id="pg-url">/v1/ipc/</span>
             <span class="url-actions">
-              <button class="icon-btn" id="pg-open" title="Abrir en pestaña nueva">↗ abrir</button>
+              <button class="icon-btn" id="pg-open" title="Abrir en pestaña nueva"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 5h5v5"/><path d="M19 5l-8 8"/><path d="M19 13v5a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h5"/></svg></button>
               <button class="icon-btn" id="pg-copy" title="Copiar URL">⧉ copiar</button>
             </span>
           </div>

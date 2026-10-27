@@ -463,7 +463,7 @@ function initTabs() {
 function initCopy() {
   document.querySelectorAll('.copy-btn').forEach(btn => {
     btn.addEventListener('click', () => {
-      copyText(BASE + (btn.dataset.copy || ''), btn, '✓ copiado', 'copiar');
+      copyText(BASE + (btn.dataset.copy || ''), btn, 'copiado', 'copiar');
     });
   });
 }
@@ -505,7 +505,7 @@ function initQuickstart() {
 
   if (copy) {
     copy.addEventListener('click', () => {
-      copyText(code.textContent, copy, '✓ copiado', 'Copiar');
+      copyText(code.textContent, copy, 'copiado', 'Copiar');
     });
   }
 }
@@ -587,7 +587,7 @@ function init() {
     window.open(BASE + buildUrl(), '_blank', 'noopener');
   });
   document.getElementById('pg-copy').addEventListener('click', () => {
-    copyText(BASE + buildUrl(), document.getElementById('pg-copy'), '✓ copiado', '⧉ copiar');
+    copyText(BASE + buildUrl(), document.getElementById('pg-copy'), 'copiado', '⧉ copiar');
   });
 
   initTabs();
