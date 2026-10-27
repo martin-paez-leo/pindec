@@ -1,5 +1,5 @@
 const fmt = new Intl.NumberFormat('es-AR');
-const BASE = 'https://pindec.pages.dev';
+const BASE = 'https://pindec.dev';
 let history = [];
 let builderData = {};   // index.json data keyed by indicator name
 let currentMode = 'guide';
