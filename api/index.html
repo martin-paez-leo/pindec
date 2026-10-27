@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="PINDEC API — Indicadores económicos y sociales de Argentina (IPC, CBA-CBT, EMAE, ICA) en JSON, extraídos del INDEC. Gratis, sin API key y sin límites de requests.">
+  <meta name="description" content="PINDEC API: Indicadores económicos y sociales de Argentina (IPC, CBA-CBT, EMAE, ICA) en JSON, extraídos del INDEC. Gratis, sin API key y sin cuotas de consumo por usuario.">
   <meta name="theme-color" content="#0b1020">
-  <title>PINDEC API — Indicadores económicos de Argentina</title>
+  <title>PINDEC API: Indicadores económicos de Argentina</title>
 
   <link rel="canonical" href="https://pindec.dev/">
   <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
@@ -13,15 +13,15 @@
 
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="PINDEC API">
-  <meta property="og:title" content="PINDEC API — Indicadores económicos de Argentina en JSON">
-  <meta property="og:description" content="IPC, canastas básicas, EMAE e intercambio comercial del INDEC servidos como archivos estáticos desde el edge. Rápido, gratis y sin límites de requests.">
+  <meta property="og:title" content="PINDEC API: Indicadores económicos de Argentina en JSON">
+  <meta property="og:description" content="IPC, canastas básicas, EMAE e intercambio comercial del INDEC servidos como archivos estáticos desde el edge. Rápido, gratis y sin cuotas por usuario.">
   <meta property="og:url" content="https://pindec.dev/">
   <meta property="og:image" content="https://pindec.dev/assets/og.png">
   <meta property="og:locale" content="es_AR">
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="PINDEC API — Indicadores económicos de Argentina en JSON">
-  <meta name="twitter:description" content="IPC, canastas básicas, EMAE e intercambio comercial del INDEC servidos como archivos estáticos desde el edge. Rápido, gratis y sin límites de requests.">
+  <meta name="twitter:title" content="PINDEC API: Indicadores económicos de Argentina en JSON">
+  <meta name="twitter:description" content="IPC, canastas básicas, EMAE e intercambio comercial del INDEC servidos como archivos estáticos desde el edge. Rápido, gratis y sin cuotas por usuario.">
   <meta name="twitter:image" content="https://pindec.dev/assets/og.png">
 
   <script type="application/ld+json">
@@ -49,6 +49,7 @@
         <a href="#indicadores">Indicadores</a>
         <a href="#playground">Probá la API</a>
         <a href="#endpoints">Endpoints</a>
+        <a class="nav-ext" href="https://github.com/martin-paez-leo/pindec" target="_blank" rel="noopener">GitHub<span aria-hidden="true">↗</span></a>
       </div>
     </div>
   </nav>
@@ -60,11 +61,11 @@
     <div class="container" data-stagger>
       <div class="badge-row reveal">
         <span class="badge live"><span class="dot"></span> En línea</span>
-        <span class="badge">Actualizado semanalmente</span>
+        <span class="badge">Datos con actualización mensual</span>
         <span class="badge">Gratis · Sin API key</span>
       </div>
       <h1 class="reveal">Indicadores económicos de Argentina en JSON</h1>
-      <p class="sub reveal">IPC, canastas básicas, EMAE e intercambio comercial — extraídos del INDEC y servidos como archivos estáticos desde el edge. Rápido, gratis y sin límites de requests.</p>
+      <p class="sub reveal">IPC, canastas básicas, EMAE e intercambio comercial, extraídos del INDEC y servidos como archivos estáticos desde el edge. Rápido, gratis y sin cuotas por usuario.</p>
       <div class="cta-row reveal">
         <a class="btn primary" href="#playground">Probar ahora</a>
         <a class="btn ghost" href="#endpoints">Ver endpoints</a>
@@ -89,22 +90,22 @@
         <div class="ind-grid" id="ind-grid" data-stagger>
           <button class="ind-card reveal" data-tab="ipc" aria-label="Ver documentación del IPC">
             <span class="arrow">→</span><div class="icon">📈</div>
-            <h4>IPC — Índice de Precios al Consumidor</h4>
+            <h4>IPC: Índice de Precios al Consumidor</h4>
             <p>Precios por región y clasificación COICOP con variación mensual e interanual.</p>
           </button>
           <button class="ind-card reveal" data-tab="cba-cbt" aria-label="Ver documentación de CBA-CBT">
             <span class="arrow">→</span><div class="icon">🛒</div>
-            <h4>CBA-CBT — Canastas Básicas</h4>
+            <h4>CBA-CBT: Canastas Básicas</h4>
             <p>Canasta Básica Alimentaria y Total para adulto equivalente y hogares.</p>
           </button>
           <button class="ind-card reveal" data-tab="emae" aria-label="Ver documentación del EMAE">
             <span class="arrow">→</span><div class="icon">🏭</div>
-            <h4>EMAE — Actividad Económica</h4>
+            <h4>EMAE: Actividad Económica</h4>
             <p>Nivel general, desestacionalizado y por sector, base 2004.</p>
           </button>
           <button class="ind-card reveal" data-tab="ica" aria-label="Ver documentación del ICA">
             <span class="arrow">→</span><div class="icon">🌎</div>
-            <h4>ICA — Intercambio Comercial</h4>
+            <h4>ICA: Intercambio Comercial</h4>
             <p>Exportaciones, importaciones y saldo en millones de dólares.</p>
           </button>
         </div>
@@ -116,7 +117,7 @@
         <div class="section-head reveal">
           <div class="kicker">Playground</div>
           <h2>Probá la API en vivo</h2>
-          <p>Es una API 100% estática: cada request es un archivo servido desde la CDN. Podés probar cualquier endpoint sin límites ni costo.</p>
+          <p>Es una API 100% estática: cada request es un archivo servido desde la CDN. Podés probar cualquier endpoint sin costo ni cuota por usuario.</p>
         </div>
 
         <div class="playground reveal">
@@ -169,7 +170,8 @@
             <button class="run-btn" id="raw-run" aria-label="Ejecutar ruta personalizada">Ejecutar</button>
           </div>
 
-          <pre id="pg-output">// Elegí una combinación y hacé clic en "Ejecutar".\n// Dejá el año vacío para obtener el índice de esa sección.</pre>
+          <pre id="pg-output">// Elegí una combinación y hacé clic en "Ejecutar".
+// Dejá el año vacío para obtener el índice de esa sección.</pre>
           <div class="status-line waiting" id="pg-status">Esperando solicitud…</div>
         </div>
 
@@ -203,7 +205,7 @@
             <div class="doc-row"><span class="method">GET</span><div class="path-wrap"><code>/v1/ica/</code><div class="desc">Índice del ICA: años disponibles</div></div><button class="copy-btn" data-copy="/v1/ica/">copiar</button></div>
           </div>
           <div class="legend">
-            <span class="lg"><code>/v1/ipc/</code> — todo endpoint admite el sufijo <code>index.json</code> (ej: <code>/v1/ipc/index.json</code>)</span>
+            <span class="lg"><code>/v1/ipc/</code> · todo endpoint admite el sufijo <code>index.json</code> (ej: <code>/v1/ipc/index.json</code>)</span>
             <span class="lg">un <code>404</code> bajo <code>/v1/</code> devuelve JSON con formato <a href="https://www.rfc-editor.org/rfc/rfc9457.html" target="_blank" rel="noopener">RFC 9457</a> (<a href="/probs/not-found/">ver detalle</a>)</span>
           </div>
         </div>
@@ -221,8 +223,8 @@
             <div class="doc-row"><span class="method">GET</span><div class="path-wrap"><code>/v1/ipc/{region}/{clasificacion}/{codigo}/<span class="opt">{año}</span>/</code><span class="opt-tag">año opcional</span><div class="desc">Serie de un código específico</div></div><button class="copy-btn" data-copy="/v1/ipc/Nacional/COICOP/0/2024/">copiar</button></div>
           </div>
           <div class="legend">
-            <span class="lg"><code>region</code> — Nacional, GBA, Pampeana, NEA, NOA, Cuyo, Patagonia</span>
-            <span class="lg"><code>clasificacion</code> — COICOP, categorias, bienes_servicios</span>
+            <span class="lg"><code>region</code> · Nacional, GBA, Pampeana, Noreste, Noroeste, Cuyo, Patagonia</span>
+            <span class="lg"><code>clasificacion</code> · COICOP, categorias, bienes_servicios</span>
             <span class="lg">segmentos <code class="opt">subrayados</code> = opcionales</span>
           </div>
         </div>
@@ -255,7 +257,7 @@
             <div class="doc-row"><span class="method">GET</span><div class="path-wrap"><code>/v1/emae/impuestos/<span class="opt">{año}</span>/</code><span class="opt-tag">año opcional</span><div class="desc">Impuestos netos de subsidios</div></div><button class="copy-btn" data-copy="/v1/emae/impuestos/2024/">copiar</button></div>
           </div>
           <div class="legend">
-            <span class="lg"><code>codigo</code> — A: Agricultura · B: Pesca · C: Minas … O: Otros servicios</span>
+            <span class="lg"><code>codigo</code> · A: Agricultura · B: Pesca · C: Minas … O: Otros servicios</span>
           </div>
         </div>
 
@@ -278,7 +280,7 @@
       <span>
         Última actualización: <span id="foot-update">—</span>
       </span>
-      <span>Proyecto de código abierto, sin afiliación oficial con el INDEC</span>
+      <span><a href="https://github.com/martin-paez-leo/pindec" target="_blank" rel="noopener">Código abierto</a>, sin afiliación oficial con el INDEC</span>
       <span><a href="/legal">Aviso Legal</a></span>
     </div>
   </footer>

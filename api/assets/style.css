@@ -49,6 +49,8 @@ nav a::after {
   transition: right 0.25s ease;
 }
 nav a:hover { color: var(--text); }
+nav a.nav-ext { display: inline-flex; align-items: center; gap: 4px; }
+nav a.nav-ext span { font-size: 0.75em; opacity: 0.6; }
 nav a:hover::after { right: 0; }
 
 /* Hero */
