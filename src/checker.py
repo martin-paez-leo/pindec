@@ -11,25 +11,31 @@ def load_metadata(path: Path) -> dict:
     return json.load(f)
 
 def save_metadata(path: Path, metadata: dict):
+  path.parent.mkdir(parents=True, exist_ok=True)
   with open(path, 'w') as f:
     json.dump(metadata, f, indent=2)
-    
+
+def _is_stale(local, remote) -> bool:
+  if remote is None:
+    return True
+  return local != remote
+
 def check_update(url: str) -> str | None:
   response = requests.head(url, timeout=TIMEOUT_HEAD, allow_redirects=True)
   response.raise_for_status()
-  
-  return response.headers.get('Last-Modified') 
+
+  return response.headers.get('Last-Modified')
 
 def needs_update(local_metadata: dict, url: str | dict) -> tuple[bool, str | dict | None]:
   local_last_modified = local_metadata.get('last-modified', {})
-  
+
   if isinstance(url, str):
     remote_last_modified = check_update(url)
-    return local_last_modified != remote_last_modified, remote_last_modified
-  
+    return _is_stale(local_last_modified, remote_last_modified), remote_last_modified
+
   if isinstance(url, dict):
     remote_last_modified = {key: check_update(u) for key, u in url.items()}
-    all_changed = all(remote_last_modified[key] != local_last_modified.get(key) for key in url)
-    return all_changed, remote_last_modified
-  
+    any_changed = any(_is_stale(local_last_modified.get(key), remote_last_modified[key]) for key in url)
+    return any_changed, remote_last_modified
+
   raise ValueError("Invalid URL type. Must be a string or a dictionary.")

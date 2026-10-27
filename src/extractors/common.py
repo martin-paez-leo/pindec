@@ -1,3 +1,5 @@
+import re
+
 import pandas as pd
 
 _PLACEHOLDERS_NA = {"..", "...", "///", "na", "n/a", "-", ""}
@@ -14,6 +16,15 @@ MONTHS = {
   "Mayo": "05", "Junio": "06", "Julio": "07", "Agosto": "08",
   "Septiembre": "09", "Octubre": "10", "Noviembre": "11", "Diciembre": "12"
 }
+
+_TRAILING_NOTES = re.compile(r"[\s*]+$")
+
+def month_code(label) -> str:
+  name = _TRAILING_NOTES.sub("", str(label).strip()).title()
+  for month in MONTHS:
+    if name.startswith(month):
+      return MONTHS[month]
+  raise ValueError(f"Mes desconocido en la fuente del INDEC: {label!r}")
 
 def to_float(value, decimals=6):
   if pd.isna(value):

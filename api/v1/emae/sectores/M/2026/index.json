@@ -28,6 +28,21 @@
         "periodo": "2026-05",
         "indice": 171.814063,
         "interanual": -0.080639
+      },
+      {
+        "periodo": "2026-06",
+        "indice": 173.265334,
+        "interanual": 0.135033
+      },
+      {
+        "periodo": "2026-07",
+        "indice": 173.413449,
+        "interanual": -0.069385
+      },
+      {
+        "periodo": "2026-08",
+        "indice": 172.892891,
+        "interanual": -0.330502
       }
     ]
   }

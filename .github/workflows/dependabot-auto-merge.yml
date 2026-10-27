@@ -10,12 +10,69 @@ permissions:
   contents: write
   pull-requests: write
 
+concurrency:
+  group: dependabot-auto-merge
+  cancel-in-progress: false
+
 jobs:
   dependabot:
     runs-on: ubuntu-latest
-    if: github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.actor.login == 'dependabot[bot]'
+    if: github.event.workflow_run.conclusion == 'success'
     steps:
-      - name: Enable auto-merge
-        run: gh pr merge --auto --squash "${{ github.event.workflow_run.pull_requests[0].number }}"
+      - name: Merge passing dependabot pull requests
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          set -e
+          PRS=$(gh pr list --state open --author "app/dependabot" --json number,headRefOid --jq '.[] | "\(.number)|\(.headRefOid)"' || true)
+          if [ -z "$PRS" ]; then
+            echo "no open dependabot pull requests"
+            exit 0
+          fi
+          while IFS='|' read -r PR SHA; do
+            TOT=$(gh api "repos/$GH_REPO/commits/$SHA/check-runs" --jq '.check_runs | length')
+            BAD=$(gh api "repos/$GH_REPO/commits/$SHA/check-runs" --jq '[.check_runs[] | select(.conclusion != "success" and .conclusion != "skipped")] | length')
+            if [ "$TOT" = "0" ]; then
+              echo "PR #$PR: no checks yet, skipping"
+              continue
+            fi
+            if [ "$BAD" != "0" ]; then
+              echo "PR #$PR: failing checks, skipping"
+              continue
+            fi
+            echo "PR #$PR: checks passing, merging"
+            MERGED=0
+            RECOVERED=0
+            for i in 1 2 3 4 5; do
+              if gh pr merge "$PR" --squash; then
+                MERGED=1
+                break
+              fi
+              echo "PR #$PR: merge attempt $i failed, retrying soon"
+              if [ "$RECOVERED" = "0" ]; then
+                RECOVERED=1
+                MERGEABLE=$(gh pr view "$PR" --json mergeable --jq '.mergeable' 2>/dev/null || echo false)
+                if [ "$MERGEABLE" = "false" ]; then
+                  echo "PR #$PR: branch conflicts with main, refreshing it"
+                  if gh api -X PUT "repos/$GH_REPO/pulls/$PR/update-branch" -f update_method=merge >/dev/null 2>&1; then
+                    echo "PR #$PR: branch refresh requested from current main"
+                  else
+                    if gh pr view "$PR" --json comments --jq '[.comments[].body] | any(. == "@dependabot rebase")' | grep -q true; then
+                      echo "PR #$PR: rebase already requested, waiting for dependabot"
+                    elif gh pr comment "$PR" --body "@dependabot rebase" >/dev/null 2>&1; then
+                      echo "PR #$PR: rebase requested from dependabot"
+                    else
+                      echo "PR #$PR: could not request rebase now"
+                    fi
+                  fi
+                fi
+              fi
+              sleep 15
+            done
+            if [ "$MERGED" = "1" ]; then
+              echo "PR #$PR: merged"
+            else
+              echo "PR #$PR: still not mergeable, will retry on the next run"
+            fi
+          done <<< "$PRS"

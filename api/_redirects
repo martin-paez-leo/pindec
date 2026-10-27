@@ -6,3 +6,6 @@
 # Trailing slash normalization — no-slash variants redirect to canonical URL
 /v1 /v1/ 308
 /v1/* /v1/:splat/ 308
+
+# Canonical domain — pindec.pages.dev is an alias, pindec.dev is canonical
+https://pindec.pages.dev/* https://pindec.dev/:splat 301

@@ -1,7 +1,28 @@
+import warnings
+
 import pandas as pd
 from .common import to_float
 
-_SOURCE_OFFSET = 8
+_WINDOW_ROWS = 8
+
+def _as_dates(values):
+  with warnings.catch_warnings():
+    warnings.simplefilter("ignore", UserWarning)
+    return pd.to_datetime(values, errors="coerce")
+
+def _data_window(raw, window):
+  df = raw.dropna(how="all", axis=1)
+
+  if df.empty or len(df.columns) == 0:
+    return df
+
+  valid = df[_as_dates(df.iloc[:, 0]).notna()]
+
+  if valid.empty:
+    return valid
+
+  start = valid.index[max(0, len(valid) - window)]
+  return df.loc[start:valid.index[-1]]
 
 def extract(config: dict) -> tuple[dict, dict]:
   url = config["url"]
@@ -18,11 +39,9 @@ def extract(config: dict) -> tuple[dict, dict]:
     columns = sc["columns"]
 
     raw = all_sheets[name]
-    total = len(raw)
-    skiprows = total - _SOURCE_OFFSET
+    skiprows = raw.index[0] + len(raw)
 
-    df = raw.iloc[skiprows:]
-    df = df.dropna(how="all", axis=1)
+    df = _data_window(raw, _WINDOW_ROWS)
 
     if len(df.columns) != len(columns):
       new_skiprows[name] = skiprows
@@ -34,7 +53,7 @@ def extract(config: dict) -> tuple[dict, dict]:
     df["fecha"] = pd.to_datetime(df["fecha"], errors="coerce")
     df = df.dropna(subset=["fecha"])
 
-    new_skiprows[name] = skiprows + len(df)
+    new_skiprows[name] = skiprows
     processed[name] = df
 
   adulto = pd.merge(processed["CBA-CBT"], processed["Variaciones"], on="fecha", how="left")
