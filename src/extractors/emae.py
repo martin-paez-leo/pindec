@@ -1,5 +1,5 @@
 import pandas as pd
-from .common import to_float, MONTHS
+from .common import to_float, month_code
 
 _FALLBACK_MONTHS = 3
 
@@ -24,9 +24,8 @@ _SECTORS = {
 _SECTOR_CODES = list(_SECTORS.keys())
 
 def _build_period(row):
-  month_str = str(row["mes"])
-  year = int(row["anio"])
-  month = MONTHS.get(month_str, "01")
+  month = month_code(row["mes"])
+  year = int(str(row["anio"]).replace("*", "").strip())
   return f"{year}-{month}"
 
 def _process_sheet(df, skiprows, columns):

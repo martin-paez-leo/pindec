@@ -1,3 +1,6 @@
+import json
+from email.utils import parsedate_to_datetime
+
 from utils import load_json, write_json, API_DIR
 from extractors.common import FUENTES
 
@@ -28,6 +31,23 @@ def _write_ipc_clasif_filters(region_dir, year, fuente, clasifs):
     write_json(clas_dir / str(year) / "index.json", {"fuente": fuente, "datos": codes})
     _write_ipc_code_filters(clas_dir, year, fuente, codes)
   return clasificacion_codes
+
+def generate_ipc_parent_indexes():
+  ipc_dir = API_DIR / "ipc"
+  if not ipc_dir.exists():
+    return
+
+  for region_dir in (d for d in ipc_dir.iterdir() if d.is_dir() and not _is_year(d.name)):
+    for clas_dir in (d for d in region_dir.iterdir() if d.is_dir() and not _is_year(d.name)):
+      write_json(clas_dir / "index.json", {
+        "indicador": "ipc",
+        "region": region_dir.name,
+        "clasificacion": clas_dir.name,
+        "codigos": sorted(
+          d.name for d in clas_dir.iterdir() if d.is_dir() and not _is_year(d.name)
+        ),
+        "anos_disponibles": _get_years("ipc"),
+      })
 
 def generate_ipc_filters(year_data: dict, year: int):
   datos = year_data.get("datos", {})
@@ -81,6 +101,17 @@ def generate_cba_cbt_filters(year_data: dict, year: int):
     write_json(API_DIR / "cba-cbt" / "hogares" / str(year) / "index.json", {
       "fuente": fuente,
       "datos": hogares,
+    })
+
+def generate_cba_cbt_parent_indexes():
+  for subcategoria in ("adulto-equivalente", "hogares"):
+    sub_dir = API_DIR / "cba-cbt" / subcategoria
+    if not sub_dir.exists():
+      continue
+    write_json(sub_dir / "index.json", {
+      "indicador": "cba-cbt",
+      "subcategoria": subcategoria,
+      "anos_disponibles": _get_years("cba-cbt"),
     })
 
 def generate_cba_cbt_index():
@@ -139,6 +170,41 @@ def generate_emae_filters(year_data: dict, year: int):
       "datos": impuestos,
     })
 
+def generate_emae_parent_indexes():
+  for subcategoria in ("nivel-general", "impuestos"):
+    sub_dir = API_DIR / "emae" / subcategoria
+    if not sub_dir.exists():
+      continue
+    write_json(sub_dir / "index.json", {
+      "indicador": "emae",
+      "subcategoria": subcategoria,
+      "anos_disponibles": _get_years("emae"),
+    })
+
+  sectores_dir = API_DIR / "emae" / "sectores"
+  if not sectores_dir.exists():
+    return
+
+  codigos = sorted(
+    d.name for d in sectores_dir.iterdir()
+    if d.is_dir() and not _is_year(d.name)
+  )
+
+  write_json(sectores_dir / "index.json", {
+    "indicador": "emae",
+    "subcategoria": "sectores",
+    "codigos": codigos,
+    "anos_disponibles": _get_years("emae"),
+  })
+
+  for codigo in codigos:
+    write_json(sectores_dir / codigo / "index.json", {
+      "indicador": "emae",
+      "subcategoria": "sectores",
+      "codigo": codigo,
+      "anos_disponibles": _get_years("emae"),
+    })
+
 def generate_emae_index():
   emae_dir = API_DIR / "emae"
   if not emae_dir.exists():
@@ -190,16 +256,95 @@ _FILTER_GENERATORS = {
   "emae": generate_emae_filters,
 }
 
+def _last_period(indicator: str) -> str | None:
+  indicator_dir = API_DIR / indicator
+  if not indicator_dir.exists():
+    return None
+  years = _get_years(indicator)
+  if not years:
+    return None
+
+  data = load_json(indicator_dir / str(years[-1]) / "index.json")
+  if not data:
+    return None
+
+  periods: list[str] = []
+
+  if indicator == "ipc":
+    nacional = (data.get("datos") or {}).get("Nacional") or {}
+    for codes in nacional.values():
+      for code in codes or []:
+        if code.get("codigo") == "0":
+          periods += [h["periodo"] for h in code.get("historico") or [] if h.get("periodo")]
+  elif indicator == "cba-cbt":
+    periods = [r["periodo"] for r in data.get("adulto_equivalente") or [] if r.get("periodo")]
+  elif indicator == "emae":
+    nivel = (data.get("datos") or {}).get("nivel_general") or []
+    periods = [r["periodo"] for r in nivel if r.get("periodo")]
+  elif indicator == "ica":
+    periods = [r["periodo"] for r in data.get("datos") or [] if r.get("periodo")]
+
+  return max(periods) if periods else None
+
+def _last_modified_iso(entry) -> str | None:
+  raw = entry.get("last-modified") if isinstance(entry, dict) else None
+  if isinstance(raw, dict):
+    raw = max(raw.values(), key=lambda v: v or "")
+  if not raw:
+    return None
+  try:
+    return parsedate_to_datetime(raw).isoformat(timespec="seconds")
+  except (TypeError, ValueError):
+    return None
+
+def generate_meta(metadata: dict | None = None):
+  metadata = metadata or {}
+  indicadores = {}
+
+  for name in ("ipc", "cba-cbt", "emae", "ica"):
+    years = _get_years(name)
+    if not years:
+      continue
+    indicadores[name] = {
+      "fuente": FUENTES.get(name, ""),
+      "periodo": _last_period(name),
+      "primer_anio": years[0],
+      "ultimo_anio": years[-1],
+      "actualizado": _last_modified_iso(metadata.get(name, {})),
+    }
+
+  fechas = [i["actualizado"] for i in indicadores.values() if i.get("actualizado")]
+
+  write_json(API_DIR / "meta.json", {
+    "actualizado": max(fechas) if fechas else None,
+    "indicadores": indicadores,
+  })
+
+ERROR_PAGE = {
+  "type": "https://pindec.dev/probs/not-found",
+  "title": "Recurso no encontrado",
+  "status": 404,
+  "detail": "La ruta solicitada no existe en esta API. Los índices disponibles están en /v1/index.json.",
+  "indice": "https://pindec.dev/v1/index.json",
+}
+
+def generate_error_page():
+  (API_DIR / "404.html").write_text(json.dumps(ERROR_PAGE, indent=2, ensure_ascii=False) + "\n")
+
 def generate_all_filters(indicator: str, year_data: dict, year: int):
   generator = _FILTER_GENERATORS.get(indicator)
   if generator:
     generator(year_data, year)
 
-def generate_all_indexes():
+def generate_all_indexes(metadata: dict | None = None):
   generate_ipc_index()
   generate_cba_cbt_index()
   generate_emae_index()
   generate_ica_index()
+
+  generate_ipc_parent_indexes()
+  generate_cba_cbt_parent_indexes()
+  generate_emae_parent_indexes()
 
   write_json(API_DIR / "index.json", {
     "nombre": "PINDEC API",
@@ -207,3 +352,6 @@ def generate_all_indexes():
     "version": "v1",
     "indicadores": ["ipc", "cba-cbt", "emae", "ica"],
   })
+
+  generate_meta(metadata)
+  generate_error_page()

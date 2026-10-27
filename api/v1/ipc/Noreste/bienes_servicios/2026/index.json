@@ -52,6 +52,12 @@
           "indice": 11835.443,
           "mensual": 1.5,
           "interanual": 33.2
+        },
+        {
+          "periodo": "2026-09",
+          "indice": 11973.5202,
+          "mensual": 1.2,
+          "interanual": 32.5
         }
       ]
     },
@@ -106,6 +112,12 @@
           "indice": 14354.8575,
           "mensual": 2.6,
           "interanual": 49.0
+        },
+        {
+          "periodo": "2026-09",
+          "indice": 14814.5458,
+          "mensual": 3.2,
+          "interanual": 50.7
         }
       ]
     }

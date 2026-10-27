@@ -2,11 +2,11 @@
 
 API no oficial del INDEC para la extracción, filtrado y consulta de indicadores económicos y sociales de Argentina.
 
-100% estática: cada request es un archivo JSON servido desde la CDN de Cloudflare Pages. Gratis, sin API key y sin límites de requests.
+100% estática: cada request es un archivo JSON servido desde la CDN de Cloudflare Pages. Gratis, sin API key y sin cuotas de consumo por usuario.
 
 ## Endpoints
 
-La API está desplegada en `https://pindec.pages.dev` (base: `/v1`).
+La API está desplegada en `https://pindec.dev` (base: `/v1`).
 
 | Indicador | Descripción |
 |---|---|
@@ -19,20 +19,37 @@ La API está desplegada en `https://pindec.pages.dev` (base: `/v1`).
 
 ```bash
 # Índices
-curl https://pindec.pages.dev/v1/ipc/
-curl https://pindec.pages.dev/v1/ipc/index.json
+curl https://pindec.dev/v1/ipc/
+curl https://pindec.dev/v1/ipc/index.json
+
+# Metadatos de vigencia (última publicación y período de cada indicador)
+curl https://pindec.dev/v1/meta.json
 
 # Datos
-curl https://pindec.pages.dev/v1/ipc/Nacional/2026/
-curl https://pindec.pages.dev/v1/cba-cbt/2026/
-curl https://pindec.pages.dev/v1/emae/2026/
-curl https://pindec.pages.dev/v1/ica/2026/
+curl https://pindec.dev/v1/ipc/Nacional/2026/
+curl https://pindec.dev/v1/cba-cbt/2026/
+curl https://pindec.dev/v1/emae/2026/
+curl https://pindec.dev/v1/ica/2026/
 
 # Series específicas
-curl https://pindec.pages.dev/v1/ipc/Nacional/COICOP/0/2026/
+curl https://pindec.dev/v1/ipc/Nacional/COICOP/0/2026/
 ```
 
 Toda ruta admite el sufijo `index.json`. Las URLs limpias (`/v1/ipc/Nacional/2026/`) se resuelven por rewrites en el edge, y las variantes sin barra final (ej. `/v1/ipc/2020`) redirigen automáticamente (308) a la URL canónica.
+
+Las rutas inexistentes bajo `/v1/` devuelven `404` con un cuerpo JSON en formato [RFC 9457](https://www.rfc-editor.org/rfc/rfc9457.html) (Problem Details):
+
+```json
+{
+  "type": "https://pindec.dev/probs/not-found",
+  "title": "Recurso no encontrado",
+  "status": 404,
+  "detail": "La ruta solicitada no existe en esta API. Los índices disponibles están en /v1/index.json.",
+  "indice": "https://pindec.dev/v1/index.json"
+}
+```
+
+El campo `type` es dereferenceable: apunta a la página de documentación del error (<https://pindec.dev/probs/not-found/>). Fuera de `/v1/` el `404` devuelve la página HTML de error del sitio.
 
 ## Uso local
 
@@ -55,8 +72,10 @@ Solo descarga y procesa los indicadores cuyos archivos fuente cambiaron (compara
 Para ver la landing localmente:
 
 ```bash
-python3 -m http.server 8090 --directory api
+python3 scripts/serve_local.py 8090
 ```
+
+El servidor emula los rewrites de Cloudflare Pages (`/v1/*/` → `index.json`), así que las URLs limpias funcionan igual que en producción. Con `python3 -m http.server` solo se sirve `index.json` de forma literal.
 
 ## Estructura
 
@@ -74,10 +93,11 @@ config/
   config.json         # URLs y configuración de cada fuente
   metadata.json       # Último Last-Modified visto por indicador
 scripts/
+  serve_local.py       # Servidor local que emula los rewrites de Cloudflare Pages
   warm_cache.py       # Pre-calienta la caché del edge tras el deploy
 src/
   main.py             # Orquestador: detecta cambios, extrae, guarda, genera API
-  api.py              # Genera índices y filtros de la API
+  api.py              # Genera índices, filtros y metadatos de vigencia de la API
   checker.py          # Lógica de "needs_update" por Last-Modified
   utils.py            # Helpers (IO, merge, agrupación por año)
   extractors/         # Un módulo por indicador (ipc, cba-cbt, emae, ica)

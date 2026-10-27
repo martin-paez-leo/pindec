@@ -3,7 +3,41 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
-from extractors.common import to_float, date_from_yyyymm
+from extractors.common import to_float, date_from_yyyymm, month_code
+
+
+class TestMonthCode:
+  def test_plain_month(self):
+    assert month_code("Julio") == "07"
+
+  def test_estimated_suffix(self):
+    assert month_code("Julioe") == "07"
+    assert month_code("Agostoe") == "08"
+
+  def test_asterisk_suffix(self):
+    assert month_code("Mayo*") == "05"
+
+  def test_surrounding_whitespace(self):
+    assert month_code("  Junio  ") == "06"
+
+  def test_case_insensitive(self):
+    assert month_code("septiembre") == "09"
+
+  def test_all_months(self):
+    assert [month_code(m) for m in
+            ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio",
+             "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
+            ] == ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"]
+
+  def test_unknown_month_raises(self):
+    import pytest
+    with pytest.raises(ValueError):
+      month_code("Foo")
+
+  def test_empty_month_raises(self):
+    import pytest
+    with pytest.raises(ValueError):
+      month_code("")
 
 
 class TestToFloat:

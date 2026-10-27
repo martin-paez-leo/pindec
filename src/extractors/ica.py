@@ -1,10 +1,10 @@
 import pandas as pd
-from .common import to_float, MONTHS
+from .common import to_float, month_code
 
 _FALLBACK_MONTHS = 3
 
 def _build_periodo(row):
-  month = MONTHS.get(str(row["mes"]), "01")
+  month = month_code(row["mes"])
   year = str(row["anio"]).replace("*", "")
   return f"{int(year)}-{month}"
 
