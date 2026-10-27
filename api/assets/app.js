@@ -1,6 +1,5 @@
 const fmt = new Intl.NumberFormat('es-AR');
 const BASE = 'https://pindec.dev';
-let history = [];
 let builderData = {};   // index.json data keyed by indicator name
 let currentMode = 'guide';
 
@@ -302,7 +301,6 @@ async function run(url) {
     out.innerHTML = syntaxHighlight(JSON.stringify(res.data, null, 2));
     status.className = 'status-line';
     status.textContent = '200 OK · ' + ms + ' ms · ' + fmtBytes(res.bytes);
-    pushHistory(url);
   } catch (err) {
     out.innerHTML = '<span class="err">Error: ' + escapeHtml(err.message) + '</span>';
     status.className = 'status-line fail';
@@ -316,21 +314,6 @@ function fmtBytes(n) {
   if (n < 1024) return n + ' B';
   if (n < 1024 * 1024) return (n / 1024).toFixed(1) + ' KB';
   return (n / 1024 / 1024).toFixed(2) + ' MB';
-}
-
-function pushHistory(url) {
-  history = [url, ...history.filter(u => u !== url)].slice(0, 6);
-  renderHistory();
-}
-
-function renderHistory() {
-  const box = document.getElementById('history');
-  if (!history.length) { box.innerHTML = ''; return; }
-  box.innerHTML = '<span style="font-size:0.76rem;color:var(--muted);align-self:center">Historial:</span>' +
-    history.map(u => '<button class="chip">' + escapeHtml(u) + '</button>').join('');
-  box.querySelectorAll('.chip').forEach((chip, i) => {
-    chip.addEventListener('click', () => run(history[i]));
-  });
 }
 
 function syntaxHighlight(json) {

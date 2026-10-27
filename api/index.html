@@ -8,11 +8,8 @@
   <title>PINDEC API: Indicadores económicos de Argentina</title>
 
   <link rel="canonical" href="https://pindec.dev/">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap">
   <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
-  <link rel="stylesheet" href="/assets/style.css">
+  <link rel="stylesheet" href="/assets/style.css?v=2">
 
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="PINDEC API">
@@ -38,7 +35,7 @@
   }
   </script>
 
-  <script src="/assets/no-fouc.js"></script>
+  <script src="/assets/no-fouc.js?v=2"></script>
 
   <!-- Cloudflare Web Analytics -->
   <script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "ae2899a09d3e4a3d8da433cfeec4345a"}'></script>
@@ -48,7 +45,7 @@
   <nav>
     <div class="container">
       <div class="logo"><svg class="logo-icon" viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="lg-p" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4f8cff"/><stop offset="1" stop-color="#7c5cff"/></linearGradient></defs><path d="M22 54 V10 H34 C44 10 48 16 48 24 C48 32 44 38 34 38 H30 V54 Z" fill="url(#lg-p)"/><circle cx="54" cy="12" r="6" fill="#34d399"/></svg> PINDEC API</div>
-      <div>
+      <div class="nav-links">
         <a href="#indicadores">Indicadores</a>
         <a href="#playground">Probá la API</a>
         <a href="#endpoints">Endpoints</a>
@@ -208,8 +205,6 @@
 // Dejá el año vacío para obtener el índice de esa sección.</pre>
           <div class="status-line waiting" id="pg-status">Esperando solicitud…</div>
         </div>
-
-        <div class="history" id="history"></div>
       </div>
     </section>
 
@@ -319,6 +314,6 @@
     </div>
   </footer>
 
-  <script src="/assets/app.js" defer></script>
+  <script src="/assets/app.js?v=2" defer></script>
 </body>
 </html>
