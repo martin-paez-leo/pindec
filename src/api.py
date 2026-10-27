@@ -1,4 +1,6 @@
 import json
+from email.utils import parsedate_to_datetime
+
 from utils import load_json, write_json, API_DIR
 from extractors.common import FUENTES
 
@@ -254,6 +256,70 @@ _FILTER_GENERATORS = {
   "emae": generate_emae_filters,
 }
 
+def _last_period(indicator: str) -> str | None:
+  indicator_dir = API_DIR / indicator
+  if not indicator_dir.exists():
+    return None
+  years = _get_years(indicator)
+  if not years:
+    return None
+
+  data = load_json(indicator_dir / str(years[-1]) / "index.json")
+  if not data:
+    return None
+
+  periods: list[str] = []
+
+  if indicator == "ipc":
+    nacional = (data.get("datos") or {}).get("Nacional") or {}
+    for codes in nacional.values():
+      for code in codes or []:
+        if code.get("codigo") == "0":
+          periods += [h["periodo"] for h in code.get("historico") or [] if h.get("periodo")]
+  elif indicator == "cba-cbt":
+    periods = [r["periodo"] for r in data.get("adulto_equivalente") or [] if r.get("periodo")]
+  elif indicator == "emae":
+    nivel = (data.get("datos") or {}).get("nivel_general") or []
+    periods = [r["periodo"] for r in nivel if r.get("periodo")]
+  elif indicator == "ica":
+    periods = [r["periodo"] for r in data.get("datos") or [] if r.get("periodo")]
+
+  return max(periods) if periods else None
+
+def _last_modified_iso(entry) -> str | None:
+  raw = entry.get("last-modified") if isinstance(entry, dict) else None
+  if isinstance(raw, dict):
+    raw = max(raw.values(), key=lambda v: v or "")
+  if not raw:
+    return None
+  try:
+    return parsedate_to_datetime(raw).isoformat(timespec="seconds")
+  except (TypeError, ValueError):
+    return None
+
+def generate_meta(metadata: dict | None = None):
+  metadata = metadata or {}
+  indicadores = {}
+
+  for name in ("ipc", "cba-cbt", "emae", "ica"):
+    years = _get_years(name)
+    if not years:
+      continue
+    indicadores[name] = {
+      "fuente": FUENTES.get(name, ""),
+      "periodo": _last_period(name),
+      "primer_anio": years[0],
+      "ultimo_anio": years[-1],
+      "actualizado": _last_modified_iso(metadata.get(name, {})),
+    }
+
+  fechas = [i["actualizado"] for i in indicadores.values() if i.get("actualizado")]
+
+  write_json(API_DIR / "meta.json", {
+    "actualizado": max(fechas) if fechas else None,
+    "indicadores": indicadores,
+  })
+
 ERROR_PAGE = {
   "type": "https://pindec.dev/probs/not-found",
   "title": "Recurso no encontrado",
@@ -286,3 +352,6 @@ def generate_all_indexes(metadata: dict | None = None):
     "version": "v1",
     "indicadores": ["ipc", "cba-cbt", "emae", "ica"],
   })
+
+  generate_meta(metadata)
+  generate_error_page()

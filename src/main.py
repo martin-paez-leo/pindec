@@ -273,7 +273,7 @@ def run():
       if year_data:
         generate_all_filters(indicator, year_data, int(year_dir.name))
 
-  generate_all_indexes()
+  generate_all_indexes(metadata)
   print("API structure generated")
 
   if failures:

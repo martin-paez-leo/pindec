@@ -383,8 +383,6 @@ async function loadStats() {
     if (nivel && nivel.historico.length) {
       const last = nivel.historico[nivel.historico.length - 1];
       animateValue(document.getElementById('stat-ipc'), last.indice, { decimals: 2 });
-      document.getElementById('stat-ipc-hint').textContent = last.periodo;
-      document.getElementById('foot-update').textContent = last.periodo;
     }
   }
   async function cbaStat() {
@@ -403,7 +401,6 @@ async function loadStats() {
     const nivel = emae.datos.nivel_general[emae.datos.nivel_general.length - 1];
     if (nivel) {
       animateValue(document.getElementById('stat-emae'), nivel.original.indice, { decimals: 2 });
-      document.getElementById('stat-emae-hint').textContent = nivel.periodo;
     }
   }
   async function icaStat() {
@@ -485,6 +482,37 @@ function setMode(mode) {
   }
 }
 
+/* ---------- Metadata: última actualización real ---------- */
+async function loadMeta() {
+  let meta;
+  try {
+    ({ data: meta } = await fetchJSON('/v1/meta.json'));
+  } catch (err) {
+    return;
+  }
+
+  const el = document.getElementById('foot-update');
+  if (el && meta.actualizado) {
+    const d = new Date(meta.actualizado);
+    el.textContent = d.toLocaleDateString('es-AR', { year: 'numeric', month: 'long', day: 'numeric' });
+  }
+
+  const per = meta.indicadores || {};
+  const hints = {
+    'stat-ipc-hint': { ind: 'ipc', prefix: '' },
+    'stat-cba-hint': { ind: 'cba-cbt', prefix: '' },
+    'stat-emae-hint': { ind: 'emae', prefix: '' },
+    'stat-ica-hint': { ind: 'ica', prefix: 'millones de USD · ' }
+  };
+  for (const id of Object.keys(hints)) {
+    const node = document.getElementById(id);
+    const info = per[hints[id].ind];
+    if (node && info && info.periodo) {
+      node.textContent = hints[id].prefix + 'período ' + info.periodo;
+    }
+  }
+}
+
 /* ---------- Init ---------- */
 function normalizePath(raw) {
   let path = raw.trim();
@@ -539,6 +567,7 @@ function init() {
   initReveal();
   loadBuilder();
   loadStats();
+  loadMeta();
 }
 
 init();

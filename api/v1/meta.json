@@ -1,0 +1,33 @@
+{
+  "actualizado": "2026-09-24T18:53:49+00:00",
+  "indicadores": {
+    "ipc": {
+      "fuente": "INDEC - Índice de Precios al Consumidor",
+      "periodo": "2026-08",
+      "primer_anio": 2016,
+      "ultimo_anio": 2026,
+      "actualizado": "2026-09-10T18:51:39+00:00"
+    },
+    "cba-cbt": {
+      "fuente": "INDEC - Canasta Básica Alimentaria y Canasta Básica Total",
+      "periodo": "2026-08",
+      "primer_anio": 2016,
+      "ultimo_anio": 2026,
+      "actualizado": "2026-09-10T18:51:00+00:00"
+    },
+    "emae": {
+      "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
+      "periodo": "2026-07",
+      "primer_anio": 2004,
+      "ultimo_anio": 2026,
+      "actualizado": "2026-09-24T18:53:49+00:00"
+    },
+    "ica": {
+      "fuente": "INDEC - Intercambio Comercial Argentino (Balanza Comercial)",
+      "periodo": "2026-08",
+      "primer_anio": 1990,
+      "ultimo_anio": 2026,
+      "actualizado": "2026-09-18T18:52:55+00:00"
+    }
+  }
+}
