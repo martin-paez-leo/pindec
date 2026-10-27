@@ -96,8 +96,7 @@ nav a:hover::after { right: 0; }
 .badge .dot { width: 7px; height: 7px; border-radius: 50%; background: currentColor; animation: pulse 2s ease-in-out infinite; }
 .hero h1 {
   font-size: clamp(2.2rem, 5vw, 3.4rem); line-height: 1.15; letter-spacing: -0.02em;
-  background: linear-gradient(120deg, #fff, #b8c8f0);
-  -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+  color: #f4f7ff; text-wrap: balance;
 }
 .hero p.sub { font-size: 1.15rem; color: var(--muted); max-width: 660px; margin-top: 16px; }
 .cta-row { display: flex; gap: 14px; margin-top: 34px; flex-wrap: wrap; }
@@ -274,8 +273,8 @@ section { padding: 56px 0; }
 }
 .doc-row .copy-btn:hover { color: var(--text); border-color: var(--accent); }
 .legend { display: flex; gap: 18px; flex-wrap: wrap; margin-top: 16px; font-size: 0.82rem; color: var(--muted); }
-.legend .lg { display: inline-flex; align-items: center; gap: 8px; }
-.legend .lg code { font-family: var(--mono); color: var(--accent); font-size: 0.82rem; }
+.legend .lg { display: inline-flex; align-items: center; gap: 8px; flex-wrap: wrap; min-width: 0; }
+.legend .lg code { font-family: var(--mono); color: var(--accent); font-size: 0.82rem; word-break: break-word; }
 .legend .lg .opt { color: var(--muted); text-decoration: underline dotted rgba(147, 160, 196, 0.5); text-underline-offset: 4px; }
 
 /* Indicator tabs */
