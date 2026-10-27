@@ -4,11 +4,18 @@ let history = [];
 let builderData = {};   // index.json data keyed by indicator name
 let currentMode = 'guide';
 
-function fetchJSON(url) {
-  return fetch(url, { headers: { Accept: 'application/json' } }).then(r => {
-    if (!r.ok) throw new Error('HTTP ' + r.status);
-    return r.text().then(body => ({ data: JSON.parse(body), bytes: body.length }));
-  });
+async function fetchJSON(url) {
+  const r = await fetch(url, { headers: { Accept: 'application/json' } });
+  if (!r.ok) {
+    if (r.status === 404) {
+      const body = await r.json().catch(() => null);
+      const detail = body && body.detail ? body.detail : 'La ruta solicitada no existe.';
+      throw new Error('404 · ' + detail);
+    }
+    throw new Error('HTTP ' + r.status);
+  }
+  const text = await r.text();
+  return { data: JSON.parse(text), bytes: text.length };
 }
 
 const indexFetches = {};

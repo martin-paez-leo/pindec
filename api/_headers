@@ -13,5 +13,9 @@
   Access-Control-Max-Age: 86400
   Cache-Control: public, max-age=3600, stale-while-revalidate=604800
 
+/v1/404.html
+  Content-Type: application/problem+json
+  Cache-Control: no-store
+
 /assets/*
   Cache-Control: public, max-age=3600

@@ -1,3 +1,4 @@
+import json
 from utils import load_json, write_json, API_DIR
 from extractors.common import FUENTES
 
@@ -253,12 +254,23 @@ _FILTER_GENERATORS = {
   "emae": generate_emae_filters,
 }
 
+ERROR_PAGE = {
+  "type": "https://pindec.dev/probs/not-found",
+  "title": "Recurso no encontrado",
+  "status": 404,
+  "detail": "La ruta solicitada no existe en esta API. Los índices disponibles están en /v1/index.json.",
+  "indice": "https://pindec.dev/v1/index.json",
+}
+
+def generate_error_page():
+  (API_DIR / "404.html").write_text(json.dumps(ERROR_PAGE, indent=2, ensure_ascii=False) + "\n")
+
 def generate_all_filters(indicator: str, year_data: dict, year: int):
   generator = _FILTER_GENERATORS.get(indicator)
   if generator:
     generator(year_data, year)
 
-def generate_all_indexes():
+def generate_all_indexes(metadata: dict | None = None):
   generate_ipc_index()
   generate_cba_cbt_index()
   generate_emae_index()

@@ -18,6 +18,7 @@ from api import (
   generate_ica_index,
   generate_all_filters,
   generate_all_indexes,
+  generate_error_page,
 )
 
 
@@ -315,3 +316,24 @@ class TestGenerateAllIndexes:
     assert (tmp_path / "cba-cbt" / "index.json").exists()
     assert (tmp_path / "emae" / "index.json").exists()
     assert (tmp_path / "ica" / "index.json").exists()
+class TestGenerateErrorPage:
+  def test_creates_404_page_with_problem_details(self, tmp_path, monkeypatch):
+    monkeypatch.setattr("api.API_DIR", tmp_path)
+    generate_error_page()
+    path = tmp_path / "404.html"
+    assert path.exists()
+    data = json.loads(path.read_text())
+    assert data["status"] == 404
+    assert data["type"] == "https://pindec.dev/probs/not-found"
+    assert "title" in data
+    assert "detail" in data
+
+  def test_error_page_is_valid_json(self, tmp_path, monkeypatch):
+    monkeypatch.setattr("api.API_DIR", tmp_path)
+    generate_error_page()
+    json.loads((tmp_path / "404.html").read_text())
+
+  def test_all_indexes_generates_error_page(self, tmp_path, monkeypatch):
+    monkeypatch.setattr("api.API_DIR", tmp_path)
+    generate_all_indexes()
+    assert (tmp_path / "404.html").exists()
