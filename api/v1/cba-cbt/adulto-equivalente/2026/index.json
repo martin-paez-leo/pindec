@@ -126,6 +126,20 @@
         "interanual": 38.7
       },
       "coef_engel": 2.21
+    },
+    {
+      "periodo": "2026-10",
+      "cba": {
+        "indice": 246362.93,
+        "mensual": 3.1,
+        "interanual": 39.9
+      },
+      "cbt": {
+        "indice": 546925.7,
+        "mensual": 3.5,
+        "interanual": 39.2
+      },
+      "coef_engel": 2.22
     }
   ]
 }

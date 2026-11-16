@@ -1,19 +1,19 @@
 {
-  "actualizado": "2026-10-21T19:02:33+00:00",
+  "actualizado": "2026-11-12T19:04:33+00:00",
   "indicadores": {
     "ipc": {
       "fuente": "INDEC - Índice de Precios al Consumidor",
-      "periodo": "2026-09",
+      "periodo": "2026-10",
       "primer_anio": 2016,
       "ultimo_anio": 2026,
-      "actualizado": "2026-10-13T19:02:43+00:00"
+      "actualizado": "2026-11-12T19:03:54+00:00"
     },
     "cba-cbt": {
       "fuente": "INDEC - Canasta Básica Alimentaria y Canasta Básica Total",
-      "periodo": "2026-09",
+      "periodo": "2026-10",
       "primer_anio": 2016,
       "ultimo_anio": 2026,
-      "actualizado": "2026-10-13T19:03:28+00:00"
+      "actualizado": "2026-11-12T19:04:33+00:00"
     },
     "emae": {
       "fuente": "INDEC - Estimador Mensual de Actividad Económica (EMAE)",
