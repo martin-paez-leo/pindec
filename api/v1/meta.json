@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-12T19:04:33+00:00",
+  "actualizado": "2026-11-19T18:51:19+00:00",
   "indicadores": {
     "ipc": {
       "fuente": "INDEC - Índice de Precios al Consumidor",
@@ -24,10 +24,10 @@
     },
     "ica": {
       "fuente": "INDEC - Intercambio Comercial Argentino (Balanza Comercial)",
-      "periodo": "2026-09",
+      "periodo": "2026-10",
       "primer_anio": 1990,
       "ultimo_anio": 2026,
-      "actualizado": "2026-10-19T18:51:49+00:00"
+      "actualizado": "2026-11-19T18:51:19+00:00"
     }
   }
 }

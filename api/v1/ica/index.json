@@ -7130,6 +7130,22 @@
           "var_interanual_acumulada": -2.467431
         },
         "saldo": 2976.47401
+      },
+      {
+        "periodo": "2026-10",
+        "exportaciones": {
+          "mensual": 10061.313931,
+          "acumulado": 87328.030517,
+          "var_interanual_mensual": 26.356594,
+          "var_interanual_acumulada": 22.14384
+        },
+        "importaciones": {
+          "mensual": 6667.75304,
+          "acumulado": 62760.233243,
+          "var_interanual_mensual": -6.744334,
+          "var_interanual_acumulada": -2.903882
+        },
+        "saldo": 3393.560892
       }
     ]
   }
